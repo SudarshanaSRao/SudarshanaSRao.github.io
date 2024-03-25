@@ -1,7 +1,4 @@
 title: Sudarshana S Rao
 logo: /images/RSV_7636copy.jpg
-# show_downloads: true
-#theme: jekyll-theme-bulma
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-- jekyll-remote-theme
+show_downloads: true
+theme: jekyll-theme-minimal
