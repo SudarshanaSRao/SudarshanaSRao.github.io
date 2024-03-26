@@ -30,9 +30,13 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 [Publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3883931)
 
+![block](/assetsimg/mlblock.png)
+
 - Used OpenCV2 library to build an automated system to detect and recognize traffic lights for an autonomous car.
 - Hough Gradient Descent was used to train the model, and Hough Circles were drawn around the detected traffic light.
-- The IR sensor was interfaced with an Arduino Uno board for distance measurement so that the autonomous car avoided collisions with nearby obstacles or traffic.
-- This model was live-tested, and its accuracy was 93%.
+- IR sensor (interfaced with an Arduino Uno board) was used to monitor the distance between the autonomous car and nearby obstacles or traffic.
+- The system was live-tested on the streets of Bangalore, and excellent results were achieved.
+
+![block](/assetsimg/outputml.png)
 
 [Code]([https://github.com/SudarshanaSRao/EE541-final_project-USC](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition)https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition)
