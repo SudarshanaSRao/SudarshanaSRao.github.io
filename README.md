@@ -44,16 +44,32 @@ Through my studies and projects, I have developed skills in Large Language Model
 ## Exploring Correlation-Driven Feature Selection for Mushroom Classification
 
 - Analyzed the effect of different feature engineering and dimensionality adjustment techniques (performed on the UCI's mushroom dataset) on the performance of various Machine Learning models.
+
+![chi](/assetsimg/chi_scores_.png)
+
 - Pre-processing included feature engineering by **Pearson Correlation Coefficient** method and dimensionality reduction of _173 different species of 61,069 mushrooms_ using **Univariate Feature Selection** and **Principal Component Analysis**.
+
+![f1](/assetsimg/dist1.png)
+![f2](/assetsimg/dist2.png)
+
 - Five Machine Learning models were implemented- **Logistic Regression, Support Vector Machine, Gaussian Naive Bayes Classifier, Random Forest Classifier, and Multilayer Perceptron**.
-- Cross-validation was performed on the models, and the optimal model for mushroom classification was selected based on the best performance. 
+- Cross-validation was performed on the models, and the optimal model for mushroom classification was selected based on the best performance.
 
+![result](/assetsimg/res.png)
 
-
-
-
-
-
-
+#### ✦ [Code](https://github.com/SudarshanaSRao/EE559-final_project-USC) ✦
 
 ## Single cell RNA sequencing
+
+- Identified important cells among the dataset and ranked in a hierarchy using **k-means clustering** and **Logistic Regression**.
+- The dataset comprised 2169 cells taken from the neocortex region of a rat's brain and distributed in 20,000 columns. **Principal Component Analysis** was used to reduce 20,000 columns to 3-5 components.
+- Visualized the output data through a dynamic 3-D graph using **Plotly**.
+- Achieved an accuracy of 89.8%.
+
+https://github.com/SudarshanaSRao/SudarshanaSRao.github.io/assets/87690830/50b23c3f-d0ad-499b-814c-5a583f56e54d
+
+#### ✦ [Code](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/RNA-sequencing) ✦
+
+
+
+
