@@ -40,3 +40,20 @@ Through my studies and projects, I have developed skills in Large Language Model
 ![block](/assetsimg/outputml.png)
 
 [Code](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition)
+
+## Exploring Correlation-Driven Feature Selection for Mushroom Classification
+
+- Analyzed the effect of different feature engineering and dimensionality adjustment techniques (performed on the UCI's mushroom dataset) on the performance of various Machine Learning models.
+- Pre-processing included feature engineering by **Pearson Correlation Coefficient** method and dimensionality reduction of _173 different species of 61,069 mushrooms_ using **Univariate Feature Selection** and **Principal Component Analysis**.
+- Five Machine Learning models were implemented- **Logistic Regression, Support Vector Machine, Gaussian Naive Bayes Classifier, Random Forest Classifier, and Multilayer Perceptron**.
+- Cross-validation was performed on the models, and the optimal model for mushroom classification was selected based on the best performance. 
+
+
+
+
+
+
+
+
+
+## Single cell RNA sequencing
