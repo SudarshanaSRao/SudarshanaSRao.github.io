@@ -41,6 +41,10 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 #### ✦ [Code](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition) ✦
 
+## Smart Burglar Alarm
+
+- Developed a hardware component that uses a PIR sensor to detect a burglar and is interfaced with an Arduino Uno board. A GSM module is used to send a text message to the homeowner when a burglar is detected so the homeowner can react to the burglary and avoid it instead of taking action post the occurrence of the burglary. After the burglar is detected, the doors will automatically lock. As another line of defense, a camera connected to a computer running Machine Learning algorithm (which uses opencv2 python module, Support Vector Machine, and Histogram of Oriented Gradient) is used to detect burglars. This also avoids false detection, such as the presence of pets, etc. (PIR sensor detects warm-blooded creatures based on the variance in heat signatures). This Machine Learning model was live-tested, and the accuracy was 96.4%. So, I combined Machine Learning and IoT domains in this project.
+
 ## Exploring Correlation-Driven Feature Selection for Mushroom Classification
 
 - Analyzed the effect of different feature engineering and dimensionality adjustment techniques (performed on the UCI's mushroom dataset) on the performance of various Machine Learning models.
@@ -61,14 +65,14 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 ## Single cell RNA sequencing
 
-https://github.com/SudarshanaSRao/SudarshanaSRao.github.io/assets/87690830/50b23c3f-d0ad-499b-814c-5a583f56e54d
-
-- Identified important cells among the dataset and ranked in a hierarchy using **k-means clustering** and **Logistic Regression**.
-
 ![BD](/assetsimg/diagb.png)
-  
+
+- Identified important cells among the dataset and ranked in a hierarchy using **k-means clustering** and **Logistic Regression**.  
 - The dataset comprised 2169 cells taken from the neocortex region of a rat's brain and distributed in 20,000 columns. **Principal Component Analysis** was used to reduce 20,000 columns to 3-5 components.
 - Visualized the output data through a dynamic 3-D graph using **Plotly**.
+
+![clust](/assetsimg/clusters.png)
+  
 - Achieved an accuracy of 89.8%.
 
 ![BD](/assetsimg/acc.png)
