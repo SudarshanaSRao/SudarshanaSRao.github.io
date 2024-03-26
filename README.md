@@ -39,4 +39,4 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 ![block](/assetsimg/outputml.png)
 
-[Code]([https://github.com/SudarshanaSRao/EE541-final_project-USC](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition)https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition)
+[Code](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition)
