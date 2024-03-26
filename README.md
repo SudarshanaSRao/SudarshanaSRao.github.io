@@ -28,13 +28,13 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 ### ML Based Traffic Light Detection and IR Sensor Based Proximity Sensing for Autonomous Cars
 
-[Publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3883931)
+[SSRN ELSEVIER: Publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3883931)
 
 ![block](/assetsimg/mlblock.png)
 
-- Used OpenCV2 library to build an automated system to detect and recognize traffic lights for an autonomous car.
-- Hough Gradient Descent was used to train the model, and Hough Circles were drawn around the detected traffic light.
-- IR sensor (interfaced with an Arduino Uno board) was used to monitor the distance between the autonomous car and nearby obstacles or traffic.
+- Used **OpenCV2** library to build an automated system to detect and recognize traffic lights for an autonomous car.
+- **Hough Gradient Descent** was used to train the model, and **Hough Circles** were drawn around the detected traffic light.
+- **IR sensor** (interfaced with an Arduino Uno board) was used to monitor the distance between the autonomous car and nearby obstacles or traffic.
 - The system was live-tested on the streets of Bangalore, and excellent results were achieved.
 
 ![block](/assetsimg/outputml.png)
