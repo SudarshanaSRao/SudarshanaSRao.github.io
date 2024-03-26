@@ -24,11 +24,11 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 ![google](/assetsimg/googlenet_training.png)
 
-[Code](https://github.com/SudarshanaSRao/EE541-final_project-USC)
+#### ✦ [Code](https://github.com/SudarshanaSRao/EE541-final_project-USC) ✦ 
 
 ### ML Based Traffic Light Detection and IR Sensor Based Proximity Sensing for Autonomous Cars
 
-[SSRN ELSEVIER: Publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3883931)
+#### ✦ [SSRN ELSEVIER: Publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3883931) ✦
 
 ![block](/assetsimg/mlblock.png)
 
@@ -39,7 +39,7 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 ![block](/assetsimg/outputml.png)
 
-[Code](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition)
+#### ✦ [Code](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition) ✦
 
 ## Exploring Correlation-Driven Feature Selection for Mushroom Classification
 
