@@ -8,12 +8,19 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 # Projects
 ## Deep Learning based American Sign Language Recognition
+
+![Preprocess](/assetsimg/preprocess.png)
+![Data1](/assetsimg/test-dataset1.png)
+![Data2](/assetsimg/dataset.png)
+
 - Developed three classes of Artificial Neural Network (ANN) models using the PyTorch framework to translate American Sign Language (Kaggle dataset) into a text-based representation.
+
+![arch](/assetsimg/cnnarchitecture.png)
+
 - First class is a single generic Multilayer Perceptron (MLP) network.
 - Second class is two untrained CNNs (Convolutional Neural Networks)- a baseline CNN and a custom CNN (with Adam optimizer and L2 regularization).
 - Leveraged Transfer Learning using two pre-trained CNNs- GoogLeNet and ResNet18 networks.
 - All five models were tested using images captured in real-time and achieved an accuracy of above 90%.
 
-![Preprocess](/assetsimg/preprocess.png)
-![Data1](/assetsimg/test-dataset1.png)
-![Data2](/assetsimg/test-dataset2.png)
+![google](/assetsimg/googlenet_training.png)
+
