@@ -47,13 +47,13 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 ## Smart Burglar Alarm
 
-![live](/assetsimg/vid.gif)
-
 #### ✦ [Publication](https://www.ijamtes.org/VOL-11-ISSUE-7-2021/) ✦
 
+![live](/assetsimg/vid.gif)
+
 - Detected burglars in real time using **OpenCV2 library, Support Vector Machine, and Histogram of Oriented Gradient**.
-- As another line of defense, a PIR sensor interfaced with an Arduino Uno board was utilized for the exact cause to avoid false detection.
-- A GSM module was used to send a text message to the homeowner when a burglar is detected.
+- As another line of defense, a **PIR sensor** interfaced with an **Arduino Uno board** was utilized for the exact cause to avoid false detection.
+- A **GSM module** was used to send an alert to the homeowner when a burglar is detected.
 
 ![liveout](/assetsimg/allouts.png)
 
