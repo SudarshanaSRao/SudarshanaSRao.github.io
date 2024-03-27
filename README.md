@@ -96,7 +96,7 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 ![clust](/assetsimg/3d.gif)
   
-- Achieved an accuracy of 89.8%.
+- Achieved an accuracy of **89.8%**.
 
 ![BD](/assetsimg/acc.png)
 
