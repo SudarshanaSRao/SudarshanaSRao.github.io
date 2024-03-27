@@ -56,13 +56,15 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 #### ✦ [Publication](https://www.ijamtes.org/VOL-11-ISSUE-7-2021/) ✦
 
-![live](/assetsimg/vid.gif)
+![live](/assetsimg/brug1.gif)
+![live2](/assetsimg/brug2.gif)
 
 - Detected burglars in real time using **OpenCV2 library, Support Vector Machine, and Histogram of Oriented Gradient**.
 - As another line of defense, a **PIR sensor** interfaced with an **Arduino Uno board** was utilized for the exact cause to avoid false detection.
-- A **GSM module** was used to send an alert to the homeowner when a burglar is detected.
 
-![liveout](/assetsimg/allouts.png)
+![liveout](/assetsimg/Picture1.png)
+  
+- A **GSM module** was used to send an alert to the homeowner when a burglar is detected.
 
 #### ✦ [Code](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Human-detection) ✦
 
@@ -92,7 +94,7 @@ Through my studies and projects, I have developed skills in Large Language Model
 - The dataset comprised 2169 cells taken from the neocortex region of a rat's brain and distributed in 20,000 columns. **Principal Component Analysis** was used to reduce 20,000 columns to 3-5 components.
 - Visualized the output data through a dynamic 3-D graph using **Plotly**.
 
-![clust](/assetsimg/clusters.png)
+![clust](/assetsimg/3d.gif)
   
 - Achieved an accuracy of 89.8%.
 
