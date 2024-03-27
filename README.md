@@ -10,7 +10,8 @@ Through my studies and projects, I have developed skills in Large Language Model
 #### ✦ [Automatic Dent Detection in Automobile Using IR Sensor](https://link.springer.com/chapter/10.1007/978-981-16-9605-3_34) ✦
 #### ✦ [Automated garbage disposal system using 8051 microcontroller](https://www.ijamtes.org/VOL-10-ISSUE-8-2020/) ✦
 
-#### ✦ [GAN blog](https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html) ✦
+
+### ✦ [GAN blog](https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html) ✦
 
 ## Projects
 ### Deep Learning based American Sign Language Recognition
