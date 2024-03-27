@@ -6,6 +6,12 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 ## ✦ [Resume](https://drive.google.com/file/d/1k0NNG9BnLlnowgtQDFwfcsDJePJDyBvx/view?usp=drive_link) ✦ [LinkedIn](https://www.linkedin.com/in/sudarshana-rao/) ✦
 
+## Publications
+#### ✦ [Automatic Dent Detection in Automobile Using IR Sensor](https://link.springer.com/chapter/10.1007/978-981-16-9605-3_34) ✦
+#### ✦ [Automated garbage disposal system using 8051 microcontroller](https://www.ijamtes.org/VOL-10-ISSUE-8-2020/) ✦
+
+#### ✦ [GAN blog](https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html) ✦
+
 ## Projects
 ### Deep Learning based American Sign Language Recognition
 
@@ -43,7 +49,13 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 ## Smart Burglar Alarm
 
-- Developed a hardware component that uses a PIR sensor to detect a burglar and is interfaced with an Arduino Uno board. A GSM module is used to send a text message to the homeowner when a burglar is detected so the homeowner can react to the burglary and avoid it instead of taking action post the occurrence of the burglary. After the burglar is detected, the doors will automatically lock. As another line of defense, a camera connected to a computer running Machine Learning algorithm (which uses opencv2 python module, Support Vector Machine, and Histogram of Oriented Gradient) is used to detect burglars. This also avoids false detection, such as the presence of pets, etc. (PIR sensor detects warm-blooded creatures based on the variance in heat signatures). This Machine Learning model was live-tested, and the accuracy was 96.4%. So, I combined Machine Learning and IoT domains in this project.
+#### ✦ [Publication](https://www.ijamtes.org/VOL-11-ISSUE-7-2021/) ✦
+
+- Detected burglars in real time using **OpenCV2 library, Support Vector Machine, and Histogram of Oriented Gradient**.
+- As another line of defense, a PIR sensor interfaced with an Arduino Uno board was utilized for the exact cause to avoid false detection.
+- A GSM module was used to send a text message to the homeowner when a burglar is detected.
+
+#### ✦ [Code](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Human-detection) ✦
 
 ## Exploring Correlation-Driven Feature Selection for Mushroom Classification
 
@@ -78,7 +90,3 @@ Through my studies and projects, I have developed skills in Large Language Model
 ![BD](/assetsimg/acc.png)
 
 #### ✦ [Code](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/RNA-sequencing) ✦
-
-
-
-
