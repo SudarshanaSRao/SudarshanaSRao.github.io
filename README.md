@@ -4,7 +4,7 @@ I am an MS student at the University of Southern California, passionate about Ar
 
 Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analysis. I am eager to start my career and learn from experienced teams.
 
-## ✦ [Resume](https://drive.google.com/file/d/1k0NNG9BnLlnowgtQDFwfcsDJePJDyBvx/view?usp=drive_link) ✦ [LinkedIn](https://www.linkedin.com/in/sudarshana-rao/) ✦ [GAN blog](https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html) ✦
+## ✦ [Resume](https://drive.google.com/file/d/1BxMERihIYQ2OCXpr5FKXgiBYPFsHRyz1/view?usp=drive_link) ✦ [LinkedIn](https://www.linkedin.com/in/sudarshana-rao/) ✦ [GAN blog](https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html) ✦
 
 ## Publications
 #### ✦ [Automatic Dent Detection in Automobile Using IR Sensor](https://link.springer.com/chapter/10.1007/978-981-16-9605-3_34) ✦
