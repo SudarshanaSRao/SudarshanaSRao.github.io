@@ -11,6 +11,13 @@ Through my studies and projects, I have developed skills in Large Language Model
 #### ✦ [Automated garbage disposal system using 8051 microcontroller](https://www.ijamtes.org/VOL-10-ISSUE-8-2020/) ✦
 
 ## Projects
+
+### FAQ Generator (work in progress)
+
+- Implementing and fine-tuning an **LLM** within the **RAG-Token** architecture to enhance the quality and fluency of generated FAQs.
+- Scrapped and stored the top 100 US universities' MS in CS graduate admission requirements in a **JSON file** (dataset creation).
+-	Expected to achieve a 10% increase in accuracy/relevance of generated FAQs compared to a baseline **transformer**.
+
 ### Deep Learning based American Sign Language Recognition
 
 ![Preprocess](/assetsimg/preprocess.png)
