@@ -4,7 +4,7 @@ I am an MS student at the University of Southern California, passionate about Ar
 
 Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analysis. I am eager to start my career and learn from experienced teams.
 
-## ✦ [Resume](https://drive.google.com/file/d/1BxMERihIYQ2OCXpr5FKXgiBYPFsHRyz1/view?usp=drive_link) ✦ [LinkedIn](https://www.linkedin.com/in/sudarshana-rao/) ✦ [GAN blog](https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html) ✦
+## ✦ [Resume](https://github.com/SudarshanaSRao/SudarshanaSRao.github.io/files/14779324/Sudarshana_Sudheendra_Rao_Resume.pdf) ✦ [LinkedIn](https://www.linkedin.com/in/sudarshana-rao/) ✦ [GAN blog](https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html) ✦
 
 ## Publications
 #### ✦ [Automatic Dent Detection in Automobile Using IR Sensor](https://link.springer.com/chapter/10.1007/978-981-16-9605-3_34) ✦
@@ -28,9 +28,9 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 ![arch](/assetsimg/cnnarchitecture.jpg)
 
-- First class is a single generic **Multilayer Perceptron (MLP)** network.
-- Second class is two untrained **CNNs (Convolutional Neural Networks)**- a baseline CNN and a custom CNN (with Adam optimizer and L2 regularization).
-- Leveraged Transfer Learning using two pre-trained CNNs- **GoogLeNet** and **ResNet18** networks.
+- First class was a single generic **Multilayer Perceptron (MLP)** network.
+- Second class was two untrained **CNNs (Convolutional Neural Networks)**- a baseline CNN and a custom CNN (with Adam optimizer and L2 regularization).
+- Third class was used to leverage Transfer Learning with two pre-trained CNNs- **GoogLeNet** and **ResNet18** networks.
 - All five models were tested using images captured in real-time and achieved an accuracy of above **90%**.
 
 ![google](/assetsimg/googlenet_training.png)
