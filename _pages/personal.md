@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-I enjoy traveling, hiking, playing cricket, reading the news, and watching movies and TV shows in my free time. Here are some photos from around the world:
+I enjoy traveling, hiking, playing cricket, reading the news, and watching movies and TV shows in my free time. 
+
+Here are some photos from around the world:
 
 
 <img src="/images/WhatsApp Image 2024-05-26 at 19.32.02_180d4cf9.jpg" height="500">
