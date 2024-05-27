@@ -1,13 +1,14 @@
 ---
-title: "Paper Title Number 1"
+title: "Machine Learning based Traffic Light Detection and IR Sensor based Proximity Sensing for Autonomous Cars"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2021-07-14-paper-title-number-1
+excerpt: 'SSRN ELSEVIER'
+date: 2021-07-14
+venue: '2nd International Conference on IoT Based Control Networks and Intelligent Systems (ICICNIS 2021) organized by St. Joseph’s College of Engineering and Technology, Kottayam, India on 28 & 29 June 2021.'
+paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3883931'
+citation: 'Rao, Sudarshana S and Desai, Santosh R, Machine Learning based Traffic Light Detection and IR Sensor based Proximity Sensing for Autonomous Cars (July 10, 2021). Proceedings of the International Conference on IoT Based Control Networks & Intelligent Systems - ICICNIS 2021.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+<!-- Recommended citation: Jabini, A., M. Mahsuli, and S. F. Ghahari. "PROBABILISTIC BLIND IDENTIFICATION OF SOIL-STRUCTURE SYSTEMS USING EXTENDED KALMAN FILTER." <i>Proceedings of the 11th National Conference in Earthquake Engineering, Earthquake Engineering Research
+Institute, Los Angeles, CA. 2018</i>. -->
+
