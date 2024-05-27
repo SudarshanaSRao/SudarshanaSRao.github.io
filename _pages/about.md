@@ -16,6 +16,6 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 # Blogs
 
-* ✦[GANs](https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html)✦
+## ✦[GANs](https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html)✦
 
 
