@@ -18,4 +18,4 @@ collection: portfolio
 
 ![google](/images/googlenet_training.png)
 
-#### ✦ [Code](https://github.com/SudarshanaSRao/EE541-final_project-USC) ✦ 
+# ✦ [Code](https://github.com/SudarshanaSRao/EE541-final_project-USC) ✦ 
