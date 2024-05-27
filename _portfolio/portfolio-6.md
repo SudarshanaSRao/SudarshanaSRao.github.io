@@ -14,4 +14,4 @@ collection: portfolio
 
 ![BD](/images/acc.png)
 
-#### ✦ [Code](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/RNA-sequencing) ✦
+# ✦ [Code](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/RNA-sequencing) ✦
