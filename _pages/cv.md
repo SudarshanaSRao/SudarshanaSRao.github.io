@@ -17,6 +17,7 @@ redirect_from:
   </div>
 </div>
 
+
 Education
 ======
 <div class="flexcontainer">
