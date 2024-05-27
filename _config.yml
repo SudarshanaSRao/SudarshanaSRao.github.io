@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Sudarshana S Rao"
 title_separator          : "-"
-name                     : &name "Homepage"
+name                     : &name "Sudarshana S Rao"
 description              : &description "MS graduate student at University of Southern California"
 url                      : https://sudarshanasrao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "SudarshanaSRao/SudarshanaSRao.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Sudarshana S Rao"
+  name             : "Transforming AI with Innovation and Expertise"
   pronouns         : # example: "she/her"  
   bio              : "DL | ML | NLP | AI | DS"
   location         : "Los Angeles, CA"
