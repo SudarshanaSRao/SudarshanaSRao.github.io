@@ -1,10 +1,11 @@
 ---
 title: "Deep Learning based American Sign Language Recognition"
 excerpt: "<img height='300'  width='300' src='/images/preprocess.png'>"
-excerpt: "<img height='300'  width='300' src='/images/test-dataset1.png'>"
-excerpt: "<img height='300'  width='300' src='/images/dataset.png'>"
 collection: portfolio
 ---
+
+![pre](/images/test-dataset1.png)
+![dat](/images/dataset.png)
 
 * Developed three classes of Artificial Neural Network (ANN) models using the PyTorch framework to translate American Sign Language (Kaggle dataset) into a text-based representation.
 
