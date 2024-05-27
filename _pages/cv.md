@@ -9,8 +9,13 @@ redirect_from:
 
 <!-- {% include base_path %} -->
 
-
-
+<div class="flexcontainer">
+  <div>
+    <a href="https://github.com/SudarshanaSRao/SudarshanaSRao.github.io/files/15458467/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
+      <img height="150px" src="/images/resum.JPEG" width="250px">
+    </a>
+  </div>
+</div>
 
 Education
 ======
@@ -39,7 +44,7 @@ Education
   <div>
     <ul>
       <li style="display: flex; justify-content: space-between;">
-      <span>Bachelor of Engineering (BE) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering</span>
+      <span>Bachelor of Engineering (B.E.) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering</span>
         <span>2022</span>
       </li>
     </ul>
@@ -73,15 +78,15 @@ Skills
 Work experience
 ======
 * Research Assistant (part-time) at The Walt Disney Company, Los Angeles [MAY 2023-Present]
-  * Researched and analyzed human interaction with an AI (Nobu) to improve AI’s Automatic Speech Recognition (ASR). Optimized the decision tree algorithm to augment the AI's responses.
+  * Researched and analyzed human interaction with an AI (Nobu) to improve AI's Automatic Speech Recognition (ASR). Optimized the decision tree algorithm to augment AI's responses.
   * Managed the interaction sessions (data collection) by assigning participants to the respective time slots.
   * Project: Speech quality assessment for automatic speech recognition.
 
 * Summer Intern at ennVee Solutions Private Limited, Bangalore [Summer 2021]
-  *  Developed a bot (using UiPath studio ReFramework) for E-commerce companies to generate purchase order IDs against orders received online and thus ensuring on-time delivery of products.
-  *  Programmed a bot to automatically fill Google forms by taking input (applicant’s details) from an Excel sheet and thereby reducing the hiring process time by 25%.
+  *  Developed a bot (using UiPath studio ReFramework) for E-commerce companies to generate purchase order I.D.s against orders received online, thus ensuring on-time delivery of products.
+  *  Programmed a bot to automatically fill Google forms by taking input (applicant's details) from an Excel sheet, thereby reducing the hiring process time by 25%.
   *  Built a bot to extract specific emails based on textual metadata, improving employee productivity; ported the extracted data to Excel spreadsheets for analysis.
-  *  Implemented a bot to extract identified data from websites into MS Excel, saving 15% of the buyer’s time.
+  *  Implemented a bot to extract identified data from websites into M.S. Excel, saving 15% of the buyer's time.
   *  Coded a bot to automatically generate complaint tickets and assign tickets to responsible personnel, enhancing customer service.
 
 Publications
@@ -98,8 +103,6 @@ Publications
 
 Leadership & Involvement
 ======
-* Course Producer for the Database Systems (CSCI-585) course under Prof. Saty's guidance. Held office hours, mentored, and evaluated homeworks and exams for a class of 300 students.
+* Course Producer for the Database Systems (CSCI-585) course under Prof. Saty's guidance. Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
 * Project Coordinator of The Department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium Phase Shift 2021, organized in B.M.S. College of Engineering (BMSCE).
 * Student Volunteer of Mitsubishi Electric Cup- National Level Competition for Factory Automation held at BMSCE.          
- 
-
