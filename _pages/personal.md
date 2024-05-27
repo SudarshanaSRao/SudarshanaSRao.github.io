@@ -12,7 +12,7 @@ redirect_from:
 I enjoy traveling, hiking, playing cricket, reading the news, and watching movies and TV shows in my free time. Here are some photos from around the world:
 
 
-<img src="/images/WhatsApp Image 2024-05-26 at 19.32.02_180d4cf9.JPG" height="500">
+<img src="/images/WhatsApp Image 2024-05-26 at 19.32.02_180d4cf9.jpg" height="500">
 <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_2896198e.jpg" height="500">
 <img src="/images/WhatsApp Image 2024-05-26 at 19.32.02_bf5bccb7.jpg" height="500">
 <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_cd38722a.jpg" height="500">
