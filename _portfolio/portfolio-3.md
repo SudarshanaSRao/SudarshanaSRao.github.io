@@ -11,7 +11,7 @@ collection: portfolio
 
 ![block](/images/outputml.png)
 
-#### ✦ [Code](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition) ✦
+# ✦ [Code](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition) ✦
 
 
 
