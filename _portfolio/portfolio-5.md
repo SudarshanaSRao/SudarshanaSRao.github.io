@@ -15,4 +15,4 @@ collection: portfolio
 
 ![result](/images/res.png)
 
-#### ✦ [Code](https://github.com/SudarshanaSRao/EE559-final_project-USC) ✦
+# ✦ [Code](https://github.com/SudarshanaSRao/EE559-final_project-USC) ✦
