@@ -14,4 +14,8 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
+# Blogs
+
+* ✦[GANs](https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html)✦
+
 
