@@ -1,6 +1,6 @@
 ---
 title: "ML Based Traffic Light Detection and IR Sensor Based Proximity Sensing for Autonomous Cars"
-excerpt: '<br><img src="/images/mlblock.png" height="300"  width="300">'
+excerpt: '<br><img src="/images/mlblock.png" height="500"  width="500">'
 collection: portfolio
 ---
 
