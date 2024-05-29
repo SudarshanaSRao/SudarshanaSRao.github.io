@@ -12,7 +12,7 @@ redirect_from:
 <div class="flexcontainer">
   <div>
     <a href="https://github.com/SudarshanaSRao/SudarshanaSRao.github.io/files/15458467/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
-      <img height="50px" src="/images/resum.jpg" width="150px">
+      <img height="100px" src="/images/resum.jpg" width="150px">
     </a>
   </div>
 </div>
