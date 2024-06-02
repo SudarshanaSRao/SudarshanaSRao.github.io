@@ -85,7 +85,7 @@ Work experience
  <div class="flexcontainer">
   <div>
     <a href="https://ennvee.com/" onclick="trackOutboundLink(this);">
-      <img height="140px" src="/images/ennlogog.jpeg" width="70px">
+      <img height="100px" src="/images/ennlogog.jpeg" width="70px">
     </a>
   </div>
 </div>
