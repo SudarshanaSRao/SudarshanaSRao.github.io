@@ -84,7 +84,22 @@ Work experience
   * Managed the interaction sessions (data collection) by assigning participants to the respective time slots.
   * Project: Speech quality assessment for automatic speech recognition.
 
-* Summer Intern at ennVee Solutions Private Limited, Bangalore [Summer 2021]
+ <div class="flexcontainer">
+  <div>
+    <a href="https://ennvee.com/" onclick="trackOutboundLink(this);">
+      <img height="140px" src="/images/ennlogog.jpeg" width="70px">
+    </a>
+  </div>
+  <div>
+    <ul>
+      <li style="display: flex; justify-content: space-between;">
+      <span>Summer Intern at ennVee Solutions Private Limited, Bangalore</span>
+        <span>[Summer 2021]</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
   *  Developed a bot (using UiPath studio ReFramework) for E-commerce companies to generate purchase order I.D.s against orders received online, thus ensuring on-time delivery of products.
   *  Programmed a bot to automatically fill Google forms by taking input (applicant's details) from an Excel sheet, thereby reducing the hiring process time by 25%.
   *  Built a bot to extract specific emails based on textual metadata, improving employee productivity; ported the extracted data to Excel spreadsheets for analysis.
