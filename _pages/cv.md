@@ -17,6 +17,7 @@ redirect_from:
   </div>
 </div>
     
+
 Education
 ======
 <div class="flexcontainer">
@@ -51,15 +52,6 @@ Education
   </div>
 </div>
 
-<!-- <div class="flexcontainer"> <div> <a href="https://en.sharif.edu/" onclick="trackOutboundLink(this);"> <img height="150px" src="/images/sharif_logo.png" width="100px"> </a> </div> <div> <ul> <li>Data Science track of the <a href="https://icme.stanford.edu" onclick="trackOutboundLink(this);">Computational and Mathematical Engineering department</a></li> <li>Research at the <a href="http://svl.stanford.edu" onclick="trackOutboundLink(this);">Stanford Vision Lab</a></li> <li>TA at Stanford's Computer Science and ICME departments</li> </ul> </div> </div> -->
-
-
-<!-- - <img src="/images/usc_logo.png" alt="USC" width="200px">  
-  * Ph.D in Engineering, University of Southern California, 2024 (expected)
-  * M.S. in Computer Science, University of Southern California, 2022
-- <img src="/images/bmsce_logo.png" alt="SUT" height="120" width="120">  
-* M.S. in Enineering, Sharif University of Technology, 2018
-* B.S. in Engineering, Sharif University of Technology, 2015  -->
 
 Skills
 ======
@@ -74,6 +66,7 @@ Skills
 
 * Tools
   * Git  \|  MS Azure  \|  MS Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  LATEX  \|  Data Structues and Algorithms  
+
 
 Work experience
 ======
@@ -97,6 +90,7 @@ Work experience
   *  Implemented a bot to extract identified data from websites into M.S. Excel, saving 15% of the buyer's time.
   *  Coded a bot to automatically generate complaint tickets and assign tickets to responsible personnel, enhancing customer service.
 
+
 Research experience
 ======
 <div class="flexcontainer">
@@ -112,17 +106,13 @@ Research experience
 * This project was funded by **Apple**.
 * Appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
 
+
 Publications
 ======
   <ul>{% for post in site.publications reversed%}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-<!-- Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul> -->
 
 Leadership & Involvement
 ======
