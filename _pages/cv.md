@@ -15,8 +15,7 @@ redirect_from:
       <img height="100px" src="/images/resum.jpg" width="150px">
     </a>
   </div>
-</div>
-    
+</div>    
 
 Education
 ======
@@ -52,7 +51,6 @@ Education
   </div>
 </div>
 
-
 Skills
 ======
 * Programming Languages
@@ -66,7 +64,6 @@ Skills
 
 * Tools
   * Git  \|  MS Azure  \|  MS Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  LATEX  \|  Data Structues and Algorithms  
-
 
 Work experience
 ======
@@ -90,7 +87,6 @@ Work experience
   *  Implemented a bot to extract identified data from websites into M.S. Excel, saving 15% of the buyer's time.
   *  Coded a bot to automatically generate complaint tickets and assign tickets to responsible personnel, enhancing customer service.
 
-
 Research experience
 ======
 <div class="flexcontainer">
@@ -99,13 +95,13 @@ Research experience
       <img height="150px" src="/images/usc_logo.png" width="250px">
     </a>
   </div>
-
+ </div>
+ 
 ### Graduate Research Assistant at University of Southern California, Los Angeles [October 2022-Present]
 * Worked at the Signal Analysis and Interpretation Laboratory (SAIL under the SIPI- Signal and Image Processing Institute) to annotate audio files. 
 * These annotations will be used to train a Machine Learning model to identify, classify, and filter out the noise in recorded conversations.
 * This project was funded by **Apple**.
 * Appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
-
 
 Publications
 ======
@@ -113,7 +109,6 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-
 Leadership & Involvement
 ======
 * Course Producer for the Database Systems (CSCI-585) course under Prof. Saty's guidance. Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
