@@ -10,4 +10,6 @@ collection: portfolio
 
 # ✦ [Code](https://github.com/SudarshanaSRao/CSCI-499_final_project) ✦ 
 
+# ✦ [Medium blog](https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6) ✦
+
 <!-- This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML.  -->
