@@ -16,7 +16,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 # Blogs
 
-## ✦ [GANs](https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html)
-## ✦ [LLMs](https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6)
+## ✦ [GANs](https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html)- a short, simple, and interesting read on Generative Adversarial Network
+## ✦ [LLMs](https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6)- a descriptive post on my FAQ Generator project
 
 
