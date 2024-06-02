@@ -97,6 +97,21 @@ Work experience
   *  Implemented a bot to extract identified data from websites into M.S. Excel, saving 15% of the buyer's time.
   *  Coded a bot to automatically generate complaint tickets and assign tickets to responsible personnel, enhancing customer service.
 
+Research experience
+======
+<div class="flexcontainer">
+  <div>
+    <a href="https://sail.usc.edu/" onclick="trackOutboundLink(this);">
+      <img height="150px" src="/images/usc_logo.png" width="250px">
+    </a>
+  </div>
+
+### Graduate Research Assistant at University of Southern California, Los Angeles [October 2022-Present]
+* Worked at the Signal Analysis and Interpretation Laboratory (SAIL under the SIPI- Signal and Image Processing Institute) to annotate audio files. 
+* These annotations will be used to train a Machine Learning model to identify, classify, and filter out the noise in recorded conversations.
+* This project was funded by **Apple**.
+* Appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
+
 Publications
 ======
   <ul>{% for post in site.publications reversed%}
