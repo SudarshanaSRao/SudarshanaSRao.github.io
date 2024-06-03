@@ -21,7 +21,7 @@ redirect_from:
 * EE 510  Linear Algebra for Engineering
 
 ### Online courses
-* Microsoft Learn AI Skills Challenge
+* Microsoft Azure Machine Learning [Microsoft Learn AI Skills Challenge]
 * Data Visualization [University of Illinois at Urbana Champaign, Coursera]
 * Using Python to Access Web Data [University of Michigan, Coursera]
 * Python Data Structures [University of Michigan, Coursera]
