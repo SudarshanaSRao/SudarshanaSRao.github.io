@@ -30,7 +30,6 @@ Education
       <li style="display: flex; justify-content: space-between;">
         <span>Master of Science (MS) in Electrical Engineering (Machine Learning & Data Science), University of Southern California</span>
         <span>2024</span>
-
       </li>
     </ul>
   </div>
