@@ -68,7 +68,8 @@ Skills
 Work experience
 ======
 ### Research Assistant (part-time) at The Walt Disney Company, Los Angeles [MAY 2023-Present]
-  * Researched and analyzed human interaction with an AI (Nobu) to improve AI's Automatic Speech Recognition (ASR). Optimized the decision tree algorithm to augment AI's responses.
+  * Researched and analyzed human interaction with an AI (Nobu) to improve AI's Automatic Speech Recognition (ASR).
+  * Optimized the decision tree algorithm using **XGBoost** to augment AI's responses.
   * Managed the interaction sessions (data collection) by assigning participants to the respective time slots.
   * Project: Speech quality assessment for automatic speech recognition.
 
