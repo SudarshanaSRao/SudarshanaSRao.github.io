@@ -11,7 +11,7 @@ redirect_from:
 
 <div class="flexcontainer">
   <div>
-    <a href="https://github.com/user-attachments/files/15539049/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
+    <a href="https://github.com/user-attachments/files/15541317/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
       <img height="100px" src="/images/resum.jpg" width="150px">
     </a>
   </div>
@@ -53,17 +53,18 @@ Education
 
 Skills
 ======
+
 * Programming Languages
   * Python  \|  SQL  \|  MySQL  \|  MongoDB Atlas  \|  C++  \|  C  \|  HTML  \|  R  \|  MATLAB  \| XML  \|  PostgreSQL  \|  ESRI ArcGIS  \|  UiPath studio (Robotics Process Automation) 
 
 * ML Frameworks & Libraries
-  * PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Huggingface  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib.pyplot  \|  Seaborn  \|  Pandas
+  * Streamlit GUI  \|  Beautiful Soup  \|  PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Huggingface  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib.pyplot  \|  Seaborn  \|  Pandas  \|  HuggingFace
 
 * Computer Vision
   * OpenCV
 
 * Tools
-  * Git  \|  MS Azure  \|  MS Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  LATEX  \|  Streamlit GUI  \|  Data Structues and Algorithms  
+  * Git  \|  MS Azure  \|  MS Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  LATEX  \|  Data Structues and Algorithms  
 
 Work experience
 ======
