@@ -6,7 +6,8 @@ collection: portfolio
 
 * Analyzed the effect of different feature engineering and dimensionality adjustment techniques (performed on the UCI's mushroom dataset) on the performance of various Machine Learning models.
 * Pre-processing included feature engineering by **Pearson Correlation Coefficient** method and dimensionality reduction of _173 different species of 61,069 mushrooms_ using **Univariate Feature Selection** and **Principal Component Analysis**.
-
+* 
+![f1](/images/Picture1.png)
 ![f1](/images/dist1.png)
 ![f2](/images/dist2.png)
 
