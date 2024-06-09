@@ -9,7 +9,7 @@ collection: portfolio
 * Detected burglars in real time using **OpenCV2 library, Support Vector Machine, and Histogram of Oriented Gradient**.
 * As another line of defense, a **PIR sensor** interfaced with an **Arduino Uno board** was utilized for the exact cause to avoid false detection.
 
-![liveout](/images/Picture1.png)
+![liveout](/images/sudam.png)
   
 * A **GSM module** was used to send an alert to the homeowner when a burglar is detected.
 
