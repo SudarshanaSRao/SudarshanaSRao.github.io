@@ -19,6 +19,9 @@ redirect_from:
 ### Fundamentals
 * EE 503  Probability for Electrical and Computer Engineers
 * EE 510  Linear Algebra for Engineering
+* 19EI5PE1PY Python Programming and Applications
+* 18CS2ESCCP C & C++ Programming
+
 
 ### Online courses
 * Microsoft Azure Machine Learning [Microsoft Learn AI Skills Challenge]
