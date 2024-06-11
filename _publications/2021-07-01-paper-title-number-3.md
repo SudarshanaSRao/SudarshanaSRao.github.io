@@ -9,4 +9,4 @@ paperurl: 'https://www.ijamtes.org/VOL-11-ISSUE-7-2021/'
 citation: 'Sudarshana S Rao, Vani A - B.M.S. College of Engineering, Bangalore, India. Page No : 190-198. DOI:16.10089.IJMTE.2021.V10I7.21.50925 arXiv preprint arXiv:2303.09750.'
 ---
 
-<img src="/images/chor.jpg" height="200">
+<img src="/images/chor.jpg" height="100">
