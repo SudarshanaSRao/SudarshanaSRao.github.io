@@ -1,7 +1,7 @@
 ---
 title: "Automated garbage disposal system using 8051 microcontroller"
 collection: publications
-permalink: /publication/2020-08-01-paper-title-number-4
+permalink: /publication/2022-03-22-paper-title-number-4
 excerpt: 'International Journal of Management Technology and Engineering'
 date: 2020-08-01
 venue: 'International Journal of Management Technology and Engineering'
