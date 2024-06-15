@@ -1,7 +1,7 @@
 ---
 title: "Automatic Dent Detection in Automobile Using IR Sensor"
 collection: publications
-permalink: /publication/2020-08-01-paper-title-number-2
+permalink: /publication/2020-08-01-paper-title-number-1
 excerpt: 'Springer Nature'
 date: 2022-03-22
 venue: 'International Conference on Evolutionary Computing and Mobile Sustainable Networks (ICECMSN-2021) organized on 28-29 September 2021 by RV Institute of Technology and Management, Bangalore, India.'
