@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning based Traffic Light Detection and IR Sensor based Proximity Sensing for Autonomous Cars"
 collection: publications
-permalink: /publication/2021-07-14-paper-title-number-2
+permalink: /publication/2021-07-14-paper-title-number-1
 excerpt: 'SSRN ELSEVIER'
 date: 2021-07-14
 venue: '2nd International Conference on IoT Based Control Networks and Intelligent Systems (ICICNIS 2021) organized by St. Joseph’s College of Engineering and Technology, Kottayam, India on 28 & 29 June.'
