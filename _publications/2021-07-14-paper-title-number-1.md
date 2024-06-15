@@ -9,5 +9,5 @@ paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3883931'
 citation: 'Rao, Sudarshana S and Desai, Santosh R, Machine Learning based Traffic Light Detection and IR Sensor based Proximity Sensing for Autonomous Cars (July 10, 2021). Proceedings of the International Conference on IoT Based Control Networks & Intelligent Systems - ICICNIS 2021.'
 ---
 
-<img src="/images/traffic.jpeg" height="100">
+<img src="/images/traffic.jpeg" height="70">
 
