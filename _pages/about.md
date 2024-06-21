@@ -18,11 +18,11 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 <div class="flexcontainer">
     <div>
       <div style="display: flex; justify-content: space-between;">
-        <span>✦ A short, simple, and interesting read on Generative Adversarial Networks:</span>
+        <span>✦ A short, simple, and interesting read on **Generative Adversarial Networks**:</span>
   </div>
   <div>
     <a href="https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html" onclick="trackOutboundLink(this);">
-      <img height="30px" src="/images/1200px-Blogger_icon_2017.svg.png" width="150px">
+      <img height="30px" src="/images/1200px-Blogger_icon_2017.svg.png" width="100px">
     </a>
   </div>
 </div>
@@ -30,11 +30,11 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 <div class="flexcontainer">
     <div>
       <div style="display: flex; justify-content: space-between;">
-        <span>✦ A descriptive post on my FAQ Generator project:</span>
+        <span>✦ A descriptive post on my **FAQ Generator** project:</span>
   </div>
   <div>
     <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
-      <img height="30px" src="/images/image.jpeg" width="150px">
+      <img height="30px" src="/images/image.jpeg" width="100px">
     </a>
   </div>
 </div>
