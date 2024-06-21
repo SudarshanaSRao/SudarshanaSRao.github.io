@@ -30,7 +30,7 @@ collection: portfolio
   </div>
   <div>
     <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3883931" onclick="trackOutboundLink(this);">
-      <img height="30px" src="/images/download_SSRN.jpg" width="80px">
+      <img height="50px" src="/images/download_SSRN.jpg" width="100px">
     </a>
   </div>
 </div>
