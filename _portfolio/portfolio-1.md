@@ -1,6 +1,6 @@
 ---
 title: "FAQ Generator"
-excerpt: "<img height='100'  width='100' src='/images/image.jpeg'>"
+excerpt: "<img height='100'  width='100' src='/images/unmanned.png'>"
 collection: portfolio
 ---
 
