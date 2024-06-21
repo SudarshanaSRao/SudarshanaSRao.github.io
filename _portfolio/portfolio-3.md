@@ -11,8 +11,28 @@ collection: portfolio
 
 ![block](/images/outputml.png)
 
-# ✦ [Code](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition) ✦
+<div class="flexcontainer">
+    <div>
+      <div style="display: flex; justify-content: space-between;">
+        <span>✦ <strong>Code:</strong></span>
+  </div>
+  <div>
+    <a href="https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition" onclick="trackOutboundLink(this);">
+      <img height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
+    </a>
+  </div>
+</div>
 
-# ✦ [Publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3883931) ✦
+<div class="flexcontainer">
+    <div>
+      <div style="display: flex; justify-content: space-between;">
+        <span>✦ <strong>Publication:</strong></span>
+  </div>
+  <div>
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3883931" onclick="trackOutboundLink(this);">
+      <img height="30px" src="/images/download_SSRN.jpg" width="80px">
+    </a>
+  </div>
+</div>
 
 <!-- This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML.  -->
