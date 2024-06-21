@@ -22,7 +22,9 @@ collection: portfolio
     </a>
   </div>
 </div>
-
+    
+#  
+    
 <div class="flexcontainer">
     <div>
       <div style="display: flex; justify-content: space-between;">
@@ -30,7 +32,7 @@ collection: portfolio
   </div>
   <div>
     <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3883931" onclick="trackOutboundLink(this);">
-      <img height="50px" src="/images/download_SSRN.jpg" width="100px">
+      <img height="70px" src="/images/download_SSRN.jpg" width="150px">
     </a>
   </div>
 </div>
