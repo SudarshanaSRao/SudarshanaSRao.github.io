@@ -32,7 +32,7 @@ collection: portfolio
   </div>
   <div>
     <a href="https://www.ijamtes.org/VOL-11-ISSUE-7-2021/" onclick="trackOutboundLink(this);">
-      <img height="30px" src="/images/Down_ijmte.jpeg" width="80px">
+      <img height="50px" src="/images/Down_ijmte.jpeg" width="100px">
     </a>
   </div>
 </div>
