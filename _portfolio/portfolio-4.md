@@ -13,7 +13,28 @@ collection: portfolio
   
 * A **GSM module** was used to send an alert to the homeowner when a burglar is detected.
 
-# ✦ [Code](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Human-detection) ✦
+<div class="flexcontainer">
+    <div>
+      <div style="display: flex; justify-content: space-between;">
+        <span>✦ <strong>Code:</strong></span>
+  </div>
+  <div>
+    <a href="https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Human-detection" onclick="trackOutboundLink(this);">
+      <img height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
+    </a>
+  </div>
+</div>
 
-# ✦ [Publication](https://www.ijamtes.org/VOL-11-ISSUE-7-2021/) ✦
+<div class="flexcontainer">
+    <div>
+      <div style="display: flex; justify-content: space-between;">
+        <span>✦ <strong>Publication:</strong></span>
+  </div>
+  <div>
+    <a href="https://www.ijamtes.org/VOL-11-ISSUE-7-2021/" onclick="trackOutboundLink(this);">
+      <img height="30px" src="/images/Down_ijmte.jpeg" width="80px">
+    </a>
+  </div>
+</div>
+
 <!-- This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML.  -->
