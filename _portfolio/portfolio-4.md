@@ -24,9 +24,7 @@ collection: portfolio
     </a>
   </div>
 </div>
-
-#  
-
+  
 <div class="flexcontainer">
     <div>
       <div style="display: flex; justify-content: space-between;">
