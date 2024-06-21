@@ -22,7 +22,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   </div>
   <div>
     <a href="https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html" onclick="trackOutboundLink(this);">
-      <img height="150px" src="/images/image.jpeg" width="250px" align="center">
+      <img height="50px" src="/images/image.jpeg" width="150px">
     </a>
   </div>
 </div>
@@ -34,7 +34,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   </div>
   <div>
     <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
-      <img height="150px" src="/images/1200px-Blogger_icon_2017.svg.png" width="250px" align="center">
+      <img height="50px" src="/images/1200px-Blogger_icon_2017.svg.png" width="150px">
     </a>
   </div>
 </div>
