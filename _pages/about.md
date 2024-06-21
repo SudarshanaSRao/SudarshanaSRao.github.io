@@ -17,11 +17,8 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 # Blogs   
 <div class="flexcontainer">
     <div>
-    <ul>
-      <li style="display: flex; justify-content: space-between;">
+      <div style="display: flex; justify-content: space-between;">
         <span>✦ A short, simple, and interesting read on Generative Adversarial Networks:</span>
-      </li>
-    </ul>
   </div>
   <div>
     <a href="https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html" onclick="trackOutboundLink(this);">
@@ -32,11 +29,8 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <div class="flexcontainer">
     <div>
-    <ul>
-      <li style="display: flex; justify-content: space-between;">
+      <div style="display: flex; justify-content: space-between;">
         <span>✦ A descriptive post on my FAQ Generator project:</span>
-      </li>
-    </ul>
   </div>
   <div>
     <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
