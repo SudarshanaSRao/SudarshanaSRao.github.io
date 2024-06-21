@@ -27,6 +27,8 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   </div>
 </div>
 
+#  
+
 <div class="flexcontainer">
     <div>
       <div style="display: flex; justify-content: space-between;">
