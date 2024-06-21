@@ -14,9 +14,34 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
-# Blogs
+# Blogs   
+<div class="flexcontainer">
+    <div>
+    <ul>
+      <li style="display: flex; justify-content: space-between;">
+        <span>✦ A short, simple, and interesting read on Generative Adversarial Networks:</span>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <a href="https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html" onclick="trackOutboundLink(this);">
+      <img height="150px" src="/images/image.jpeg" width="250px">
+    </a>
+  </div>
+</div>
 
-## ✦ [GANs](https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html)- a short, simple, and interesting read on Generative Adversarial Networks
-## ✦ [LLMs](https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6)- a descriptive post on my FAQ Generator project
-
+<div class="flexcontainer">
+    <div>
+    <ul>
+      <li style="display: flex; justify-content: space-between;">
+        <span>✦ a descriptive post on my FAQ Generator project:</span>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
+      <img height="150px" src="/images/1200px-Blogger_icon_2017.svg.png" width="250px">
+    </a>
+  </div>
+</div>
 
