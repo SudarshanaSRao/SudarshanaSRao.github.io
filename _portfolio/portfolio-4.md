@@ -25,6 +25,8 @@ collection: portfolio
   </div>
 </div>
 
+#  
+
 <div class="flexcontainer">
     <div>
       <div style="display: flex; justify-content: space-between;">
@@ -32,7 +34,7 @@ collection: portfolio
   </div>
   <div>
     <a href="https://www.ijamtes.org/VOL-11-ISSUE-7-2021/" onclick="trackOutboundLink(this);">
-      <img height="50px" src="/images/Down_ijmte.jpeg" width="100px">
+      <img height="70px" src="/images/Down_ijmte.jpeg" width="150px">
     </a>
   </div>
 </div>
