@@ -8,7 +8,29 @@ collection: portfolio
 * Scrapped **(API call using Beautiful Soup)** and stored the top 150 US universities’ MS in CS graduate admission requirements in a **JSON** file (dataset creation).
 * Achieved a 10% increase in accuracy/relevance of generated FAQs compared to a baseline T5 transformer.
 
-# ✦ [Code](https://github.com/SudarshanaSRao/CSCI-499_final_project) ✦ 
+<div class="flexcontainer">
+    <div>
+      <div style="display: flex; justify-content: space-between;">
+        <span>✦ <strong>Code:</strong></span>
+  </div>
+  <div>
+    <a href="https://github.com/SudarshanaSRao/CSCI-499_final_project" onclick="trackOutboundLink(this);">
+      <img height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
+    </a>
+  </div>
+</div>
+
+<div class="flexcontainer">
+    <div>
+      <div style="display: flex; justify-content: space-between;">
+        <span>✦ <strong>Medium blog:</strong></span>
+  </div>
+  <div>
+    <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
+      <img height="30px" src="/images/image.jpeg" width="80px">
+    </a>
+  </div>
+</div>
 
 # ✦ [Medium blog](https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6) ✦
 
