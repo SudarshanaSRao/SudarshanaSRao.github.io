@@ -1,13 +1,18 @@
 ---
 title: "FAQ Generator"
-excerpt: "<img height='300'  width='300' src='/images/unmanned.png'>"
+excerpt: "<img height='300'  width='300' src='/images/summ.png'>"
 collection: portfolio
 ---
 
 * Fine-tuned (supervised instruction) **Llama-3 8b, Llama-2 7b, Mistral 7b, T5, and BART** to generate FAQs based on the website’s content.
-* Performed **QLoRA PEFT** on Llama-3 and Llama-2 to enhance the quality of the generated FAQs.
 * Scrapped **(API call using Beautiful Soup)** and stored the top 150 US universities’ MS in CS graduate admission requirements in a **JSON** file (dataset creation).
+
+<img height="70px" src="/images/faqjs.png" width="70px">
+
+* Performed **QLoRA PEFT** on Llama-3 and Llama-2 to enhance the quality of the generated FAQs.
 * Achieved a 10% increase in accuracy/relevance of generated FAQs compared to a baseline T5 transformer.
+
+<img height="70px" src="/images/qllama3.png" width="70px">
 
 <div class="flexcontainer">
     <div>
@@ -16,7 +21,7 @@ collection: portfolio
   </div>
   <div>
     <a href="https://github.com/SudarshanaSRao/CSCI-499_final_project" onclick="trackOutboundLink(this);">
-      <img height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
+      <img height="30px" src="/images/unmanned.png" width="80px">
     </a>
   </div>
 </div>
