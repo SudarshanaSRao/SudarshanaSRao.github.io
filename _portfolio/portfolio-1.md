@@ -1,18 +1,18 @@
 ---
 title: "FAQ Generator"
-excerpt: "<img height='300'  width='300' src='/images/summ.png'>"
+excerpt: "<img height='500'  width='500' src='/images/summ.png'>"
 collection: portfolio
 ---
 
 * Fine-tuned (supervised instruction) **Llama-3 8b, Llama-2 7b, Mistral 7b, T5, and BART** to generate FAQs based on the website’s content.
 * Scrapped **(API call using Beautiful Soup)** and stored the top 150 US universities’ MS in CS graduate admission requirements in a **JSON** file (dataset creation).
 
-<img height="70px" src="/images/faqjs.png" width="70px">
+<img src="/images/faqjs.png">
 
 * Performed **QLoRA PEFT** on Llama-3 and Llama-2 to enhance the quality of the generated FAQs.
 * Achieved a 10% increase in accuracy/relevance of generated FAQs compared to a baseline T5 transformer.
 
-<img height="70px" src="/images/qllama3.png" width="70px">
+<img src="/images/qllama3.png">
 
 <div class="flexcontainer">
     <div>
@@ -33,7 +33,7 @@ collection: portfolio
   </div>
   <div>
     <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
-      <img height="30px" src="/images/unmanned.png" width="80px">
+      <img height="70px" src="/images/unmanned.png" width="80px">
     </a>
   </div>
 </div>
