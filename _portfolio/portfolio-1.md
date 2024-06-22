@@ -33,7 +33,7 @@ collection: portfolio
   </div>
   <div>
     <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
-      <img height="30px" src="/images/image.jpeg" width="80px">
+      <img height="30px" src="/images/unmanned.png" width="80px">
     </a>
   </div>
 </div>
