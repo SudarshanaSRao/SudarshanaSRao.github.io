@@ -1,6 +1,6 @@
 ---
 title: "FAQ Generator"
-excerpt: "<img height='500'  width='500' src='/images/summ.png'>"
+excerpt: "<img height='600'  width='600' src='/images/summ.png'>"
 collection: portfolio
 ---
 
@@ -33,7 +33,7 @@ collection: portfolio
   </div>
   <div>
     <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
-      <img height="70px" src="/images/unmanned.png" width="80px">
+      <img height="80px" src="/images/unmanned.png" width="80px">
     </a>
   </div>
 </div>
