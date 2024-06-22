@@ -21,7 +21,7 @@ collection: portfolio
   </div>
   <div>
     <a href="https://github.com/SudarshanaSRao/CSCI-499_final_project" onclick="trackOutboundLink(this);">
-      <img height="30px" src="/images/unmanned.png" width="80px">
+      <img height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
   </div>
 </div>
