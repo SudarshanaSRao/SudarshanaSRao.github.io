@@ -11,7 +11,7 @@ redirect_from:
 
 <div class="flexcontainer">
   <div>
-    <a href="https://github.com/user-attachments/files/15809344/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
+    <a href="https://github.com/user-attachments/files/15945742/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
       <img height="100px" src="/images/resum.jpg" width="150px">
     </a>
   </div>
@@ -55,7 +55,7 @@ Skills
 ======
 
 * Programming Languages
-  * Python  \|  SQL  \|  MySQL  \|  MongoDB Atlas  \|  C++  \|  C  \|  HTML  \|  R  \|  MATLAB  \| XML  \|  PostgreSQL  \|  ESRI ArcGIS  \|  UiPath studio (Robotics Process Automation) 
+  * Python  \|  SQL  \|  MySQL  \|  MongoDB Atlas  \|  C++  \|  C  \|  HTML  \|  R  \|  MATLAB  \| XML  \|  PostgreSQL  \|  ESRI ArcGIS  \|  BigQuery  \|  UiPath studio (Robotics Process Automation) 
 
 * ML Frameworks & Libraries
   * Streamlit GUI  \|  Beautiful Soup  \|  PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Huggingface  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib.pyplot  \|  Seaborn  \|  Pandas  \|  HuggingFace
@@ -64,7 +64,7 @@ Skills
   * OpenCV
 
 * Tools
-  * Git  \|  MS Azure  \|  MS Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  Tableau  \|  LATEX  \|  Data Structues and Algorithms  
+  * Git  \|  MS Azure  \|  MS Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  Tableau  \|  LATEX  \|  Data Structues and Algorithms  \|  ETL  \|  Power BI  
 
 Work experience
 ======
