@@ -24,6 +24,7 @@ redirect_from:
 
 
 ### Online courses
+* Data Analytics [Google, Coursera] 
 * Microsoft Azure Machine Learning [Microsoft Learn AI Skills Challenge]
 * Data Visualization [University of Illinois at Urbana Champaign, Coursera]
 * Using Python to Access Web Data [University of Michigan, Coursera]
