@@ -10,7 +10,7 @@ collection: portfolio
 <img src="/images/faqjs.png">
 
 * Performed **QLoRA PEFT** on Llama-3 and Llama-2 to enhance the quality of the generated FAQs.
-* Achieved a BERT Score of 0.8, outperforming the baseline T5 transformer with a 50% increase in accuracy and relevance of generated FAQs.
+* Achieved a **BERT Score of 0.8**, outperforming the baseline T5 transformer with a 50% increase in accuracy and relevance of generated FAQs.
 
 <img src="/images/qllama3.png">
 
