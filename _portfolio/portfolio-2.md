@@ -19,12 +19,9 @@ collection: portfolio
 ![google](/images/googlenet_training.png)
 
 <div class="flexcontainer">
-    <div>
-      <div style="display: flex; justify-content: space-between;">
-        <span>✦ <strong>Code:</strong></span>
-  </div>
   <div>
-    <a href="https://github.com/SudarshanaSRao/EE541-final_project-USC" onclick="trackOutboundLink(this);">
+            <div style="display: flex; justify-content: space-between;">
+        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/EE541-final_project-USC" onclick="trackOutboundLink(this);">
       <img height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
   </div>
