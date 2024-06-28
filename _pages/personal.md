@@ -55,7 +55,7 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
           entry.target.classList.remove('show');
         }
       });
-    }, { threshold: 0.5 });
+    });
     images.forEach(image => {
       observer.observe(image);
     });
