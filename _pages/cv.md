@@ -1,6 +1,7 @@
 ---
 layout: archive
-title: 📄
+title: "Download my resume:"
+excerpt: "CV📄"
 permalink: /cv/
 author_profile: true
 redirect_from:
