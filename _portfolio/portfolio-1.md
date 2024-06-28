@@ -15,24 +15,18 @@ collection: portfolio
 <img src="/images/qllama3.png">
 
 <div class="flexcontainer">
-    <div>
-      <div style="display: flex; justify-content: space-between;">
-        <span>✦ <strong>Code:</strong></span>
-  </div>
   <div>
-    <a href="https://github.com/SudarshanaSRao/CSCI-499_final_project" onclick="trackOutboundLink(this);">
+      <div style="display: flex; justify-content: space-between;">
+        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/CSCI-499_final_project" onclick="trackOutboundLink(this);">
       <img height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
   </div>
 </div>
 
 <div class="flexcontainer">
-    <div>
-      <div style="display: flex; justify-content: space-between;">
-        <span>✦ <strong>Medium blog:</strong></span>
-  </div>
   <div>
-    <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
+            <div style="display: flex; justify-content: space-between;">
+        <span>✦ <strong>Medium blog:</strong></span> <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
       <img height="200px" src="/images/unmanned.png" width="200px">
     </a>
   </div>
