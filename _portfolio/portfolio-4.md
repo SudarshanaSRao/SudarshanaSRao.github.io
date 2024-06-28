@@ -14,24 +14,18 @@ collection: portfolio
 * A **GSM module** was used to send an alert to the homeowner when a burglar is detected.
 
 <div class="flexcontainer">
-    <div>
-      <div style="display: flex; justify-content: space-between;">
-        <span>✦ <strong>Code:</strong></span>
-  </div>
   <div>
-    <a href="https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Human-detection" onclick="trackOutboundLink(this);">
+          <div style="display: flex; justify-content: space-between;">
+        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Human-detection" onclick="trackOutboundLink(this);">
       <img height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
   </div>
 </div>
   
 <div class="flexcontainer">
-    <div>
-      <div style="display: flex; justify-content: space-between;">
-        <span>✦ <strong>Publication:</strong></span>
-  </div>
   <div>
-    <a href="https://www.ijamtes.org/VOL-11-ISSUE-7-2021/" onclick="trackOutboundLink(this);">
+          <div style="display: flex; justify-content: space-between;">
+        <span>✦ <strong>Publication:</strong></span> <a href="https://www.ijamtes.org/VOL-11-ISSUE-7-2021/" onclick="trackOutboundLink(this);">
       <img height="70px" src="/images/Down_ijmte.jpeg" width="150px">
     </a>
   </div>
