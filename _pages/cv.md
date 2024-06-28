@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Download my resume:"
+title: "CV📄"
 excerpt: "CV📄"
 permalink: /cv/
 author_profile: true
@@ -10,6 +10,7 @@ redirect_from:
 
 <!-- {% include base_path %} -->
 
+## Download my 📄:
 <div class="flexcontainer">
   <div>
     <a href="https://github.com/user-attachments/files/15945742/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
