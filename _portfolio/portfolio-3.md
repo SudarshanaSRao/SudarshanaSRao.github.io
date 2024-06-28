@@ -13,7 +13,6 @@ collection: portfolio
 
 <div class="flexcontainer">
   <div>
-            <div style="display: flex; justify-content: space-between;">
         <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition" onclick="trackOutboundLink(this);">
       <img height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
@@ -22,7 +21,6 @@ collection: portfolio
     
 <div class="flexcontainer">
   <div>
-            <div style="display: flex; justify-content: space-between;">
         <span>✦ <strong>Publication:</strong></span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3883931" onclick="trackOutboundLink(this);">
       <img height="70px" src="/images/download_SSRN.jpg" width="150px">
     </a>
