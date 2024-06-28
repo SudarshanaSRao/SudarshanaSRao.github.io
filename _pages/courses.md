@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /courses/
-title: "Graduate Coursework"
+title: "Graduate Coursework📚"
 excerpt: "Courses📚"
 author_profile: true
 redirect_from: 
