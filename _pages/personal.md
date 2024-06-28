@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-I enjoy traveling, hiking, playing cricket, reading the news, and watching movies and TV shows in my free time. Hit me up if you want to play video games 🎮 with me!  
+I enjoy traveling ✈️, hiking 🥾, playing cricket 🏏, reading the news 🗞️, and watching movies 🍿 and TV shows 📽️ in my free time. Hit me up if you want to play video games 🎮 with me!  
 
 Scroll down to see cool pictures 😎 of me around the world:
 
