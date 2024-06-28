@@ -13,7 +13,6 @@ I enjoy traveling ✈️, hiking 🥾, playing cricket 🏏, reading the news �
 
 Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
 
-```html
 <div class="container">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.02_180d4cf9.jpg" class="image">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_2896198e.jpg" class="image">
@@ -64,7 +63,7 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
           entry.target.classList.remove('show');
         }
       });
-    }, { threshold: 0.5 });  // Adjust as needed to control when animation starts
+    });
     images.forEach(image => {
       observer.observe(image);
     });
