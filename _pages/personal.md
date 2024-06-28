@@ -25,31 +25,28 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_8d775df7.jpg" class="image">
 </div>
 <style>
-  body {
+/*   body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
+  } */
   .container {
     width: 100%;
     max-width: 800px;
     margin: 20px auto;
     overflow: hidden;
   }
-
   .image {
     width: 100%;
-    height: 200px;
+    height: 100%;
     margin: 20px 0;
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   }
-
   .image.show {
     opacity: 1;
     transform: translateY(0);
@@ -58,7 +55,6 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const images = document.querySelectorAll('.image');
-
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -68,7 +64,6 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
         }
       });
     });
-
     images.forEach(image => {
       observer.observe(image);
     });
