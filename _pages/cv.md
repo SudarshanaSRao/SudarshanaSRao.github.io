@@ -10,10 +10,9 @@ redirect_from:
 
 <!-- {% include base_path %} -->
 
-## Download my 📄:
 <div class="flexcontainer">
   <div>
-    <a href="https://github.com/user-attachments/files/15945742/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
+    <span>Download my:</span> <a href="https://github.com/user-attachments/files/15945742/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
       <img height="100px" src="/images/resum.jpg" width="150px">
     </a>
   </div>
