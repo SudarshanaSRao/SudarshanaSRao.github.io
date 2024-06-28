@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "From Data to Decisions!"
-excerpt: "Portfolio"
+excerpt: "Homepage"
 author_profile: true
 redirect_from: 
   - /about/
