@@ -12,6 +12,7 @@ redirect_from:
 I enjoy traveling ✈️, hiking 🥾, playing cricket 🏏, reading the news 🗞️, and watching movies 🍿 & TV shows 📽️ in my free time. Hit me up if you want to play video games 🎮 with me!  
 
 Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
+
 <div class="container">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.02_180d4cf9.jpg" class="image">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_2896198e.jpg" class="image">
@@ -24,14 +25,14 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_8d775df7.jpg" class="image">
 </div>
 <style>
-/*   body {
+  body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-  } */
+  }
   .container {
     width: 100%;
     max-width: 800px;
