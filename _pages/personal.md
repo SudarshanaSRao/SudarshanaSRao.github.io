@@ -25,14 +25,14 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_8d775df7.jpg" class="image">
 </div>
 <style>
-  body {
+/*   body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+  } */
   .container {
     width: 100%;
     max-width: 800px;
