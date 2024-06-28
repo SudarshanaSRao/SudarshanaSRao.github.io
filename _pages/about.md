@@ -24,12 +24,8 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 </div>
 
 <div class="flexcontainer">
-    <div>
-      <div style="display: flex; justify-content: space-between;">
-        <span>✦ A descriptive post on my <strong>FAQ Generator</strong> project:</span>
-  </div>
   <div>
-    <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
+    <span>✦ A descriptive post on my <strong>FAQ Generator</strong> project:</span> <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
       <img height="30px" src="/images/image.jpeg" width="80px">
     </a>
   </div>
