@@ -9,9 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-I enjoy traveling ✈️, hiking 🥾, playing cricket 🏏, reading the news 🗞️, and watching movies 🍿 and TV shows 📽️ in my free time. Hit me up if you want to play video games 🎮 with me!  
+I enjoy traveling ✈️, hiking 🥾, playing cricket 🏏, reading the news 🗞️, and watching movies 🍿 & TV shows 📽️ in my free time. Hit me up if you want to play video games 🎮 with me!  
 
-Scroll down to see cool pictures 😎 of me around the world:
+Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
 
 <img src="/images/WhatsApp Image 2024-05-26 at 19.32.02_180d4cf9.jpg" height="200">
 <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_2896198e.jpg" height="200">
