@@ -24,7 +24,6 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
   <img src="/images/grouppic.jpg" class="image">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_8d775df7.jpg" class="image">
 </div>
-
 <style>
   body {
     font-family: Arial, sans-serif;
@@ -56,7 +55,6 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
     transform: translateY(0);
   }
 </style>
-
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const images = document.querySelectorAll('.image');
