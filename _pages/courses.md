@@ -102,6 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var modalImg = document.getElementById('img01');
   var span = document.getElementsByClassName("close")[0]; // Close button
   window.openModal = function(src) {
+    var modalImg = document.getElementById('img01');
     modalImg.src = src;
     modal.style.display = "flex"; // Show the modal
   }
