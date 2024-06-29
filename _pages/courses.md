@@ -28,16 +28,16 @@ redirect_from:
   .course-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Adjust as needed for spacing between items */
+    gap: 10px; /* Adjust as needed for spacing between items */
   }
   .course {
-    width: 300px; /* Adjust width as needed */
-    margin-bottom: 20px; /* Adjust spacing between items */
+    width: 400px; /* Adjust width as needed */
+    margin-bottom: 10px; /* Adjust spacing between items */
     text-align: center; /* Center align text */
   }
   .course img {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     margin-top: 10px; /* Adjust spacing between image and text */
   }
 </style>
