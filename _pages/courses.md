@@ -101,8 +101,8 @@ redirect_from:
 </style>
 <script>
 function openModal(src) {
-  document.getElementById('img01').src = src;
   document.getElementById('myModal').style.display = "flex";
+  document.getElementById('img01').src = src;
 }
 // Get the <span> element that closes the modal
 var modal = document.getElementById('myModal');
