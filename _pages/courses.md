@@ -22,7 +22,6 @@ redirect_from:
 * 19EI5PE1PY Python Programming and Applications
 * 18CS2ESCCP C & C++ Programming
 
-
 ### Online courses
 {% raw %}
 <div class="course-list">
@@ -102,16 +101,13 @@ document.addEventListener('DOMContentLoaded', function () {
   var modal = document.getElementById('myModal');
   var modalImg = document.getElementById('img01');
   var span = document.getElementsByClassName("close")[0]; // Close button
-  // Function to open modal
   window.openModal = function(src) {
     modalImg.src = src;
     modal.style.display = "flex"; // Show the modal
   }
-  // When the user clicks on <span> (x), close the modal
   span.onclick = function() {
     modal.style.display = "none";
   }
-  // Close the modal if outside click
   window.onclick = function(event) {
     if (event.target == modal) {
       modal.style.display = "none";
