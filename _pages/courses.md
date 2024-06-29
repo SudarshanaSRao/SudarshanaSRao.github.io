@@ -89,8 +89,6 @@ redirect_from:
           entry.target.classList.remove('show');
         }
       });
-    }, {
-      threshold: 0.5 // Adjust the threshold to control when the animation triggers
     });
     images.forEach(image => {
       observer.observe(image);
