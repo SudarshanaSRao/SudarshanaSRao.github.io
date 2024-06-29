@@ -74,13 +74,12 @@ redirect_from:
   flex-direction: column; /* Stacks items vertically */
 }
 .modal-content {
-  margin: auto;
   display: block;
-  max-width: 80%; /* Responsive max width */
-  max-height: 80vh; /* Responsive max height */
+  max-width: 80%; /* Responsive max width, consider adjusting this */
+  max-height: 80vh; /* Responsive max height, consider adjusting this */
   width: auto; /* Maintain aspect ratio */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  height: auto;
+  height: auto; /* Adjust based on your needs */
+  margin: auto; /* Centering the image within the modal */
 }
 .close {
   position: absolute;
@@ -103,18 +102,15 @@ document.addEventListener('DOMContentLoaded', function () {
   var modal = document.getElementById('myModal');
   var modalImg = document.getElementById('img01');
   var span = document.getElementsByClassName("close")[0]; // Close button
-
   // Function to open modal
   window.openModal = function(src) {
     modalImg.src = src;
     modal.style.display = "flex"; // Show the modal
   }
-
   // When the user clicks on <span> (x), close the modal
   span.onclick = function() {
     modal.style.display = "none";
   }
-
   // Close the modal if outside click
   window.onclick = function(event) {
     if (event.target == modal) {
