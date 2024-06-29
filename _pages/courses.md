@@ -24,12 +24,83 @@ redirect_from:
 
 
 ### Online courses
-* Data Analytics [Google, Coursera] <a href="path_to_image.jpg" data-lightbox="certificate" data-title="Data Analytics Certificate"><img src="path_to_image.jpg" alt="Data Analytics Certificate" style="width: 50px; height: auto;" onmouseover="this.style.transform='scale(1.5)';" onmouseout="this.style.transform='scale(1)';"></a>
-* Microsoft Azure Machine Learning [Microsoft Learn AI Skills Challenge] <a href="path_to_image.jpg" data-lightbox="certificate" data-title="Microsoft Azure Machine Learning Certificate"><img src="path_to_image.jpg" alt="Microsoft Azure ML Certificate" style="width: 50px; height: auto;" onmouseover="this.style.transform='scale(1.5)';" onmouseout="this.style.transform='scale(1)';"></a>
-* Data Visualization [University of Illinois at Urbana Champaign, Coursera] <a href="path_to_image.jpg" data-lightbox="certificate" data-title="Data Visualization Certificate"><img src="path_to_image.jpg" alt="Data Visualization Certificate" style="width: 50px; height: auto;" onmouseover="this.style.transform='scale(1.5)';" onmouseout="this.style.transform='scale(1)';"></a>
-* Using Python to Access Web Data [University of Michigan, Coursera] <a href="path_to_image.jpg" data-lightbox="certificate" data-title="Using Python to Access Web Data Certificate"><img src="path_to_image.jpg" alt="Python Web Data Certificate" style="width: 50px; height: auto;" onmouseover="this.style.transform='scale(1.5)';" onmouseout="this.style.transform='scale(1)';"></a>
-* Python Data Structures [University of Michigan, Coursera] <a href="path_to_image.jpg" data-lightbox="certificate" data-title="Python Data Structures Certificate"><img src="path_to_image.jpg" alt="Python Data Structures Certificate" style="width: 50px; height: auto;" onmouseover="this.style.transform='scale(1.5)';" onmouseout="this.style.transform='scale(1)';"></a>
-* Programming for Everybody (Getting Started with Python) [University of Michigan, Coursera] <a href="path_to_image.jpg" data-lightbox="certificate" data-title="Programming for Everybody Certificate"><img src="path_to_image.jpg" alt="Programming Python Certificate" style="width: 50px; height: auto;" onmouseover="this.style.transform='scale(1.5)';" onmouseout="this.style.transform='scale(1)';"></a>
+{% raw %}
+<div class="course-list">
+  <ul>
+    <li>Data Analytics [Google, Coursera]
+      <img src="path_to_small_image.jpg" alt="Data Analytics Certificate" onclick="openModal('path_to_large_image.jpg');">
+    </li>
+    <li>Microsoft Azure Machine Learning [Microsoft Learn AI Skills Challenge]
+      <img src="path_to_small_image.jpg" alt="Microsoft Azure ML Certificate" onclick="openModal('path_to_large_image.jpg');">
+    </li>
+        <li>Data Visualization [University of Illinois at Urbana Champaign, Coursera]
+      <img src="path_to_small_image.jpg" alt="Microsoft Azure ML Certificate" onclick="openModal('path_to_large_image.jpg');">
+    </li>
+        <li>Using Python to Access Web Data [University of Michigan, Coursera]
+      <img src="path_to_small_image.jpg" alt="Microsoft Azure ML Certificate" onclick="openModal('path_to_large_image.jpg');">
+    </li>
+        <li>Python Data Structures [University of Michigan, Coursera]
+      <img src="path_to_small_image.jpg" alt="Microsoft Azure ML Certificate" onclick="openModal('path_to_large_image.jpg');">
+    </li>
+     <li>Programming for Everybody (Getting Started with Python) [University of Michigan, Coursera]
+      <img src="path_to_small_image.jpg" alt="Microsoft Azure ML Certificate" onclick="openModal('path_to_large_image.jpg');">
+    </li>
+  </ul>
+</div>
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+{% endraw %}
+<style>
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+<script>
+function openModal(imgSrc) {
+  document.getElementById('img01').src = imgSrc;
+  document.getElementById('myModal').style.display = "block";
+}
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  document.getElementById('myModal').style.display = "none";
+}
+</script>
 
 
 
