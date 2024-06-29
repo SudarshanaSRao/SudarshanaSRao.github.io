@@ -70,7 +70,7 @@ redirect_from:
     height: 400px;
     margin-top: 10px; /* Adjust spacing between image and text */
     opacity: 0;
-    transform: translateX(-50px); /* Start further left off-screen */
+    transform: translateX(100px); /* Start further left off-screen */
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   }
   .course img.show {
