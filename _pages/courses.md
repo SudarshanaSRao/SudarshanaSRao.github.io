@@ -24,12 +24,12 @@ redirect_from:
 
 
 ### Online courses
-* Data Analytics [Google, Coursera] 
-* Microsoft Azure Machine Learning [Microsoft Learn AI Skills Challenge]
-* Data Visualization [University of Illinois at Urbana Champaign, Coursera]
-* Using Python to Access Web Data [University of Michigan, Coursera]
-* Python Data Structures [University of Michigan, Coursera]
-* Programming for Everybody (Getting Started with Python) [University of Michigan, Coursera]
+* Data Analytics [Google, Coursera] <a href="path_to_image.jpg" data-lightbox="certificate" data-title="Data Analytics Certificate"><img src="path_to_image.jpg" alt="Data Analytics Certificate" style="width: 50px; height: auto;" onmouseover="this.style.transform='scale(1.5)';" onmouseout="this.style.transform='scale(1)';"></a>
+* Microsoft Azure Machine Learning [Microsoft Learn AI Skills Challenge] <a href="path_to_image.jpg" data-lightbox="certificate" data-title="Microsoft Azure Machine Learning Certificate"><img src="path_to_image.jpg" alt="Microsoft Azure ML Certificate" style="width: 50px; height: auto;" onmouseover="this.style.transform='scale(1.5)';" onmouseout="this.style.transform='scale(1)';"></a>
+* Data Visualization [University of Illinois at Urbana Champaign, Coursera] <a href="path_to_image.jpg" data-lightbox="certificate" data-title="Data Visualization Certificate"><img src="path_to_image.jpg" alt="Data Visualization Certificate" style="width: 50px; height: auto;" onmouseover="this.style.transform='scale(1.5)';" onmouseout="this.style.transform='scale(1)';"></a>
+* Using Python to Access Web Data [University of Michigan, Coursera] <a href="path_to_image.jpg" data-lightbox="certificate" data-title="Using Python to Access Web Data Certificate"><img src="path_to_image.jpg" alt="Python Web Data Certificate" style="width: 50px; height: auto;" onmouseover="this.style.transform='scale(1.5)';" onmouseout="this.style.transform='scale(1)';"></a>
+* Python Data Structures [University of Michigan, Coursera] <a href="path_to_image.jpg" data-lightbox="certificate" data-title="Python Data Structures Certificate"><img src="path_to_image.jpg" alt="Python Data Structures Certificate" style="width: 50px; height: auto;" onmouseover="this.style.transform='scale(1.5)';" onmouseout="this.style.transform='scale(1)';"></a>
+* Programming for Everybody (Getting Started with Python) [University of Michigan, Coursera] <a href="path_to_image.jpg" data-lightbox="certificate" data-title="Programming for Everybody Certificate"><img src="path_to_image.jpg" alt="Programming Python Certificate" style="width: 50px; height: auto;" onmouseover="this.style.transform='scale(1.5)';" onmouseout="this.style.transform='scale(1)';"></a>
 
 
 
