@@ -24,26 +24,47 @@ redirect_from:
 
 ### Online courses
 {% raw %}
-<div class="course-list">
-  <ul>
-    <li>Data Analytics [Google, Coursera]
-      <img src="/images/Google Data Analytics.jpg" style="width: 200px; height: 200px">
-    </li>
-    <li>Microsoft Azure Machine Learning [Microsoft Learn AI Skills Challenge]
-      <img src="/images/gluck.png" style="width: 200px; height: 200px">
-    </li>
-            <li>Data Visualization [University of Illinois at Urbana Champaign, Coursera]
-      <img src="/images/uiuc_cou.png" style="width: 200px; height: 200px">
-    </li>
-        <li>Using Python to Access Web Data [University of Michigan, Coursera]
-      <img src="/images/umich_2.png" style="width: 200px; height: 200px">
-    </li>
-        <li>Python Data Structures [University of Michigan, Coursera]
-      <img src="/images/umich_3.png" style="width: 200px; height: 200px">
-    </li>
-     <li>Programming for Everybody (Getting Started with Python) [University of Michigan, Coursera]
-      <img src="/images/umich_1.png" style="width: 200px; height: 200px">
-    </li>
-  </ul>
+<style>
+  .course-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust as needed for spacing between items */
+  }
+  .course {
+    width: 300px; /* Adjust width as needed */
+    margin-bottom: 20px; /* Adjust spacing between items */
+    text-align: center; /* Center align text */
+  }
+  .course img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px; /* Adjust spacing between image and text */
+  }
+</style>
+<div class="course-container">
+  <div class="course">
+    <p>Data Analytics [Google, Coursera]</p>
+    <img src="/images/Google Data Analytics.jpg">
+  </div>
+  <div class="course">
+    <p>Microsoft Azure Machine Learning [Microsoft Learn AI Skills Challenge]</p>
+    <img src="/images/gluck.png">
+  </div>
+  <div class="course">
+    <p>Data Visualization [University of Illinois at Urbana Champaign, Coursera]</p>
+    <img src="/images/uiuc_cou.png">
+  </div>
+  <div class="course">
+    <p>Using Python to Access Web Data [University of Michigan, Coursera]</p>
+    <img src="/images/umich_2.png">
+  </div>
+  <div class="course">
+    <p>Python Data Structures [University of Michigan, Coursera]</p>
+    <img src="/images/umich_3.png">
+  </div>
+  <div class="course">
+    <p>Programming for Everybody (Getting Started with Python) [University of Michigan, Coursera]</p>
+    <img src="/images/umich_1.png">
+  </div>
 </div>
 {% endraw %}
