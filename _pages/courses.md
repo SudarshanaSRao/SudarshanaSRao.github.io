@@ -57,7 +57,7 @@ redirect_from:
 .modal {
   display: none;
   position: fixed;
-  z-index: 1000;
+  z-index: 1;
   padding-top: 100px;
   left: 0;
   top: 0;
@@ -70,8 +70,10 @@ redirect_from:
 .modal-content {
   margin: auto;
   display: block;
-  width: 80%;
-  max-width: 700px;
+  max-width: 90%; /* Responsive max width */
+  max-height: 80vh; /* Responsive max height */
+  width: auto; /* Maintain aspect ratio */
+  height: auto;
 }
 .close {
   position: absolute;
