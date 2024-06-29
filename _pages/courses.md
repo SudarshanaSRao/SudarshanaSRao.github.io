@@ -27,22 +27,22 @@ redirect_from:
 <div class="course-list">
   <ul>
     <li>Data Analytics [Google, Coursera]
-      <img src="/images/Google Data Analytics.jpg" style="width: 100px; height: 100px">
+      <img src="/images/Google Data Analytics.jpg" style="width: 200px; height: 200px">
     </li>
     <li>Microsoft Azure Machine Learning [Microsoft Learn AI Skills Challenge]
-      <img src="/images/gluck.png" style="width: 100px; height: 100px">
+      <img src="/images/gluck.png" style="width: 200px; height: 200px">
     </li>
             <li>Data Visualization [University of Illinois at Urbana Champaign, Coursera]
-      <img src="/images/uiuc_cou.png" style="width: 100px; height: 100px">
+      <img src="/images/uiuc_cou.png" style="width: 200px; height: 200px">
     </li>
         <li>Using Python to Access Web Data [University of Michigan, Coursera]
-      <img src="/images/umich_2.png" style="width: 100px; height: 100px">
+      <img src="/images/umich_2.png" style="width: 200px; height: 200px">
     </li>
         <li>Python Data Structures [University of Michigan, Coursera]
-      <img src="/images/umich_3.png" style="width: 100px; height: 100px">
+      <img src="/images/umich_3.png" style="width: 200px; height: 200px">
     </li>
      <li>Programming for Everybody (Getting Started with Python) [University of Michigan, Coursera]
-      <img src="/images/umich_1.png" style="width: 100px; height: 100px">
+      <img src="/images/umich_1.png" style="width: 200px; height: 200px">
     </li>
   </ul>
 </div>
