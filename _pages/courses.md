@@ -57,7 +57,7 @@ redirect_from:
 .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 1000;
   padding-top: 100px;
   left: 0;
   top: 0;
@@ -65,14 +65,19 @@ redirect_from:
   height: 100%;
   overflow: auto;
   background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 .modal-content {
   margin: auto;
   display: block;
-  max-width: 90%; /* Responsive max width */
+  max-width: 80%; /* Responsive max width */
   max-height: 80vh; /* Responsive max height */
   width: auto; /* Maintain aspect ratio */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   height: auto;
 }
 .close {
@@ -94,12 +99,18 @@ redirect_from:
 <script>
 function openModal(src) {
   document.getElementById('img01').src = src;
-  document.getElementById('myModal').style.display = "block";
+  document.getElementById('myModal').style.display = "flex";
 }
 // Get the <span> element that closes the modal
+var modal = document.getElementById('myModal');
 var span = document.getElementsByClassName("close")[0];
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-  document.getElementById('myModal').style.display = "none";
+  modal.style.display = "none";
+}
+  window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }
 </script>
