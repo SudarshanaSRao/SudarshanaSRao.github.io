@@ -62,6 +62,8 @@ redirect_from:
   height: 100%;
   background-color: rgba(0,0,0,0.8); /* Dim the background */
   z-index: 1000; /* Ensures modal is on top of other content */
+  overflow: auto;
+  display: flex;
   padding: 20px;
   align-items: center;
   justify-content: center;
