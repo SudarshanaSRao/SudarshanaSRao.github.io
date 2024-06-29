@@ -23,46 +23,7 @@ redirect_from:
 * 18CS2ESCCP C & C++ Programming
 
 ## Online courses
-{% raw %}
-<style>
-  .container {
-    width: 100%;
-    max-width: 800px;
-    margin: 20px auto;
-    overflow: hidden;
-  }
-  .image {
-    width: 100%;
-    height: auto; /* Adjust height to be auto to maintain aspect ratio */
-    margin: 20px 0;
-    opacity: 0;
-    transform: translateX(100px); /* Start further left off-screen */
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-  }
-  .image.show {
-    opacity: 1;
-    transform: translateX(0); /* Slide to default position */
-  }
-</style>
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const images = document.querySelectorAll('.image');
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('show');
-        } else {
-          entry.target.classList.remove('show');
-        }
-      });
-    }, {
-      threshold: 0.5 // Adjust the threshold to control when the animation triggers
-    });
-    images.forEach(image => {
-      observer.observe(image);
-    });
-  });
-</script>
+
 <div class="course-container">
   <div class="course">
     <p><strong>Data Analytics</strong></p>
@@ -89,4 +50,50 @@ redirect_from:
     <img src="/images/umich_1.png">
   </div>
 </div>
-{% endraw %}
+<style>
+  .course-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust as needed for spacing between items */
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  .course {
+    width: 400px; /* Adjust width as needed */
+    margin-bottom: 10px; /* Adjust spacing between items */
+    text-align: center; /* Center align text */
+  }
+  .course img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10px; /* Adjust spacing between image and text */
+    opacity: 0;
+    transform: translateX(50px); /* Start further left off-screen */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  .course img.show {
+    opacity: 1;
+    transform: translateX(0); /* Slide to default position */
+  }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll('.course img'); // Select images within courses
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        } else {
+          entry.target.classList.remove('show');
+        }
+      });
+    }, {
+      threshold: 0.5 // Adjust the threshold to control when the animation triggers
+    });
+    images.forEach(image => {
+      observer.observe(image);
+    });
+  });
+</script>
