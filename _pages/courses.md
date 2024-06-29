@@ -102,16 +102,19 @@ document.addEventListener('DOMContentLoaded', function () {
   var modalImg = document.getElementById('img01');
   var span = document.getElementsByClassName("close")[0]; // Close button
   window.openModal = function(src) {
+    console.log("Modal opened with src: " + src);
     var modalImg = document.getElementById('img01');
     modalImg.src = src;
     modal.style.display = "flex"; // Show the modal
   }
   span.onclick = function() {
     modal.style.display = "none";
+    console.log("Modal closed");
   }
   window.onclick = function(event) {
     if (event.target == modal) {
       modal.style.display = "none";
+      console.log("Modal closed on outside click");
     }
   }
 });
