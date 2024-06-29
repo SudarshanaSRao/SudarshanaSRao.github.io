@@ -36,8 +36,8 @@ redirect_from:
     text-align: center; /* Center align text */
   }
   .course img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin-top: 10px; /* Adjust spacing between image and text */
   }
 </style>
