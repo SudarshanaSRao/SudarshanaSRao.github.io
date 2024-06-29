@@ -31,13 +31,13 @@ redirect_from:
     gap: 10px; /* Adjust as needed for spacing between items */
   }
   .course {
-    width: 500px; /* Adjust width as needed */
+    width: 400px; /* Adjust width as needed */
     margin-bottom: 10px; /* Adjust spacing between items */
     text-align: center; /* Center align text */
   }
   .course img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     margin-top: 10px; /* Adjust spacing between image and text */
   }
 </style>
