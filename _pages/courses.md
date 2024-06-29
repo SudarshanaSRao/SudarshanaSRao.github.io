@@ -27,89 +27,23 @@ redirect_from:
 <div class="course-list">
   <ul>
     <li>Data Analytics [Google, Coursera]
-      <img src="/images/Google Data Analytics.jpg" alt="Data Analytics Certificate" style="width: 50px; cursor: pointer;" onclick="openModal(this.src);">
+      <img src="/images/Google Data Analytics.jpg" style="width: 100px; height: 100px">
     </li>
     <li>Microsoft Azure Machine Learning [Microsoft Learn AI Skills Challenge]
-      <img src="/images/gluck.png" alt="Microsoft Azure ML Certificate" style="width: 50px; cursor: pointer;" onclick="openModal(this.src);">
+      <img src="/images/gluck.png" style="width: 100px; height: 100px">
     </li>
             <li>Data Visualization [University of Illinois at Urbana Champaign, Coursera]
-      <img src="/images/uiuc_cou.png" alt="Data Visualization Certificate" style="width: 50px; cursor: pointer;" onclick="openModal(this.src);">
+      <img src="/images/uiuc_cou.png" style="width: 100px; height: 100px">
     </li>
         <li>Using Python to Access Web Data [University of Michigan, Coursera]
-      <img src="/images/umich_2.png" alt="Using Python to Access Web Data Certificate" style="width: 50px; cursor: pointer;" onclick="openModal(this.src);">
+      <img src="/images/umich_2.png" style="width: 100px; height: 100px">
     </li>
         <li>Python Data Structures [University of Michigan, Coursera]
-      <img src="/images/umich_3.png" alt="Python Data Structures Certificate" style="width: 50px; cursor: pointer;" onclick="openModal(this.src);">
+      <img src="/images/umich_3.png" style="width: 100px; height: 100px">
     </li>
      <li>Programming for Everybody (Getting Started with Python) [University of Michigan, Coursera]
-      <img src="/images/umich_1.png" alt="Programming for Everybody Certificate" style="width: 50px; cursor: pointer;" onclick="openModal(this.src);">
+      <img src="/images/umich_1.png" style="width: 100px; height: 100px">
     </li>
   </ul>
 </div>
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
 {% endraw %}
-<style>
-.modal {
-  display: none; /* Ensures modal is hidden on page load */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.8); /* Dim the background */
-  z-index: 1000; /* Ensures modal is on top of other content */
-  overflow: auto;
-  display: flex;
-  padding: 20px;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; /* Stacks items vertically */
-}
-.modal-content {
-  display: block;
-  max-width: 80%; /* Responsive max width, consider adjusting this */
-  max-height: 80vh; /* Responsive max height, consider adjusting this */
-  width: auto; /* Maintain aspect ratio */
-  height: auto; /* Adjust based on your needs */
-  margin: auto; /* Centering the image within the modal */
-}
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-</style>
-<script>
-window.openModal = function(src) {
-  var modal = document.getElementById('myModal');
-  var modalImg = document.getElementById('img01');
-  modalImg.src = src;  // Set the source for the modal image
-  modal.style.display = "flex";  // Display the modal
-};
-document.addEventListener('DOMContentLoaded', function() {
-  var modal = document.getElementById('myModal');
-  var span = document.getElementsByClassName("close")[0];  // Close button
-  span.onclick = function() {
-    modal.style.display = "none";  // Hide the modal
-  };
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";  // Hide the modal when clicked outside
-    }
-  };
-});
-</script>
