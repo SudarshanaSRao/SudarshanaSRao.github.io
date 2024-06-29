@@ -31,39 +31,39 @@ redirect_from:
     gap: 10px; /* Adjust as needed for spacing between items */
   }
   .course {
-    width: 400px; /* Adjust width as needed */
+    width: 500px; /* Adjust width as needed */
     margin-bottom: 10px; /* Adjust spacing between items */
     text-align: center; /* Center align text */
   }
   .course img {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     margin-top: 10px; /* Adjust spacing between image and text */
   }
 </style>
 <div class="course-container">
   <div class="course">
-    <p>Data Analytics [Google, Coursera]</p>
+    <p>Data Analytics</p>
     <img src="/images/Google Data Analytics.jpg">
   </div>
   <div class="course">
-    <p>Microsoft Azure Machine Learning [Microsoft Learn AI Skills Challenge]</p>
+    <p>Microsoft Azure Machine Learning</p>
     <img src="/images/gluck.png">
   </div>
   <div class="course">
-    <p>Data Visualization [University of Illinois at Urbana Champaign, Coursera]</p>
+    <p>Data Visualization</p>
     <img src="/images/uiuc_cou.png">
   </div>
   <div class="course">
-    <p>Using Python to Access Web Data [University of Michigan, Coursera]</p>
+    <p>Using Python to Access Web Data</p>
     <img src="/images/umich_2.png">
   </div>
   <div class="course">
-    <p>Python Data Structures [University of Michigan, Coursera]</p>
+    <p>Python Data Structures</p>
     <img src="/images/umich_3.png">
   </div>
   <div class="course">
-    <p>Programming for Everybody (Getting Started with Python) [University of Michigan, Coursera]</p>
+    <p>Programming for Everybody (Getting Started with Python)</p>
     <img src="/images/umich_1.png">
   </div>
 </div>
