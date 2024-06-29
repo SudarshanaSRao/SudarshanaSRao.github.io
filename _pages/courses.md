@@ -60,19 +60,18 @@ redirect_from:
 {% endraw %}
 <style>
 .modal {
-  display: none; /* Make sure this is not overridden incorrectly by JS */
+  display: none; /* Ensures modal is hidden on page load */
   position: fixed;
-  left: 0;
   top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.8);
-  z-index: 1000;
-  overflow: auto;
-  display: flex;
+  background-color: rgba(0,0,0,0.8); /* Dim the background */
+  z-index: 1000; /* Ensures modal is on top of other content */
+  padding: 20px;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  flex-direction: column; /* Stacks items vertically */
 }
 .modal-content {
   margin: auto;
@@ -100,20 +99,27 @@ redirect_from:
 }
 </style>
 <script>
-function openModal(src) {
-  document.getElementById('myModal').style.display = "flex";
-  document.getElementById('img01').src = src;
-}
-// Get the <span> element that closes the modal
-var modal = document.getElementById('myModal');
-var span = document.getElementsByClassName("close")[0];
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-  window.onclick = function(event) {
-  if (event.target == modal) {
+document.addEventListener('DOMContentLoaded', function () {
+  var modal = document.getElementById('myModal');
+  var modalImg = document.getElementById('img01');
+  var span = document.getElementsByClassName("close")[0]; // Close button
+
+  // Function to open modal
+  window.openModal = function(src) {
+    modalImg.src = src;
+    modal.style.display = "flex"; // Show the modal
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
     modal.style.display = "none";
   }
-}
+
+  // Close the modal if outside click
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+});
 </script>
