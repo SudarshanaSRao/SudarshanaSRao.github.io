@@ -52,20 +52,23 @@ redirect_from:
   <img class="modal-content" id="img01">
   <div id="caption"></div>
 </div>
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
 {% endraw %}
 <style>
 .modal {
-  display: none;
+  display: none; /* Make sure this is not overridden incorrectly by JS */
   position: fixed;
-  z-index: 1000;
-  padding-top: 100px;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
-  background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.8);
+  z-index: 1000;
+  overflow: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,11 +109,9 @@ var modal = document.getElementById('myModal');
 var span = document.getElementsByClassName("close")[0];
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-  var modal = document.getElementById('myModal');
   modal.style.display = "none";
 }
   window.onclick = function(event) {
-  var modal = document.getElementById('myModal');
   if (event.target == modal) {
     modal.style.display = "none";
   }
