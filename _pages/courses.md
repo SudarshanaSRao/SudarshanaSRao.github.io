@@ -97,25 +97,22 @@ redirect_from:
 }
 </style>
 <script>
-document.addEventListener('DOMContentLoaded', function () {
+window.openModal = function(src) {
   var modal = document.getElementById('myModal');
   var modalImg = document.getElementById('img01');
-  var span = document.getElementsByClassName("close")[0]; // Close button
-  window.openModal = function(src) {
-    console.log("Modal opened with src: " + src);
-    var modalImg = document.getElementById('img01');
-    modalImg.src = src;
-    modal.style.display = "flex"; // Show the modal
-  }
+  modalImg.src = src;  // Set the source for the modal image
+  modal.style.display = "flex";  // Display the modal
+};
+document.addEventListener('DOMContentLoaded', function() {
+  var modal = document.getElementById('myModal');
+  var span = document.getElementsByClassName("close")[0];  // Close button
   span.onclick = function() {
-    modal.style.display = "none";
-    console.log("Modal closed");
-  }
+    modal.style.display = "none";  // Hide the modal
+  };
   window.onclick = function(event) {
     if (event.target == modal) {
-      modal.style.display = "none";
-      console.log("Modal closed on outside click");
+      modal.style.display = "none";  // Hide the modal when clicked outside
     }
-  }
+  };
 });
 </script>
