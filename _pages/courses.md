@@ -28,22 +28,22 @@ redirect_from:
 <div class="course-list">
   <ul>
     <li>Data Analytics [Google, Coursera]
-      <img src="path_to_small_image.jpg" alt="Data Analytics Certificate" onclick="openModal('path_to_large_image.jpg');">
+      <img src="Google Data Analytics.jpg" alt="Data Analytics Certificate" style="width: 50px; cursor: pointer;" onclick="openModal(this.src);">
     </li>
     <li>Microsoft Azure Machine Learning [Microsoft Learn AI Skills Challenge]
-      <img src="path_to_small_image.jpg" alt="Microsoft Azure ML Certificate" onclick="openModal('path_to_large_image.jpg');">
+      <img src="gluck.png" alt="Microsoft Azure ML Certificate" style="width: 50px; cursor: pointer;" onclick="openModal(this.src);">
     </li>
-        <li>Data Visualization [University of Illinois at Urbana Champaign, Coursera]
-      <img src="path_to_small_image.jpg" alt="Microsoft Azure ML Certificate" onclick="openModal('path_to_large_image.jpg');">
+            <li>Data Visualization [University of Illinois at Urbana Champaign, Coursera]
+      <img src="uiuc_cou.png" alt="Data Visualization Certificate" style="width: 50px; cursor: pointer;" onclick="openModal(this.src);">
     </li>
         <li>Using Python to Access Web Data [University of Michigan, Coursera]
-      <img src="path_to_small_image.jpg" alt="Microsoft Azure ML Certificate" onclick="openModal('path_to_large_image.jpg');">
+      <img src="umich_2.png" alt="Using Python to Access Web Data Certificate" style="width: 50px; cursor: pointer;" onclick="openModal(this.src);">
     </li>
         <li>Python Data Structures [University of Michigan, Coursera]
-      <img src="path_to_small_image.jpg" alt="Microsoft Azure ML Certificate" onclick="openModal('path_to_large_image.jpg');">
+      <img src="umich_3.png" alt="Python Data Structures Certificate" style="width: 50px; cursor: pointer;" onclick="openModal(this.src);">
     </li>
      <li>Programming for Everybody (Getting Started with Python) [University of Michigan, Coursera]
-      <img src="path_to_small_image.jpg" alt="Microsoft Azure ML Certificate" onclick="openModal('path_to_large_image.jpg');">
+      <img src="umich_1.png" alt="Programming for Everybody Certificate" style="width: 50px; cursor: pointer;" onclick="openModal(this.src);">
     </li>
   </ul>
 </div>
@@ -90,8 +90,8 @@ redirect_from:
 }
 </style>
 <script>
-function openModal(imgSrc) {
-  document.getElementById('img01').src = imgSrc;
+function openModal(src) {
+  document.getElementById('img01').src = src;
   document.getElementById('myModal').style.display = "block";
 }
 // Get the <span> element that closes the modal
@@ -101,7 +101,3 @@ span.onclick = function() {
   document.getElementById('myModal').style.display = "none";
 }
 </script>
-
-
-
-
