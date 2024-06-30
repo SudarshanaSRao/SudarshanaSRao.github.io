@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "From Data to Decisions!"
+title: "From 🔢Data to👉 Decisions!💡📊📈"
 excerpt: "Homepage"
 author_profile: true
 redirect_from: 
