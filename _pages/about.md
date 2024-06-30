@@ -14,7 +14,39 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
-<img src="/images/MLDL.jpg" height="50px" width="100px">
+<div class="hero-section">
+  <img src="/images/MLDL.jpg" class="fade-in" alt="AI and Human Interaction">
+  <div class="hero-text">
+    <h1>Bridging the Gap Between Human and Machine Intelligence</h1>
+    <p>Welcome to my world of AI and Data Science</p>
+  </div>
+</div>
+<style>
+.hero-section {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.hero-section img {
+  width: 100%;
+  height: auto;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+</style>
 
 # Blogs📝   
 <div class="flexcontainer">
