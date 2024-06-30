@@ -44,27 +44,27 @@ redirect_from:
 </style>
 <div class="course-container">
   <div class="course">
-    <p><strong>✦Data Analytics✦</strong></p>
+    <p><i>✦Data Analytics✦</i></p>
     <img src="/images/Google Data Analytics.jpg">
   </div>
   <div class="course">
-    <p><strong>✦Microsoft Azure Machine Learning✦</strong></p>
+    <p><i>✦Microsoft Azure Machine Learning✦</i></p>
     <img src="/images/gluck.png">
   </div>
   <div class="course">
-    <p><strong>✦Data Visualization✦</strong></p>
+    <p><i>✦Data Visualization✦</i></p>
     <img src="/images/uiuc_cou.png">
   </div>
   <div class="course">
-    <p><strong>✦Using Python to Access Web Data✦</strong></p>
+    <p><i>✦Using Python to Access Web Data✦</i></p>
     <img src="/images/umich_2.png">
   </div>
   <div class="course">
-    <p><strong>✦Python Data Structures✦</strong></p>
+    <p><i>✦Python Data Structures✦</i></p>
     <img src="/images/umich_3.png">
   </div>
   <div class="course">
-    <p><strong>✦Getting Started with Python✦</strong></p>
+    <p><i>✦Getting Started with Python✦</i></p>
     <img src="/images/umich_1.png">
   </div>
 </div>
