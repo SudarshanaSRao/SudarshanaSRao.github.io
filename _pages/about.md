@@ -15,10 +15,9 @@ Through my studies and projects, I have developed skills in Large Language Model
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
 <div class="hero-section">
-  <img src="/images/MLDL.jpg" class="fade-in" alt="AI and Human Interaction">
+  <img id="hero-image" src="/images/MLDL.jpg" class="fade-in" alt="AI and Human Interaction">
   <div class="hero-text">
     <h1>Bridging the Gap Between Human and Machine Intelligence</h1>
-    <p>Welcome to my world of AI and Data Science</p>
   </div>
 </div>
 <style>
@@ -30,6 +29,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 .hero-section img {
   width: 100%;
   height: auto;
+  opacity: 0;
 }
 .hero-text {
   position: absolute;
@@ -39,14 +39,23 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 .fade-in {
   opacity: 0;
-  animation: fadeIn 2s forwards;
+  transition: opacity 2s;
 }
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
 }
 </style>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+  const image = document.getElementById("hero-image");
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        image.style.opacity = 1;
+      }
+    });
+  });
+  observer.observe(image);
+});
+</script>
 
 # Blogs📝   
 <div class="flexcontainer">
