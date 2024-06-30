@@ -30,5 +30,3 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     </a>
   </div>
 </div>
-
-<img src="/images/animated_reveal_blocks.gif" height="300px" width="100%">
