@@ -14,8 +14,6 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
-<img src="/images/animated_reveal_blocks.gif">
-
 # Blogs📝   
 <div class="flexcontainer">
   <div>
@@ -32,3 +30,5 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     </a>
   </div>
 </div>
+
+<img src="/images/animated_reveal_blocks.gif" height="300px" width="100%">
