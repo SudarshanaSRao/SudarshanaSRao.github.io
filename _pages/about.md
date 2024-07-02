@@ -51,6 +51,7 @@ Welcome to my portfolio website's homepage 😄 I am Sudarshana, a recent MS gra
 Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. I am eager to start my career and learn from experienced teams.
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
+
 &nbsp;
 
 # Blogs📝   
