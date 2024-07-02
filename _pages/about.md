@@ -53,7 +53,6 @@ Through my studies and projects, I have developed skills in Large Language Model
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
 &nbsp;
-
 # Blogs📝   
 <div class="flexcontainer">
   <div>
