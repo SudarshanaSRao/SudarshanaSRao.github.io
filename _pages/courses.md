@@ -98,6 +98,7 @@ redirect_from:
     });
   }
   window.addEventListener('scroll', addFadeInClass);
+  window.addEventListener('resize', addFadeInClass);
   document.addEventListener('DOMContentLoaded', addFadeInClass);
 </script>
 {% endraw %}
