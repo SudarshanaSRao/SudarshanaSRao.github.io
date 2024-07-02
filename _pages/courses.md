@@ -24,7 +24,6 @@ redirect_from:
 * 18CS2ESCCP C & C++ Programming
 
 ## Online courses
-
 {% raw %}
 <style>
   @keyframes fadeIn {
