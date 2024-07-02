@@ -17,12 +17,12 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.02_180d4cf9.jpg" class="image">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_2896198e.jpg" class="image">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.02_bf5bccb7.jpg" class="image">
+  <img src="/images/chiara.jpg class="image">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_cd38722a.jpg" class="image">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_5ea38d29.jpg" class="image">
-  <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_21151693.jpg" class="image">
+  <img src="/images/nick.jpg" class="image">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_9976057a.jpg" class="image">
   <img src="/images/grouppic.jpg" class="image">
-  <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_8d775df7.jpg" class="image">
 </div>
 <style>
   .container {
