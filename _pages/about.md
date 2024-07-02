@@ -35,7 +35,7 @@ redirect_from:
 }
 .emoji {
     display: inline-block;
-    animation: bounce-move 5s infinite ease-in-out; 
+    animation: bounce-move 4s infinite ease-in-out; 
     font-size: 48px;  /* Adjust the size as needed */
 }
 .emoji:nth-child(1) { animation-delay: 1.0s; }
