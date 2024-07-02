@@ -20,26 +20,29 @@ redirect_from:
     0%, 100% {
         transform: translate(0, 0);
     }
-    10%, 90% {
+    20% {
         transform: translate(100px, 0);
     }
-    25%, 75% {
+    40% {
         transform: translate(200px, -50px);
     }
-    50% {
+    60% {
         transform: translate(300px, 0);
+    }
+    80% {
+        transform: translate(400px, -50px);
     }
 }
 .emoji {
     display: inline-block;
-    animation: bounce-move 6s infinite ease-in-out; 
+    animation: bounce-move 5s infinite ease-in-out; 
     font-size: 48px;  /* Adjust the size as needed */
 }
 .emoji:nth-child(1) { animation-delay: 0.1s; }
-.emoji:nth-child(2) { animation-delay: 0.2s; }
-.emoji:nth-child(3) { animation-delay: 0.4s; }
-.emoji:nth-child(4) { animation-delay: 0.6s; }
-.emoji:nth-child(5) { animation-delay: 0.8s; } 
+.emoji:nth-child(2) { animation-delay: 0.4s; }
+.emoji:nth-child(3) { animation-delay: 0.7s; }
+.emoji:nth-child(4) { animation-delay: 1.0s; }
+.emoji:nth-child(5) { animation-delay: 1.3s; } 
 }
 </style>
 
