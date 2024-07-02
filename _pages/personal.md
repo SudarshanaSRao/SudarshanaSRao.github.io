@@ -36,7 +36,7 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
     margin: 20px 0;
     opacity: 0;
     transform: translateX(-50px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   }
   .image.show {
     opacity: 1;
