@@ -9,4 +9,4 @@ paperurl: 'https://www.ijamtes.org/VOL-10-ISSUE-8-2020/'
 citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering, Bangalore, India. Page No : 72-75. DOI:16.10089.IJMTE.2020.V10I08.20.4307'
 ---
 
-<img align="center" src="/images/trash.jpg" height="50px"> &nbsp; <img align="center" height="50px" src="/images/Down_ijmte.jpeg" width="100px">
+<center><img src="/images/trash.jpg" height="50px"> &nbsp; <img height="50px" src="/images/Down_ijmte.jpeg" width="100px"></center>
