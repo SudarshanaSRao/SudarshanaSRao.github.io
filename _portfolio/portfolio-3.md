@@ -26,5 +26,12 @@ collection: portfolio
     </a>
   </div>
 </div>
+<style>
+  .flexcontainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust the value as needed */
+  }
+</style>
 
 <!-- This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML.  -->
