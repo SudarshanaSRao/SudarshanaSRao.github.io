@@ -21,7 +21,6 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_cd38722a.jpg" class="image">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_5ea38d29.jpg" class="image">
   <img src="/images/nick.jpg" class="image">
-  <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_9976057a.jpg" class="image">
   <img src="/images/grouppic.jpg" class="image">
 </div>
 <style>
