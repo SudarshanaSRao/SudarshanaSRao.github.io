@@ -35,7 +35,11 @@ redirect_from:
     }
   }
   .fade-in-text {
-    animation: fadeIn 1.5s ease-in; /* Adjust duration and timing function as needed */
+    opacity: 0; /* Start with opacity 0 */
+    transition: opacity 1s ease-out; /* Use transition for fade-in effect */
+  }
+  .fade-in-text.show {
+    opacity: 1; /* Fade to opacity 1 when in view */
   }
   .course-container {
     display: flex;
@@ -55,50 +59,45 @@ redirect_from:
 </style>
 <div class="course-container">
   <div class="course">
-    <p class="text"><i>✦Data Analytics✦</i></p>
+    <p class="text fade-in-text"><i>✦Data Analytics✦</i></p>
     <img src="/images/Google Data Analytics.jpg">
   </div>
   <div class="course">
-    <p class="text"><i>✦Microsoft Azure Machine Learning✦</i></p>
+    <p class="text fade-in-text"><i>✦Microsoft Azure Machine Learning✦</i></p>
     <img src="/images/gluck.png">
   </div>
   <div class="course">
-    <p class="text"><i>✦Data Visualization✦</i></p>
+    <p class="text fade-in-text"><i>✦Data Visualization✦</i></p>
     <img src="/images/uiuc_cou.png">
   </div>
   <div class="course">
-    <p class="text"><i>✦Using Python to Access Web Data✦</i></p>
+    <p class="text fade-in-text"><i>✦Using Python to Access Web Data✦</i></p>
     <img src="/images/umich_2.png">
   </div>
   <div class="course">
-    <p class="text"><i>✦Python Data Structures✦</i></p>
+    <p class="text fade-in-text"><i>✦Python Data Structures✦</i></p>
     <img src="/images/umich_3.png">
   </div>
   <div class="course">
-    <p class="text"><i>✦Getting Started with Python✦</i></p>
+    <p class="text fade-in-text"><i>✦Getting Started with Python✦</i></p>
     <img src="/images/umich_1.png">
   </div>
 </div>
 <script>
-  function isInViewport(element) {
-    const rect = element.getBoundingClientRect();
-    return (
-      rect.top >= 0 &&
-      rect.left >= 0 &&
-      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-  }
-  function addFadeInClass() {
-    const textElements = document.querySelectorAll('.text');
-    textElements.forEach((element) => {
-      if (isInViewport(element)) {
-        element.classList.add('fade-in-text');
-      }
+  document.addEventListener("DOMContentLoaded", function() {
+    const textElements = document.querySelectorAll('.fade-in-text');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        } else {
+          entry.target.classList.remove('show');
+        }
+      });
     });
-  }
-  window.addEventListener('scroll', addFadeInClass);
-  window.addEventListener('resize', addFadeInClass);
-  document.addEventListener('DOMContentLoaded', addFadeInClass);
+    textElements.forEach(element => {
+      observer.observe(element);
+    });
+  });
 </script>
 {% endraw %}
