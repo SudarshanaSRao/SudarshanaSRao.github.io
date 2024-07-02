@@ -20,32 +20,27 @@ redirect_from:
     0%, 100% {
         transform: translate(0, 0);
     }
-    25% {
-        transform: translate(20px, -30px);
+    10%, 90% {
+        transform: translate(100px, 0);
+    }
+    25%, 75% {
+        transform: translate(200px, -50px);
     }
     50% {
-        transform: translate(40px, 0);
-    }
-    75% {
-        transform: translate(60px, -15px);
+        transform: translate(300px, 0);
     }
 }
 .emoji {
     display: inline-block;
-    animation: bounce-move 4s infinite;
+    animation: bounce-move 6s infinite ease-in-out; 
     font-size: 48px;  /* Adjust the size as needed */
 }
 .emoji:nth-child(1) { animation-delay: 0s; }
-.emoji:nth-child(2) { animation-delay: 0.5s; }
-.emoji:nth-child(3) { animation-delay: 1s; }
-.emoji:nth-child(4) { animation-delay: 1.5s; }
-.emoji:nth-child(5) { animation-delay: 2s; } 
+.emoji:nth-child(2) { animation-delay: 0.6s; }
+.emoji:nth-child(3) { animation-delay: 1.2s; }
+.emoji:nth-child(4) { animation-delay: 1.8s; }
+.emoji:nth-child(5) { animation-delay: 2.4s; } 
 }
-.emoji:nth-child(1) { animation-delay: 0s; }
-.emoji:nth-child(2) { animation-delay: 0.2s; }
-.emoji:nth-child(3) { animation-delay: 0.4s; }
-.emoji:nth-child(4) { animation-delay: 0.6s; }
-.emoji:nth-child(5) { animation-delay: 0.8s; }
 </style>
 
 Welcome to my portfolio website's homepage 😄 I am Sudarshana, a recent MS graduate from the University of Southern California. I am passionate about Artificial Intelligence, Machine Learning, Data Science, and Deep Learning. 
