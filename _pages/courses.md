@@ -26,6 +26,17 @@ redirect_from:
 
 {% raw %}
 <style>
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .fade-in-text {
+    animation: fadeIn 2s ease-in; /* Adjust duration and timing function as needed */
+  }
   .course-container {
     display: flex;
     flex-wrap: wrap;
@@ -44,27 +55,27 @@ redirect_from:
 </style>
 <div class="course-container">
   <div class="course">
-    <p><i>✦Data Analytics✦</i></p>
+    <p class="fade-in-text"><i>✦Data Analytics✦</i></p>
     <img src="/images/Google Data Analytics.jpg">
   </div>
   <div class="course">
-    <p><i>✦Microsoft Azure Machine Learning✦</i></p>
+    <p class="fade-in-text"><i>✦Microsoft Azure Machine Learning✦</i></p>
     <img src="/images/gluck.png">
   </div>
   <div class="course">
-    <p><i>✦Data Visualization✦</i></p>
+    <p class="fade-in-text"><i>✦Data Visualization✦</i></p>
     <img src="/images/uiuc_cou.png">
   </div>
   <div class="course">
-    <p><i>✦Using Python to Access Web Data✦</i></p>
+    <p class="fade-in-text"><i>✦Using Python to Access Web Data✦</i></p>
     <img src="/images/umich_2.png">
   </div>
   <div class="course">
-    <p><i>✦Python Data Structures✦</i></p>
+    <p class="fade-in-text"><i>✦Python Data Structures✦</i></p>
     <img src="/images/umich_3.png">
   </div>
   <div class="course">
-    <p><i>✦Getting Started with Python✦</i></p>
+    <p class="fade-in-text"><i>✦Getting Started with Python✦</i></p>
     <img src="/images/umich_1.png">
   </div>
 </div>
