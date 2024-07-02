@@ -131,15 +131,9 @@ Research experience
 * These annotations will be used to train a Machine Learning model to identify, classify, and filter out the noise in recorded conversations.
 * This project was funded by **Apple**.
 * Appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
-
-Publications
-======
-  <ul>{% for post in site.publications reversed%}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
 Leadership & Involvement
 ======
 * Course Producer for the Database Systems (CSCI-585) course under Prof. Saty's guidance. Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
 * Project Coordinator of The Department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium Phase Shift 2021, organized in B.M.S. College of Engineering (BMSCE).
-* Student Volunteer of Mitsubishi Electric Cup- National Level Competition for Factory Automation held at BMSCE.          
+* Student Volunteer of Mitsubishi Electric Cup- National Level Competition for Factory Automation held at BMSCE.
