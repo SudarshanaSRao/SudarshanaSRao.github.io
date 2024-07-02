@@ -36,6 +36,7 @@ redirect_from:
   }
   .fade-in-text {
     opacity: 0; /* Start with opacity 0 */
+    color: blue;
     transition: opacity 1.3s ease-out; /* Use transition for fade-in effect */
   }
   .fade-in-text.show {
