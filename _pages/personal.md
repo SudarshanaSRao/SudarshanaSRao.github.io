@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket, 🗞️ reading the news, and 🍿 watching movies & 📽️ TV shows in my free time. Hit me up if you want to 🎮 play video games <a href="https://emoji.gg/emoji/3139_Xbox"><img src="https://cdn3.emoji.gg/emojis/3139_Xbox.png" width="64px" height="64px" alt="Xbox"></a> with me!  
+I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket, 🗞️ reading the news, and 🍿 watching movies & 📽️ TV shows in my free time. Hit me up if you want to 🎮 play video games <a href="https://emoji.gg/emoji/3139_Xbox"><img src="https://cdn3.emoji.gg/emojis/3139_Xbox.png" width="20px" height="20px" alt="Xbox"></a> with me!  
 
 Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
 
