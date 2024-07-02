@@ -29,7 +29,7 @@ redirect_from:
     gap: 10px; /* Adds space between text and image */
   }
   .bounce {
-    animation: bounce 1s infinite; /* Adjust '2s' to control speed */
+    animation: bounce 1.5s infinite; /* Adjust '2s' to control speed */
   }
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
