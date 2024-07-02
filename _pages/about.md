@@ -39,10 +39,10 @@ redirect_from:
     font-size: 48px;  /* Adjust the size as needed */
 }
 .emoji:nth-child(1) { animation-delay: 0.2s; }
-.emoji:nth-child(2) { animation-delay: 0.6s; }
-.emoji:nth-child(3) { animation-delay: 1.0s; }
-.emoji:nth-child(4) { animation-delay: 1.4s; }
-.emoji:nth-child(5) { animation-delay: 1.8s; } 
+.emoji:nth-child(2) { animation-delay: 0.4s; }
+.emoji:nth-child(3) { animation-delay: 0.8s; }
+.emoji:nth-child(4) { animation-delay: 1.0s; }
+.emoji:nth-child(5) { animation-delay: 1.2s; } 
 }
 </style>
 
