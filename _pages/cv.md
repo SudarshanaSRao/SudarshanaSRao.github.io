@@ -8,8 +8,6 @@ redirect_from:
   - /cv
 ---
 
-<!-- {% include base_path %} -->
-
 <div class="flexcontainer1">
   <div>
     <span><i>Download my:</i></span> <a href="https://github.com/user-attachments/files/15945742/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
@@ -80,7 +78,6 @@ Education
 
 Skills
 ======
-
 * Programming Languages
   * Python  \|  SQL  \|  MySQL  \|  MongoDB Atlas  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML  \|  PostgreSQL  \|  ESRI ArcGIS  \|  BigQuery  \|  UiPath studio (Robotics Process Automation) 
 
