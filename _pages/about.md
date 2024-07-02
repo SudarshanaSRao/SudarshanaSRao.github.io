@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "From Data to Decisions! 🔢 👉 💡📊📈"
+title: "From Data to Decisions!"
 excerpt: "Homepage"
 author_profile: true
 redirect_from: 
@@ -16,20 +16,30 @@ redirect_from:
     <span class="emoji">📈</span>
 </div>
 <style>
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
+@keyframes bounce-move {
+    0%, 100% {
+        transform: translate(0, 0);
     }
-    40% {
-        transform: translateY(-30px);
+    25% {
+        transform: translate(20px, -30px);
     }
-    60% {
-        transform: translateY(-15px);
+    50% {
+        transform: translate(40px, 0);
+    }
+    75% {
+        transform: translate(60px, -15px);
     }
 }
 .emoji {
     display: inline-block;
-    animation: bounce 2s infinite;
+    animation: bounce-move 4s infinite;
+    font-size: 48px;  /* Adjust the size as needed */
+}
+.emoji:nth-child(1) { animation-delay: 0s; }
+.emoji:nth-child(2) { animation-delay: 0.5s; }
+.emoji:nth-child(3) { animation-delay: 1s; }
+.emoji:nth-child(4) { animation-delay: 1.5s; }
+.emoji:nth-child(5) { animation-delay: 2s; } 
 }
 .emoji:nth-child(1) { animation-delay: 0s; }
 .emoji:nth-child(2) { animation-delay: 0.2s; }
