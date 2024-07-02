@@ -44,7 +44,7 @@ redirect_from:
 .emoji:nth-child(4) { animation-delay: 0.4s; }
 .emoji:nth-child(5) { animation-delay: 0.2s; } 
 }
-</style>
+</style> &nbsp;
 
 Welcome to my portfolio website's homepage 😄 I am Sudarshana, a recent MS graduate from the University of Southern California. I am passionate about Artificial Intelligence, Machine Learning, Data Science, and Deep Learning. 
 
