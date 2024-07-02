@@ -10,11 +10,12 @@ redirect_from:
 {% include base_path %}
 <!-- Graduate Coursework:  -->
 
+* CSCI 561 Foundations of AI
 * EE 541   A Computational Introduction to Deep Learning
 * CSCI 585 Database systems
 * CSCI 499 Language Models in Natural Language Processing
 * EE 559   Machine Learning
-* CSCI 561 Foundations of AI
+* EE 599   Robotic Mobility
 
 ## Fundamentals
 * EE 503  Probability for Electrical and Computer Engineers
