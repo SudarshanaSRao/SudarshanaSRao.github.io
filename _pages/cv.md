@@ -10,15 +10,15 @@ redirect_from:
 
 <!-- {% include base_path %} -->
 
-<div class="flexcontainer">
+<div class="flexcontainer1">
   <div>
-    <span>Download my:</span> <a href="https://github.com/user-attachments/files/15945742/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
+    <span><i>Download my:</i></span> <a href="https://github.com/user-attachments/files/15945742/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
       <img class="bounce" height="100px" src="/images/resum.jpg" width="150px">
     </a>
   </div>
 </div>
 <style>
-  .flexcontainer {
+  .flexcontainer1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@ redirect_from:
     gap: 10px; /* Adds space between text and image */
   }
   .bounce {
-    animation: bounce 2s infinite; /* Adjust '2s' to control speed */
+    animation: bounce 1s infinite; /* Adjust '2s' to control speed */
   }
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
