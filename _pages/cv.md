@@ -13,10 +13,36 @@ redirect_from:
 <div class="flexcontainer">
   <div>
     <span>Download my:</span> <a href="https://github.com/user-attachments/files/15945742/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
-      <img height="100px" src="/images/resum.jpg" width="150px">
+      <img class="bounce" height="100px" src="/images/resum.jpg" width="150px">
     </a>
   </div>
-</div>    
+</div>
+<style>
+  .flexcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    .download-container {
+    display: flex; /* Ensures content is in a row */
+    align-items: center; /* Aligns text and image vertically */
+    gap: 10px; /* Adds space between text and image */
+  }
+  .bounce {
+    animation: bounce 2s infinite; /* Adjust '2s' to control speed */
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+</style>
 
 Education
 ======
