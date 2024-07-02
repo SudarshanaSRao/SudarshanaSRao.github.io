@@ -8,6 +8,36 @@ redirect_from:
   - /about.html
 ---
 
+<div>
+    <span class="emoji">🔢</span>
+    <span class="emoji">👉</span>
+    <span class="emoji">💡</span>
+    <span class="emoji">📊</span>
+    <span class="emoji">📈</span>
+</div>
+<style>
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+.emoji {
+    display: inline-block;
+    animation: bounce 2s infinite;
+}
+.emoji:nth-child(1) { animation-delay: 0s; }
+.emoji:nth-child(2) { animation-delay: 0.2s; }
+.emoji:nth-child(3) { animation-delay: 0.4s; }
+.emoji:nth-child(4) { animation-delay: 0.6s; }
+.emoji:nth-child(5) { animation-delay: 0.8s; }
+</style>
+
 Welcome to my portfolio website's homepage 😄 I am Sudarshana, a recent MS graduate from the University of Southern California. I am passionate about Artificial Intelligence, Machine Learning, Data Science, and Deep Learning. 
 
 Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. I am eager to start my career and learn from experienced teams.
