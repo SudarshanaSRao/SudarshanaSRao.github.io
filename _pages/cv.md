@@ -82,7 +82,7 @@ Skills
 ======
 
 * Programming Languages
-  * Python  \|  SQL  \|  MySQL  \|  MongoDB Atlas  \|  C++  \|  C  \|  HTML  \|  R  \|  MATLAB  \| XML  \|  PostgreSQL  \|  ESRI ArcGIS  \|  BigQuery  \|  UiPath studio (Robotics Process Automation) 
+  * Python  \|  SQL  \|  MySQL  \|  MongoDB Atlas  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML  \|  PostgreSQL  \|  ESRI ArcGIS  \|  BigQuery  \|  UiPath studio (Robotics Process Automation) 
 
 * ML Frameworks & Libraries
   * Streamlit GUI  \|  Beautiful Soup  \|  PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Huggingface  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib.pyplot  \|  Seaborn  \|  Pandas  \|  HuggingFace
