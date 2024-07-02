@@ -78,16 +78,16 @@ Education
 
 Skills
 ======
-* Programming Languages
+* ### Programming Languages
   * Python  \|  SQL  \|  MySQL  \|  MongoDB Atlas  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML  \|  PostgreSQL  \|  ESRI ArcGIS  \|  BigQuery  \|  UiPath studio (Robotics Process Automation) 
 
-* ML Frameworks & Libraries
+* ### ML Frameworks & Libraries
   * Streamlit GUI  \|  Beautiful Soup  \|  PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Huggingface  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib.pyplot  \|  Seaborn  \|  Pandas  \|  HuggingFace
 
-* Computer Vision
+* ### Computer Vision
   * OpenCV
 
-* Tools
+* ### Tools
   * Git  \|  MS Azure  \|  MS Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  Tableau  \|  LATEX  \|  Data Structues and Algorithms  \|  ETL  \|  Power BI  
 
 Work experience
