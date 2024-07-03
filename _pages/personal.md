@@ -62,7 +62,7 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world: (Pss
   });
 </script>
 
-The secret behind my success. Forever grateful for my family 👨🏻‍👩🏻‍👧🏻‍👦🏻!!! 
+The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻‍👧🏻‍👦🏻!!! 
 
 <div class="container1">
   <img src="/images/femily.jpg" class="image1">
