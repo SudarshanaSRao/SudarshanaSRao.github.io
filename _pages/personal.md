@@ -82,14 +82,14 @@ The secret behind my success. Forever grateful for my family 👨🏻‍👩🏻
     transform: translateX(50px);
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   }
-  .image.show {
+  .image1.show {
     opacity: 1;
     transform: translateX(0);
   }
 </style>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    const images = document.querySelectorAll('.image');
+    const images = document.querySelectorAll('.image1');
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
