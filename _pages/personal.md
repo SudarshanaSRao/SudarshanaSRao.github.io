@@ -11,7 +11,9 @@ redirect_from:
 
 I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket, 🗞️ reading the news, and 🍿 watching movies & 📽️ TV shows in my free time. Hit me up if you want to 🎮 play video games <img src="https://cdn3.emoji.gg/emojis/3139_Xbox.png" width="15px" height="15px" alt="Xbox"> with me!  
 
-Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
+Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world: 
+
+(Psst... there's something special for those who scroll all the way to the end 😉)
 
 <div class="container">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.02_180d4cf9.jpg" class="image">
@@ -58,6 +60,49 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
     });
     images.forEach(image => {
       observer.observe(image);
+    });
+  });
+</script>
+
+The secret behind my success. Forever grateful for my family!!!! 
+
+<div class="container1">
+  <img src="/images/femily.jpg" class="image1">
+</div>
+<style>
+  .container1 {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  .image1 {
+    width: 100%;
+    height: 100%;
+    margin: 20px 0;
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  .image1.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll('.image1');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        } else {
+          entry.target.classList.remove('show');
+        }
+      });
+    });
+    images.forEach(image => {
+      observer.observe(image1);
     });
   });
 </script>
