@@ -41,7 +41,6 @@ redirect_from:
     }
   }
 </style>
-
 Education
 ------------------
 <div class="flexcontainer">
