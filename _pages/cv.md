@@ -90,7 +90,7 @@ Skills
 * ### Tools
   * Git  \|  MS Azure  \|  MS Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  Tableau  \|  LATEX  \|  Data Structues and Algorithms  \|  ETL  \|  Power BI  
 
-Work experience
+Work Experience
 ======
 ### Research Assistant (part-time) at The Walt Disney Company, Los Angeles [MAY 2023-Present]
   * Researched and analyzed human interaction with an AI (Nobu) to improve AI's Automatic Speech Recognition (ASR).
@@ -113,7 +113,7 @@ Work experience
   *  Implemented a bot to extract identified data from websites into M.S. Excel, saving 15% of the buyer's time.
   *  Coded a bot to automatically generate complaint tickets and assign tickets to responsible personnel, enhancing customer service.
 
-Research experience
+Research Experience
 ======
 <div class="flexcontainer">
   <div>
