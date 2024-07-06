@@ -43,7 +43,7 @@ redirect_from:
 </style>
 
 Education
-======
+==================
 <div class="flexcontainer">
   <div>
     <a href="https://usc.edu" onclick="trackOutboundLink(this);">
@@ -77,7 +77,7 @@ Education
 </div>
 
 Skills
-======
+==================
 * ### Programming Languages
   * Python  \|  SQL  \|  MySQL  \|  MongoDB Atlas  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML  \|  PostgreSQL  \|  ESRI ArcGIS  \|  BigQuery  \|  UiPath studio (Robotics Process Automation) 
 
@@ -91,7 +91,7 @@ Skills
   * Git  \|  MS Azure  \|  MS Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  Tableau  \|  LATEX  \|  Data Structues and Algorithms  \|  ETL  \|  Power BI  
 
 Work Experience
-======
+==================
 ### Research Assistant (part-time) at The Walt Disney Company, Los Angeles [MAY 2023-Present]
   * Researched and analyzed human interaction with an AI (Nobu) to improve AI's Automatic Speech Recognition (ASR).
   * Optimized the decision tree algorithm using **XGBoost** to augment AI's responses.
@@ -114,7 +114,7 @@ Work Experience
   *  Coded a bot to automatically generate complaint tickets and assign tickets to responsible personnel, enhancing customer service.
 
 Research Experience
-======
+==================
 <div class="flexcontainer">
   <div>
     <a href="https://sail.usc.edu/" onclick="trackOutboundLink(this);">
@@ -130,7 +130,7 @@ Research Experience
 * Appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
   
 Leadership & Involvement
-======
+==================
 * Course Producer for the Database Systems (CSCI-585) course under Prof. Saty's guidance. Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
 * Project Coordinator of The Department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium Phase Shift 2021, organized in B.M.S. College of Engineering (BMSCE).
 * Student Volunteer of Mitsubishi Electric Cup- National Level Competition for Factory Automation held at BMSCE.
