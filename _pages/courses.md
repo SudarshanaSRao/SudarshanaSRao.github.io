@@ -17,13 +17,13 @@ redirect_from:
 * EE 559   Machine Learning
 * EE 599   Robotic Mobility
 
-## Fundamentals
+## Fundamental Courses
 * EE 503  Probability for Electrical and Computer Engineers
 * EE 510  Linear Algebra for Engineering
 * 19EI5PE1PY Python Programming and Applications
 * 18CS2ESCCP C & C++ Programming
 
-## Online courses
+## Online Courses
 {% raw %}
 <style>
   @keyframes fadeIn {
