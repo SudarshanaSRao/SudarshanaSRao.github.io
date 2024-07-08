@@ -58,8 +58,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   <div>
     <span>✦ A short, simple, and interesting read on <strong>Generative Adversarial Networks</strong>:</span> 
     <a href="https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html" onclick="trackOutboundLink(this);">
-      <div class="overlay">Click me!</div>
-      <div class="curvy-arrow">↷</div>
+      <div class="overlay">Click me!<span class="curvy-arrow">↷</span></div>
       <img height="30px" src="/images/1200px-Blogger_icon_2017.svg.png" width="80px">
     </a>
   </div>
@@ -69,8 +68,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   <div>
     <span>✦ A descriptive post on my <strong>FAQ Generator</strong> project:</span> 
     <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
-      <div class="overlay">Click me!</div>
-      <div class="curvy-arrow">↷</div>
+      <div class="overlay">Click me!<span class="curvy-arrow">↷</span></div>
       <img height="30px" src="/images/image.jpeg" width="80px">
     </a>
   </div>
@@ -89,33 +87,35 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 80px;
-  height: 30px;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   align-items: center;
-  justify-content: center;
-  color: white;
+  color: black;
   font-size: 12px;
   font-weight: bold;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 5px;
   opacity: 1;
-  animation: fadeOut 2s forwards 3s;
+  animation: fadeOut 3s forwards 3s;
   pointer-events: none;
 }
 .curvy-arrow {
-  position: absolute;
-  top: -30px;
-  right: 0;
-  font-size: 20px;
-  color: red;
-  animation: fadeOut 2s forwards 3s;
+  margin-left: 5px;
+  font-size: 12px;
+  color: black;
+  animation: bounce 2s infinite;
 }
 @keyframes fadeOut {
   to {
     opacity: 0;
+  }
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
   }
 }
 </style>
