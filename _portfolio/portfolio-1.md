@@ -37,8 +37,10 @@ collection: portfolio
   }
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% { transform: rotate(0deg); }
-    40% { transform: rotate(-10deg); transform: rotate(10deg); }
-    60% { transform: rotate(-7deg); transform: rotate(7deg); }  
+    40% { transform: rotate(-10deg); }
+    40% { transform: rotate(10deg); }
+    60% { transform: rotate(-7deg); } 
+    60% { transform: rotate(7deg); }  
 /*     0%, 100% { transform: rotate(0deg); }
     25% { transform: rotate(-10deg); }
     65% { transform: rotate(10deg); }
