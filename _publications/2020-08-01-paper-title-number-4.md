@@ -9,7 +9,7 @@ paperurl: 'https://www.ijamtes.org/VOL-10-ISSUE-8-2020/'
 citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering, Bangalore, India. Page No : 72-75. DOI:16.10089.IJMTE.2020.V10I08.20.4307'
 ---
 
-<center><img class="bounce" src="/images/trash.jpg" height="50px" class="pulse"> &nbsp; <img class="bounce1" height="50px" src="/images/Down_ijmte.jpeg" width="100px" class="pulse"></center>
+<center><img class="bounce" src="/images/trash.jpg" height="50px"> &nbsp; <img class="bounce1" height="50px" src="/images/Down_ijmte.jpeg" width="100px"></center>
 <style>
       @keyframes bounce {
     0%, 20%, 50%, 80%, 100% { transform: rotate(0deg); }
