@@ -48,6 +48,7 @@ Education
   <div>
     <a href="https://usc.edu" onclick="trackOutboundLink(this);">
       <img height="150px" src="/images/usc_logo.png" width="250px">
+      <div class="overlay"><span class="curvy-arrow">↩️</span>Click on the logo for more information</div>
     </a>
   </div>
   <div>
@@ -59,6 +60,60 @@ Education
     </ul>
   </div>
 </div>
+<style>
+  .flexcontainer {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.flexcontainer a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit color from parent */
+  display: flex;
+  align-items: center;
+}
+.flexcontainer img {
+  transition: all 0.3s ease-in-out;
+}
+.overlay {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px; /* Space between image and text */
+  pointer-events: none;
+}
+.curvy-arrow {
+  margin-left: 5px;
+  font-size: 12px;
+  color: black;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+</style> 
+<!--<div class="flexcontainer">
+  <div>
+    <a href="https://usc.edu" onclick="trackOutboundLink(this);">
+      <img height="150px" src="/images/usc_logo.png" width="250px">
+    </a>
+  </div>
+  <div>
+    <ul>
+      <li style="display: flex; justify-content: space-between;">
+        <span>Master of Science (MS) in Electrical Engineering (Machine Learning & Data Science), University of Southern California</span>
+        <span>2024</span>
+      </li>
+    </ul>
+  </div>
+</div>-->
 
 <div class="flexcontainer">
   <div>
