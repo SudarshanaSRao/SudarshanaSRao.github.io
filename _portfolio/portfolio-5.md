@@ -16,7 +16,7 @@ collection: portfolio
 <div class="flexcontainer">
   <div>
         <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Human-detection" onclick="trackOutboundLink(this);">
-      <img height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
+      <img class="bounce" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
   </div>
 </div>
@@ -24,7 +24,7 @@ collection: portfolio
 <div class="flexcontainer">
   <div>
         <span>✦ <strong>Publication:</strong></span> <a href="https://www.ijamtes.org/VOL-11-ISSUE-7-2021/" onclick="trackOutboundLink(this);">
-      <img height="70px" src="/images/Down_ijmte.jpeg" width="150px">
+      <img class="bounce" height="70px" src="/images/Down_ijmte.jpeg" width="150px">
     </a>
   </div>
 </div>
@@ -33,6 +33,16 @@ collection: portfolio
     display: flex;
     align-items: center;
     margin-bottom: 20px; /* Adjust the value as needed */
+  }
+    @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: rotate(0deg); }
+    40% { transform: rotate(10deg); }
+    60% { transform: rotate(7deg); }  
+  }
+  .bounce {
+    display: inline-block;
+    animation: bounce 1.3s ease infinite;
+    transform-origin: center; /* Pivot around the top center */
   }
 </style>
 
