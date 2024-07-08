@@ -46,7 +46,7 @@ redirect_from:
 }
 </style>
 
-<span class="usc-text">Welcome to my portfolio website's homepage 😄 </span>
+<span class="usc-text">Welcome to my portfolio website's homepage 😄</span>
 <style>
 .usc-text {
   background: -webkit-linear-gradient(to right, #990000, #ffd000); /* Cardinal Gold */
