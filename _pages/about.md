@@ -57,7 +57,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 <div class="flexcontainer">
   <div>
     <span>✦ A short, simple, and interesting read on <strong>Generative Adversarial Networks</strong>:</span> <a href="https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html" onclick="trackOutboundLink(this);">
-      <img height="30px" src="/images/1200px-Blogger_icon_2017.svg.png" width="80px">
+      <img class="pulse" height="30px" src="/images/1200px-Blogger_icon_2017.svg.png" width="80px">
     </a>
   </div>
 </div>
@@ -65,7 +65,24 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 <div class="flexcontainer">
   <div>
     <span>✦ A descriptive post on my <strong>FAQ Generator</strong> project:</span> <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
-      <img height="30px" src="/images/image.jpeg" width="80px">
+      <img class="pulse" height="30px" src="/images/image.jpeg" width="80px">
     </a>
   </div>
 </div>
+<style>
+  @keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pulse {
+  animation: pulse 2s infinite;
+}
+</style>
+
