@@ -15,7 +15,7 @@ collection: portfolio
 <img src="/images/qllama3.png">
 
 <div class="flexcontainer">
-  <div>
+  <div class="shake">
         <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/CSCI-499_final_project" onclick="trackOutboundLink(this);">
       <img height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
@@ -23,7 +23,7 @@ collection: portfolio
 </div>
 
 <div class="flexcontainer">
-  <div>
+  <div class="shake">
         <span>✦ <strong>Medium blog:</strong></span> <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
       <img height="200px" src="/images/unmanned.png" width="200px">
     </a>
@@ -35,6 +35,16 @@ collection: portfolio
     align-items: center;
     margin-bottom: 20px; /* Adjust the value as needed */
   }
+  @keyframes shake {
+  0% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
+  20%, 40%, 60%, 80% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}
+.shake {
+  display: inline-block;
+  animation: shake 0.5s ease-in-out infinite; /* Adjust duration and timing as needed */
+}
 </style>
 
 <!-- This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML.  -->
