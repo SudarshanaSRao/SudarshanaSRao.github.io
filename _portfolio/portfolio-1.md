@@ -37,11 +37,12 @@ collection: portfolio
   }
   @keyframes bounce {
     0%, 100% { transform: rotate(0deg); }
-    50% { transform: rotate(-5deg); } /* Adjust the angle for a more subtle or pronounced effect */
+    25% { transform: rotate(-5deg); }
+    75% { transform: rotate(5deg); }
   }
   .bounce {
     display: inline-block;
-    animation: bounce 0.5s ease infinite;
+    animation: bounce 1s ease infinite;
     transform-origin: top center; /* Pivot around the top center */
   }
 </style>
