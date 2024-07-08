@@ -48,13 +48,6 @@ redirect_from:
 
 <span class="usc">Welcome to my portfolio website's homepage 😄</span>
 <style>
-.usc {
-  background: -webkit-linear-gradient(to right, #990000, #ffd000); /* Cardinal Gold */
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: usc-colors 5s infinite linear; /* Set animation properties */
-  display: inline-block;  /* Optional: Set display for inline formatting */
-}
 @keyframes usc-colors {
   0% {
     background-position: 0% 0%; /* Start gradient at the beginning */
@@ -62,6 +55,13 @@ redirect_from:
   100% {
     background-position: 150% 0%; /* Move gradient to the right (over the text) */
   }
+}
+  .usc {
+  background: -webkit-linear-gradient(to right, #990000, #ffd000); /* Cardinal Gold */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: usc-colors 5s infinite linear; /* Set animation properties */
+  display: inline-block;  /* Optional: Set display for inline formatting */
 }
 </style>
 I am Sudarshana, a recent MS graduate from the University of Southern California. I am passionate about Artificial Intelligence, Machine Learning, Data Science, and Deep Learning. 
