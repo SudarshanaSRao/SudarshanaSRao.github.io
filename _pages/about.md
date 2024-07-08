@@ -50,23 +50,23 @@ redirect_from:
   <style>
     @keyframes usc-colors {
       0% {
-        background-position: 0% 0%; /* Start gradient at the beginning */
+        background-position: 0% 50%; /* Start gradient at the beginning */
       }
       50% {
-        background-position: 150% 0%; /* Move gradient to the right */
+        background-position: 100% 50%; /* Move gradient to the right */
       }
       100% {
-        background-position: 0% 0%; /* Move gradient back to the start */
+        background-position: 0% 50%; /* Move gradient back to the start */
       }
     }
     .usc {
       background: linear-gradient(to right, #990000, #ffd000); /* Cardinal Gold */
-      background-size: 150%; /* Ensure the background is large enough to animate */
+      background-size: 200% 200%; /* Ensure the background is large enough to animate */
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      animation: usc-colors 5s infinite linear; /* Set animation properties */
-      display: inline;  /* Ensure inline display to avoid unwanted space */
+      animation: usc-colors 5s infinite ease-in-out; /* Set animation properties */
+      display: inline; /* Ensure inline display to avoid unwanted space */
     }
   </style>
 
