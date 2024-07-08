@@ -38,11 +38,11 @@ redirect_from:
     animation: bounce-move 4s infinite ease-in-out; 
     font-size: 48px;  /* Adjust the size as needed */
 }
-.emoji:nth-child(1) { animation-delay: 1.0s; }
-.emoji:nth-child(2) { animation-delay: 0.8s; }
-.emoji:nth-child(3) { animation-delay: 0.6s; }
-.emoji:nth-child(4) { animation-delay: 0.4s; }
-.emoji:nth-child(5) { animation-delay: 0.2s; } 
+.emoji:nth-child(1) { animation-delay: 0.5s; }
+.emoji:nth-child(2) { animation-delay: 0.4s; }
+.emoji:nth-child(3) { animation-delay: 0.3s; }
+.emoji:nth-child(4) { animation-delay: 0.2s; }
+.emoji:nth-child(5) { animation-delay: 0.1s; } 
 }
 </style>
 
@@ -56,71 +56,6 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 # Blogs📝   
 <div class="flexcontainer">
   <div>
-    <span>✦ A short, simple, and interesting read on <strong>Generative Adversarial Networks</strong>:</span> 
-    <a href="https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html" onclick="trackOutboundLink(this);">
-      <div class="overlay">Click me!<span class="curvy-arrow">↷</span></div>
-      <img height="30px" src="/images/1200px-Blogger_icon_2017.svg.png" width="80px">
-    </a>
-  </div>
-</div>
-
-<div class="flexcontainer">
-  <div>
-    <span>✦ A descriptive post on my <strong>FAQ Generator</strong> project:</span> 
-    <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
-      <div class="overlay">Click me!<span class="curvy-arrow">↷</span></div>
-      <img height="30px" src="/images/image.jpeg" width="80px">
-    </a>
-  </div>
-</div>
-<style>
-.flexcontainer {
-  display: flex;
-  align-items: center;
-  margin: 20px 0;
-}
-.flexcontainer div {
-  position: relative;
-}
-.flexcontainer img {
-  transition: all 0.3s ease-in-out;
-}
-.overlay {
-  position: absolute;
-  top: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  color: black;
-  font-size: 12px;
-  font-weight: bold;
-  opacity: 1;
-  animation: fadeOut 3s forwards 3s;
-  pointer-events: none;
-}
-.curvy-arrow {
-  margin-left: 5px;
-  font-size: 12px;
-  color: black;
-  animation: bounce 2s infinite;
-}
-@keyframes fadeOut {
-  to {
-    opacity: 0;
-  }
-}
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-2px);
-  }
-}
-</style>
-<!--<div class="flexcontainer">
-  <div>
     <span>✦ A short, simple, and interesting read on <strong>Generative Adversarial Networks</strong>:</span> <a href="https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html" onclick="trackOutboundLink(this);">
       <img height="30px" src="/images/1200px-Blogger_icon_2017.svg.png" width="80px">
     </a>
@@ -133,4 +68,4 @@ I am seeking full-time roles and craving challenging opportunities to contribute
       <img height="30px" src="/images/image.jpeg" width="80px">
     </a>
   </div>
-</div>-->
+</div>
