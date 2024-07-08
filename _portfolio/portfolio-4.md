@@ -14,7 +14,7 @@ collection: portfolio
 <div class="flexcontainer">
   <div>
         <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition" onclick="trackOutboundLink(this);">
-      <img class="bounce" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
+      <img class="pulse" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
   </div>
 </div>
@@ -22,7 +22,7 @@ collection: portfolio
 <div class="flexcontainer">
   <div>
         <span>✦ <strong>Publication:</strong></span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3883931" onclick="trackOutboundLink(this);">
-      <img class="bounce1" height="70px" src="/images/download_SSRN.jpg" width="150px">
+      <img class="pulse" height="70px" src="/images/download_SSRN.jpg" width="150px">
     </a>
   </div>
 </div>
@@ -32,26 +32,20 @@ collection: portfolio
     align-items: center;
     margin-bottom: 20px; /* Adjust the value as needed */
     }
-      @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% { transform: rotate(0deg); }
-    40% { transform: rotate(10deg); }
-    60% { transform: rotate(7deg); }  
+@keyframes pulse {
+  0% {
+    transform: scale(1);
   }
-  .bounce {
-    display: inline-block;
-    animation: bounce 1.3s ease infinite;
-    transform-origin: center; /* Pivot around the top center */
+  50% {
+    transform: scale(1.1);
   }
-        @keyframes bounce1 {
-    0%, 20%, 50%, 80%, 100% { transform: rotate(0deg); }
-    40% { transform: rotate(-10deg); }
-    60% { transform: rotate(-7deg); }  
+  100% {
+    transform: scale(1);
   }
-  .bounce1 {
-    display: inline-block;
-    animation: bounce1 1.3s ease infinite;
-    transform-origin: center; /* Pivot around the top center */
-  }
+}
+.pulse {
+  animation: pulse 2s infinite;
+}
 </style>
 
 <!-- This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML.  -->
