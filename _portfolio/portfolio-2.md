@@ -10,7 +10,7 @@ collection: portfolio
 <img height="500" width="500" src="/images/pdf_input.png">
   
 * Integrated Google Service Account for secure authentication, ensuring safe user access and data protection.
-* Improved question generation quality by applying prompt engineering techniques, increasing the success rate to approximately 80%.
+* Improved question generation quality by applying prompt engineering techniques, increasing the success rate to approximately **80%**.
 * Utilized **Chromadb** for efficient database management, ensuring rapid storage and retrieval of user data and quiz content.
 
 <img height="450" width="450" src="/images/generated_question.png">
