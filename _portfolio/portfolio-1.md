@@ -25,7 +25,7 @@ collection: portfolio
 <div class="flexcontainer">
   <div>
         <span>✦ <strong>Medium blog:</strong></span> <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
-      <img class="bounce" height="200px" src="/images/unmanned.png" width="200px">
+      <img class="bounce1" height="200px" src="/images/unmanned.png" width="200px">
     </a>
   </div>
 </div>
@@ -41,6 +41,16 @@ collection: portfolio
     60% { transform: rotate(7deg); }  
   }
   .bounce {
+    display: inline-block;
+    animation: bounce 1.3s ease infinite;
+    transform-origin: center; /* Pivot around the top center */
+  }
+    @keyframes bounce1 {
+    0%, 20%, 50%, 80%, 100% { transform: rotate(0deg); }
+    40% { transform: rotate(-10deg); }
+    60% { transform: rotate(-7deg); }  
+  }
+  .bounce1 {
     display: inline-block;
     animation: bounce 1.3s ease infinite;
     transform-origin: center; /* Pivot around the top center */
