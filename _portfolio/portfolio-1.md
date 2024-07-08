@@ -36,7 +36,7 @@ collection: portfolio
     margin-bottom: 20px; /* Adjust the value as needed */
   }
   @keyframes bounce {
-    0%, 100% { transform: rotate(0deg); }
+    0%, 50%, 100% { transform: rotate(0deg); }
     25% { transform: rotate(-5deg); }
     75% { transform: rotate(5deg); }
   }
