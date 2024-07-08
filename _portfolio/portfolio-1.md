@@ -38,17 +38,11 @@ collection: portfolio
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% { transform: rotate(0deg); }
     40% { transform: rotate(-10deg); }
-    40% { transform: rotate(10deg); }
-    60% { transform: rotate(-7deg); } 
     60% { transform: rotate(7deg); }  
-/*     0%, 100% { transform: rotate(0deg); }
-    25% { transform: rotate(-10deg); }
-    65% { transform: rotate(10deg); }
-    75%, 100% { transform: rotate(0deg); } */
   }
   .bounce {
     display: inline-block;
-    animation: bounce 1.5s ease infinite;
+    animation: bounce 1s ease infinite;
     transform-origin: center; /* Pivot around the top center */
   }
 </style>
