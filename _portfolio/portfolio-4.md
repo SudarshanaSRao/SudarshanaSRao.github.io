@@ -44,7 +44,7 @@ collection: portfolio
   }
 }
 .pulse {
-  animation: pulse 2s infinite;
+  animation: pulse 2s infinite ease-out;
 }
 </style>
 
