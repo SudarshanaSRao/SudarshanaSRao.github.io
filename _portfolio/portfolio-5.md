@@ -24,7 +24,7 @@ collection: portfolio
 <div class="flexcontainer">
   <div>
         <span>✦ <strong>Publication:</strong></span> <a href="https://www.ijamtes.org/VOL-11-ISSUE-7-2021/" onclick="trackOutboundLink(this);">
-      <img class="bounce" height="70px" src="/images/Down_ijmte.jpeg" width="150px">
+      <img class="bounce1" height="70px" src="/images/Down_ijmte.jpeg" width="150px">
     </a>
   </div>
 </div>
@@ -42,6 +42,16 @@ collection: portfolio
   .bounce {
     display: inline-block;
     animation: bounce 1.3s ease infinite;
+    transform-origin: center; /* Pivot around the top center */
+  }
+      @keyframes bounce1 {
+    0%, 20%, 50%, 80%, 100% { transform: rotate(0deg); }
+    40% { transform: rotate(-10deg); }
+    60% { transform: rotate(-7deg); }  
+  }
+  .bounce {
+    display: inline-block;
+    animation: bounce1 1.3s ease infinite;
     transform-origin: center; /* Pivot around the top center */
   }
 </style>
