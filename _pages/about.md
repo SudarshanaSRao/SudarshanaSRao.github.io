@@ -46,7 +46,7 @@ redirect_from:
 }
 </style>
 
-<span class="usc">Welcome to my portfolio website's homepage</span> 😄 I am Sudarshana, a recent MS graduate from the University of Southern California. I am passionate about Artificial Intelligence, Machine Learning, Data Science, and Deep Learning. 
+<span class="USC"><strong>Welcome to my portfolio website's homepage</strong></span> 😄 I am Sudarshana, a recent MS graduate from the University of Southern California. I am passionate about Artificial Intelligence, Machine Learning, Data Science, and Deep Learning. 
   <style>
     @keyframes usc-colors {
       0% {
@@ -65,7 +65,7 @@ redirect_from:
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      animation: usc-colors 3s infinite ease-in-out; /* Set animation properties */
+      animation: usc-colors 4s infinite ease-in-out; /* Set animation properties */
       display: inline; /* Ensure inline display to avoid unwanted space */
     }
   </style>
