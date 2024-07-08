@@ -38,8 +38,8 @@ collection: portfolio
   @keyframes bounce {
     0%, 100% { transform: rotate(0deg); }
     25% { transform: rotate(-5deg); }
-    75% { transform: rotate(5deg); }
-    90%, 100% { transform: rotate(0deg); }
+    65% { transform: rotate(5deg); }
+    75%, 100% { transform: rotate(0deg); }
   }
   .bounce {
     display: inline-block;
