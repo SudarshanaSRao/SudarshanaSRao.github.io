@@ -49,7 +49,7 @@ collection: portfolio
     40% { transform: rotate(-10deg); }
     60% { transform: rotate(-7deg); }  
   }
-  .bounce {
+  .bounce1 {
     display: inline-block;
     animation: bounce1 1.3s ease infinite;
     transform-origin: center; /* Pivot around the top center */
