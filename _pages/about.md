@@ -65,7 +65,7 @@ redirect_from:
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      animation: usc-colors 4s infinite ease-in-out; /* Set animation properties */
+      animation: usc-colors 5s infinite ease-in-out; /* Set animation properties */
       display: inline; /* Ensure inline display to avoid unwanted space */
     }
   </style>
