@@ -33,13 +33,16 @@ collection: portfolio
   .flexcontainer {
     display: flex;
     align-items: center;
-    margin-bottom: 20px; /* Adjust the value as needed */
+    margin-bottom: 20px; /* Adjust the value as needed */  
   }
   @keyframes bounce {
-    0%, 100% { transform: rotate(0deg); }
+    0%, 20%, 50%, 80%, 100% { transform: rotate(0deg); }
+    40% { transform: rotate(-5deg); }
+    60% { transform: rotate(5deg); }  
+/*     0%, 100% { transform: rotate(0deg); }
     25% { transform: rotate(-10deg); }
     65% { transform: rotate(10deg); }
-    75%, 100% { transform: rotate(0deg); }
+    75%, 100% { transform: rotate(0deg); } */
   }
   .bounce {
     display: inline-block;
