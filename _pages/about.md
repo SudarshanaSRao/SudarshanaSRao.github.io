@@ -60,12 +60,12 @@ redirect_from:
       }
     }
     .usc {
-      background: linear-gradient(to right, #ff3300, #ffff00, #ff3300); /* Cardinal Gold */
+      background: linear-gradient(to right, #990000, #ffd000); /* Cardinal Gold */
       background-size: 200% 200%; /* Ensure the background is large enough to animate */
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      animation: usc-colors 5s infinite ease-in-out; /* Set animation properties */
+      animation: usc-colors 3s infinite ease-in-out; /* Set animation properties */
       display: inline; /* Ensure inline display to avoid unwanted space */
     }
   </style>
