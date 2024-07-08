@@ -92,7 +92,7 @@ Skills
 
 Work Experience
 ==================
-### Research Assistant (part-time) at The Walt Disney Company, Los Angeles [MAY 2023-Present]
+### Senior Research Assistant at The Walt Disney Company, Los Angeles [MAY 2023-Present]
   * Researched and analyzed human interaction with an AI (Nobu) to improve AI's Automatic Speech Recognition (ASR).
   * Optimized the decision tree algorithm using **XGBoost** to augment AI's responses.
   * Managed the interaction sessions (data collection) by assigning participants to the respective time slots.
@@ -123,7 +123,7 @@ Research Experience
   </div>
  </div>
  
-### Graduate Research Assistant at University of Southern California, Los Angeles [October 2022-Present]
+### Senior Graduate Research Assistant at University of Southern California, Los Angeles [October 2022-Present]
 * Worked at the Signal Analysis and Interpretation Laboratory (SAIL under the SIPI- Signal and Image Processing Institute) to annotate audio files. 
 * These annotations will be used to train a Machine Learning model to identify, classify, and filter out the noise in recorded conversations.
 * This project was funded by **Apple**.
