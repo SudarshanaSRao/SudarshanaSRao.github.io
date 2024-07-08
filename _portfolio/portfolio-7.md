@@ -24,8 +24,8 @@ collection: portfolio
 <style>
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% { transform: rotate(0deg); }
-    40% { transform: rotate(10deg); }
-    60% { transform: rotate(7deg); }  
+    40% { transform: rotate(-10deg); }
+    60% { transform: rotate(-7deg); }  
   }
   .bounce {
     display: inline-block;
