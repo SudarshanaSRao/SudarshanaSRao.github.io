@@ -52,7 +52,7 @@ collection: portfolio
   }
   .bounce1 {
     display: inline-block;
-    animation: bounce 1.3s ease infinite;
+    animation: bounce1 1.3s ease infinite;
     transform-origin: center; /* Pivot around the top center */
   }
 </style>
