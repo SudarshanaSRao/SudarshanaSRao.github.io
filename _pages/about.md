@@ -82,7 +82,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   }
 }
 .pulse {
-  animation: pulse 2s infinite;
+  animation: pulse 2s infinite ease-out;
 }
 </style>
 
