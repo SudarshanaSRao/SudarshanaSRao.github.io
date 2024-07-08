@@ -47,7 +47,7 @@ Education
 <div class="flexcontainer">
   <div>
     <a href="https://usc.edu" onclick="trackOutboundLink(this);">
-      <img height="150px" src="/images/usc_logo.png" width="250px">
+      <img class="pulse" height="150px" src="/images/usc_logo.png" width="250px">
     </a>
   </div>
   <div>
@@ -63,7 +63,7 @@ Education
 <div class="flexcontainer">
   <div>
     <a href="https://www.bmsce.ac.in/" onclick="trackOutboundLink(this);">
-      <img height="140px" src="/images/bmsce_logo.jpg" width="70px">
+      <img class="pulse" height="140px" src="/images/bmsce_logo.jpg" width="70px">
     </a>
   </div>
   <div>
@@ -75,6 +75,22 @@ Education
     </ul>
   </div>
 </div>
+<style>
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pulse {
+  animation: pulse 2s infinite;
+}
+</style>
 
 Skills
 ==================
@@ -101,7 +117,7 @@ Work Experience
  <div class="flexcontainer">
   <div>
     <a href="https://ennvee.com/" onclick="trackOutboundLink(this);">
-      <img height="100px" src="/images/ennlogog.jpeg" width="70px">
+      <img class="pulse" height="100px" src="/images/ennlogog.jpeg" width="70px">
     </a>
   </div>
 </div>
@@ -118,7 +134,7 @@ Research Experience
 <div class="flexcontainer">
   <div>
     <a href="https://sail.usc.edu/" onclick="trackOutboundLink(this);">
-      <img height="150px" src="/images/usc_logo.png" width="250px">
+      <img class="pulse" height="150px" src="/images/usc_logo.png" width="250px">
     </a>
   </div>
  </div>
