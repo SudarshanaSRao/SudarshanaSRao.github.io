@@ -9,20 +9,26 @@ paperurl: 'https://www.ijamtes.org/VOL-10-ISSUE-8-2020/'
 citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering, Bangalore, India. Page No : 72-75. DOI:16.10089.IJMTE.2020.V10I08.20.4307'
 ---
 
-<center><img src="/images/trash.jpg" height="50px" class="pulse"> &nbsp; <img height="50px" src="/images/Down_ijmte.jpeg" width="100px" class="pulse"></center>
+<center><img class="bounce" src="/images/trash.jpg" height="50px" class="pulse"> &nbsp; <img class="bounce1" height="50px" src="/images/Down_ijmte.jpeg" width="100px" class="pulse"></center>
 <style>
-@keyframes pulse {
-  0% {
-    transform: scale(1);
+      @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: rotate(0deg); }
+    40% { transform: rotate(10deg); }
+    60% { transform: rotate(7deg); }  
   }
-  50% {
-    transform: scale(1.1);
+  .bounce {
+    display: inline-block;
+    animation: bounce 1.3s ease infinite;
+    transform-origin: center; /* Pivot around the top center */
   }
-  100% {
-    transform: scale(1);
+        @keyframes bounce1 {
+    0%, 20%, 50%, 80%, 100% { transform: rotate(0deg); }
+    40% { transform: rotate(-10deg); }
+    60% { transform: rotate(-7deg); }  
   }
-}
-.pulse {
-  animation: pulse 2s infinite;
-}
+  .bounce1 {
+    display: inline-block;
+    animation: bounce1 1.3s ease infinite;
+    transform-origin: center; /* Pivot around the top center */
+  }
 </style>
