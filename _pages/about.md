@@ -56,6 +56,71 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 # Blogs📝   
 <div class="flexcontainer">
   <div>
+    <span>✦ A short, simple, and interesting read on <strong>Generative Adversarial Networks</strong>:</span> 
+    <a href="https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html" onclick="trackOutboundLink(this);">
+      <div class="overlay">Click me!</div>
+      <div class="curvy-arrow">↷</div>
+      <img height="30px" src="/images/1200px-Blogger_icon_2017.svg.png" width="80px">
+    </a>
+  </div>
+</div>
+
+<div class="flexcontainer">
+  <div>
+    <span>✦ A descriptive post on my <strong>FAQ Generator</strong> project:</span> 
+    <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
+      <div class="overlay">Click me!</div>
+      <div class="curvy-arrow">↷</div>
+      <img height="30px" src="/images/image.jpeg" width="80px">
+    </a>
+  </div>
+</div>
+<style>
+.flexcontainer {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.flexcontainer div {
+  position: relative;
+}
+.flexcontainer img {
+  transition: all 0.3s ease-in-out;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  opacity: 1;
+  animation: fadeOut 2s forwards 3s;
+  pointer-events: none;
+}
+.curvy-arrow {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  font-size: 20px;
+  color: red;
+  animation: fadeOut 2s forwards 3s;
+}
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+</style>
+<!--<div class="flexcontainer">
+  <div>
     <span>✦ A short, simple, and interesting read on <strong>Generative Adversarial Networks</strong>:</span> <a href="https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html" onclick="trackOutboundLink(this);">
       <img height="30px" src="/images/1200px-Blogger_icon_2017.svg.png" width="80px">
     </a>
@@ -68,4 +133,4 @@ I am seeking full-time roles and craving challenging opportunities to contribute
       <img height="30px" src="/images/image.jpeg" width="80px">
     </a>
   </div>
-</div>
+</div>-->
