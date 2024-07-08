@@ -43,7 +43,7 @@ collection: portfolio
   }
   .bounce {
     display: inline-block;
-    animation: bounce 0.6s ease infinite;
+    animation: bounce 2s ease infinite;
     transform-origin: center; /* Pivot around the top center */
   }
 </style>
