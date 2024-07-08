@@ -88,7 +88,7 @@ Education
   }
 }
 .pulse {
-  animation: pulse 3.5s infinite;
+  animation: pulse 3.5s infinite ease-out;
 }
 </style>
 
