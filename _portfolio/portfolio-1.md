@@ -35,15 +35,15 @@ collection: portfolio
     align-items: center;
     margin-bottom: 20px; /* Adjust the value as needed */
   }
-@keyframes bounce {
-  0%, 100% { transform: translateX(0); }
-  20%, 60% { transform: translateX(-10px); }
-  40%, 80% { transform: translateX(10px); }
-}
-.bounce {
-  display: inline-block;
-  animation: bounce 0.5s ease infinite; /* Adjust duration and timing as needed */
-}
+  @keyframes bounce {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(-5deg); } /* Adjust the angle for a more subtle or pronounced effect */
+  }
+  .bounce {
+    display: inline-block;
+    animation: bounce 0.5s ease infinite;
+    transform-origin: top center; /* Pivot around the top center */
+  }
 </style>
 
 <!-- This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML.  -->
