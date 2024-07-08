@@ -36,10 +36,11 @@ collection: portfolio
     margin-bottom: 20px; /* Adjust the value as needed */
   }
   @keyframes bounce {
-    0%, 100% { transform: rotate(0deg); }
-    25% { transform: rotate(-5deg); }
-    75% { transform: rotate(5deg); }
-  }
+    0%, 10%, 100% { transform: rotate(0deg); }
+    5% { transform: rotate(-5deg); }
+    15% { transform: rotate(5deg); }
+    20%, 100% { transform: rotate(0deg); }
+    }
   .bounce {
     display: inline-block;
     animation: bounce 0.5s ease infinite;
