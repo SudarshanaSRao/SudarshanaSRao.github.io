@@ -47,29 +47,29 @@ redirect_from:
 </style>
 
 <span class="usc">Welcome to my portfolio website's homepage</span> 😄 I am Sudarshana, a recent MS graduate from the University of Southern California. I am passionate about Artificial Intelligence, Machine Learning, Data Science, and Deep Learning. 
-  <style>
-    @keyframes usc-colors {
-      0% {
-        background-position: 0% 50%; /* Start gradient at the beginning */
-      }
-      50% {
-        background-position: 100% 50%; /* Move gradient to the right */
-      }
-      100% {
-        background-position: 0% 50%; /* Move gradient back to the start */
-      }
+<style>
+  @keyframes usc-colors {
+    0% {
+      background-position: 0% 50%; /* Start gradient at the beginning */
     }
-    .usc {
-      font-size: 24px;
-      background: linear-gradient(to right, #ff3333, #ffee33); /* Cardinal Gold */
-      background-size: 200% 200%; /* Ensure the background is large enough to animate */
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: usc-colors 3.5s infinite ease-in-out; /* Set animation properties */
-      display: inline; /* Ensure inline display to avoid unwanted space */
+    50% {
+      background-position: 100% 50%; /* Move gradient to the right */
     }
-  </style>
+    100% {
+      background-position: 0% 50%; /* Move gradient back to the start */
+    }
+  }
+  .usc {
+    font-size: 24px;
+    background: linear-gradient(to right, #ff3333 25%, #ffee33 50%, #ff3333 75%); /* Cardinal Gold */
+    background-size: 200% 200%; /* Ensure the background is large enough to animate */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: usc-colors 3.5s infinite ease-in-out; /* Set animation properties */
+    display: inline; /* Ensure inline display to avoid unwanted space */
+  }
+</style>
 
 Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. I am eager to start my career and learn from experienced teams.
 
