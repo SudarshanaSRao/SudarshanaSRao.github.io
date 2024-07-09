@@ -61,7 +61,7 @@ redirect_from:
   }
   .usc {
     font-size: 24px;
-    background: linear-gradient(to right, #C41E3A, #ffd700); /* Cardinal Gold */
+    background: linear-gradient(to right, #ffd700, #C41E3A); /* Cardinal Gold */
     background-size: 200% 200%; /* Ensure the background is large enough to animate */
     background-clip: text;
     -webkit-background-clip: text;
