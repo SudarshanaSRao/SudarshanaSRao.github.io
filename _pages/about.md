@@ -73,6 +73,8 @@ redirect_from:
 
 Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. I am eager to start my career and learn from experienced teams.
 
+I am fascinated by the ability of machines to learn from data and uncover patterns that assist us in making data-driven decisions. My ideal role involves applying math to develop models/algorithms, analyze data patterns, understand model interpretability, build LLMs, and code data pipelines.   
+
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
 &nbsp;
