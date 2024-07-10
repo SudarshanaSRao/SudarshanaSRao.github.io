@@ -70,6 +70,19 @@ redirect_from:
     display: inline; /* Ensure inline display to avoid unwanted space */
   }
 </style>
+<script>
+  const text = "Welcome to my portfolio website's homepage";
+  const span = document.getElementById("usc-text");
+  let index = 0;
+  function typeEffect() {
+    if (index < text.length) {
+      span.innerHTML += text.charAt(index);
+      index++;
+      setTimeout(typeEffect, 100); // Adjust the typing speed here
+    }
+  }
+  typeEffect();
+</script>
 
 Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. I am eager to start my career and learn from experienced teams.
 
