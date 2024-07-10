@@ -14,51 +14,33 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket, 🗞️ reading the
 Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world: 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <style>
-  .cursor {
-    display: inline-block;
-    position: relative;
-    animation: flip 0.5s forwards; /* Adjust duration and timing as needed */
+.cursor {
+  display: inline-block;
+  animation: blink 0.7s infinite;
+  position: relative;
+}
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
   }
-  @keyframes flip {
-    0% {
-      transform: perspective(400px) rotateY(0deg);
-    }
-    100% {
-      transform: perspective(400px) rotateY(180deg);
-    }
+  50% {
+    opacity: 0;
   }
-  .blink {
-    animation: blink 0.7s infinite;
-  }
-  @keyframes blink {
-    0%, 100% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-  }
+}
 </style>
-<span id="typed-text"></span><span id="cursor" class="cursor blink">|</span>
+<span id="typed-text"></span><span class="cursor">_</span>
 <div class="social-links mt-3 text-center" style="font-size: xx-large"></div>
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var typed = new Typed('#typed-text', {
-      strings: ["(Psst... there's something special for those who scroll all the way to the end 😉)"],
-      typeSpeed: 70,
-      backSpeed: 70,
-      backDelay: 1000,
-      startDelay: 400,
-      loop: true,
-      onComplete: function(self) {
-        var cursor = document.getElementById('cursor');
-        cursor.classList.add('flip'); // Add flip class after typing completes
-        setTimeout(function() {
-          cursor.classList.remove('flip'); // Remove flip class after flip animation completes
-        }, 500); // Adjust timing as needed based on flip animation duration
-      }
-    });
+document.addEventListener("DOMContentLoaded", function() {
+  var typed = new Typed('#typed-text', {
+    strings: ["(Psst... there's something special for those who scroll all the way to the end 😉)"],
+    typeSpeed: 70,
+    backSpeed: 70,
+    backDelay: 1000,
+    startDelay: 400,
+    loop: true
   });
+});
 </script>
 
 <div class="container">
