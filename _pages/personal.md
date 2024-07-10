@@ -34,8 +34,8 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
 document.addEventListener("DOMContentLoaded", function() {
   var typed = new Typed('#typed-text', {
     strings: ["(Psst... there's something special for those who scroll all the way to the end 😉)"],
-    typeSpeed: 20,
-    backSpeed: 20,
+    typeSpeed: 40,
+    backSpeed: 40,
     backDelay: 1000,
     startDelay: 400,
     loop: true
