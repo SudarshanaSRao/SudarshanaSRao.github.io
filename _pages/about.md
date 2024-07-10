@@ -46,7 +46,7 @@ redirect_from:
 }
 </style>
 
-<span id="usc-text" class="usc"></span><span id="cursor" class="cursor">_/</span> 😄 I am Sudarshana, a recent MS graduate from the University of Southern California. I am passionate about Artificial Intelligence, Machine Learning, Data Science, Natural Language Processing, and Deep Learning. 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <style>
   @keyframes usc-colors {
     0% {
@@ -69,7 +69,9 @@ redirect_from:
     animation: usc-colors 4s infinite ease-in-out; /* Set animation properties */
     display: inline; /* Ensure inline display to avoid unwanted space */
   }
-    .cursor {
+  .cursor {
+    font-size: 24px;
+    font-weight: bold;
     display: inline-block;
     animation: blink 1s step-end infinite;
   }
@@ -78,29 +80,23 @@ redirect_from:
     50% { opacity: 0; }
   }
 </style>
+<span id="usc-text" class="usc"></span><span id="cursor" class="cursor">_ /</span> 😄 I am Sudarshana, a recent MS graduate from the University of Southern California. I am passionate about Artificial Intelligence, Machine Learning, Data Science, Natural Language Processing, and Deep Learning.
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
-  const text = "Welcome to my portfolio website's homepage";
-  const textElement = document.getElementById("usc-text");
-  const cursorElement = document.getElementById("cursor");
-  let index = 0;
-  function typeEffect() {
-    if (index < text.length) {
-      textElement.innerHTML += text.charAt(index);
-      index++;
-      setTimeout(typeEffect, 100); // Adjust the typing speed here
-    } else {
-      cursorElement.style.display = 'none'; // Hide cursor when done typing
-      setTimeout(resetEffect, 2000); // Wait before restarting the animation
-    }
-  }
-  function resetEffect() {
-    textElement.innerHTML = '';
-    cursorElement.style.display = 'inline-block';
-    index = 0;
-    typeEffect();
-  }
   document.addEventListener('DOMContentLoaded', (event) => {
-    typeEffect();
+    const options = {
+      strings: ["Welcome to my portfolio website's homepage"],
+      typeSpeed: 100, // Adjust typing speed
+      backSpeed: 50, // Adjust backspacing speed
+      loop: true, // Make the animation infinite
+      onStringTyped: (arrayPos, self) => {
+        document.getElementById('cursor').style.display = 'none';
+      },
+      preStringTyped: (arrayPos, self) => {
+        document.getElementById('cursor').style.display = 'inline-block';
+      }
+    };
+    const typed = new Typed("#usc-text", options);
   });
 </script>
 
