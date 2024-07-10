@@ -99,7 +99,9 @@ redirect_from:
     index = 0;
     typeEffect();
   }
-  typeEffect();
+  document.addEventListener('DOMContentLoaded', (event) => {
+    typeEffect();
+  });
 </script>
 
 Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. I am eager to start my career and learn from experienced teams.
