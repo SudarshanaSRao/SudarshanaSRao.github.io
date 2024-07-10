@@ -16,7 +16,7 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
 <style>
 #cursor {
   display: inline-block;
-  animation: blink 0.7s infinite, move 0.7s steps(30) infinite;
+  animation: blink 0.7s infinite;
   position: relative;
 }
 @keyframes blink {
@@ -27,16 +27,8 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
     opacity: 0;
   }
 }
-@keyframes move {
-  from {
-    left: 0;
-  }
-  to {
-    left: 1ch; /* Adjust this value based on your font size to match the width of one character */
-  }
-}
 </style>
-<span id="typed-text"></span><span id="cursor">_ /</span><
+<span id="typed-text"></span><span id="cursor">_/</span>
 <div class="social-links mt-3 text-center" style="font-size: xx-large"></div>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -47,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
     backDelay: 1000,
     startDelay: 500,
     loop: true,
-    onComplete: (self) => { 
+    onComplete: (self) => {
         // Ensure the cursor appears at the end of the text after each loop
         document.getElementById('cursor').style.left = `${self.el.offsetWidth}px`;
     }
