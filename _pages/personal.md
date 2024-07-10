@@ -14,7 +14,7 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket, 🗞️ reading the
 Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world: 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <style>
-#cursor {
+.cursor {
   display: inline-block;
   animation: blink 0.7s infinite;
   position: relative;
@@ -28,7 +28,7 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
   }
 }
 </style>
-<span id="typed-text"></span><span id="cursor">_/</span>
+<span id="typed-text"></span><span class="cursor">_/</span>
 <div class="social-links mt-3 text-center" style="font-size: xx-large"></div>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -38,11 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
     backSpeed: 50,
     backDelay: 1000,
     startDelay: 500,
-    loop: true,
-    onComplete: (self) => {
-        // Ensure the cursor appears at the end of the text after each loop
-        document.getElementById('cursor').style.left = `${self.el.offsetWidth}px`;
-    }
+    loop: true
   });
 });
 </script>
