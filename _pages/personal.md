@@ -16,7 +16,6 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
 <style>
 .cursor {
   display: inline-block;
-  opacity: 1; /* Ensure cursor is visible from the start */
   animation: blink 0.7s infinite;
   position: relative;
 }
@@ -28,12 +27,8 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
     opacity: 0;
   }
 }
-#typed-text {
-  display: inline-block;
-  white-space: nowrap; /* Prevent text from wrapping */
-}
 </style>
-<span id="typed-text">(Psst... there's something special for those who scroll all the way to the end 😉)<span class="cursor">_/</span></span>
+<span id="typed-text">(Psst... there's something special for those who scroll all the way to the end 😉)<span class="cursor">_</span></span>
 <div class="social-links mt-3 text-center" style="font-size: xx-large"></div>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -43,9 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
     backSpeed: 50,
     backDelay: 1000,
     startDelay: 500,
-    loop: true,
-    showCursor: true, // Ensure cursor is always shown
-    cursorChar: '_', // Customize cursor character
+    loop: true
   });
 });
 </script>
