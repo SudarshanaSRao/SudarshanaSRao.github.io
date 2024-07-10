@@ -46,7 +46,7 @@ redirect_from:
 }
 </style>
 
-<span class="usc">Welcome to my portfolio website's homepage</span> 😄 I am Sudarshana, a recent MS graduate from the University of Southern California. I am passionate about Artificial Intelligence, Machine Learning, Data Science, Natural Language Processing, and Deep Learning. 
+<span id="usc-text" class="usc"></span><span id="cursor" class="cursor">_/</span> 😄 I am Sudarshana, a recent MS graduate from the University of Southern California. I am passionate about Artificial Intelligence, Machine Learning, Data Science, Natural Language Processing, and Deep Learning. 
 <style>
   @keyframes usc-colors {
     0% {
@@ -69,17 +69,35 @@ redirect_from:
     animation: usc-colors 4s infinite ease-in-out; /* Set animation properties */
     display: inline; /* Ensure inline display to avoid unwanted space */
   }
+    .cursor {
+    display: inline-block;
+    animation: blink 1s step-end infinite;
+  }
+  @keyframes blink {
+    from, to { opacity: 1; }
+    50% { opacity: 0; }
+  }
 </style>
 <script>
   const text = "Welcome to my portfolio website's homepage";
-  const span = document.getElementById("usc-text");
+  const textElement = document.getElementById("usc-text");
+  const cursorElement = document.getElementById("cursor");
   let index = 0;
   function typeEffect() {
     if (index < text.length) {
-      span.innerHTML += text.charAt(index);
+      textElement.innerHTML += text.charAt(index);
       index++;
       setTimeout(typeEffect, 100); // Adjust the typing speed here
+    } else {
+      cursorElement.style.display = 'none'; // Hide cursor when done typing
+      setTimeout(resetEffect, 2000); // Wait before restarting the animation
     }
+  }
+  function resetEffect() {
+    textElement.innerHTML = '';
+    cursorElement.style.display = 'inline-block';
+    index = 0;
+    typeEffect();
   }
   typeEffect();
 </script>
