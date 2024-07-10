@@ -46,7 +46,7 @@ redirect_from:
 }
 </style>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<span class="usc">Welcome to my portfolio website's homepage</span> 😄 I am Sudarshana, a recent MS graduate from the University of Southern California. I am passionate about Artificial Intelligence, Machine Learning, Data Science, Natural Language Processing, and Deep Learning. 
 <style>
   @keyframes usc-colors {
     0% {
@@ -69,36 +69,7 @@ redirect_from:
     animation: usc-colors 4s infinite ease-in-out; /* Set animation properties */
     display: inline; /* Ensure inline display to avoid unwanted space */
   }
-  .cursor {
-    font-size: 24px;
-    font-weight: bold;
-    display: inline-block;
-    animation: blink 1s step-end infinite;
-  }
-  @keyframes blink {
-    from, to { opacity: 1; }
-    50% { opacity: 0; }
-  }
 </style>
-<span id="usc-text" class="usc"></span><span id="cursor" class="cursor">_ /</span> 😄 I am Sudarshana, a recent MS graduate from the University of Southern California. I am passionate about Artificial Intelligence, Machine Learning, Data Science, Natural Language Processing, and Deep Learning.
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', (event) => {
-    const options = {
-      strings: ["Welcome to my portfolio website's homepage"],
-      typeSpeed: 100, // Adjust typing speed
-      backSpeed: 50, // Adjust backspacing speed
-      loop: true, // Make the animation infinite
-      onStringTyped: (arrayPos, self) => {
-        document.getElementById('cursor').style.display = 'none';
-      },
-      preStringTyped: (arrayPos, self) => {
-        document.getElementById('cursor').style.display = 'inline-block';
-      }
-    };
-    const typed = new Typed("#usc-text", options);
-  });
-</script>
 
 Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. I am eager to start my career and learn from experienced teams.
 
