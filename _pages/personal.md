@@ -27,6 +27,17 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
     opacity: 0;
   }
 }
+.rotate {
+  animation: rotateCursor 2s linear;
+}
+@keyframes rotateCursor {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 </style>
 <span id="typed-text"></span><span class="cursor">_</span>
 <div class="social-links mt-3 text-center" style="font-size: xx-large"></div>
@@ -34,11 +45,18 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
 document.addEventListener("DOMContentLoaded", function() {
   var typed = new Typed('#typed-text', {
     strings: ["(Psst... there's something special for those who scroll all the way to the end 😉)"],
-    typeSpeed: 50,
-    backSpeed: 50,
+    typeSpeed: 70,
+    backSpeed: 70,
     backDelay: 1000,
-    startDelay: 500,
+    startDelay: 400,
     loop: true
+    onComplete: function(self) {
+          var cursor = document.getElementById('cursor');
+          cursor.classList.add('rotate'); // Add rotate class after typing completes
+          setTimeout(function() {
+            cursor.classList.remove('rotate'); // Remove rotate class after rotation completes
+          }, 2000); // Adjust timing as needed based on rotate animation duration
+        }
   });
 });
 </script>
