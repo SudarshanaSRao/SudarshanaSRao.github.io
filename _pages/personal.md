@@ -36,12 +36,12 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
   }
 }
 </style>
-<p>(Psst... there's something special for those who scroll all the way to the end 😉)(span id="typed-text"></span><span id="cursor">_ /</span></p>
+<span id="typed-text"></span><span id="cursor">_ /</span><
 <div class="social-links mt-3 text-center" style="font-size: xx-large"></div>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var typed = new Typed('#typed-text', {
-    strings: ["Software Developer", "DevOps Engineer"],
+    strings: ["(Psst... there's something special for those who scroll all the way to the end 😉)"],
     typeSpeed: 50,
     backSpeed: 50,
     backDelay: 1000,
