@@ -39,8 +39,6 @@ Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world:
     }
   }
 </style>
-</head>
-<body>
 <span id="typed-text"></span><span id="cursor" class="cursor blink">|</span>
 <div class="social-links mt-3 text-center" style="font-size: xx-large"></div>
 <script>
