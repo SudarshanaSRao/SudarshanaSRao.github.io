@@ -1,16 +1,16 @@
 # main links links
 main:
-  - title: "Publications📜"
-    url: /publications/
-
   - title: "Projects🗃️"
     url: /portfolio/    
+
+  - title: "CV📄"
+    url: /cv/
     
   - title: "Courses📚"
     url: /courses/
         
-  - title: "CV📄"
-    url: /cv/
+  - title: "Publications📜"
+    url: /publications/
     
   - title: "Adventurous Me!🤸‍♂️"
     url: /personal/ 
