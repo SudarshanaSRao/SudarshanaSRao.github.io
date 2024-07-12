@@ -137,8 +137,8 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
-  google:
+  provider               :  "true" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  google: "G-DQCXGH34PC"  
     tracking_id          :
 
 
