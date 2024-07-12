@@ -1,5 +1,5 @@
 ---
-title: "Deep Learning based American Sign Language Recognition"
+title: "🤏Deep Learning based American Sign Language Recognition"
 excerpt: "<img height='500'  width='500' src='/images/preprocess.png'>"
 collection: portfolio
 ---
