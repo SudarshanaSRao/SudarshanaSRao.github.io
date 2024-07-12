@@ -1,5 +1,5 @@
 ---
-title: "Exploring Correlation-Driven Feature Selection for Mushroom Classification"
+title: "🔎Exploring Correlation-Driven Feature Selection for Mushroom Classification"
 excerpt: '<br><img src="/images/chi_scores_.png" height="500"  width="500">'
 collection: portfolio
 ---
