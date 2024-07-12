@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning based Traffic Light Detection and IR Sensor based Proximity Sensing for Autonomous Cars"
+title: "🚥Machine Learning based Traffic Light Detection and IR Sensor based Proximity Sensing for Autonomous Cars"
 collection: publications
 permalink: /publication/2021-07-14-paper-title-number-1
 excerpt: 'SSRN ELSEVIER'
