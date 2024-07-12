@@ -1,5 +1,5 @@
 ---
-title: "Automatic Dent Detection in Automobile Using IR Sensor"
+title: "💥🚗Automatic Dent Detection in Automobile Using IR Sensor"
 collection: publications
 permalink: /publication/2022-03-22-paper-title-number-2
 excerpt: 'Springer Nature'
