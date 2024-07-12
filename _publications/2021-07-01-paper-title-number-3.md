@@ -1,5 +1,5 @@
 ---
-title: "Smart Burglar Alarm"
+title: "🦹Smart Burglar Alarm"
 collection: publications
 permalink: /publication/2021-07-01-paper-title-number-3
 excerpt: 'International Journal of Management Technology and Engineering'
