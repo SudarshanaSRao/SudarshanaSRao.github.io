@@ -1,5 +1,5 @@
 ---
-title: ❓"FAQ Generator"
+title: "❓FAQ Generator"
 excerpt: "<img height='600'  width='600' src='/images/summ.png'>"
 collection: portfolio
 ---
