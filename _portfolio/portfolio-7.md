@@ -1,5 +1,5 @@
 ---
-title: "Single cell RNA sequencing"
+title: "🧬Single cell RNA sequencing"
 excerpt: '<br><img src="/images/diagb.png" height="500"  width="500">'
 collection: portfolio
 ---
