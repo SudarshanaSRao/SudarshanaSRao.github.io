@@ -38,6 +38,7 @@ Online Courses
   }
   .fade-in-text {
     opacity: 0; /* Start with opacity 0 */
+    font-weight: normal;
     color: orange;
     transition: opacity 1.5s ease-out; /* Use transition for fade-in effect */
   }
