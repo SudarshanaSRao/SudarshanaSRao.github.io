@@ -66,7 +66,7 @@ Online Courses
     cursor: zoom-in; /* Change cursor to magnifying glass */
   }
   .course:hover img {
-    transform: scale(1.05); /* Slightly zoom in on hover */
+    transform: scale(1.1); /* Slightly zoom in on hover */
   }
   .course .fade-in-text {
     margin-top: 10px; /* Space between text and image */
