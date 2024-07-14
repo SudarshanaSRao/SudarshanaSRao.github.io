@@ -48,80 +48,68 @@ Online Courses
     display: flex;
     flex-wrap: wrap;
     gap: 10px; /* Adjust as needed for spacing between items */
+    justify-content: center; /* Center align all items */
   }
   .course {
-    width: 400px; /* Adjust width as needed */
-    margin-bottom: 10px; /* Adjust spacing between items */
+    width: 300px; /* Adjust width as needed */
+    margin-bottom: 20px; /* Adjust spacing between items */
     text-align: center; /* Center align text */
     position: relative; /* Needed for overlay effect */
     overflow: hidden; /* Hide the overflow */
   }
   .course img {
-    width: 400px;
-    height: 400px;
-    margin-top: 5px; /* Adjust spacing between image and text */
+    width: 100%; /* Ensure the image fits the container */
+    height: auto; /* Maintain aspect ratio */
     transition: transform 0.5s ease-out; /* Smooth transition for zoom effect */
   }
   .course:hover img {
     transform: scale(1.05); /* Slightly zoom in on hover */
   }
-  .course .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    opacity: 0; /* Start with opacity 0 */
-    transition: opacity 0.5s ease-out; /* Smooth transition for fade-in effect */
-  }
-  .course:hover .overlay {
-    opacity: 1; /* Fade to opacity 1 on hover */
-  }
-  .course .overlay .fade-in-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 1; /* Ensure text is visible */
+  .course .fade-in-text {
+    margin-top: 10px; /* Space between text and image */
   }
 </style>
 <div class="course-container">
   <div class="course">
-    <div class="overlay">
-      <p class="text fade-in-text"><i>✦Data Analytics✦</i></p>
-    </div>
+    <p class="text fade-in-text"><i>✦Data Analytics✦</i></p>
     <img src="/images/Google Data Analytics.jpg">
   </div>
   <div class="course">
-    <div class="overlay">
-      <p class="text fade-in-text"><i>✦Microsoft Azure Machine Learning✦</i></p>
-    </div>
+    <p class="text fade-in-text"><i>✦Microsoft Azure Machine Learning✦</i></p>
     <img src="/images/gluck.png">
   </div>
   <div class="course">
-    <div class="overlay">
-      <p class="text fade-in-text"><i>✦Data Visualization✦</i></p>
-    </div>
+    <p class="text fade-in-text"><i>✦Data Visualization✦</i></p>
     <img src="/images/uiuc_cou.png">
   </div>
   <div class="course">
-    <div class="overlay">
-      <p class="text fade-in-text"><i>✦Using Python to Access Web Data✦</i></p>
-    </div>
+    <p class="text fade-in-text"><i>✦Using Python to Access Web Data✦</i></p>
     <img src="/images/umich_2.png">
   </div>
   <div class="course">
-    <div class="overlay">
-      <p class="text fade-in-text"><i>✦Python Data Structures✦</i></p>
-    </div>
+    <p class="text fade-in-text"><i>✦Python Data Structures✦</i></p>
     <img src="/images/umich_3.png">
   </div>
   <div class="course">
-    <div class="overlay">
-      <p class="text fade-in-text"><i>✦Getting Started with Python✦</i></p>
-    </div>
+    <p class="text fade-in-text"><i>✦Getting Started with Python✦</i></p>
     <img src="/images/umich_1.png">
   </div>
 </div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const textElements = document.querySelectorAll('.fade-in-text');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        } else {
+          entry.target.classList.remove('show');
+        }
+      });
+    });
+    textElements.forEach(element => {
+      observer.observe(element);
+    });
+  });
+</script>
 {% endraw %}
