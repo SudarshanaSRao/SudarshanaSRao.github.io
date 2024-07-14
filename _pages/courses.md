@@ -63,6 +63,7 @@ Online Courses
     width: 100%; /* Ensure the image fits the container */
     height: auto; /* Maintain aspect ratio */
     transition: transform 0.5s ease-out; /* Smooth transition for zoom effect */
+    cursor: zoom-in; /* Change cursor to magnifying glass */
   }
   .course:hover img {
     transform: scale(1.05); /* Slightly zoom in on hover */
