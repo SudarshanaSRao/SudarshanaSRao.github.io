@@ -58,13 +58,13 @@ document.addEventListener("DOMContentLoaded", function() {
   .container {
     width: 100%;
     max-width: 800px;
-    margin: 20px auto;
+    margin: 10px auto;
     overflow: hidden;
   }
   .image {
     width: 100%;
     height: 100%;
-    margin: 20px 0;
+    margin: 10px 0;
     opacity: 0;
     transform: translateX(-50px);
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
