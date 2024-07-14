@@ -47,12 +47,13 @@ Online Courses
   .course-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* Adjust as needed for spacing between items */
+    gap: 20px; /* Adjust as needed for spacing between items */
     justify-content: center; /* Center align all items */
   }
   .course {
-    width: 300px; /* Adjust width as needed */
-    margin-bottom: 20px; /* Adjust spacing between items */
+    flex: 0 1 calc(50% - 20px); /* Ensure two items per row with spacing */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin-bottom: 20px; /* Adjust spacing between rows */
     text-align: center; /* Center align text */
     position: relative; /* Needed for overlay effect */
     overflow: hidden; /* Hide the overflow */
