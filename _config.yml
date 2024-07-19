@@ -252,6 +252,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+      read_time: true
   # _portfolio
   - scope:
       path: ""
@@ -260,6 +261,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      read_time: true
       comment: true
   # _talks
   - scope:
