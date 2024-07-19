@@ -272,6 +272,13 @@ defaults:
       author_profile: true
       share: true
 
+nav_list:
+  - name: "Home"
+    url: "/"
+  - name: "Portfolio"
+    url: "/portfolio/"
+  - name: "Publications"
+    url: "/publications/"
 
 # Sass/SCSS
 sass:
