@@ -16,6 +16,16 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
+    <!-- Navigation List Start -->
+    <nav>
+      <ul>
+        {% for item in site.nav_list %}
+          <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <!-- Navigation List End -->
+
     {{ content }}
 
     <div class="page__footer">
