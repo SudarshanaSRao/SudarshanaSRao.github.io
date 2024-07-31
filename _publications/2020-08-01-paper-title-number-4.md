@@ -20,6 +20,7 @@ citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering
     display: inline-block;
     animation: bounce 1.3s ease infinite;
     transform-origin: center; /* Pivot around the top center */
+    cursor: not-allowed;
   }
         @keyframes bounce1 {
     0%, 20%, 50%, 80%, 100% { transform: rotate(0deg); }
@@ -29,6 +30,7 @@ citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering
   .bounce1 {
     display: inline-block;
     animation: bounce1 1.3s ease infinite;
+    cursor: not-allowed;
     transform-origin: center; /* Pivot around the top center */
   }
 </style>
