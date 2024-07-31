@@ -18,6 +18,7 @@ citation: 'Rao, Sudarshana S and Desai, Santosh R, Machine Learning based Traffi
   }
   .bounce {
     display: inline-block;
+    cursor: not-allowed;
     animation: bounce 1.3s ease infinite;
     transform-origin: center; /* Pivot around the top center */
   }
@@ -27,6 +28,7 @@ citation: 'Rao, Sudarshana S and Desai, Santosh R, Machine Learning based Traffi
     60% { transform: rotate(7deg); }  
   }
   .bounce1 {
+    cursor: not-allowed;
     display: inline-block;
     animation: bounce1 1.3s ease infinite;
     transform-origin: center; /* Pivot around the top center */
