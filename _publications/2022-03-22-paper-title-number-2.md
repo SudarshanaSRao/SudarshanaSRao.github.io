@@ -17,6 +17,7 @@ citation: 'Rao, S.S., Desai, S.R. (2022). Automatic Dent Detection in Automobile
     60% { transform: rotate(-7deg); }  
   }
   .bounce {
+    cursor: not-allowed;
     display: inline-block;
     animation: bounce 1.3s ease infinite;
     transform-origin: center; /* Pivot around the top center */
@@ -27,6 +28,7 @@ citation: 'Rao, S.S., Desai, S.R. (2022). Automatic Dent Detection in Automobile
     60% { transform: rotate(-7deg); }  
   }
   .bounce1 {
+    cursor: not-allowed;
     display: inline-block;
     animation: bounce1 1.3s ease infinite;
     transform-origin: center; /* Pivot around the top center */
