@@ -19,6 +19,7 @@ citation: 'Sudarshana S Rao, Vani A - B.M.S. College of Engineering, Bangalore, 
   .bounce {
     display: inline-block;
     animation: bounce 1.3s ease infinite;
+    cursor: not-allowed;
     transform-origin: center; /* Pivot around the top center */
   }
         @keyframes bounce1 {
@@ -29,6 +30,7 @@ citation: 'Sudarshana S Rao, Vani A - B.M.S. College of Engineering, Bangalore, 
   .bounce1 {
     display: inline-block;
     animation: bounce1 1.3s ease infinite;
+    cursor: not-allowed;
     transform-origin: center; /* Pivot around the top center */
   }
 </style>
