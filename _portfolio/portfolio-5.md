@@ -4,12 +4,12 @@ excerpt: '<br><img src="/images/brug1.gif" height="500"  width="500">'
 collection: portfolio
 ---
 
-![chor](/images/brug2.gif)
+<img src="/images/brug2.gif" style="cursor: crosshair;">
 
 * Detected burglars in real time using **OpenCV2 library, Support Vector Machine, and Histogram of Oriented Gradient**.
 * As another line of defense, a **PIR sensor** interfaced with an **Arduino Uno board** was utilized for the exact cause to avoid false detection.
 
-![liveout](/images/sudam.png)
+<img src="/images/sudam.png" style="cursor: crosshair;">
   
 * A **GSM module** was used to send an alert to the homeowner when a burglar is detected.
 
