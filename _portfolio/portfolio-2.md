@@ -7,13 +7,13 @@ collection: portfolio
 * Developed an **AI-powered and RAG-based** quiz platform using **Python, Langchain, and Google Gemini** to generate personalized quizzes dynamically from user-provided documents.
 * Implemented a user-friendly interface with **Streamlit**, enhancing accessibility and engagement for students and learners.
 
-<img height="500" width="500" src="/images/pdf_input.png">
+<img height="500" width="500" src="/images/pdf_input.png" style="cursor: crosshair;">
   
 * Integrated Google Service Account for secure authentication, ensuring safe user access and data protection.
 * Improved question generation quality by applying prompt engineering techniques, increasing the success rate to approximately **80%**.
 * Utilized **ChromaDB** for efficient database management, ensuring rapid storage and retrieval of user data and quiz content.
 
-<img height="450" width="450" src="/images/generated_question.png">
+<img height="450" width="450" src="/images/generated_question.png" style="cursor: crosshair;">
 
 <div class="flexcontainer">
 <div>
