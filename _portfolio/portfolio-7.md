@@ -8,11 +8,11 @@ collection: portfolio
 * The dataset comprised 2169 cells taken from the neocortex region of a rat's brain and distributed in 20,000 columns. **Principal Component Analysis** was used to reduce 20,000 columns to 3-5 components.
 * Visualized the output data through a dynamic 3-D graph using **Plotly**.
 
-![clust](/images/3d.gif)
+<img src="/images/3d.gif" style="cursor: crosshair;">
   
 * Achieved an accuracy of **89.8%**.
 
-![BD](/images/acc.png)
+<img src="/images/acc.png" style="cursor: crosshair;">
 
 <div class="flexcontainer">
   <div>
