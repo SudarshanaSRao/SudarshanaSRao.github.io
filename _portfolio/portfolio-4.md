@@ -9,7 +9,7 @@ collection: portfolio
 * **IR sensor** (interfaced with an **Arduino Uno board**) was used to monitor the distance between the autonomous car and nearby obstacles or traffic.
 * The system was live-tested on the streets of Bangalore, and excellent results were achieved.
 
-![block](/images/outputml.png)
+<img src="/images/outputml.png" style="cursor: crosshair;">
 
 <div class="flexcontainer">
   <div>
