@@ -7,12 +7,12 @@ collection: portfolio
 * Fine-tuned (supervised instruction) **LLaMA-3 8b, LLaMA-2 7b, Mistral 7b, T5, and BART** to generate FAQs based on the website’s content.
 * Scrapped **(Beautiful Soup)** and stored the top 150 US universities’ MS in CS graduate admission requirements in a **JSON** file (dataset creation).
 
-<img src="/images/faqjs.png">
+<img src="/images/faqjs.png" style="cursor: crosshair;">
 
 * Performed **QLoRA PEFT** on LLaMA-3 and LLaMA-2 to enhance the quality of the generated FAQs.
 * Achieved a **BERT Score of 0.8**, outperforming the baseline T5 transformer with a 50% increase in accuracy and relevance of generated FAQs.
 
-<img src="/images/qllama3.png" cursor="crosshair">
+<img src="/images/qllama3.png" style="cursor: crosshair;">
 
 <div class="flexcontainer">
   <div>
