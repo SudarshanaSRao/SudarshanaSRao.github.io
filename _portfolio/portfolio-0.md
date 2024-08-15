@@ -4,6 +4,9 @@ excerpt: "<img src='/images/Bring Home the Gold in Your Own Reading Olympics! _ 
 collection: portfolio
 ---
 
+* Developed an interactive dashboard using **Tableau** with [Kaggle's Olympic dataset](https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals/data).
+* Enhanced data quality by **cleaning** and **transforming** dataset attributes for better insights.
+
 <div class='tableauPlaceholder' id='viz1723672153855' style='position: relative'>
 <noscript> 
 <a href='#'> <img alt='Dashboard 1' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympics_17236708826520&#47;Dashboard1&#47;1_rss.png' style='border: none' /> </a>
@@ -32,7 +35,34 @@ scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
 vizElement.parentNode.insertBefore(scriptElement, vizElement);                
 </script>
 
-* Developed an interactive dashboard using **Tableau** with [Kaggle's Olympic dataset](https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals/data).
 * Visualized medal counts by country and tracked athlete participation trends.
 * Analyzed event evolution and sports discipline distribution through dynamic charts and maps.
-* Enhanced data quality by **cleaning** and **transforming** dataset attributes for better insights.
+
+  <div class="flexcontainer">
+  <div>
+        <span>✦ <strong>Medium blog:</strong></span> <a href="https://medium.com/@sudarshanasrao/olympics-tableau-3a79b7b49619" onclick="trackOutboundLink(this);">
+      <img class="pulse" height="200px" src="/images/unmanned.png" width="200px">
+    </a>
+  </div>
+</div>
+<style>
+  .flexcontainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust the value as needed */  
+  }
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pulse {
+  animation: pulse 2s infinite ease-in-out;
+}
+</style>
