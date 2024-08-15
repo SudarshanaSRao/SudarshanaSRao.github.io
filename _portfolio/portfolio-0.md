@@ -38,7 +38,7 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);
 * Visualized medal counts by country and tracked athlete participation trends.
 * Analyzed event evolution and sports discipline distribution through dynamic charts and maps.
 
-  <div class="flexcontainer">
+<div class="flexcontainer">
   <div>
         <span>✦ <strong>Medium blog:</strong></span> <a href="https://medium.com/@sudarshanasrao/olympics-tableau-3a79b7b49619" onclick="trackOutboundLink(this);">
       <img class="pulse" height="200px" src="/images/unmanned.png" width="200px">
