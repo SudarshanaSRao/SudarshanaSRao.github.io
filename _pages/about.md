@@ -81,6 +81,14 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 # Blogs📝   
 <div class="flexcontainer">
   <div>
+    <span>✦ A deep and a fun analysis on the Summer Olympics:</span> <a href="https://medium.com/@sudarshanasrao/olympics-tableau-3a79b7b49619" onclick="trackOutboundLink(this);">
+      <img class="pulse" height="30px" src="/images/Bring Home the Gold in Your Own Reading Olympics! _ Red Apple Reading Blog.jpeg" width="80px">
+    </a>
+  </div>
+</div>
+
+<div class="flexcontainer">
+  <div>
     <span>✦ A short, simple, and interesting read on <strong>Generative Adversarial Networks</strong>:</span> <a href="https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html" onclick="trackOutboundLink(this);">
       <img class="pulse" height="30px" src="/images/1200px-Blogger_icon_2017.svg.png" width="80px">
     </a>
