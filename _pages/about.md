@@ -82,7 +82,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 <div class="flexcontainer">
   <div>
     <span>✦ A deep and a fun analysis on the Summer Olympics:</span> <a href="https://medium.com/@sudarshanasrao/olympics-tableau-3a79b7b49619" onclick="trackOutboundLink(this);">
-      <img class="pulse" height="30px" src="/images/Bring Home the Gold in Your Own Reading Olympics! _ Red Apple Reading Blog.jpeg" width="80px">
+      <img class="pulse" height="30px" src="/images/indy.jpg" width="80px">
     </a>
   </div>
 </div>
