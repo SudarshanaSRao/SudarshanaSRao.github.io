@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="flexcontainer1">
   <div>
-    <span><i>Download my:</i></span> <a href="https://github.com/user-attachments/files/16122062/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
+    <span><i>Download my:</i></span> <a href="" onclick="trackOutboundLink(this);">
       <img class="bounce" height="100px" src="/images/resum.jpg" width="150px">
     </a>
   </div>
@@ -108,12 +108,6 @@ Skills
 
 Work Experience
 ==================
-### Senior Research Assistant at The Walt Disney Company, Los Angeles [MAY 2023-Present]
-  * Researched and analyzed human interaction with an AI (Nobu) to improve AI's Automatic Speech Recognition (ASR).
-  * Optimized the decision tree algorithm using **XGBoost** to augment AI's responses.
-  * Managed the interaction sessions (data collection) by assigning participants to the respective time slots.
-  * Project: Speech quality assessment for automatic speech recognition.
-
  <div class="flexcontainer">
   <div>
     <a href="https://ennvee.com/" onclick="trackOutboundLink(this);">
@@ -139,7 +133,7 @@ Research Experience
   </div>
  </div>
  
-### Senior Graduate Research Assistant at University of Southern California, Los Angeles [October 2022-Present]
+### Student worker at University of Southern California, Los Angeles [October 2022-Present]
 * Worked at the Signal Analysis and Interpretation Laboratory (SAIL under the SIPI- Signal and Image Processing Institute) to annotate audio files. 
 * These annotations will be used to train a Machine Learning model to identify, classify, and filter out the noise in recorded conversations.
 * This project was funded by **Apple**.
