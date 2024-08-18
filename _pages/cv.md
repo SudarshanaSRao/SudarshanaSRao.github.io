@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="flexcontainer1">
   <div>
-    <span><i>Download my:</i></span> <a href="" onclick="trackOutboundLink(this);">
+    <span><i>Download my:</i></span> <a href="https://github.com/user-attachments/files/16650207/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
       <img class="bounce" height="100px" src="/images/resum.jpg" width="150px">
     </a>
   </div>
@@ -108,6 +108,24 @@ Skills
 
 Work Experience
 ==================
+<div class="flexcontainer">
+  <div>
+    <a href="https://sail.usc.edu/" onclick="trackOutboundLink(this);">
+      <img class="pulse" height="150px" src="/images/usc_logo.png" width="250px">
+    </a>
+  </div>
+ </div>
+ 
+### Student worker at University of Southern California, Los Angeles [October 2022-Present]
+* Researched and analyzed human interaction with an AI (Nobu) to improve its Automatic Speech Recognition (ASR).
+* Managed the interaction sessions (data collection) by assigning participants to the respective time slots.
+* Project: Speech quality assessment for automatic speech recognition, which **Disney** sponsors.
+
+* Worked at the Signal Analysis and Interpretation Laboratory (SAIL under the SIPI- Signal and Image Processing Institute) to annotate audio files. 
+* These annotations will be used to train a Machine Learning model to identify, classify, and filter out the noise in recorded conversations.
+* This project was funded by **Apple**.
+* Appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
+  
  <div class="flexcontainer">
   <div>
     <a href="https://ennvee.com/" onclick="trackOutboundLink(this);">
@@ -122,22 +140,6 @@ Work Experience
   *  Built a bot to extract specific emails based on textual metadata, improving employee productivity; ported the extracted data to Excel spreadsheets for analysis.
   *  Implemented a bot to extract identified data from websites into M.S. Excel, saving 15% of the buyer's time.
   *  Coded a bot to automatically generate complaint tickets and assign tickets to responsible personnel, enhancing customer service.
-
-Research Experience
-==================
-<div class="flexcontainer">
-  <div>
-    <a href="https://sail.usc.edu/" onclick="trackOutboundLink(this);">
-      <img class="pulse" height="150px" src="/images/usc_logo.png" width="250px">
-    </a>
-  </div>
- </div>
- 
-### Student worker at University of Southern California, Los Angeles [October 2022-Present]
-* Worked at the Signal Analysis and Interpretation Laboratory (SAIL under the SIPI- Signal and Image Processing Institute) to annotate audio files. 
-* These annotations will be used to train a Machine Learning model to identify, classify, and filter out the noise in recorded conversations.
-* This project was funded by **Apple**.
-* Appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
   
 Leadership & Involvement
 ==================
