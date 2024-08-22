@@ -7,6 +7,19 @@ author_profile: true
 
 {% include base_path %}
 
+<nav class="navbar">
+  <ul class="navbar-list">
+    <li class="navbar-item dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Projects</a>
+      <div class="dropdown-content">
+        {% for post in site.portfolio %}
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        {% endfor %}
+      </div>
+    </li>
+  </ul>
+</nav>
+
 {% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
