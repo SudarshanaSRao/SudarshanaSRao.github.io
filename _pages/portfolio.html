@@ -63,12 +63,6 @@ author_profile: true
   .dropdown:hover .dropdown-content {
     display: block;
   }
-    .dropbtn::after {
-    content: '▼'; /* Down arrow character */
-    display: inline-block;
-    margin-left: 5px; /* Space between text and arrow */
-    font-size: 12px; /* Adjust arrow size as needed */
-  }
   html {
     scroll-behavior: smooth;
   }
@@ -80,7 +74,7 @@ author_profile: true
 <nav class="navbar">
   <ul class="navbar-list">
     <li class="navbar-item dropdown">
-      <a href="javascript:void(0)" class="dropbtn">Projects</a>
+      <a href="javascript:void(0)" class="dropbtn">Projects▼</a>
       <div class="dropdown-content">
         {% for post in site.portfolio %}
           <a href="#{{ post.title | slugify }}">{{ post.title }}</a>
