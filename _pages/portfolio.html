@@ -12,8 +12,8 @@ author_profile: true
     background-color: #555;
     position: fixed;
     top: 90px; /* Adjust this value to control the vertical position */
-    right: 85px; /* Adjust this value to control the horizontal position */
-    width: 200px; /* Adjust width as needed */
+    right: 80px; /* Adjust this value to control the horizontal position */
+    width: 300px; /* Adjust width as needed */
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     z-index: 1000; /* Ensures it floats above other content */
@@ -41,8 +41,8 @@ author_profile: true
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 180px;
-    max-height: 300px; /* Limit height to 300px */
+    min-width: 200px;
+    max-height: 400px; /* Limit height to 300px */
     overflow-y: auto; /* Enable scrolling */
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     border-radius: 4px;
@@ -80,7 +80,7 @@ author_profile: true
 <nav class="navbar">
   <ul class="navbar-list">
     <li class="navbar-item dropdown">
-       <a href="javascript:void(0)" class="dropbtn"> <span style="font-size: 22px; font-weight: bold;">Projects🗃️</span> <span style="margin-left: 30px;">▼</span></a>
+       <a href="javascript:void(0)" class="dropbtn"> <span style="font-size: 24px; font-weight: bold;">Projects🗃️</span> <span style="margin-left: 30px;">▼</span></a>
       <div class="dropdown-content">
         {% for post in site.portfolio %}
           <a href="#{{ post.title | slugify }}">{{ post.title }}</a>
