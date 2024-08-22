@@ -45,6 +45,14 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);
     </a>
   </div>
 </div>
+
+<div class="flexcontainer">
+  <div>
+        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/From-Data-to-Gold--My-Journey-Creating-an-Olympic-Tableau-Dashboard" onclick="trackOutboundLink(this);">
+      <img class="pulse" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
+    </a>
+  </div>
+</div>
 <style>
   .flexcontainer {
     display: flex;
