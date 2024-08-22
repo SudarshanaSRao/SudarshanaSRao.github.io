@@ -17,8 +17,6 @@ author_profile: true
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     z-index: 1000; /* Ensures it floats above other content */
-    overflow: hidden; /* Ensures dropdown does not overflow the container */
-    padding: 0; /* Removes default padding */
   }
   .navbar-list {
     list-style-type: none;
@@ -35,11 +33,10 @@ author_profile: true
     padding: 10px;
     text-decoration: none;
     border-bottom: 1px solid #444; /* Adds separation between menu items */
-    background-color: #333; /* Ensure background color matches navbar */
   }
   .navbar-item a:hover, .dropdown:hover .dropbtn {
     background-color: #555;
-  }
+  } 
   .dropdown-content {
     display: none;
     position: absolute;
@@ -67,15 +64,6 @@ author_profile: true
   }
   html {
     scroll-behavior: smooth;
-  }
-  body {
-    margin: 0; /* Ensure there's no default margin */
-    padding-right: 220px; /* Ensure there's enough space for the floating navbar */
-  }
-  .dropbtn::after {
-    content: '▼'; /* Down arrow character */
-    font-size: 12px; /* Adjust size as needed */
-    margin-left: 5px; /* Space between text and arrow */
   }
 </style>
 
