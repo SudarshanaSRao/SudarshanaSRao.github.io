@@ -20,7 +20,7 @@ author_profile: true
   </ul>
 </nav>
 
-<style>
+<!-- <style>
   .navbar {
     background-color: #333;
     overflow: hidden;
@@ -69,12 +69,10 @@ author_profile: true
   html {
     scroll-behavior: smooth;
   }
-</style>
+</style> -->
 
 {% for post in site.portfolio %}
 <div id="{{ post.title | slugify }}">
     {% include archive-single.html %}
 </div>
 {% endfor %}
-
-{% include base_path %}
