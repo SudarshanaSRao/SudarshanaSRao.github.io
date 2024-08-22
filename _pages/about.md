@@ -46,7 +46,7 @@ redirect_from:
 }
 </style>
 
-<span class="usc">Welcome to my portfolio website's homepage</span> 😄 I am Sudarshana, a recent MS graduate from the University of Southern California. I am passionate about Artificial Intelligence, Machine Learning, Data Science, Natural Language Processing, and Deep Learning. 
+<span class="usc">Welcome to my portfolio website's homepage</span> 😄 I am Sudarshana, a recent MS graduate from the University of Southern California. I am fascinated by the ability of machines to learn from data and uncover patterns that assist us in making data-driven decisions. I am eager to start my career and learn from experienced teams. 
 <style>
   @keyframes usc-colors {
     0% {
@@ -71,9 +71,7 @@ redirect_from:
   }
 </style>
 
-Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. I am fascinated by the ability of machines to learn from data and uncover patterns that assist us in making data-driven decisions. I am eager to start my career and learn from experienced teams.
-
-My ideal role involves applying math to develop models or algorithms, analyze data patterns, understand model interpretability, build LLMs, and code data pipelines. I am particularly interested in exploring the intersection of AI and safety to ensure these robust systems are developed and deployed responsibly.  
+Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. My ideal role involves applying math to develop models or algorithms, analyze data patterns, understand model interpretability, build LLMs, and code data pipelines. I am particularly interested in exploring the intersection of AI and safety to ensure these robust systems are developed and deployed responsibly.  
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
