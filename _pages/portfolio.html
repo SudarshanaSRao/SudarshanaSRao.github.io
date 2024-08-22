@@ -7,20 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-<nav class="navbar">
-  <ul class="navbar-list">
-    <li class="navbar-item dropdown">
-      <a href="javascript:void(0)" class="dropbtn">Projects</a>
-      <div class="dropdown-content">
-        {% for post in site.portfolio %}
-          <a href="#{{ post.title | slugify }}">{{ post.title }}</a>
-        {% endfor %}
-      </div>
-    </li>
-  </ul>
-</nav>
-
-<!-- <style>
+<style>
   .navbar {
     background-color: #333;
     overflow: hidden;
@@ -30,6 +17,9 @@ author_profile: true
     margin: 0;
     padding: 0;
     display: flex;
+  }
+  .navbar-item {
+    position: relative;
   }
   .navbar-item a, .dropbtn {
     display: inline-block;
@@ -43,7 +33,6 @@ author_profile: true
   }
   .dropdown {
     display: inline-block;
-    position: relative;
   }
   .dropdown-content {
     display: none;
@@ -69,7 +58,20 @@ author_profile: true
   html {
     scroll-behavior: smooth;
   }
-</style> -->
+</style>
+
+<nav class="navbar">
+  <ul class="navbar-list">
+    <li class="navbar-item dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Projects</a>
+      <div class="dropdown-content">
+        {% for post in site.portfolio %}
+          <a href="#{{ post.title | slugify }}">{{ post.title }}</a>
+        {% endfor %}
+      </div>
+    </li>
+  </ul>
+</nav>
 
 {% for post in site.portfolio %}
 <div id="{{ post.title | slugify }}">
