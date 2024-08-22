@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications📜"
+title: 
 permalink: /publications/
 author_profile: true
 ---
@@ -16,7 +16,7 @@ author_profile: true
     position: fixed;
     top: 90px; /* Adjust this value to control the vertical position */
     right: 75px; /* Adjust this value to control the horizontal position */
-    width: 220px; /* Adjust width as needed */
+    width: 240px; /* Adjust width as needed */
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     z-index: 1000; /* Ensures it floats above other content */
