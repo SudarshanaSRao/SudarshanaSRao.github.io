@@ -80,7 +80,7 @@ author_profile: true
 <nav class="navbar">
   <ul class="navbar-list">
     <li class="navbar-item dropdown">
-       <class="dropbtn"> <span style="font-size: 20px; font-weight: bold;">Projects🗃️</span> <span style="margin-left: 30px;">▼</span> <!--<a href="javascript:void(0)" </a> -->
+       <a href="javascript:void(0)" class="dropbtn"> <span style="font-size: 20px; font-weight: bold;">Projects🗃️</span> <span style="margin-left: 30px;">▼</span></a>
       <div class="dropdown-content">
         {% for post in site.portfolio %}
           <a href="#{{ post.title | slugify }}">{{ post.title }}</a>
