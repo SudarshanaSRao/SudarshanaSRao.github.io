@@ -79,8 +79,11 @@ author_profile: true
 
 <nav class="navbar">
   <ul class="navbar-list">
-    <li class="navbar-item dropdown">
-       <a href="javascript:void(0)" class="dropbtn" onclick="toggleDropdown()"> <span id="dropdown-arrow" style="margin-right: 30px;">▼</span> <span style="font-size: 24px; font-weight: bold;">Projects🗃️</span> </a>
+    <li class="navbar-item dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+      <a href="javascript:void(0)" class="dropbtn">
+        <span id="dropdown-arrow" style="margin-right: 30px;">▼</span>
+        <span style="font-size: 24px; font-weight: bold;">Projects🗃️</span>
+      </a>
       <div class="dropdown-content">
         {% for post in site.portfolio %}
           <a href="#{{ post.title | slugify }}">{{ post.title }}</a>
@@ -97,15 +100,16 @@ author_profile: true
 {% endfor %}
 
 <script>
-  function toggleDropdown() {
+  function showDropdown() {
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-      dropdownArrow.innerHTML = "▼";
-    } else {
-      dropdownContent.style.display = "block";
-      dropdownArrow.innerHTML = "▲";
-    }
+    dropdownContent.style.display = "block";
+    dropdownArrow.innerHTML = "▲";
+  }
+  function hideDropdown() {
+    var dropdownContent = document.querySelector('.dropdown-content');
+    var dropdownArrow = document.getElementById('dropdown-arrow');
+    dropdownContent.style.display = "none";
+    dropdownArrow.innerHTML = "▼";
   }
 </script>
