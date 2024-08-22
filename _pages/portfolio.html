@@ -33,8 +33,6 @@ author_profile: true
     padding: 10px;
     text-decoration: none;
     border-bottom: 1px solid #666; /* Adds separation between menu items */
-        font-size: 16px; /* Increased font size by 2px */
-    font-weight: bold;
   }
   .navbar-item a:hover, .dropdown:hover .dropbtn {
     background-color: #555;
@@ -82,7 +80,7 @@ author_profile: true
 <nav class="navbar">
   <ul class="navbar-list">
     <li class="navbar-item dropdown">
-      <a href="javascript:void(0)" class="dropbtn">Projects🗃️▼</a>
+      <a href="javascript:void(0)" class="dropbtn"><span style="font-size: 16px; font-weight: bold;">Projects🗃️</span>▼</a>
       <div class="dropdown-content">
         {% for post in site.portfolio %}
           <a href="#{{ post.title | slugify }}">{{ post.title }}</a>
