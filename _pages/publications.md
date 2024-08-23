@@ -45,7 +45,7 @@ author_profile: true
     position: absolute;
     background-color: #f9f9f9;
     min-width: 200px;
-    max-height: 400px; /* Limit height to 300px */
+    max-height: 400px; /* Limit height to 400px */
     overflow-y: auto; /* Enable scrolling */
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     border-radius: 4px;
@@ -64,7 +64,9 @@ author_profile: true
   .dropdown-content a:hover {
     background-color: #f1f1f1;
   }
-  .dropdown:hover .dropdown-content {
+  .dropdown:hover .dropdown-content,
+  .dropbtn:focus + .dropdown-content,
+  .dropdown-content:hover {
     display: block;
   }
   @media screen and (max-width: 768px) {
@@ -82,8 +84,8 @@ author_profile: true
 
 <nav class="navbar">
   <ul class="navbar-list">
-    <li class="navbar-item dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
-      <a href="javascript:void(0)" class="dropbtn">
+    <li class="navbar-item dropdown">
+      <a href="javascript:void(0)" class="dropbtn" onclick="toggleDropdown()">
         <span id="dropdown-arrow" style="margin-right: 30px;">▼</span>
         <span style="font-size: 24px; font-weight: bold;">Publications📜</span>
       </a>
@@ -103,16 +105,15 @@ author_profile: true
 {% endfor %}
 
 <script>
-  function showDropdown() {
+  function toggleDropdown() {
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
-    dropdownContent.style.display = "block";
-    dropdownArrow.innerHTML = "▲";
-  }
-  function hideDropdown() {
-    var dropdownContent = document.querySelector('.dropdown-content');
-    var dropdownArrow = document.getElementById('dropdown-arrow');
-    dropdownContent.style.display = "none";
-    dropdownArrow.innerHTML = "▼";
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+      dropdownArrow.innerHTML = "▼";
+    } else {
+      dropdownContent.style.display = "block";
+      dropdownArrow.innerHTML = "▲";
+    }
   }
 </script>
