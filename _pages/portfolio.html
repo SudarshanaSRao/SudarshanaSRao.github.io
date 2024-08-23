@@ -50,7 +50,7 @@ author_profile: true
     border-radius: 4px;
     top: 100%; /* Positions the dropdown below the button */
     right: 0;
-    transition: max-height 0.5s ease-out, opacity 0.5s ease-out; /* Scroll effect */
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Scroll effect */
     opacity: 0;
   }
   .dropdown-content.show {
@@ -111,14 +111,12 @@ author_profile: true
     dropdownContent.classList.add('show');
     dropdownArrow.innerHTML = "▲";
   }
-
   function hideDropdown() {
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
     dropdownContent.classList.remove('show');
     dropdownArrow.innerHTML = "▼";
   }
-
   function toggleDropdown() {
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
