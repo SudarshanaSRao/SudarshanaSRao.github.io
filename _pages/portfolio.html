@@ -37,19 +37,19 @@ author_profile: true
   .navbar-item a:hover, .dropdown:hover .dropbtn {
     background-color: #555;
     text-decoration: none;
-  } 
+  }
   .dropdown-content {
-    display: none;
+    display: block; /* Ensure dropdown content is block for positioning */
     position: absolute;
     background-color: #f9f9f9;
     max-height: 0; /* Initial hidden state */
     min-width: 200px;
-    overflow: hidden;
+    overflow: hidden; /* Hide content outside max-height */
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     border-radius: 4px;
     top: 100%; /* Positions the dropdown below the button */
     right: 0;
-    transition: max-height 0.7s ease-in-out, opacity 0.7s ease-in-out; /* Scroll effect */
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out; /* Scroll effect */
     opacity: 0;
   }
   .dropdown-content.show {
@@ -83,7 +83,7 @@ author_profile: true
 
 <nav class="navbar">
   <ul class="navbar-list">
-    <li class="navbar-item dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()" onclick="toggleDropdown()">
+    <li class="navbar-item dropdown" onclick="toggleDropdown()">
       <a href="javascript:void(0)" class="dropbtn">
         <span id="dropdown-arrow" style="margin-right: 30px;">▼</span>
         <span style="font-size: 24px; font-weight: bold;">Projects🗃️</span>
@@ -110,12 +110,14 @@ author_profile: true
     dropdownContent.classList.add('show');
     dropdownArrow.innerHTML = "▲";
   }
+
   function hideDropdown() {
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
     dropdownContent.classList.remove('show');
     dropdownArrow.innerHTML = "▼";
   }
+
   function toggleDropdown() {
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
