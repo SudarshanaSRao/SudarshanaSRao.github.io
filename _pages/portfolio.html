@@ -51,6 +51,7 @@ author_profile: true
     right: 0;
     z-index: 1000;
     transform-origin: top right; /* Ensure scaling happens from the right */
+    transform: scale(0) translateX(100%); /* Initial hidden state */
   }
   .dropdown-content.show {
     display: block;
@@ -62,21 +63,21 @@ author_profile: true
   }
   @keyframes dropdownOpen {
     from {
-      transform: scaleX(0);
+      transform: scale(0) translateX(100%);
       opacity: 0;
     }
     to {
-      transform: scaleX(1);
+      transform: scale(1) translateX(0);
       opacity: 1;
     }
   }
   @keyframes dropdownClose {
     from {
-      transform: scaleX(1);
+      transform: scale(1) translateX(0);
       opacity: 1;
     }
     to {
-      transform: scaleX(0);
+      transform: scale(0) translateX(100%);
       opacity: 0;
     }
   }
