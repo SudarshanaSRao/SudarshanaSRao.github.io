@@ -50,6 +50,34 @@ author_profile: true
     top: 100%; /* Positions the dropdown below the button */
     right: 0;
     z-index: 1000;
+    transform-origin: top right;
+  }
+  .dropdown-content.show {
+    display: block;
+    animation: dropdownOpen 0.5s forwards;
+  }
+  .dropdown-content.hide {
+    animation: dropdownClose 0.5s forwards;
+  }
+  @keyframes dropdownOpen {
+    from {
+      transform: scale(0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes dropdownClose {
+    from {
+      transform: scale(1);
+      opacity: 1;
+    }
+    to {
+      transform: scale(0);
+      opacity: 0;
+    }
   }
   .dropdown-content a {
     color: black;
@@ -62,9 +90,6 @@ author_profile: true
   .dropdown-content a:hover {
     background-color: #f1f1f1;
     text-decoration: none;
-  }
-  .dropdown:hover .dropdown-content, .dropdown-content:hover {
-    display: block;
   }
   @media screen and (max-width: 768px) {
     .navbar {
@@ -105,19 +130,21 @@ author_profile: true
   function showDropdown() {
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
-    dropdownContent.style.display = "block";
+    dropdownContent.classList.remove('hide');
+    dropdownContent.classList.add('show');
     dropdownArrow.innerHTML = "▲";
   }
   function hideDropdown() {
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
-    dropdownContent.style.display = "none";
+    dropdownContent.classList.remove('show');
+    dropdownContent.classList.add('hide');
     dropdownArrow.innerHTML = "▼";
   }
   function toggleDropdown() {
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
-    if (dropdownContent.style.display === "block") {
+    if (dropdownContent.classList.contains('show')) {
       hideDropdown();
     } else {
       showDropdown();
