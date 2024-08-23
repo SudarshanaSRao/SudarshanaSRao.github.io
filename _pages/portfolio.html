@@ -49,15 +49,15 @@ author_profile: true
     border-radius: 4px;
     top: 100%; /* Positions the dropdown below the button */
     right: 0;
-    transform-origin: top right; /* Ensure scaling happens from the right */
+    transform-origin: bottom right; /* Ensure scaling happens from the right */
     transform: scale(0) translateY(-100%); /* Initial hidden state */
   }
   .dropdown-content.show {
     display: block;
-    animation: dropdownOpen 0.5s forwards;
+    animation: dropdownOpen 0.7s forwards;
   }
   .dropdown-content.hide {
-    animation: dropdownClose 0.5s forwards;
+    animation: dropdownClose 0.7s forwards;
     animation-fill-mode: forwards; /* Ensures the animation keeps the end state */
   }
   @keyframes dropdownOpen {
