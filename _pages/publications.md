@@ -39,6 +39,7 @@ author_profile: true
   }
   .navbar-item a:hover, .dropdown:hover .dropbtn {
     background-color: #555;
+    text-decoration: none;
   } 
   .dropdown-content {
     display: none;
@@ -63,6 +64,7 @@ author_profile: true
   }
   .dropdown-content a:hover {
     background-color: #f1f1f1;
+    text-decoration: none;
   }
   .dropdown:hover .dropdown-content,
   .dropbtn:focus + .dropdown-content,
