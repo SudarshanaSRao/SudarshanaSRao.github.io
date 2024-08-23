@@ -53,7 +53,7 @@ author_profile: true
     top: 100%; /* Positions the dropdown below the button */
     right: 0;
     transform-origin: top left; /* Ensure scaling happens from the top right */
-    transform: scale(0) translateY(20px); /* Initial hidden state */
+    transform: scale(0) translateX(-20px); /* Initial hidden state */
     opacity: 0;
   }
   .dropdown-content.show {
@@ -66,21 +66,21 @@ author_profile: true
   }
   @keyframes dropdownOpen {
     from {
-      transform: scale(0) translateY(20px);
+      transform: scale(0) translateX(-20px);
       opacity: 0;
     }
     to {
-      transform: scale(1) translateY(0);
+      transform: scale(1) translateX(0);
       opacity: 1;
     }
   }
   @keyframes dropdownClose {
     from {
-      transform: scale(1) translateY(0);
+      transform: scale(1) translateX(0);
       opacity: 1;
     }
     to {
-      transform: scale(0) translateY(20px);
+      transform: scale(0) translateX(-20px);
       opacity: 0;
     }
   }
