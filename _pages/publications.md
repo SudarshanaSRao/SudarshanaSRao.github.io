@@ -47,6 +47,7 @@ author_profile: true
     background-color: #f9f9f9;
     min-width: 200px;
     max-height: 400px; /* Limit height to 400px */
+    overflow: hidden;
     overflow-y: auto; /* Enable scrolling */
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     border-radius: 4px;
@@ -136,7 +137,7 @@ author_profile: true
   function showDropdown() {
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
-    dropdownContent.classList.remove('hide');
+    // dropdownContent.classList.remove('hide');
     dropdownContent.classList.add('show');
     dropdownArrow.innerHTML = "▲";
   }
@@ -144,7 +145,7 @@ author_profile: true
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
     dropdownContent.classList.remove('show');
-    dropdownContent.classList.add('hide');
+    //dropdownContent.classList.add('hide');
     dropdownArrow.innerHTML = "▼";
   }
   function toggleDropdown() {
