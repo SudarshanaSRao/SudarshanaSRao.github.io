@@ -61,7 +61,7 @@ author_profile: true
   .dropdown-content a:hover {
     background-color: #f1f1f1;
   }
-  .dropdown:hover .dropdown-content {
+  .dropdown:hover .dropdown-content, .dropdown-content:hover {
     display: block;
   }
   @media screen and (max-width: 768px) {
@@ -79,7 +79,7 @@ author_profile: true
 
 <nav class="navbar">
   <ul class="navbar-list">
-    <li class="navbar-item dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+    <li class="navbar-item dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()" onclick="toggleDropdown()">
       <a href="javascript:void(0)" class="dropbtn">
         <span id="dropdown-arrow" style="margin-right: 30px;">▼</span>
         <span style="font-size: 24px; font-weight: bold;">Projects🗃️</span>
@@ -111,5 +111,14 @@ author_profile: true
     var dropdownArrow = document.getElementById('dropdown-arrow');
     dropdownContent.style.display = "none";
     dropdownArrow.innerHTML = "▼";
+  }
+  function toggleDropdown() {
+    var dropdownContent = document.querySelector('.dropdown-content');
+    var dropdownArrow = document.getElementById('dropdown-arrow');
+    if (dropdownContent.style.display === "block") {
+      hideDropdown();
+    } else {
+      showDropdown();
+    }
   }
 </script>
