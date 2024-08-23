@@ -52,7 +52,7 @@ author_profile: true
     border-radius: 4px;
     top: 100%; /* Positions the dropdown below the button */
     right: 0;
-    transform-origin: top left; /* Ensure scaling happens from the top right */
+    transform-origin: top left; /* Ensure scaling happens from the left */
     transform: scale(0) translateX(-20px); /* Initial hidden state */
     opacity: 0;
   }
@@ -61,6 +61,7 @@ author_profile: true
     animation: dropdownOpen 0.7s forwards;
   }
   .dropdown-content.hide {
+    display: block;
     animation: dropdownClose 0.7s forwards;
     animation-fill-mode: forwards; /* Ensures the animation keeps the end state */
   }
