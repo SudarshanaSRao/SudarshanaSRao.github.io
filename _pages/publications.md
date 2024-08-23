@@ -53,7 +53,8 @@ author_profile: true
     top: 100%; /* Positions the dropdown below the button */
     right: 0;
     transform-origin: top left; /* Ensure scaling happens from the top right */
-    transform: scale(0) translateY(100%); /* Initial hidden state */
+    transform: scale(0) translateY(20px); /* Initial hidden state */
+    opacity: 0;
   }
   .dropdown-content.show {
     display: block;
@@ -65,7 +66,7 @@ author_profile: true
   }
   @keyframes dropdownOpen {
     from {
-      transform: scale(0) translateY(100%);
+      transform: scale(0) translateY(20px);
       opacity: 0;
     }
     to {
@@ -79,7 +80,7 @@ author_profile: true
       opacity: 1;
     }
     to {
-      transform: scale(0) translateY(100%);
+      transform: scale(0) translateY(20px);
       opacity: 0;
     }
   }
