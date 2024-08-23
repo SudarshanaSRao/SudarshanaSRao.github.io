@@ -84,8 +84,8 @@ author_profile: true
 
 <nav class="navbar">
   <ul class="navbar-list">
-    <li class="navbar-item dropdown">
-      <a href="javascript:void(0)" class="dropbtn" onclick="toggleDropdown()">
+    <li class="navbar-item dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()" onclick="toggleDropdown()">
+      <a href="javascript:void(0)" class="dropbtn">
         <span id="dropdown-arrow" style="margin-right: 30px;">▼</span>
         <span style="font-size: 24px; font-weight: bold;">Publications📜</span>
       </a>
