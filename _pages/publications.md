@@ -47,7 +47,6 @@ author_profile: true
     background-color: #f9f9f9;
     min-width: 200px;
     max-height: 400px; /* Limit height to 400px */
-    overflow: hidden;
     overflow-y: auto; /* Enable scrolling */
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     border-radius: 4px;
@@ -59,11 +58,11 @@ author_profile: true
   }
   .dropdown-content.show {
     display: block;
-    animation: dropdownOpen 0.5s forwards;
+    animation: dropdownOpen 0.7s forwards;
   }
   .dropdown-content.hide {
     display: block;
-    animation: dropdownClose 0.5s forwards;
+    animation: dropdownClose 0.7s forwards;
     animation-fill-mode: forwards; /* Ensures the animation keeps the end state */
   }
   @keyframes dropdownOpen {
@@ -113,12 +112,12 @@ author_profile: true
 
 <nav class="navbar">
   <ul class="navbar-list">
-    <li class="navbar-item dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()" onclick="toggleDropdown()">
-      <a href="javascript:void(0)" class="dropbtn">
+    <li class="navbar-item dropdown">
+      <a href="javascript:void(0)" class="dropbtn" onmouseover="showDropdown()" onclick="toggleDropdown()">
         <span id="dropdown-arrow" style="margin-right: 30px;">▼</span>
         <span style="font-size: 24px; font-weight: bold;">Publications📜</span>
       </a>
-      <div class="dropdown-content">
+      <div class="dropdown-content" onmouseleave="hideDropdown()" onmouseover="keepDropdownOpen()">
         {% for post in site.publications %}
           <a href="#{{ post.title | slugify }}">{{ post.title }}</a>
         {% endfor %}
@@ -156,5 +155,9 @@ author_profile: true
     } else {
       showDropdown();
     }
+  }
+  function keepDropdownOpen() {
+    var dropdownContent = document.querySelector('.dropdown-content');
+    dropdownContent.classList.remove('hide');
   }
 </script>
