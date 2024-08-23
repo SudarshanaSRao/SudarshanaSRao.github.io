@@ -43,14 +43,14 @@ author_profile: true
     position: absolute;
     background-color: #f9f9f9;
     min-width: 200px;
-    max-height: 400px; /* Limit height to 300px */
+    max-height: 400px; /* Limit height to 400px */
     overflow-y: auto; /* Enable scrolling */
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     border-radius: 4px;
     top: 100%; /* Positions the dropdown below the button */
     right: 0;
     z-index: 1000;
-    transform-origin: top right;
+    transform-origin: top right; /* Ensure scaling happens from the right */
   }
   .dropdown-content.show {
     display: block;
@@ -58,24 +58,25 @@ author_profile: true
   }
   .dropdown-content.hide {
     animation: dropdownClose 0.5s forwards;
+    animation-fill-mode: forwards; /* Ensures the animation keeps the end state */
   }
   @keyframes dropdownOpen {
     from {
-      transform: scale(0);
+      transform: scaleX(0);
       opacity: 0;
     }
     to {
-      transform: scale(1);
+      transform: scaleX(1);
       opacity: 1;
     }
   }
   @keyframes dropdownClose {
     from {
-      transform: scale(1);
+      transform: scaleX(1);
       opacity: 1;
     }
     to {
-      transform: scale(0);
+      transform: scaleX(0);
       opacity: 0;
     }
   }
