@@ -136,7 +136,7 @@ author_profile: true
   function showDropdown() {
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
-    dropdownContent.classList.remove('hide');
+    //dropdownContent.classList.remove('hide');
     dropdownContent.classList.add('show');
     dropdownArrow.innerHTML = "▲";
   }
@@ -144,7 +144,7 @@ author_profile: true
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
     dropdownContent.classList.remove('show');
-    dropdownContent.classList.add('hide');
+    //dropdownContent.classList.add('hide');
     dropdownArrow.innerHTML = "▼";
   }
   function toggleDropdown() {
