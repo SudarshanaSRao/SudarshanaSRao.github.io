@@ -105,15 +105,25 @@ author_profile: true
 {% endfor %}
 
 <script>
+  function showDropdown() {
+    var dropdownContent = document.querySelector('.dropdown-content');
+    var dropdownArrow = document.getElementById('dropdown-arrow');
+    dropdownContent.style.display = "block";
+    dropdownArrow.innerHTML = "▲";
+  }
+  function hideDropdown() {
+    var dropdownContent = document.querySelector('.dropdown-content');
+    var dropdownArrow = document.getElementById('dropdown-arrow');
+    dropdownContent.style.display = "none";
+    dropdownArrow.innerHTML = "▼";
+  }
   function toggleDropdown() {
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
     if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-      dropdownArrow.innerHTML = "▼";
+      hideDropdown();
     } else {
-      dropdownContent.style.display = "block";
-      dropdownArrow.innerHTML = "▲";
+      showDropdown();
     }
   }
 </script>
