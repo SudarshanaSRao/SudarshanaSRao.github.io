@@ -53,21 +53,21 @@ author_profile: true
     top: 100%; /* Positions the dropdown below the button */
     right: 0;
     transform-origin: top left; /* Ensure scaling happens from the left */
-    transform: scale(0) translateX(-20px); /* Initial hidden state */
+    transform: scale(0) translateX(-100px); /* Initial hidden state */
     opacity: 0;
   }
   .dropdown-content.show {
     display: block;
-    animation: dropdownOpen 0.7s forwards;
+    animation: dropdownOpen 0.5s forwards;
   }
   .dropdown-content.hide {
     display: block;
-    animation: dropdownClose 0.7s forwards;
+    animation: dropdownClose 0.5s forwards;
     animation-fill-mode: forwards; /* Ensures the animation keeps the end state */
   }
   @keyframes dropdownOpen {
     from {
-      transform: scale(0) translateX(-20px);
+      transform: scale(0) translateX(-100px);
       opacity: 0;
     }
     to {
@@ -81,7 +81,7 @@ author_profile: true
       opacity: 1;
     }
     to {
-      transform: scale(0) translateX(-20px);
+      transform: scale(0) translateX(-100px);
       opacity: 0;
     }
   }
@@ -112,12 +112,12 @@ author_profile: true
 
 <nav class="navbar">
   <ul class="navbar-list">
-    <li class="navbar-item dropdown">
-      <a href="javascript:void(0)" class="dropbtn" onmouseover="showDropdown()" onclick="toggleDropdown()">
+    <li class="navbar-item dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()" onclick="toggleDropdown()">
+      <a href="javascript:void(0)" class="dropbtn">
         <span id="dropdown-arrow" style="margin-right: 30px;">▼</span>
         <span style="font-size: 24px; font-weight: bold;">Publications📜</span>
       </a>
-      <div class="dropdown-content" onmouseleave="hideDropdown()" onmouseover="keepDropdownOpen()">
+      <div class="dropdown-content">
         {% for post in site.publications %}
           <a href="#{{ post.title | slugify }}">{{ post.title }}</a>
         {% endfor %}
@@ -155,9 +155,5 @@ author_profile: true
     } else {
       showDropdown();
     }
-  }
-  function keepDropdownOpen() {
-    var dropdownContent = document.querySelector('.dropdown-content');
-    dropdownContent.classList.remove('hide');
   }
 </script>
