@@ -58,11 +58,11 @@ author_profile: true
   }
   .dropdown-content.show {
     display: block;
-    animation: dropdownOpen 0.7s forwards;
+    animation: dropdownOpen 0.5s forwards;
   }
   .dropdown-content.hide {
     display: block;
-    animation: dropdownClose 0.7s forwards;
+    animation: dropdownClose 0.5s forwards;
     animation-fill-mode: forwards; /* Ensures the animation keeps the end state */
   }
   @keyframes dropdownOpen {
