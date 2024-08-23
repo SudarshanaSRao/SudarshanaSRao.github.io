@@ -45,6 +45,7 @@ author_profile: true
     max-height: 0; /* Initial hidden state */
     min-width: 200px;
     overflow: hidden; /* Hide content outside max-height */
+    overflow-y: auto; /* Enable vertical scrolling */
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     border-radius: 4px;
     top: 100%; /* Positions the dropdown below the button */
@@ -83,7 +84,7 @@ author_profile: true
 
 <nav class="navbar">
   <ul class="navbar-list">
-    <li class="navbar-item dropdown" onclick="toggleDropdown()">
+    <li class="navbar-item dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()" onclick="toggleDropdown()">
       <a href="javascript:void(0)" class="dropbtn">
         <span id="dropdown-arrow" style="margin-right: 30px;">▼</span>
         <span style="font-size: 24px; font-weight: bold;">Projects🗃️</span>
