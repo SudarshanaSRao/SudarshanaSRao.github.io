@@ -52,12 +52,16 @@ author_profile: true
     border-radius: 4px;
     top: 100%; /* Positions the dropdown below the button */
     right: 0;
-    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Ensure scaling happens from the left */
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Ensure scaling happens from the left */
+    max-height: 0;
     opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
   }
   .dropdown-content.show {
     max-height: 400px; /* Fully expanded state */
     opacity: 1;
+    transform: scaleY(1);
   }
   .dropdown-content a {
     color: black;
