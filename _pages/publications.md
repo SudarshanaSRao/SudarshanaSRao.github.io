@@ -52,7 +52,7 @@ author_profile: true
     border-radius: 4px;
     top: 100%; /* Positions the dropdown below the button */
     right: 0;
-    transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out, transform 0.4s ease-in-out; /* Ensure scaling happens from the left */
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, transform 0.3s ease-in-out; /* Ensure scaling happens from the left */
     max-height: 0;
     opacity: 0;
     transform: scaleY(0);
