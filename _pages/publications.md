@@ -42,48 +42,22 @@ author_profile: true
     text-decoration: none;
   } 
   .dropdown-content {
-    display: none;
+    display: block;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 200px;
-    max-height: 400px; /* Limit height to 400px */
+    overflow: hidden;
     overflow-y: auto; /* Enable scrolling */
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
     border-radius: 4px;
     top: 100%; /* Positions the dropdown below the button */
     right: 0;
-    transform-origin: top left; /* Ensure scaling happens from the left */
-    transform: scale(0) translateX(-100px); /* Initial hidden state */
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Ensure scaling happens from the left */
     opacity: 0;
   }
   .dropdown-content.show {
-    display: block;
-    animation: dropdownOpen 0.5s forwards;
-  }
-  .dropdown-content.hide {
-    display: block;
-    animation: dropdownClose 0.5s forwards;
-    animation-fill-mode: forwards; /* Ensures the animation keeps the end state */
-  }
-  @keyframes dropdownOpen {
-    from {
-      transform: scale(0) translateX(-100px);
-      opacity: 0;
-    }
-    to {
-      transform: scale(1) translateX(0);
-      opacity: 1;
-    }
-  }
-  @keyframes dropdownClose {
-    from {
-      transform: scale(1) translateX(0);
-      opacity: 1;
-    }
-    to {
-      transform: scale(0) translateX(-100px);
-      opacity: 0;
-    }
+    max-height: 400px; /* Fully expanded state */
+    opacity: 1;
   }
   .dropdown-content a {
     color: black;
@@ -136,7 +110,6 @@ author_profile: true
   function showDropdown() {
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
-    //dropdownContent.classList.remove('hide');
     dropdownContent.classList.add('show');
     dropdownArrow.innerHTML = "▲";
   }
@@ -144,7 +117,6 @@ author_profile: true
     var dropdownContent = document.querySelector('.dropdown-content');
     var dropdownArrow = document.getElementById('dropdown-arrow');
     dropdownContent.classList.remove('show');
-    //dropdownContent.classList.add('hide');
     dropdownArrow.innerHTML = "▼";
   }
   function toggleDropdown() {
