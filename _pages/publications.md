@@ -102,6 +102,12 @@ author_profile: true
       max-height: 200px; /* Adjust dropdown height for smaller screens */
     }
   }
+  hr {
+    border: 0;
+    border-top: 2px solid #ddd;
+    margin: 30px 0;
+    width: 90%; /* Make the line slightly longer */
+  }
 </style>
 
 <nav class="navbar">
@@ -123,6 +129,7 @@ author_profile: true
 {% for post in site.publications %}
 <div id="{{ post.title | slugify }}">
     {% include archive-single.html %}
+    <hr> <!-- Horizontal line added here -->
 </div>
 {% endfor %}
 
