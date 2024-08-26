@@ -76,9 +76,9 @@ Through my studies and projects, I have developed skills in Large Language Model
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 <div class="separator">
   <div class="shape-separator">
-    <div class="shape">🛆</div>
-    <div class="shape1">🛆</div>
-    <div class="shape2">🛆</div>
+    <div class="shape" style="transform: rotate(-90deg);">🛆</div>
+    <div class="shape" style="transform: rotate(180deg);">🛆</div>
+    <div class="shape" style="transform: rotate(90deg);">🛆</div>
   </div>
 </div>
 
@@ -99,21 +99,6 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   display: inline-block;
   position: relative;
   z-index: 1;
-  transform: rotate(-90deg);
-}
-.shape.shape1 {
-  font-size: 36px;
-  display: inline-block;
-  position: relative;
-  z-index: 1;
-  transform: rotate(180deg);
-}
-.shape.shape2 {
-  font-size: 36px;
-  display: inline-block;
-  position: relative;
-  z-index: 1;
-  transform: rotate(90deg);
 }
 /* Ripple effect */
 .shape::before {
