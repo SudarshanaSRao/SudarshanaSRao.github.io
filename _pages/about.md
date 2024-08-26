@@ -94,24 +94,14 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-top: -10px;
   position: relative;
 }
 .shape {
   font-size: 36px;
   display: inline-block;
-  animation: swap 9s infinite ease-in-out;
+  animation: rotate infinite ease-in-out;
   position: relative;
   z-index: 1;
-}
-.circle {
-  animation-delay: 0s;
-}
-.square {
-  animation-delay: 3s;
-}
-.triangle {
-  animation-delay: 6s;
 }
 /* Ripple effect */
 .shape::before {
@@ -143,17 +133,16 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     opacity: 1;
   }
 }
-/* Swapping positions animation */
-@keyframes swap {
-  0%, 33% {
-    transform: translateX(0);
-  }
-  34%, 66% {
-    transform: translateX(70px); /* Distance to move for swapping */
-  }
-  67%, 100% {
-    transform: translateX(-70px); /* Return to original position */
-  }
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 </style>
 
