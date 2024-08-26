@@ -74,7 +74,68 @@ redirect_from:
 Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. My ideal role involves applying math to develop models or algorithms, analyze data patterns, understand model interpretability, build LLMs, and code data pipelines. Additionally, I am passionate about making AI models safe, reliable, and transparent.    
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
-&nbsp;
+
+<div class="separator">
+  <hr>
+  <div class="shape-separator">
+    <div class="shape circle"></div>
+    <div class="shape square"></div>
+    <div class="shape triangle"></div>
+  </div>
+</div>
+
+<style>
+.separator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+.separator hr {
+  width: 80%;
+  border: 0;
+  border-top: 2px solid #ddd;
+  margin: 0;
+}
+.shape-separator {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: -10px;
+}
+.shape {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  animation: bounce 2s infinite ease-in-out;
+}
+.circle {
+  background-color: #4CAF50;
+  border-radius: 50%;
+}
+.square {
+  background-color: #FF5722;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 24px solid #2196F3;
+}
+.shape:nth-child(1) { animation-delay: 0.2s; }
+.shape:nth-child(2) { animation-delay: 0.4s; }
+.shape:nth-child(3) { animation-delay: 0.6s; }
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+</style>
+
 # Blogs📝   
 <div class="flexcontainer">
   <div>
