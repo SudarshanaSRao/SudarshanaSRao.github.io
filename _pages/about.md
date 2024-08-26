@@ -87,7 +87,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 .shape-separator {
   display: flex;
@@ -98,7 +98,6 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 .shape {
   font-size: 36px;
   display: inline-block;
-  animation: rotate 4s infinite linear;
   position: relative;
   z-index: 1;
 }
@@ -113,7 +112,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   background: rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  animation: ripple 4s infinite;
+  animation: ripple 4s infinite ease-in-out;
 }
 /* Ripple animation */
 @keyframes ripple {
@@ -132,15 +131,6 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     height: 0;
     opacity: 1;
   }
-}
-/* Rotation animation */
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
 }
 </style>
 
