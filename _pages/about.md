@@ -99,7 +99,8 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 .shape {
   font-size: 36px;
   display: inline-block;
-  animation: float 3s ease-in-out infinite, swap 9s infinite ease-in-out;
+  animation: swap 9s infinite ease-in-out;
+  z-index: 1;
 }
 .circle {
   animation-delay: 0s;
