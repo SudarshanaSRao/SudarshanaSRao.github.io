@@ -76,7 +76,6 @@ Through my studies and projects, I have developed skills in Large Language Model
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
 <div class="separator">
-  <hr>
   <div class="shape-separator">
     <div class="shape circle"></div>
     <div class="shape square"></div>
@@ -91,23 +90,17 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   align-items: center;
   margin: 20px 0;
 }
-.separator hr {
-  width: 80%;
-  border: 0;
-  border-top: 2px solid #ddd;
-  margin: 0;
-}
 .shape-separator {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 20px;
   margin-top: -10px;
 }
 .shape {
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  height: 36px;
   display: inline-block;
-  animation: bounce 2s infinite ease-in-out;
+  animation: bounce 6s infinite; /* Adjusted duration for synchronized bounce */
 }
 .circle {
   background-color: #4CAF50;
@@ -122,10 +115,11 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
   border-bottom: 24px solid #2196F3;
+  transform: rotate(180deg); /* Inverted triangle */
 }
-.shape:nth-child(1) { animation-delay: 0.2s; }
-.shape:nth-child(2) { animation-delay: 0.4s; }
-.shape:nth-child(3) { animation-delay: 0.6s; }
+.shape:nth-child(1) { animation-delay: 0s; }
+.shape:nth-child(2) { animation-delay: 2s; } /* Starts after the first one finishes */
+.shape:nth-child(3) { animation-delay: 4s; } /* Starts after the second one finishes */
 @keyframes bounce {
   0%, 100% {
     transform: translateY(0);
