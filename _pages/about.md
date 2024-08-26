@@ -74,6 +74,7 @@ redirect_from:
 Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. My ideal role involves applying math to develop models or algorithms, analyze data patterns, understand model interpretability, build LLMs, and code data pipelines. Additionally, I am passionate about making AI models safe, reliable, and transparent.    
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
+
 <div class="separator">
   <div class="shape-separator">
     <div class="shape circle">🌊</div>
@@ -81,6 +82,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     <div class="shape triangle">🍃</div>
   </div>
 </div>
+
 <style>
 .separator {
   display: flex;
@@ -93,32 +95,20 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   justify-content: center;
   gap: 20px;
   margin-top: -10px;
-  position: relative; /* Needed for ripple effect positioning */
 }
 .shape {
   font-size: 36px;
   display: inline-block;
-  animation: float 3s ease-in-out infinite; /* Continuous floating animation */
-  position: relative;
-  z-index: 1;
+  animation: float 3s ease-in-out infinite, swap 9s infinite ease-in-out;
 }
 .circle {
-  animation-delay: 0s; /* Start immediately */
+  animation-delay: 0s;
 }
 .square {
-  animation-delay: 0.5s; /* Slight delay for a more natural effect */
+  animation-delay: 0.5s;
 }
 .triangle {
-  animation-delay: 1s; /* Slight delay for a more natural effect */
-}
-/* Floating animation */
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0) rotate(0deg);
-  }
-  50% {
-    transform: translateY(-10px) rotate(-3deg);
-  }
+  animation-delay: 1s;
 }
 /* Ripple effect */
 .shape::before {
@@ -145,7 +135,20 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     opacity: 0;
   }
 }
+/* Swapping positions animation */
+@keyframes swap {
+  0%, 100% {
+    order: 1;
+  }
+  33% {
+    order: 2;
+  }
+  66% {
+    order: 3;
+  }
+}
 </style>
+
 # Blogs📝   
 <div class="flexcontainer">
   <div>
