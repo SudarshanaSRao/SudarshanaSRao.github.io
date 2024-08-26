@@ -96,6 +96,12 @@ author_profile: true
       max-height: 200px; /* Adjust dropdown height for smaller screens */
     }
   }
+  /* Style for the horizontal line after each project */
+  .project-separator {
+    width: 80%;
+    margin: 20px auto;
+    border-top: 2px solid #ddd;
+  }
 </style>
 
 <nav class="navbar">
@@ -118,6 +124,7 @@ author_profile: true
 <div id="{{ post.title | slugify }}">
     {% include archive-single.html %}
 </div>
+<hr class="project-separator">
 {% endfor %}
 
 <script>
