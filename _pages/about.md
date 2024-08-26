@@ -101,14 +101,14 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   z-index: 1;
   transform: rotate(-90deg);
 }
-.shape1 {
+.shape.shape1 {
   font-size: 36px;
   display: inline-block;
   position: relative;
   z-index: 1;
   transform: rotate(180deg);
 }
-.shape2 {
+.shape.shape2 {
   font-size: 36px;
   display: inline-block;
   position: relative;
