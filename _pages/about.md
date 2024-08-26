@@ -87,7 +87,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5px 0;
+/*   margin: 5px 0; */
   transform: rotate(180deg);
 }
 .shape-separator {
