@@ -76,9 +76,9 @@ Through my studies and projects, I have developed skills in Large Language Model
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 <div class="separator">
   <div class="shape-separator">
-    <div class="shape circle">🌊</div>
-    <div class="shape square">🌞</div>
-    <div class="shape triangle">🍃</div>
+    <div class="shape circle">.</div>
+    <div class="shape square">.</div>
+    <div class="shape triangle">.</div>
   </div>
 </div>
 
