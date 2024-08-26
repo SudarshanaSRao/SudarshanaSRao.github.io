@@ -100,7 +100,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   width: 36px;
   height: 36px;
   display: inline-block;
-  animation: bounce 6s infinite; /* Adjusted duration for synchronized bounce */
+  animation: bounce 2s ease-in-out infinite;
 }
 .circle {
   background-color: #4CAF50;
@@ -112,14 +112,14 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 .triangle {
   width: 0;
   height: 0;
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
-  border-bottom: 24px solid #2196F3;
-  transform: rotate(180deg); /* Inverted triangle */
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-bottom: 36px solid #2196F3;
+  transform: rotate(180deg); /* Correctly inverts the triangle */
 }
 .shape:nth-child(1) { animation-delay: 0s; }
-.shape:nth-child(2) { animation-delay: 2s; } /* Starts after the first one finishes */
-.shape:nth-child(3) { animation-delay: 4s; } /* Starts after the second one finishes */
+.shape:nth-child(2) { animation-delay: 2s; }
+.shape:nth-child(3) { animation-delay: 4s; }
 @keyframes bounce {
   0%, 100% {
     transform: translateY(0);
