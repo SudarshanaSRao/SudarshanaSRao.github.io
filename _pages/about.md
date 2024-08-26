@@ -74,7 +74,6 @@ redirect_from:
 Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. My ideal role involves applying math to develop models or algorithms, analyze data patterns, understand model interpretability, build LLMs, and code data pipelines. Additionally, I am passionate about making AI models safe, reliable, and transparent.    
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
-
 <div class="separator">
   <div class="shape-separator">
     <div class="shape circle">🌊</div>
@@ -82,7 +81,6 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     <div class="shape triangle">🍃</div>
   </div>
 </div>
-
 <style>
 .separator {
   display: flex;
@@ -95,11 +93,14 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   justify-content: center;
   gap: 20px;
   margin-top: -10px;
+  position: relative; /* Needed for ripple effect positioning */
 }
 .shape {
   font-size: 36px;
   display: inline-block;
   animation: float 3s ease-in-out infinite; /* Continuous floating animation */
+  position: relative;
+  z-index: 1;
 }
 .circle {
   animation-delay: 0s; /* Start immediately */
@@ -119,8 +120,32 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     transform: translateY(-10px) rotate(-3deg);
   }
 }
+/* Ripple effect */
+.shape::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: ripple 3s infinite;
+}
+@keyframes ripple {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+  }
+}
 </style>
-
 # Blogs📝   
 <div class="flexcontainer">
   <div>
