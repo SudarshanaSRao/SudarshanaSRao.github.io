@@ -83,14 +83,6 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   </div>
 </div>
 
-<div class="separator">
-  <div class="shape-separator">
-    <div class="shape circle"></div>
-    <div class="shape square"></div>
-    <div class="shape triangle"></div>
-  </div>
-</div>
-
 <style>
 .separator {
   display: flex;
@@ -108,14 +100,16 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   width: 36px;
   height: 36px;
   display: inline-block;
-  animation: bounce 2s ease-in-out infinite;
+  animation: bounce 2s ease-in-out; /* Basic bounce animation */
+  animation-fill-mode: forwards; /* Ensure the shape stays in the final position */
 }
 .circle {
   background-color: #4CAF50;
-  border-radius: 50%;
+  animation-delay: 0s; /* Start immediately */
 }
 .square {
   background-color: #FF5722;
+  animation-delay: 2s; /* Start after the circle finishes */
 }
 .triangle {
   width: 0;
@@ -123,13 +117,10 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   border-left: 18px solid transparent;
   border-right: 18px solid transparent;
   border-bottom: 36px solid #2196F3;
-}
-.shape:nth-child(1) { animation-delay: 0s; }
-.shape:nth-child(2) { animation-delay: 2s; }
-.shape:nth-child(3) { 
-  animation-delay: 4s;
   transform: rotate(180deg); /* Keep the triangle inverted */
+  animation-delay: 4s; /* Start after the square finishes */
 }
+/* Bouncing animation */
 @keyframes bounce {
   0%, 100% {
     transform: translateY(0);
@@ -137,17 +128,6 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   50% {
     transform: translateY(-20px);
   }
-}
-@keyframes bounce-triangle {
-  0%, 100% {
-    transform: translateY(0) rotate(180deg); /* Maintain inversion */
-  }
-  50% {
-    transform: translateY(-20px) rotate(180deg); /* Maintain inversion */
-  }
-}
-.triangle {
-  animation-name: bounce-triangle;
 }
 </style>
 
