@@ -77,9 +77,9 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <div class="separator">
   <div class="shape-separator">
-    <div class="shape circle"></div>
-    <div class="shape square"></div>
-    <div class="shape triangle"></div>
+    <div class="shape circle">🌊</div>
+    <div class="shape square">🌞</div>
+    <div class="shape triangle">🍃</div>
   </div>
 </div>
 
@@ -97,36 +97,26 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   margin-top: -10px;
 }
 .shape {
-  width: 36px;
-  height: 36px;
+  font-size: 36px;
   display: inline-block;
-  animation: bounce 2s ease-in-out; /* Basic bounce animation */
-  animation-fill-mode: forwards; /* Ensure the shape stays in the final position */
+  animation: float 3s ease-in-out infinite; /* Continuous floating animation */
 }
 .circle {
-  background-color: #4CAF50;
   animation-delay: 0s; /* Start immediately */
 }
 .square {
-  background-color: #FF5722;
-  animation-delay: 2s; /* Start after the circle finishes */
+  animation-delay: 0.5s; /* Slight delay for a more natural effect */
 }
 .triangle {
-  width: 0;
-  height: 0;
-  border-left: 18px solid transparent;
-  border-right: 18px solid transparent;
-  border-bottom: 36px solid #2196F3;
-  transform: rotate(180deg); /* Keep the triangle inverted */
-  animation-delay: 4s; /* Start after the square finishes */
+  animation-delay: 1s; /* Slight delay for a more natural effect */
 }
-/* Bouncing animation */
-@keyframes bounce {
+/* Floating animation */
+@keyframes float {
   0%, 100% {
-    transform: translateY(0);
+    transform: translateY(0) rotate(0deg);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-10px) rotate(-3deg);
   }
 }
 </style>
