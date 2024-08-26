@@ -77,8 +77,8 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 <div class="separator">
   <div class="shape-separator">
     <div class="shape">🛆</div>
-    <div class="shape">🛆</div>
-    <div class="shape">🛆</div>
+    <div class="shape1">🛆</div>
+    <div class="shape2">🛆</div>
   </div>
 </div>
 
@@ -87,20 +87,33 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   display: flex;
   flex-direction: column;
   align-items: center;
-/*   margin: 5px 0; */
-  transform: rotate(180deg);
 }
 .shape-separator {
   display: flex;
   justify-content: center;
   gap: 20px;
-  position: relative;
+  position: relative;    
 }
 .shape {
   font-size: 36px;
   display: inline-block;
   position: relative;
   z-index: 1;
+  transform: rotate(-90deg);
+}
+.shape1 {
+  font-size: 36px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  transform: rotate(180deg);
+}
+.shape2 {
+  font-size: 36px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  transform: rotate(90deg);
 }
 /* Ripple effect */
 .shape::before {
