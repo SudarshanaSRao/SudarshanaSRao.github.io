@@ -74,7 +74,6 @@ redirect_from:
 Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. My ideal role involves applying math to develop models or algorithms, analyze data patterns, understand model interpretability, build LLMs, and code data pipelines. Additionally, I am passionate about making AI models safe, reliable, and transparent.    
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
-
 <div class="separator">
   <div class="shape-separator">
     <div class="shape circle">🌊</div>
@@ -99,7 +98,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 .shape {
   font-size: 36px;
   display: inline-block;
-  animation: rotate infinite ease-in-out;
+  animation: rotate 4s infinite linear;
   position: relative;
   z-index: 1;
 }
@@ -114,15 +113,16 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   background: rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  animation: ripple 9s infinite;
+  animation: ripple 4s infinite;
 }
+/* Ripple animation */
 @keyframes ripple {
   0% {
     width: 0;
     height: 0;
     opacity: 1;
   }
-  33%, 66% {
+  50% {
     width: 100px;
     height: 100px;
     opacity: 0;
@@ -133,12 +133,10 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     opacity: 1;
   }
 }
+/* Rotation animation */
 @keyframes rotate {
     0% {
         transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(180deg);
     }
     100% {
         transform: rotate(360deg);
