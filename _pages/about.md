@@ -88,18 +88,20 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 .shape-separator {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-top: -10px;
+  position: relative;
 }
 .shape {
   font-size: 36px;
   display: inline-block;
   animation: swap 9s infinite ease-in-out;
+  position: relative;
   z-index: 1;
 }
 .circle {
