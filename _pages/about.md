@@ -76,9 +76,9 @@ Through my studies and projects, I have developed skills in Large Language Model
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 <div class="separator">
   <div class="shape-separator">
-    <div class="shape circle">⏹️</div>
-    <div class="shape square">⏹️</div>
-    <div class="shape triangle">⏹️</div>
+    <div class="shape circle">🛆</div>
+    <div class="shape square">🛆</div>
+    <div class="shape triangle">🛆</div>
   </div>
 </div>
 
@@ -100,6 +100,17 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   display: inline-block;
   position: relative;
   z-index: 1;
+}
+.shape.triangle {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 30px solid black; /* Adjust the color as needed */
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  transform: rotate(180deg); /* Invert the triangle */
 }
 /* Ripple effect */
 .shape::before {
