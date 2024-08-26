@@ -88,7 +88,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 .shape-separator {
   display: flex;
@@ -108,10 +108,10 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   animation-delay: 0s;
 }
 .square {
-  animation-delay: 0.5s;
+  animation-delay: 3s;
 }
 .triangle {
-  animation-delay: 1s;
+  animation-delay: 6s;
 }
 /* Ripple effect */
 .shape::before {
@@ -124,7 +124,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   background: rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  animation: ripple 3s infinite;
+  animation: ripple 9s infinite;
 }
 @keyframes ripple {
   0% {
@@ -132,22 +132,27 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     height: 0;
     opacity: 1;
   }
-  100% {
+  33%, 66% {
     width: 100px;
     height: 100px;
     opacity: 0;
   }
+  100% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
 }
 /* Swapping positions animation */
 @keyframes swap {
-  0%, 100% {
-    order: 1;
+  0%, 33% {
+    transform: translateX(0);
   }
-  33% {
-    order: 2;
+  34%, 66% {
+    transform: translateX(70px); /* Distance to move for swapping */
   }
-  66% {
-    order: 3;
+  67%, 100% {
+    transform: translateX(-70px); /* Return to original position */
   }
 }
 </style>
