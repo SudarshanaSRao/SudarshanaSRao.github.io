@@ -104,7 +104,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   position: relative;
   z-index: 1;
 }
-/* Ripple effect */
+/* Ripple effect 
 .shape::before {
   content: '';
   position: absolute;
@@ -117,7 +117,6 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   transform: translate(-50%, -50%);
   animation: ripple 4s infinite ease-in-out;
 }
-/* Ripple animation */
 @keyframes ripple {
   0% {
     width: 0;
@@ -134,7 +133,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     height: 0;
     opacity: 1;
   }
-}
+}*/
 </style>
 
 # Blogs📝   
