@@ -136,18 +136,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }*/
 </style>
 
-<h1 class="blog-title">Blogs📝</h1>
-<style>
-  .blog-title {
-      display: inline-block;
-      padding: 15px 30px; /* Increased padding for a more bulged look */
-      font-size: 2rem;
-      font-weight: bold;
-      background-color: #f0f0f0; /* Light background color */
-      border-radius: 50px; /* Creates the pill shape */
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Stronger shadow for more pop */
-  }
-</style>
+#Blogs📝
 <div class="flexcontainer">
   <div>
     <span>✦ A fun and a data-driven analysis on the Summer Olympics:</span> <a href="https://medium.com/@sudarshanasrao/olympics-tableau-3a79b7b49619" onclick="trackOutboundLink(this);">
