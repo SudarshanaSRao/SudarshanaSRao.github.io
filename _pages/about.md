@@ -138,15 +138,15 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <h1 class="blog-title">Blogs📝</h1>
 <style>
-    .blog-title {
-        display: inline-block;
-        padding: 10px 20px;
-        font-size: 2rem;
-        font-weight: bold;
-        background-color: #f0f0f0; /* Light background color */
-        border-radius: 50px; /* Creates the pill shape */
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); /* Creates the elevated effect */
-    }
+  .blog-title {
+      display: inline-block;
+      padding: 15px 30px; /* Increased padding for a more bulged look */
+      font-size: 2rem;
+      font-weight: bold;
+      background-color: #f0f0f0; /* Light background color */
+      border-radius: 50px; /* Creates the pill shape */
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Stronger shadow for more pop */
+  }
 </style>
 <div class="flexcontainer">
   <div>
