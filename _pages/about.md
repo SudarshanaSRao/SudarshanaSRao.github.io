@@ -136,7 +136,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }*/
 </style>
 
-#Blogs📝
+# Blogs📝
 <div class="flexcontainer">
   <div>
     <span>✦ A fun and a data-driven analysis on the Summer Olympics:</span> <a href="https://medium.com/@sudarshanasrao/olympics-tableau-3a79b7b49619" onclick="trackOutboundLink(this);">
