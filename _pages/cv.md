@@ -123,8 +123,7 @@ Work Experience
 
 * Worked at the Signal Analysis and Interpretation Laboratory (SAIL under the SIPI- Signal and Image Processing Institute) to annotate audio files. 
 * These annotations will be used to train a Machine Learning model to identify, classify, and filter out the noise in recorded conversations.
-* This project was funded by **Apple**.
-* Appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
+* This project was funded by **Apple** and appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
   
  <div class="flexcontainer">
   <div>
