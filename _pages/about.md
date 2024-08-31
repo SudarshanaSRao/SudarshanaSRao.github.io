@@ -139,6 +139,14 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 # Blogs📝
 <div class="flexcontainer">
   <div>
+    <span>✦ A post describing the features of my app **File Conversational Assistant**:</span> <a href="https://medium.com/@sudarshanasrao/introducing-the-file-conversational-assistant-revolutionizing-document-interaction-with-ai-bf878e5c9ed5" onclick="trackOutboundLink(this);">
+      <img class="pulse" height="30px" src="/images/webapp.jpeg" width="100px">
+    </a>
+  </div>
+</div>
+
+<div class="flexcontainer">
+  <div>
     <span>✦ A fun and a data-driven analysis on the Summer Olympics:</span> <a href="https://medium.com/@sudarshanasrao/olympics-tableau-3a79b7b49619" onclick="trackOutboundLink(this);">
       <img class="pulse" height="30px" src="/images/indy.jpg" width="100px">
     </a>
