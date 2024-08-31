@@ -6,7 +6,7 @@ collection: portfolio
 
 <div class="flexcontainer">
   <div>
-        <span>✦ <strong>Launched an AI-powered File Conversational Assistant app using Streamlit:</strong></span> <a href="https://talk-to-your-data.streamlit.app/" onclick="trackOutboundLink(this);">
+        <span>• Launched an <strong>AI-powered app using Streamlit</strong>:</span> <a href="https://talk-to-your-data.streamlit.app/" onclick="trackOutboundLink(this);">
       <img class="pulse" height="30px" src="/images/webapp.jpeg" width="80px">
     </a>
   </div>
