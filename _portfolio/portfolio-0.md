@@ -4,14 +4,7 @@ excerpt: "<img src='/images/Flowchart.png'>"
 collection: portfolio
 ---
 
-<div class="flexcontainer">
-  <div>
-        <span>• Launched an <strong>AI-powered app using Streamlit</strong>:</span> <a href="https://talk-to-your-data.streamlit.app/" onclick="trackOutboundLink(this);">
-      <img class="pulse" height="30px" src="/images/webapp.jpeg" width="80px">
-    </a>
-  </div>
-</div>
-
+* Launched an **AI-powered app** using **Streamlit**. **Access it ↪️[here](https://talk-to-your-data.streamlit.app/)**
 * Integrated **Anthropic’s Claude** for natural language processing and intelligent responses.
 * Implemented file handling for formats like CSV, PDF, and DOCX.
 * Created interactive UI elements for file previews and data visualizations.
