@@ -1,3 +1,9 @@
+---
+title: "🗣️File Conversational Assistant"
+excerpt: "<img src='/images/Flowchart.png'>"
+collection: portfolio
+---
+
 - Launched an AI-powered File Conversational Assistant app using Streamlit.
 - Integrated Anthropic’s AI model for natural language processing and intelligent responses.
 - Implemented file handling for formats like CSV, PDF, and DOCX.
