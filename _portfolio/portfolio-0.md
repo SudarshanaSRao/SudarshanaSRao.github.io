@@ -5,6 +5,12 @@ collection: portfolio
 ---
 
 * **Access the app ↪️[here](https://talk-to-your-data.streamlit.app/)**
+
+<video width="100%" height="auto" controls>
+  <source src="/images/vid.mp4" type="video/mp4">
+  Sorry, your browser doesn’t support HTML5 video. Please update your browser or try another one.
+</video>
+
 * Launched an **AI-powered app** using **Streamlit**, with a strong emphasis on **data visualization**.
 
 <img src="/images/1sc.png" style="cursor: crosshair;">
