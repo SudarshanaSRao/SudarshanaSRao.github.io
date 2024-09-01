@@ -6,9 +6,20 @@ collection: portfolio
 
 * **Access the app ↪️[here](https://talk-to-your-data.streamlit.app/)**
 * Launched an **AI-powered app** using **Streamlit**, with a strong emphasis on **data visualization**.
+
+<img src="/images/1sc.png" style="cursor: crosshair;">
+
 * Integrated **Anthropic’s Claude** for natural language processing to facilitate user interaction with data in CSV, PDF, and DOCX formats.
 * Developed interactive UI elements for data previews and dynamic visualizations, making complex data insights accessible.
+
+<img src="/images/2sc.png" style="cursor: crosshair;">
+
 * Managed session state to maintain conversation history and context throughout the user interaction.
+
+<img src="/images/3sc.png" style="cursor: crosshair;">
+
+<img src="/images/4sc.png" style="cursor: crosshair;">
+  
 * Ensured secure API key authentication to protect access to AI services.
 
 <div class="flexcontainer">
