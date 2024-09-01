@@ -1,5 +1,5 @@
 ---
-title: "🗣️File Conversational Assistant"
+title: "🗣️Data Visualization Assistant"
 excerpt: "<img src='/images/Flowchart.png'>"
 collection: portfolio
 ---
