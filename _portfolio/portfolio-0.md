@@ -4,12 +4,12 @@ excerpt: "<img src='/images/Flowchart.png'>"
 collection: portfolio
 ---
 
-* Launched an **AI-powered app** using **Streamlit**. **Access it ↪️[here](https://talk-to-your-data.streamlit.app/)**
-* Integrated **Anthropic’s Claude** for natural language processing and intelligent responses.
-* Implemented file handling for formats like CSV, PDF, and DOCX.
-* Created interactive UI elements for file previews and data visualizations.
-* Managed session state to track conversation history and maintain context.
-* Ensured secure API key authentication for accessing AI services.
+* **Access the app ↪️[here](https://talk-to-your-data.streamlit.app/)**
+* Launched an **AI-powered app** using **Streamlit**, with a strong emphasis on **data visualization**.
+* Integrated **Anthropic’s Claude** for natural language processing to facilitate user interaction with data in CSV, PDF, and DOCX formats.
+* Developed interactive UI elements for data previews and dynamic visualizations, making complex data insights accessible.
+* Managed session state to maintain conversation history and context throughout the user interaction.
+* Ensured secure API key authentication to protect access to AI services.
 
 <div class="flexcontainer">
   <div>
