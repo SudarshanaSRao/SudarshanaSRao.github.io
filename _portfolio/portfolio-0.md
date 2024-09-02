@@ -4,7 +4,7 @@ excerpt: "<img src='/images/Flowchart.png'>"
 collection: portfolio
 ---
 
-<h2 align="center">Access the app ↪️[[Tak to your data](https://talk-to-your-data.streamlit.app/)]</h2>
+<h2 align="center">Access the app ↪️<a href="https://talk-to-your-data.streamlit.app/" target="_blank">Talk to your data</a></h2>
 
 <video width="100%" height="auto" controls>
   <source src="/images/vid.mp4" type="video/mp4">
