@@ -1,6 +1,6 @@
 ---
 title: "🕹️Steam Sales Analysis"
-excerpt: "<img src='/images/Flowchart.png'>"
+excerpt: "<img src='/images/steamstore-etl.drawio.png'>"
 collection: portfolio
 ---
 
@@ -26,4 +26,4 @@ collection: portfolio
 * Designed **interactive Tableau dashboards** to visualize data dynamically, providing actionable insights into gaming trends and sales performance.
 * Created a **command-line interface (CLI)** for managing data ingestion processes, with commands for cleaning, fetching, and processing data, including customizable options for batch size and data handling.
 * Configured and maintained database integration, ensuring proper connection and storage of data within the MySQL database.
-* Created and deployed a **Python PyPI package**.
+* Created and deployed a [Python PyPI package](https://pypi.org/project/steamstore-etl/).
