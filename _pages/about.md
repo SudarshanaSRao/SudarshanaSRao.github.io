@@ -139,6 +139,14 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 # Blogs📝
 <div class="flexcontainer">
   <div>
+    <span>✦ A blog explaining my <strong>Steam Sales Analysis</strong> project:</span> <a href="https://medium.com/@sudarshanasrao/steam-sales-insight-data-driven-analysis-and-visualization-pipeline-803862e5f555" onclick="trackOutboundLink(this);">
+      <img class="pulse" height="30px" src="/images/tds_logo.png" width="80px">
+    </a>
+  </div>
+</div>
+
+<div class="flexcontainer">
+  <div>
     <span>✦ A post describing the features of my app <strong>Data Visualization Assistant</strong>:</span> <a href="https://medium.com/@sudarshanasrao/introducing-the-file-conversational-assistant-revolutionizing-document-interaction-with-ai-bf878e5c9ed5" onclick="trackOutboundLink(this);">
       <img class="pulse" height="30px" src="/images/webapp.jpeg" width="100px">
     </a>
