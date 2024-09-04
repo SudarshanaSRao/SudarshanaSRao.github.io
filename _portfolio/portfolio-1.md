@@ -4,7 +4,7 @@ excerpt: "<img src='/images/Flowchart.png'>"
 collection: portfolio
 ---
 
-<div style="margin-top: -20px;">
+<div style="margin-top: -25px;">
   <h2 align="center">Access the app ↪️<a href="https://talk-to-your-data.streamlit.app/" target="_blank"><i>Talk to your data</i></a></h2>
 </div>
 
