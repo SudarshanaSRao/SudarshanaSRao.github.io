@@ -3,7 +3,6 @@ title: "🗣️Data Visualization Assistant"
 excerpt: "<img src='/images/Flowchart.png'>"
 collection: portfolio
 ---
-
 <h2 align="center">Access the app ↪️<a href="https://talk-to-your-data.streamlit.app/" target="_blank"><i>Talk to your data</i></a></h2>
 
 <video width="100%" height="auto" controls>
