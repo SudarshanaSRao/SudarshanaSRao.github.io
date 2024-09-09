@@ -103,18 +103,17 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   display: inline-block;
   position: relative;
   z-index: 1;
-  /* Multi-color gradient for a more dynamic look */
-  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 25%, #fbc2eb 50%, #a18cd1 75%, #fad0c4 100%);
+  /* Darker multi-color gradient for a richer look */
+  background: linear-gradient(135deg, #ff7078 0%, #f8a1b0 25%, #f58ad4 50%, #8b70c1 75%, #f8a1b0 100%);
   color: transparent;
   /* Clipping the background to the text */
   -webkit-background-clip: text;
   background-clip: text;
   /* Enhanced 3D shadow with multiple layers */
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2),
-               6px 6px 12px rgba(0, 0, 0, 0.1),
-               9px 9px 18px rgba(0, 0, 0, 0.05);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25),
+               6px 6px 12px rgba(0, 0, 0, 0.15),
+               9px 9px 18px rgba(0, 0, 0, 0.1);
 }
-
 @media (max-width: 600px) {
   .shape-separator {
     gap: 10px;
