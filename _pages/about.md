@@ -103,37 +103,17 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   display: inline-block;
   position: relative;
   z-index: 1;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
-/* Ripple effect 
-.shape::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  animation: ripple 4s infinite ease-in-out;
+@media (max-width: 600px) {
+  .shape-separator {
+    gap: 10px;
+  }
 }
-@keyframes ripple {
-  0% {
-    width: 0;
-    height: 0;
-    opacity: 1;
-  }
-  50% {
-    width: 100px;
-    height: 100px;
-    opacity: 0;
-  }
-  100% {
-    width: 0;
-    height: 0;
-    opacity: 1;
-  }
-}*/
 </style>
 
 # Blogs📝
