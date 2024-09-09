@@ -102,12 +102,23 @@ author_profile: true
       max-height: 200px; /* Adjust dropdown height for smaller screens */
     }
   }
-  hr {
-    border: 0;
-    border-top: 2px solid #ddd;
-    margin: 30px 0;
-    width: 90%; /* Make the line slightly longer */
-  }
+.project-separator {
+  width: 90%;
+  margin: 20px auto;
+  position: relative;  /* Allows positioning of the pseudo-element */
+  height: 3px;  /* Height of the separator */
+  background: #ddd;  /* Fallback color */
+}
+.project-separator::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;  
+  /* Multicolor gradient applied to the separator */
+  background: linear-gradient(135deg, #ff7078 0%, #f8a1b0 25%, #f58ad4 50%, #8b70c1 75%, #f8a1b0 100%);
+}
 </style>
 
 <nav class="navbar">
