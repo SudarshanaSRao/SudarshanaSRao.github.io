@@ -14,16 +14,16 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket, 🗞️ reading the
 <span>Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world</span> <span class="rotate-globe">🌎</span>: 
 <style>
   .rotate-globe {
-    font-size: 24px;
+    font-size: 12px;
     display: inline-block;
     animation: rotate-on-axis 5s linear infinite;
   }
-  @keyframes rotate {
+  @keyframes rotate-on-axis {
     from {
-      transform: rotate(0deg);
+      transform: rotateY(0deg);
     }
     to {
-      transform: rotate(360deg);
+      transform: rotateY(360deg);
     }
   }
 </style>
