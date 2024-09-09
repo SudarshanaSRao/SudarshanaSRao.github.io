@@ -140,7 +140,7 @@ author_profile: true
 {% for post in site.publications %}
 <div id="{{ post.title | slugify }}">
     {% include archive-single.html %}
-    <hr> <!-- Horizontal line added here -->
+    <hr class="project-separator"> <!-- Horizontal line added here -->
 </div>
 {% endfor %}
 
