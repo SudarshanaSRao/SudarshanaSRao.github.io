@@ -82,6 +82,8 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     <div class="shape">🛆</div>
     <div class="shape">🛆</div>
     <div class="shape">🛆</div>
+    <div class="shape">🛆</div>
+    <div class="shape">🛆</div>
   </div>
 </div>
 
