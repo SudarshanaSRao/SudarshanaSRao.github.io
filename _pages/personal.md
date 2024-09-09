@@ -11,22 +11,7 @@ redirect_from:
 
 I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket, 🗞️ reading the news, and 🍿 watching movies & 📽️ TV shows in my free time. Hit me up if you want to 🎮 play video games <img src="https://cdn3.emoji.gg/emojis/3139_Xbox.png" width="15px" height="15px" alt="Xbox"> with me!  
 
-<span>Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world</span> <span class="rotate-globe">🌎</span>: 
-<style>
-  .rotate-globe {
-    font-size: 12px;
-    display: inline-block;
-    animation: rotate-on-axis 5s linear infinite;
-  }
-  @keyframes rotate-on-axis {
-    from {
-      transform: rotateY(0deg);
-    }
-    to {
-      transform: rotateY(360deg);
-    }
-  }
-</style>
+Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world 🌎: 
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <style>
