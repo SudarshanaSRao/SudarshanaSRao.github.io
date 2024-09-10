@@ -119,12 +119,10 @@ Work Experience
 ### Student worker at University of Southern California, Los Angeles [October 2022-Present]
 _{August 2024-Present}_
 * Researching and implementing **LLM** use cases in **Data Analytics**.   
-
 _{May 2023-August 2024}_
 * Researched and analyzed human interaction with an AI (Nobu) to improve its Automatic Speech Recognition (ASR).  
 * Managed the interaction sessions (data collection) by assigning participants to the respective time slots.
 * Project: Speech quality assessment for automatic speech recognition, which **Disney** sponsors.
-
 _{October 2022-May 2023}_
 * Worked at the Signal Analysis and Interpretation Laboratory (SAIL under the SIPI- Signal and Image Processing Institute) to annotate audio files.    
 * These annotations will train a Machine Learning model to identify, classify, and filter out the noise in recorded conversations.
