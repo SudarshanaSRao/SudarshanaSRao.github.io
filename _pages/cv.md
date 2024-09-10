@@ -118,6 +118,7 @@ Work Experience
  
 ### Student worker at University of Southern California, Los Angeles [October 2022-Present]
 * Researching and implementing **LLM** use cases in **Data Analytics**.
+
 * Researched and analyzed human interaction with an AI (Nobu) to improve its Automatic Speech Recognition (ASR).
 * Managed the interaction sessions (data collection) by assigning participants to the respective time slots.
 * Project: Speech quality assessment for automatic speech recognition, which **Disney** sponsors.
