@@ -86,10 +86,6 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     <div class="shape">🛆</div>
     <div class="shape">🛆</div>
   </div>
-  <!-- Truck animation container -->
-  <div class="vehicle-container">
-    <div class="vehicle">🚚</div>
-  </div>
 </div>
 
 <style>
@@ -97,66 +93,33 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
 }
 .shape-separator {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Adjust the gap between the symbols */
+  gap: 20px;
   position: relative;
-  margin-top: 20px; /* Added margin to make space for the truck on top */
+  transform: rotate(180deg);
 }
 .shape {
   font-size: 36px;
   display: inline-block;
   position: relative;
   z-index: 1;
+  /* Darker multi-color gradient for a richer look */
   background: linear-gradient(135deg, #ff7078 0%, #f8a1b0 25%, #f58ad4 50%, #8b70c1 75%, #f8a1b0 100%);
   color: transparent;
+  /* Clipping the background to the text */
   -webkit-background-clip: text;
   background-clip: text;
+  /* Enhanced 3D shadow with multiple layers */
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25),
                6px 6px 12px rgba(0, 0, 0, 0.15),
                9px 9px 18px rgba(0, 0, 0, 0.1);
 }
-.vehicle-container {
-  position: absolute;
-  top: -30px; /* Adjust truck's position to be on top of the symbols */
-  left: 0;
-  width: 100%;
-  z-index: 2;
-}
-.vehicle {
-  font-size: 36px;
-  display: inline-block;
-  position: relative;
-  animation: drive 4s ease-in-out infinite;
-}
-@keyframes drive {
-  0% {
-    left: 0;
-  }
-  50% {
-    left: calc(100% - 240px); /* The truck stops at the last symbol, adjusted for total width */
-  }
-  100% {
-    left: 0;
-  }
-}
 @media (max-width: 600px) {
   .shape-separator {
     gap: 10px;
-  }
-  @keyframes drive {
-    0% {
-      left: 0;
-    }
-    50% {
-      left: calc(100% - 120px); /* Adjust for smaller screens */
-    }
-    100% {
-      left: 0;
-    }
   }
 }
 </style>
