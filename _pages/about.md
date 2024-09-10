@@ -85,9 +85,10 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     <div class="shape">🛆</div>
     <div class="shape">🛆</div>
     <div class="shape">🛆</div>
-    <div class="vehicle-container">
-      <div class="vehicle">🚚</div>
-    </div>
+  </div>
+  <!-- Truck animation container -->
+  <div class="vehicle-container">
+    <div class="vehicle">🚚</div>
   </div>
 </div>
 
@@ -120,19 +121,26 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 .vehicle-container {
   position: absolute;
-  top: -50px; /* Starting above the shapes */
-  animation: drive 5s infinite ease-in-out;
+  top: -50px; /* Adjust the truck's vertical position */
+  left: 0;
+  width: 100%;
   z-index: 2;
 }
 .vehicle {
   font-size: 36px;
+  display: inline-block;
+  position: relative;
+  animation: drive 4s ease-in-out infinite;
 }
 @keyframes drive {
   0% {
-    top: -50px;
+    left: 0; /* Start on the left */
+  }
+  50% {
+    left: calc(100% - 36px); /* Move to the right end */
   }
   100% {
-    top: 150px; /* Adjust based on the height you want the vehicle to travel */
+    left: 0; /* Move back to the left */
   }
 }
 @media (max-width: 600px) {
