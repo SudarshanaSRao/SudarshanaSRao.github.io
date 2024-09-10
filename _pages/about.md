@@ -102,9 +102,9 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 .shape-separator {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 20px; /* Adjust the gap between the symbols */
   position: relative;
-  transform: rotate(180deg);
+  margin-top: 20px; /* Added margin to make space for the truck on top */
 }
 .shape {
   font-size: 36px;
@@ -121,7 +121,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 .vehicle-container {
   position: absolute;
-  top: -50px; /* Adjust the truck's vertical position */
+  top: -30px; /* Adjust truck's position to be on top of the symbols */
   left: 0;
   width: 100%;
   z-index: 2;
@@ -134,18 +134,29 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 @keyframes drive {
   0% {
-    left: 0; /* Start on the left */
+    left: 0;
   }
   50% {
-    left: calc(100% - 36px); /* Move to the right end */
+    left: calc(100% - 240px); /* The truck stops at the last symbol, adjusted for total width */
   }
   100% {
-    left: 0; /* Move back to the left */
+    left: 0;
   }
 }
 @media (max-width: 600px) {
   .shape-separator {
     gap: 10px;
+  }
+  @keyframes drive {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: calc(100% - 120px); /* Adjust for smaller screens */
+    }
+    100% {
+      left: 0;
+    }
   }
 }
 </style>
