@@ -74,6 +74,7 @@ redirect_from:
 Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. My ideal role involves applying math to develop models or algorithms, analyze data patterns, understand model interpretability, build LLMs, and code data pipelines. Additionally, I am passionate about making AI models safe, reliable, and transparent.    
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
+
 <div class="separator">
   <div class="shape-separator">
     <div class="shape">🛆</div>
@@ -84,6 +85,9 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     <div class="shape">🛆</div>
     <div class="shape">🛆</div>
     <div class="shape">🛆</div>
+    <div class="vehicle-container">
+      <div class="vehicle">🚚</div>
+    </div>
   </div>
 </div>
 
@@ -92,6 +96,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 .shape-separator {
   display: flex;
@@ -105,16 +110,30 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   display: inline-block;
   position: relative;
   z-index: 1;
-  /* Darker multi-color gradient for a richer look */
   background: linear-gradient(135deg, #ff7078 0%, #f8a1b0 25%, #f58ad4 50%, #8b70c1 75%, #f8a1b0 100%);
   color: transparent;
-  /* Clipping the background to the text */
   -webkit-background-clip: text;
   background-clip: text;
-  /* Enhanced 3D shadow with multiple layers */
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25),
                6px 6px 12px rgba(0, 0, 0, 0.15),
                9px 9px 18px rgba(0, 0, 0, 0.1);
+}
+.vehicle-container {
+  position: absolute;
+  top: -50px; /* Starting above the shapes */
+  animation: drive 5s infinite ease-in-out;
+  z-index: 2;
+}
+.vehicle {
+  font-size: 36px;
+}
+@keyframes drive {
+  0% {
+    top: -50px;
+  }
+  100% {
+    top: 150px; /* Adjust based on the height you want the vehicle to travel */
+  }
 }
 @media (max-width: 600px) {
   .shape-separator {
