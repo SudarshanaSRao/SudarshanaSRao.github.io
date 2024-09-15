@@ -98,10 +98,7 @@ Skills
   * Python  \|  SQL  \|  MySQL  \|  MongoDB Atlas  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML  \|  PostgreSQL  \|  ESRI ArcGIS  \|  BigQuery  \|  UiPath studio (Robotics Process Automation) 
 
 * ### ML Frameworks & Libraries
-  * Streamlit GUI  \|  Beautiful Soup  \|  PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib  \|  Seaborn  \|  Pandas  \|  HuggingFace  \|  LangChain
-
-* ### Computer Vision
-  * OpenCV
+  * Streamlit GUI  \|  Beautiful Soup  \|  PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib  \|  Seaborn  \|  Pandas  \|  HuggingFace  \|  LangChain  \|  OpenCV
 
 * ### Tools
   * Git  \|  MS Azure  \|  GCP  \|  MS Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  Tableau  \|  LATEX  \|  Data Structues and Algorithms  \|  ETL  \|  Power BI  
