@@ -126,7 +126,7 @@ _{May 2023-August 2024}_
 * Project: Speech quality assessment for automatic speech recognition, which **Disney** sponsors.
 
 _{October 2022-May 2023}_
-* Worked at the Signal Analysis and Interpretation Laboratory (SAIL under the SIPI- Signal and Image Processing Institute) to annotate audio files.    
+* Worked at the **S**ignal **A**nalysis and **I**nterpretation **L**aboratory (**SAIL** under the **SIPI**- **S**ignal and **I**mage **P**rocessing **I**nstitute) to annotate audio files.    
 * These annotations will train a Machine Learning model to identify, classify, and filter out the noise in recorded conversations.
 * This project was funded by **Apple** and appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
   
