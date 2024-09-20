@@ -5,6 +5,9 @@ collection: portfolio
 ---
 
 * Fine-tuned (supervised instruction) **LLaMA-3 8b, LLaMA-2 7b, Mistral 7b, T5, and BART** to generate FAQs based on the website’s content.
+
+<img src="/images/LLMwei.png" style="cursor: crosshair;">
+
 * Scrapped **(Beautiful Soup)** and stored the top 150 US universities’ MS in CS graduate admission requirements in a **JSON** file (dataset creation).
 
 <img src="/images/faqjs.png" style="cursor: crosshair;">
