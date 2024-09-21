@@ -144,7 +144,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <div class="flexcontainer">
   <div>
-    <span>✦ A fun and a data-driven analysis on the Summer Olympics:</span> <a href="https://medium.com/@sudarshanasrao/olympics-tableau-3a79b7b49619" onclick="trackOutboundLink(this);">
+    <span>✦ A fun and a <strong>data-driven analysis</strong> on the Summer Olympics:</span> <a href="https://medium.com/@sudarshanasrao/olympics-tableau-3a79b7b49619" onclick="trackOutboundLink(this);">
       <img class="pulse" height="20px" src="/images/indy.jpg" width="70px">
     </a>
   </div>
