@@ -74,27 +74,27 @@ Online Courses
 </style>
 <div class="course-container">
   <div class="course">
-    <p class="text fade-in-text"><i>➤Data Analytics</i></p>
+    <p class="text fade-in-text"><i>➤ Data Analytics</i></p>
     <img src="/images/Google Data Analytics.jpg">
   </div>
   <div class="course">
-    <p class="text fade-in-text"><i>✦Microsoft Azure Machine Learning✦</i></p>
+    <p class="text fade-in-text"><i>➤ Microsoft Azure Machine Learning</i></p>
     <img src="/images/gluck.png">
   </div>
   <div class="course">
-    <p class="text fade-in-text"><i>✦Data Visualization✦</i></p>
+    <p class="text fade-in-text"><i>➤ Data Visualization</i></p>
     <img src="/images/uiuc_cou.png">
   </div>
   <div class="course">
-    <p class="text fade-in-text"><i>✦Using Python to Access Web Data✦</i></p>
+    <p class="text fade-in-text"><i>➤ Using Python to Access Web Data</i></p>
     <img src="/images/umich_2.png">
   </div>
   <div class="course">
-    <p class="text fade-in-text"><i>✦Python Data Structures✦</i></p>
+    <p class="text fade-in-text"><i>➤ Python Data Structures</i></p>
     <img src="/images/umich_3.png">
   </div>
   <div class="course">
-    <p class="text fade-in-text"><i>✦Getting Started with Python✦</i></p>
+    <p class="text fade-in-text"><i>➤ Getting Started with Python</i></p>
     <img src="/images/umich_1.png">
   </div>
 </div>
