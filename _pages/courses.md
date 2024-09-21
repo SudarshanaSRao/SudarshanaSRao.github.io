@@ -74,7 +74,7 @@ Online Courses
 </style>
 <div class="course-container">
   <div class="course">
-    <p class="text fade-in-text"><i>✦Data Analytics✦</i></p>
+    <p class="text fade-in-text"><i>➤Data Analytics</i></p>
     <img src="/images/Google Data Analytics.jpg">
   </div>
   <div class="course">
