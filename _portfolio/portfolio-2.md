@@ -4,7 +4,7 @@ excerpt: "<img src='/images/Bring Home the Gold in Your Own Reading Olympics! _ 
 collection: portfolio
 ---
 
-* Developed an interactive dashboard using **Tableau** with [Kaggle's Olympic dataset](https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals/data).
+* Developed an interactive dashboard using **Tableau** with _[Kaggle's Olympic dataset]_(https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals/data).
 * Enhanced data quality by **cleaning** and **transforming** dataset attributes for better insights.
 
 <div class='tableauPlaceholder' id='viz1723672153855' style='position: relative'>
