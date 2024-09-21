@@ -124,7 +124,27 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 </style>
 
-# Blogs📝
+<h1>
+  <span class="spin-emoji">📝</span>
+  <span class="blogs-title">Blogs</span>
+</h1>
+  <style>
+    .spin-emoji {
+      display: inline-block;
+      animation: spin 2s linear infinite;
+      font-size: 24px;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .blogs-title {
+      font-size: 24px;
+      display: inline-block;
+      margin-left: 10px;
+    }
+  </style>
+  
 <div class="flexcontainer">
   <div>
     <span>✦ A blog explaining my <strong>Steam Sales Analysis</strong> project:</span> <a href="https://medium.com/@sudarshanasrao/steam-sales-insight-data-driven-analysis-and-visualization-pipeline-803862e5f555" onclick="trackOutboundLink(this);">
