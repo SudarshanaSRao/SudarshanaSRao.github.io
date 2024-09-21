@@ -7,7 +7,7 @@ collection: portfolio
 <img src="/images/test-dataset1.png" style="cursor: crosshair;">
 <img src="/images/dataset.png" style="cursor: crosshair;">
 
-* Developed three classes of Artificial Neural Network (ANN) models using the PyTorch framework to translate [American Sign Language](https://www.kaggle.com/datasets/grassknoted/asl-alphabet) into a text-based representation.
+* Developed three classes of Artificial Neural Network (ANN) models using the PyTorch framework to translate _[American Sign Language]_(https://www.kaggle.com/datasets/grassknoted/asl-alphabet) into a text-based representation.
 
 <img src="/images/cnnarchitecture.jpg" style="cursor: crosshair;">
 
