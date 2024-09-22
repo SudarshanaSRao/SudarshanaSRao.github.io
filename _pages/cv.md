@@ -194,7 +194,6 @@ Awards
         position: relative;
         width: 500px;
         height: 500px;
-        background-color: white;
         border-radius: 10px;
         overflow: hidden;
     }
@@ -287,9 +286,8 @@ Awards
     }
     .popup-content1 {
         position: relative;
-        width: 500px;
-        height: 500px;
-        background-color: white;
+        width: 1000px;
+        height: 1000px;
         border-radius: 10px;
         overflow: hidden;
     }
