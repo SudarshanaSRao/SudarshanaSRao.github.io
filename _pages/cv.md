@@ -161,29 +161,19 @@ Awards
 </p>
 
 <!-- Popup container (initially hidden) -->
-<div id="popup" style="display:none; position:fixed; z-index:1000; background-color:rgba(0,0,0,0.8); display:flex; align-items:center; justify-content:center;">
+<div id="popup" style="display:none; position:fixed; z-index:1000; background-color:rgba(0,0,0,0.8); display:flex; align-items:center; justify-content:center; top:0; left:0; width:100%; height:100%;">
   <!-- Close button (cross icon) -->
-  <span style="position:absolute; top:-10px; right:-10px; color:#fff; font-size:30px; font-weight:bold; cursor:pointer;" onclick="closePopup()">&times;</span>
-  <!-- Full-sized image inside the popup, responsive to the actual image size -->
-  <img id="popupImage" src="/images/Trophy.jpg" style="width:auto; height:auto; max-width:90vw; max-height:90vh; border-radius:10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <span style="position:absolute; top:20px; right:20px; color:#fff; font-size:40px; font-weight:bold; cursor:pointer;" onclick="closePopup()">&times;</span>
+  <!-- Full-sized image inside the popup -->
+  <img id="popupImage" src="/images/Trophy.jpg" style="max-width:90%; max-height:90%; border-radius:10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
 </div>
 
 <script>
   function openPopup() {
-    var popup = document.getElementById('popup');
-    popup.style.display = 'flex'; // Show the popup
-    var img = document.getElementById('popupImage');
-    
-    // Set the popup container to match the image size
-    popup.style.width = img.offsetWidth + 'px';
-    popup.style.height = img.offsetHeight + 'px';
-    
-    // Center the popup window
-    popup.style.left = `calc(50% - ${img.offsetWidth / 2}px)`;
-    popup.style.top = `calc(50% - ${img.offsetHeight / 2}px)`;
+    document.getElementById('popup').style.display = 'flex'; // Show the popup
   }
-
   function closePopup() {
     document.getElementById('popup').style.display = 'none'; // Hide the popup
   }
 </script>
+
