@@ -200,7 +200,7 @@ Awards
     .close-button {
         position: absolute;
         top: 10px;
-        right: 10px;
+        right: 1px;
         color: #fff;
         font-size: 24px;
         font-weight: bold;
@@ -286,15 +286,15 @@ Awards
     }
     .popup-content1 {
         position: relative;
-        width: 1000px;
-        height: 1000px;
+        width: 700px;
+        height: 700px;
         border-radius: 10px;
         overflow: hidden;
     }
     .close-button1 {
         position: absolute;
         top: 10px;
-        right: 10px;
+        right: 1px;
         color: #fff;
         font-size: 24px;
         font-weight: bold;
