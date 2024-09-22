@@ -160,7 +160,7 @@ Awards
 <div id="popup" style="display:none; position:fixed; z-index:1; padding-top:100px; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8);">
   <span style="position:absolute; top:20px; right:45px; color:#fff; font-size:40px; font-weight:bold; cursor:pointer;" onclick="closePopup()">&times;</span>
   <!-- Full-sized image inside the popup -->
-  <img id="popupImage" src="full-image.jpg" style="margin:auto; display:block; width:80%; max-width:700px;">
+  <img id="popupImage" src="/images/Trophy.jpg" style="margin:auto; display:block; width:80%; max-width:700px;">
 </div>
 
 <script>
