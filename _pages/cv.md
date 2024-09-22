@@ -152,22 +152,29 @@ Awards
 ==================
 <p style="display: flex; align-items: center; justify-content: space-between;">
   Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College.
-  <!-- Thumbnail Image -->
-  <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" style="width:100px; height:auto; cursor:pointer; margin-left: 20px;" onclick="openPopup();">
+  
+  <!-- Thumbnail Image with rounded corners and pop-out symbol -->
+  <div style="position: relative; display: inline-block; margin-left: 20px;">
+    <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" style="width:100px; height:100px; object-fit:cover; border-radius:10px; cursor:pointer;" onclick="openPopup();">   
+    <!-- Pop-out symbol (top-right corner) -->
+    <span style="position: absolute; top: 5px; right: 5px; font-size: 18px; color: white; background: rgba(0, 0, 0, 0.5); border-radius: 50%; padding: 2px 5px;">&#x2197;</span>
+  </div>
 </p>
 
 <!-- Popup container -->
-<div id="popup" style="display:none; position:fixed; z-index:1; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8); text-align:center;">
+<div id="popup" style="display:none; position:fixed; z-index:1; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8); display:flex; align-items:center; justify-content:center;">
+  <!-- Close button (cross icon) -->
   <span style="position:absolute; top:20px; right:45px; color:#fff; font-size:40px; font-weight:bold; cursor:pointer;" onclick="closePopup()">&times;</span>
   <!-- Full-sized image inside the popup, responsive to screen size -->
-  <img id="popupImage" src="/images/Trophy.jpg" style="margin:auto; max-width:90%; max-height:90%; vertical-align:middle; position:relative; top:50%; transform:translateY(-50%);">
+  <img id="popupImage" src="/images/Trophy.jpg" style="max-width:90%; max-height:90%; border-radius:10px;">
 </div>
 
 <script>
   function openPopup() {
-    document.getElementById('popup').style.display = 'block';
+    document.getElementById('popup').style.display = 'flex';
   }
   function closePopup() {
     document.getElementById('popup').style.display = 'none';
   }
 </script>
+
