@@ -190,18 +190,32 @@ Awards
         align-items: center;
         justify-content: center;
     }
-    .close-button {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        color: #fff;
-        font-size: 40px;
-        font-weight: bold;
-        cursor: pointer;
-    }
-    #popupImage {
+    .popup-content {
+        position: relative;
         max-width: 90%;
         max-height: 90%;
+    }
+    .close-button {
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    #popupImage {
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
@@ -215,9 +229,11 @@ Awards
     </div>
 </div>
 
-<div id="popup">
-    <span class="close-button" onclick="closePopup()">&times;</span>
-    <img id="popupImage" src="/images/Trophy.jpg" alt="Full size image">
+<div id="popup" onclick="closePopup()">
+    <div class="popup-content" onclick="event.stopPropagation()">
+        <span class="close-button" onclick="closePopup()">&times;</span>
+        <img id="popupImage" src="/images/Trophy.jpg" alt="Full size image">
+    </div>
 </div>
 
 <script>
