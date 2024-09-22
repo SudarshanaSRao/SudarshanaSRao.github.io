@@ -152,10 +152,9 @@ Awards
 ==================
 <p style="display: flex; align-items: center; justify-content: space-between;">
   Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College.
-  
   <!-- Thumbnail Image with rounded corners and pop-out symbol -->
   <div style="position: relative; display: inline-block; margin-left: 20px;">
-    <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" style="width:100px; height:100px; object-fit:cover; border-radius:10px; cursor:pointer;" onclick="openPopup();">   
+    <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" style="width:100px; height:100px; object-fit:cover; border-radius:10px; cursor:pointer;" onclick="openPopup();"> 
     <!-- Pop-out symbol (top-right corner) -->
     <span style="position: absolute; top: 5px; right: 5px; font-size: 18px; color: white; background: rgba(0, 0, 0, 0.5); border-radius: 50%; padding: 2px 5px;">&#x2197;</span>
   </div>
@@ -177,4 +176,3 @@ Awards
     document.getElementById('popup').style.display = 'none';
   }
 </script>
-
