@@ -192,8 +192,8 @@ Awards
     }
     .popup-content {
         position: relative;
-        max-width: 500px;
-        max-height: 500px;
+        width: 500px;
+        height: 500px;
         background-color: white;
         border-radius: 10px;
         overflow: hidden;
@@ -216,11 +216,9 @@ Awards
         z-index: 1;
     }
     #popupImage {
-        display: block;
-        max-width: 100%;
-        max-height: 100%;
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 </style>
 
@@ -247,4 +245,3 @@ Awards
         document.getElementById('popup').style.display = 'none';
     }
 </script>
-
