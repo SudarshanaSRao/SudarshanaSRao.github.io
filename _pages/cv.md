@@ -155,6 +155,7 @@ Awards
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: 20px;
     }
     .thumbnail-container {
         position: relative;
@@ -178,7 +179,7 @@ Awards
         border-radius: 50%;
         padding: 2px 5px;
     }
-    #popup {
+    .popup {
         display: none;
         position: fixed;
         z-index: 1000;
@@ -192,8 +193,8 @@ Awards
     }
     .popup-content {
         position: relative;
-        width: 500px;
-        height: 500px;
+        max-width: 500px;
+        max-height: 500px;
         background-color: white;
         border-radius: 10px;
         overflow: hidden;
@@ -215,9 +216,12 @@ Awards
         justify-content: center;
         z-index: 1;
     }
-    #popupImage {
-        width: 100%;
-        height: 100%;
+    .popup-image {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
         object-fit: contain;
     }
 </style>
@@ -225,38 +229,46 @@ Awards
 <div class="content-container">
     <p>Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College.</p>
     <div class="thumbnail-container">
-        <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" class="thumbnail" onclick="openPopup()">
+        <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" class="thumbnail" onclick="openPopup(this)">
         <span class="popup-icon">&#x2197;</span>
-    </div>
-</div>
-
-<div id="popup" onclick="closePopup()">
-    <div class="popup-content" onclick="event.stopPropagation()">
-        <span class="close-button" onclick="closePopup()">&times;</span>
-        <img id="popupImage" src="/images/Trophy.jpg" alt="Full size image">
     </div>
 </div>
 
 <div class="content-container">
-    <p>Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College.</p>
+    <p>I qualified in the 12th grade state-level examination with distinction and scored 100/100 in mathematics.</p>
     <div class="thumbnail-container">
-        <img src="/images/Second PUC math.jpg" alt="Satellite Communication Seminar" class="thumbnail" onclick="openPopup()">
+        <img src="/images/Second PUC math.jpg" alt="12th Grade Mathematics Score" class="thumbnail" onclick="openPopup(this)">
         <span class="popup-icon">&#x2197;</span>
     </div>
 </div>
 
-<div id="popup" onclick="closePopup()">
-    <div class="popup-content" onclick="event.stopPropagation()">
-        <span class="close-button" onclick="closePopup()">&times;</span>
-        <img id="popupImage" src="/images/Second PUC math.jpg" alt="Full size image">
-    </div>
-</div>
-
 <script>
-    function openPopup() {
-        document.getElementById('popup').style.display = 'flex';
+    function openPopup(img) {
+        const popup = document.createElement('div');
+        popup.className = 'popup';
+        popup.onclick = closePopup;
+        const content = document.createElement('div');
+        content.className = 'popup-content';
+        content.onclick = (e) => e.stopPropagation();
+        const closeBtn = document.createElement('span');
+        closeBtn.className = 'close-button';
+        closeBtn.innerHTML = '&times;';
+        closeBtn.onclick = closePopup;
+        const popupImg = document.createElement('img');
+        popupImg.className = 'popup-image';
+        popupImg.src = img.src;
+        popupImg.alt = img.alt;
+        content.appendChild(closeBtn);
+        content.appendChild(popupImg);
+        popup.appendChild(content);
+        document.body.appendChild(popup);
+        setTimeout(() => popup.style.display = 'flex', 0);
     }
     function closePopup() {
-        document.getElementById('popup').style.display = 'none';
+        const popup = document.querySelector('.popup');
+        if (popup) {
+            popup.style.display = 'none';
+            popup.remove();
+        }
     }
 </script>
