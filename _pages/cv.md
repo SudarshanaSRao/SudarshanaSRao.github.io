@@ -154,27 +154,36 @@ Awards
   Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College.
   <!-- Thumbnail Image with rounded corners and pop-out symbol -->
   <div style="position: relative; display: inline-block; margin-left: 20px;">
-    <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" style="width:100px; height:100px; object-fit:cover; border-radius:10px; cursor:pointer;" onclick="openPopup();">   
+    <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" style="width:100px; height:100px; object-fit:cover; border-radius:10px; cursor:pointer;" onclick="openPopup();">  
     <!-- Pop-out symbol (top-right corner) -->
     <span style="position: absolute; top: 5px; right: 5px; font-size: 18px; color: white; background: rgba(0, 0, 0, 0.5); border-radius: 50%; padding: 2px 5px;">&#x2197;</span>
   </div>
 </p>
 
 <!-- Popup container (initially hidden) -->
-<div id="popup" style="display:none; position:fixed; z-index:1000; left:0; top:10%; width:100%; height:90%; background-color:rgba(0,0,0,0.8); display:flex; align-items:center; justify-content:center;">
+<div id="popup" style="display:none; position:fixed; z-index:1000; background-color:rgba(0,0,0,0.8); display:flex; align-items:center; justify-content:center;">
   <!-- Close button (cross icon) -->
-  <span style="position:absolute; top:20px; right:30px; color:#fff; font-size:40px; font-weight:bold; cursor:pointer;" onclick="closePopup()">&times;</span>
-  <!-- Full-sized image inside the popup, responsive to screen size -->
-  <img id="popupImage" src="/images/Trophy.jpg" style="max-width:80%; max-height:80%; border-radius:10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <span style="position:absolute; top:-10px; right:-10px; color:#fff; font-size:30px; font-weight:bold; cursor:pointer;" onclick="closePopup()">&times;</span>
+  <!-- Full-sized image inside the popup, responsive to the actual image size -->
+  <img id="popupImage" src="/images/Trophy.jpg" style="width:auto; height:auto; max-width:90vw; max-height:90vh; border-radius:10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
 </div>
 
 <script>
   function openPopup() {
-    document.getElementById('popup').style.display = 'flex'; // Show the popup
+    var popup = document.getElementById('popup');
+    popup.style.display = 'flex'; // Show the popup
+    var img = document.getElementById('popupImage');
+    
+    // Set the popup container to match the image size
+    popup.style.width = img.offsetWidth + 'px';
+    popup.style.height = img.offsetHeight + 'px';
+    
+    // Center the popup window
+    popup.style.left = `calc(50% - ${img.offsetWidth / 2}px)`;
+    popup.style.top = `calc(50% - ${img.offsetHeight / 2}px)`;
   }
+
   function closePopup() {
     document.getElementById('popup').style.display = 'none'; // Hide the popup
   }
 </script>
-
-
