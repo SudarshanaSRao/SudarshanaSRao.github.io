@@ -192,13 +192,16 @@ Awards
     }
     .popup-content {
         position: relative;
-        max-width: 90%;
-        max-height: 90%;
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
     }
     .close-button {
         position: absolute;
-        top: -20px;
-        right: -20px;
+        top: 10px;
+        right: 10px;
         color: #fff;
         font-size: 24px;
         font-weight: bold;
@@ -213,11 +216,9 @@ Awards
         z-index: 1;
     }
     #popupImage {
-        max-width: 100%;
-        max-height: 100%;
-        display: block;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 </style>
 
