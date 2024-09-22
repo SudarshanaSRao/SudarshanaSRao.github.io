@@ -286,8 +286,8 @@ Awards
     }
     .popup-content1 {
         position: relative;
-        width: 500px;
-        height: 500px;
+        width: 600px;
+        height: 600px;
         border-radius: 10px;
         overflow: hidden;
     }
