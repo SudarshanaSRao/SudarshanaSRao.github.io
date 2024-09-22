@@ -161,7 +161,7 @@ Awards
         display: inline-block;
         margin-left: 20px;
     }
-    .thumbnail, .thumbnail0 {
+    .thumbnail {
         width: 100px;
         height: 100px;
         object-fit: cover;
@@ -214,7 +214,7 @@ Awards
         justify-content: center;
         z-index: 1;
     }
-    #popupImage, #popupImage0 {
+    #popupImage {
         width: 100%;
         height: 100%;
         object-fit: contain;
@@ -224,14 +224,14 @@ Awards
 <div class="content-container">
     <p>✔ Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College.</p>
     <div class="thumbnail-container">
-        <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" class="thumbnail" onclick="openPopup()"> <img src="/images/Satellite RV PU.jpg" alt="Satellite Communication Seminar" class="thumbnail0" onclick="openPopup()">
+        <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" class="thumbnail" onclick="openPopup()"> 
         <span class="popup-icon">&#x2197;</span>
     </div>
 </div>
 <div id="popup" onclick="closePopup()">
     <div class="popup-content" onclick="event.stopPropagation()">
         <span class="close-button" onclick="closePopup()">&times;</span>
-        <img id="popupImage" src="/images/Trophy.jpg" alt="Full size image"> <img id="popupImage0" src="/images/Satellite RV PU.jpg" alt="Full size image">
+        <img id="popupImage" src="/images/Trophy.jpg" alt="Full size image"> 
     </div>
 </div>
 
