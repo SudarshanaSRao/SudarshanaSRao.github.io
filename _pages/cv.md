@@ -264,7 +264,7 @@ Awards
     }
     .popup-icon1 {
         position: absolute;
-        top: 5px;
+        top: 10px;
         right: 5px;
         font-size: 18px;
         color: white;
