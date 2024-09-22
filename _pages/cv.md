@@ -150,17 +150,17 @@ Leadership & Involvement
 
 Awards
 ==================
-<p>
+<p style="display: flex; align-items: center; justify-content: space-between;">
   Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College.
+  <!-- Thumbnail Image -->
+  <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" style="width:100px; height:auto; cursor:pointer; margin-left: 20px;" onclick="openPopup();">
 </p>
 
-<!-- Thumbnail Image -->
-<img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" style="width:150px;cursor:pointer" onclick="openPopup();">
 <!-- Popup container -->
-<div id="popup" style="display:none; position:fixed; z-index:1; padding-top:100px; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8);">
+<div id="popup" style="display:none; position:fixed; z-index:1; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8); text-align:center;">
   <span style="position:absolute; top:20px; right:45px; color:#fff; font-size:40px; font-weight:bold; cursor:pointer;" onclick="closePopup()">&times;</span>
-  <!-- Full-sized image inside the popup -->
-  <img id="popupImage" src="/images/Trophy.jpg" style="margin:auto; display:block; width:80%; max-width:700px;">
+  <!-- Full-sized image inside the popup, responsive to screen size -->
+  <img id="popupImage" src="/images/Trophy.jpg" style="margin:auto; max-width:90%; max-height:90%; vertical-align:middle; position:relative; top:50%; transform:translateY(-50%);">
 </div>
 
 <script>
