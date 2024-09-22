@@ -224,14 +224,14 @@ Awards
 <div class="content-container">
     <p>✔ Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College.</p>
     <div class="thumbnail-container">
-        <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" class="thumbnail" onclick="openPopup()">
+        <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" class="thumbnail" onclick="openPopup()"> nbsp; <img src="/images/Satellite RV PU.jpg" alt="Satellite Communication Seminar" class="thumbnail" onclick="openPopup()">
         <span class="popup-icon">&#x2197;</span>
     </div>
 </div>
 <div id="popup" onclick="closePopup()">
     <div class="popup-content" onclick="event.stopPropagation()">
         <span class="close-button" onclick="closePopup()">&times;</span>
-        <img id="popupImage" src="/images/Trophy.jpg" alt="Full size image">
+        <img id="popupImage" src="/images/Trophy.jpg" alt="Full size image"> nbsp; <img id="popupImage" src="/images/Satellite RV PU.jpg" alt="Full size image">
     </div>
 </div>
 
