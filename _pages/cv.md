@@ -173,11 +173,13 @@ Awards
         position: absolute;
         top: 5px;
         right: 5px;
-        font-size: 18px;
-        color: white;
+        width: 24px;
+        height: 24px;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 50%;
-        padding: 2px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .popup {
         display: none;
@@ -193,8 +195,8 @@ Awards
     }
     .popup-content {
         position: relative;
-        max-width: 500px;
-        max-height: 500px;
+        max-width: 90%;
+        max-height: 90%;
         background-color: white;
         border-radius: 10px;
         overflow: hidden;
@@ -224,21 +226,35 @@ Awards
         height: auto;
         object-fit: contain;
     }
+    #secondImage {
+        width: 150px;
+        height: 150px;
+    }
 </style>
 
 <div class="content-container">
-    <p>Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College.</p>
+    <p>Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College:</p>
     <div class="thumbnail-container">
         <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" class="thumbnail" onclick="openPopup(this)">
-        <span class="popup-icon">&#x2197;</span>
+        <span class="popup-icon">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 3H13V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13 3L3 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </span>
     </div>
 </div>
 
 <div class="content-container">
-    <p>I qualified in the 12th grade state-level examination with distinction and scored 100/100 in mathematics.</p>
+    <p>I qualified in the 12th grade state-level examination with distinction and scored 100/100 in mathematics:</p>
     <div class="thumbnail-container">
-        <img src="/images/Second PUC math.jpg" alt="12th Grade Mathematics Score" class="thumbnail" onclick="openPopup(this)">
-        <span class="popup-icon">&#x2197;</span>
+        <img id="secondImage" src="/images/Second PUC math.jpg" alt="12th Grade Mathematics Score" class="thumbnail" onclick="openPopup(this)">
+        <span class="popup-icon">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 3H13V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13 3L3 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </span>
     </div>
 </div>
 
