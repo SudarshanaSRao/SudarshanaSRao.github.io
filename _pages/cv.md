@@ -147,3 +147,27 @@ Leadership & Involvement
 * Course Producer for the Database Systems (CSCI-585) course under Prof. Saty's guidance during the _Spring 2024_ term. Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
 * Project Coordinator of The Department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium Phase Shift 2021, organized in B.M.S. College of Engineering (BMSCE).
 * Student Volunteer of Mitsubishi Electric Cup- National Level Competition for Factory Automation held at BMSCE.
+
+Awards
+==================
+<p>
+  Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College.
+</p>
+
+<!-- Thumbnail Image -->
+<img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" style="width:150px;cursor:pointer" onclick="openPopup();">
+<!-- Popup container -->
+<div id="popup" style="display:none; position:fixed; z-index:1; padding-top:100px; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8);">
+  <span style="position:absolute; top:20px; right:45px; color:#fff; font-size:40px; font-weight:bold; cursor:pointer;" onclick="closePopup()">&times;</span>
+  <!-- Full-sized image inside the popup -->
+  <img id="popupImage" src="full-image.jpg" style="margin:auto; display:block; width:80%; max-width:700px;">
+</div>
+
+<script>
+  function openPopup() {
+    document.getElementById('popup').style.display = 'block';
+  }
+  function closePopup() {
+    document.getElementById('popup').style.display = 'none';
+  }
+</script>
