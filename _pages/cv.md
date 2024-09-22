@@ -155,7 +155,6 @@ Awards
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 20px;
     }
     .thumbnail-container {
         position: relative;
@@ -173,15 +172,13 @@ Awards
         position: absolute;
         top: 5px;
         right: 5px;
-        width: 24px;
-        height: 24px;
+        font-size: 18px;
+        color: white;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        padding: 2px 5px;
     }
-    .popup {
+    #popup {
         display: none;
         position: fixed;
         z-index: 1000;
@@ -195,8 +192,8 @@ Awards
     }
     .popup-content {
         position: relative;
-        max-width: 90%;
-        max-height: 90%;
+        width: 500px;
+        height: 500px;
         background-color: white;
         border-radius: 10px;
         overflow: hidden;
@@ -218,73 +215,45 @@ Awards
         justify-content: center;
         z-index: 1;
     }
-    .popup-image {
-        display: block;
-        max-width: 100%;
-        max-height: 100%;
-        width: auto;
-        height: auto;
+    #popupImage {
+        width: 100%;
+        height: 100%;
         object-fit: contain;
     }
-    #secondImage {
-        width: 150px;
-        height: 150px;
-    }
 </style>
-
 <div class="content-container">
     <p>Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College:</p>
     <div class="thumbnail-container">
-        <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" class="thumbnail" onclick="openPopup(this)">
-        <span class="popup-icon">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M3 3H13V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M13 3L3 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </span>
+        <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" class="thumbnail" onclick="openPopup()">
+        <span class="popup-icon">&#x2197;</span>
+    </div>
+</div>
+<div id="popup" onclick="closePopup()">
+    <div class="popup-content" onclick="event.stopPropagation()">
+        <span class="close-button" onclick="closePopup()">&times;</span>
+        <img id="popupImage" src="/images/Trophy.jpg" alt="Full size image">
     </div>
 </div>
 
 <div class="content-container">
     <p>I qualified in the 12th grade state-level examination with distinction and scored 100/100 in mathematics:</p>
     <div class="thumbnail-container">
-        <img id="secondImage" src="/images/Second PUC math.jpg" alt="12th Grade Mathematics Score" class="thumbnail" onclick="openPopup(this)">
-        <span class="popup-icon">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M3 3H13V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M13 3L3 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </span>
+        <img src="/images/Second PUC math.jpg" alt="Second PUC Math" class="thumbnail" onclick="openPopup()">
+        <span class="popup-icon">&#x2197;</span>
+    </div>
+</div>
+<div id="popup" onclick="closePopup()">
+    <div class="popup-content" onclick="event.stopPropagation()">
+        <span class="close-button" onclick="closePopup()">&times;</span>
+        <img id="popupImage" src="/images/Second PUC math.jpg" alt="Full size image PUC Math">
     </div>
 </div>
 
 <script>
-    function openPopup(img) {
-        const popup = document.createElement('div');
-        popup.className = 'popup';
-        popup.onclick = closePopup;
-        const content = document.createElement('div');
-        content.className = 'popup-content';
-        content.onclick = (e) => e.stopPropagation();
-        const closeBtn = document.createElement('span');
-        closeBtn.className = 'close-button';
-        closeBtn.innerHTML = '&times;';
-        closeBtn.onclick = closePopup;
-        const popupImg = document.createElement('img');
-        popupImg.className = 'popup-image';
-        popupImg.src = img.src;
-        popupImg.alt = img.alt;
-        content.appendChild(closeBtn);
-        content.appendChild(popupImg);
-        popup.appendChild(content);
-        document.body.appendChild(popup);
-        setTimeout(() => popup.style.display = 'flex', 0);
+    function openPopup() {
+        document.getElementById('popup').style.display = 'flex';
     }
     function closePopup() {
-        const popup = document.querySelector('.popup');
-        if (popup) {
-            popup.style.display = 'none';
-            popup.remove();
-        }
+        document.getElementById('popup').style.display = 'none';
     }
 </script>
