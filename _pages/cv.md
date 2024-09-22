@@ -293,7 +293,7 @@ Awards
     }
     .close-button1 {
         position: absolute;
-        top: 15px;
+        top: 20px;
         right: 10px;
         color: #fff;
         font-size: 24px;
