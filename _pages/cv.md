@@ -264,7 +264,7 @@ Awards
     }
     .popup-icon1 {
         position: absolute;
-        top: 1px;
+        top: 5px;
         right: 5px;
         font-size: 18px;
         color: white;
@@ -293,7 +293,7 @@ Awards
     }
     .close-button1 {
         position: absolute;
-        top: 10px;
+        top: 5px;
         right: 10px;
         color: #fff;
         font-size: 24px;
