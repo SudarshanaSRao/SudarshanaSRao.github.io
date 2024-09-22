@@ -221,8 +221,9 @@ Awards
         object-fit: contain;
     }
 </style>
+
 <div class="content-container">
-    <p>Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College:</p>
+    <p>✔ Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College.</p>
     <div class="thumbnail-container">
         <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" class="thumbnail" onclick="openPopup()">
         <span class="popup-icon">&#x2197;</span>
@@ -235,25 +236,106 @@ Awards
     </div>
 </div>
 
-<div class="content-container">
-    <p>I qualified in the 12th grade state-level examination with distinction and scored 100/100 in mathematics:</p>
-    <div class="thumbnail-container">
-        <img src="/images/Second PUC math.jpg" alt="Second PUC Math" class="thumbnail" onclick="openPopup()">
-        <span class="popup-icon">&#x2197;</span>
-    </div>
-</div>
-<div id="popup" onclick="closePopup()">
-    <div class="popup-content" onclick="event.stopPropagation()">
-        <span class="close-button" onclick="closePopup()">&times;</span>
-        <img id="popupImage" src="/images/Second PUC math.jpg" alt="Full size image PUC Math">
-    </div>
-</div>
-
 <script>
     function openPopup() {
         document.getElementById('popup').style.display = 'flex';
     }
     function closePopup() {
         document.getElementById('popup').style.display = 'none';
+    }
+</script>
+
+<style>
+    .content-container1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .thumbnail-container1 {
+        position: relative;
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .thumbnail1 {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .popup-icon1 {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 18px;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        padding: 2px 5px;
+    }
+    #popup1 {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        align-items: center;
+        justify-content: center;
+    }
+    .popup-content1 {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .close-button1 {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    #popupImage1 {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+</style>
+
+<div class="content-container1">
+    <p>✔ Qualified in the 12th grade state-level examination with distinction and scored 100/100 in mathematics.</p>
+    <div class="thumbnail-container1">
+        <img src="/images/Second PUC math.jpg" alt="Second PUC Math" class="thumbnail1" onclick="openPopup1()">
+        <span class="popup-icon1">&#x2197;</span>
+    </div>
+</div>
+<div id="popup1" onclick="closePopup1()">
+    <div class="popup-content1" onclick="event.stopPropagation()">
+        <span class="close-button1" onclick="closePopup1()">&times;</span>
+        <img id="popupImage1" src="/images/Second PUC math.jpg" alt="Full size image PUC Math">
+    </div>
+</div>
+
+<script>
+    function openPopup1() {
+        document.getElementById('popup1').style.display = 'flex';
+    }
+    function closePopup1() {
+        document.getElementById('popup1').style.display = 'none';
     }
 </script>
