@@ -5,22 +5,42 @@ collection: portfolio
 ---
 
 <style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .app-text {
+    font-size: 18px;
+    margin-right: 15px;
+  }
   .app-button {
-    background: url('/images/button.png') no-repeat center center;
-    background-size: contain;
-    width: 200px;  /* Adjust the width based on your image size */
-    height: 50px;  /* Adjust the height based on your image size */
+    background: url('/path-to-your-image/image.png') no-repeat center center;
+    background-size: cover;
+    width: 150px;  /* Adjusted size */
+    height: 50px;  /* Adjusted size */
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px #999;  /* 3D shadow effect */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
   .app-button:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+    box-shadow: 0 6px #666;
+  }
+  .app-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px #333;
   }
 </style>
 
-<div style="text-align: center; margin-top: 50px;">
+<div class="container">
+  <div class="app-text">Access the app ↪️</div>
   <a href="https://talk-to-your-data.streamlit.app/" target="_blank">
     <button class="app-button"></button>
   </a>
