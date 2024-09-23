@@ -4,8 +4,26 @@ excerpt: "<img src='/images/Flowchart.png'>"
 collection: portfolio
 ---
 
-<div style="margin-top: -25px;">
-  <h2 align="center">Access the app ↪️<a href="https://talk-to-your-data.streamlit.app/" target="_blank"><i>Talk to your data</i></a></h2>
+<style>
+  .app-button {
+    background: url('/images/button.png') no-repeat center center;
+    background-size: contain;
+    width: 200px;  /* Adjust the width based on your image size */
+    height: 50px;  /* Adjust the height based on your image size */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .app-button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+</style>
+
+<div style="text-align: center; margin-top: 50px;">
+  <a href="https://talk-to-your-data.streamlit.app/" target="_blank">
+    <button class="app-button"></button>
+  </a>
 </div>
 
 <video width="100%" height="auto" controls>
