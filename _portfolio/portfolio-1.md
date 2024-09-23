@@ -5,9 +5,6 @@ collection: portfolio
 ---
 
 <style>
-  body {
-    font-family: Arial, sans-serif;
-  }
   .container {
     display: flex;
     align-items: center;
@@ -19,7 +16,7 @@ collection: portfolio
     margin-right: 15px;
   }
   .app-button {
-    background: url('/path-to-your-image/image.png') no-repeat center center;
+    background: url('/images/button.png') no-repeat center center;
     background-size: cover;
     width: 150px;  /* Adjusted size */
     height: 50px;  /* Adjusted size */
@@ -39,8 +36,8 @@ collection: portfolio
   }
 </style>
 
-<div class="container">
-  <div class="app-text">Access the app ↪️</div>
+<div class="container" style="margin-top: -25px;">
+  <div class="app-text"> <h2> Access the app ↪️ </h2> </div>
   <a href="https://talk-to-your-data.streamlit.app/" target="_blank">
     <button class="app-button"></button>
   </a>
