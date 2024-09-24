@@ -117,15 +117,15 @@ Work Experience
 _{August 2024-Present}_
 * Researching and implementing **LLM** use cases in **Data Analytics**.   
 
-_{May 2023-August 2024}_
+_{May 2023-August 2024}_ (**Disney** sponsored project)
 * Researched and analyzed human interaction with an AI (Nobu) to improve its Automatic Speech Recognition (ASR).  
 * Managed the interaction sessions (data collection) by assigning participants to the respective time slots.
-* Project: Speech quality assessment for automatic speech recognition, which **Disney** sponsors.
+* Project: Speech quality assessment for automatic speech recognition. 
 
-_{October 2022-May 2023}_
+_{October 2022-May 2023}_ (**Apple** funded project)
 * Worked at the **S**ignal **A**nalysis and **I**nterpretation **L**aboratory (**SAIL** under the **SIPI**- **S**ignal and **I**mage **P**rocessing **I**nstitute) to annotate audio files.    
 * These annotations will train a Machine Learning model to identify, classify, and filter out the noise in recorded conversations.
-* This project was funded by **Apple** and appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
+* Appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
   
  <div class="flexcontainer">
   <div>
