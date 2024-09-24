@@ -37,7 +37,7 @@ collection: portfolio
 </style>
 
 <div class="container" style="margin-top: -25px;">
-  <div class="app-text"> <h2> Access the app ↪️ </h2> </div>
+  <div class="app-text"> <h2> Access the app ↪️</h2> </div>
   <a href="https://talk-to-your-data.streamlit.app/" target="_blank">
     <button class="app-button"></button>
   </a>
