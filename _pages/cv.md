@@ -98,7 +98,7 @@ Skills
   * Python  \|  SQL  \|  MySQL  \|  MongoDB Atlas  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML  \|  PostgreSQL  \|  ESRI ArcGIS  \|  BigQuery  \|  UiPath studio (Robotics Process Automation) 
 
 * ### ML Frameworks & Libraries
-  * Streamlit GUI  \|  Beautiful Soup  \|  PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib  \|  Seaborn  \|  Pandas  \|  HuggingFace  \|  LangChain  \|  OpenCV
+  * Streamlit GUI  \|  Beautiful Soup  \|  PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib  \|  Seaborn  \|  Pandas  \|  HuggingFace  \|  Kaggle  \|  LangChain  \|  OpenCV
 
 * ### Tools
   * Git  \|  MS Azure  \|  GCP  \|  MS Office  \|  LLMOps  \|  MLOps  \|  DataOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  CI/CD  \|  Tableau  \|  LATEX  \|  Data Structues and Algorithms  \|  ETL  \|  Power BI  
@@ -160,13 +160,13 @@ Awards
         position: relative;
         display: inline-block;
         margin-left: 20px;
+        cursor: pointer; /* Makes the entire container clickable */
     }
     .thumbnail {
         width: 100px;
         height: 100px;
         object-fit: cover;
         border-radius: 10px;
-        cursor: pointer;
     }
     .popup-icon {
         position: absolute;
@@ -223,8 +223,8 @@ Awards
 
 <div class="content-container">
     <p>✔ Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College.</p>
-    <div class="thumbnail-container">
-        <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" class="thumbnail" onclick="openPopup()"> 
+    <div class="thumbnail-container" onclick="openPopup()">
+        <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" class="thumbnail"> 
         <span class="popup-icon">&#x2197;</span>
     </div>
 </div>
@@ -254,13 +254,13 @@ Awards
         position: relative;
         display: inline-block;
         margin-left: 20px;
+        cursor: pointer; /* Makes the entire container clickable */
     }
     .thumbnail1 {
         width: 100px;
         height: 100px;
         object-fit: cover;
         border-radius: 10px;
-        cursor: pointer;
     }
     .popup-icon1 {
         position: absolute;
@@ -317,8 +317,8 @@ Awards
 
 <div class="content-container1">
     <p>✔ Qualified in the 12th grade state-level examination with distinction and scored 100/100 in mathematics.</p>
-    <div class="thumbnail-container1">
-        <img src="/images/Second PUC math.jpg" alt="Second PUC Math" class="thumbnail1" onclick="openPopup1()">
+    <div class="thumbnail-container1" onclick="openPopup1()">
+        <img src="/images/Second PUC math.jpg" alt="Second PUC Math" class="thumbnail1">
         <span class="popup-icon1">&#x2197;</span>
     </div>
 </div>
