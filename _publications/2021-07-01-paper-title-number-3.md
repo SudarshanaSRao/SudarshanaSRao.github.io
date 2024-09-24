@@ -2,7 +2,7 @@
 title: "🦹Smart Burglar Alarm"
 collection: publications
 permalink: /publication/2021-07-01-paper-title-number-3
-excerpt: 'International Journal of Management Technology and Engineering'
+excerpt: 'International Journal of Management Technology and Engineering (IJMTE)'
 date: 2021-07-01
 venue: 'International Journal of Management Technology and Engineering'
 paperurl: 'https://www.ijamtes.org/VOL-11-ISSUE-7-2021/'
