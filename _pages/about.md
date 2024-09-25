@@ -228,6 +228,11 @@ I am seeking full-time roles and craving challenging opportunities to contribute
         margin: -60px 0; /* Adjust negative margin to reduce white space */
         padding: 0;
     }
+          .markdown-wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
     .arrow:nth-child(1) {
         animation-delay: 0s; /* First arrow starts immediately */
     }
@@ -246,6 +251,10 @@ I am seeking full-time roles and craving challenging opportunities to contribute
             opacity: 1; /* Highlighted arrow */
         }
     }
+          @media (max-width: 600px) {
+            .markdown-wrapper {
+                padding: 10px;
+            }
 </style>
 
 <script>
