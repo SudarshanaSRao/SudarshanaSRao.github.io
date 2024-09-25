@@ -184,7 +184,5 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <div style="display: flex; flex-direction: column; align-items: center; margin-top: 100px;">
     <img src="/images/Carcool.jpg" alt="Cool Car" style="cursor: crosshair;">
-    <span style="font-family: 'Brush Script MT', cursive; font-size: 30px; color: #9370DB; margin-top: 0;">"Your time on earth is limited, so don't waste it by living someone else's life."</span> 
-  <span style="font-family: 'Brush Script MT', cursive; font-size: 30px; color: #9370DB; margin-top: 0;">-</span> 
-  <span style="font-family: 'Brush Script MT', cursive; font-size: 26px; color: #9370DB; line-height: 0.5;">SJ</span>
+    <span style="font-family: 'Brush Script MT', cursive; font-size: 30px; color: #9370DB; margin-top: 0;">"Your time on earth is limited, so don't waste it by living someone else's life." <i>-</i> SJ</span>
 </div>
