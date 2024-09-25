@@ -185,15 +185,15 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 <div style="margin-top: 70px; text-align:center;">
     <h2 style="margin-bottom: 0; padding-bottom: 0;">You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
     <div class="arrow-container" style="margin-top: -45px;">
-        <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;">&#8964;</a>
-        <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;">&#8964;</a>
-        <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;">&#8964;</a>
+        <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage()">&#8964;</a>
+        <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage()">&#8964;</a>
+        <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage()">&#8964;</a>
     </div>
 </div>
 
-<a id="car-image" style="scroll-margin-top: 0vh;"></a>
+<div id="car-image"></div>
 <div style="margin-top: 500px; text-align:center;">
-    <img src='/images/Carcool.jpg'>
+    <img id="car" src='/images/Carcool.jpg'>
 </div>
 
 <div class="arrow-container0" style="margin-top: 20px;">
@@ -244,7 +244,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <script>
     function scrollToImage() {
-        const image = document.getElementById("car-image");
+        const image = document.getElementById("car");
         const imageRect = image.getBoundingClientRect();
         const scrollPosition = window.pageYOffset + imageRect.top - (window.innerHeight - imageRect.height) / 2;
         window.scrollTo({ top: scrollPosition, behavior: 'smooth' });
