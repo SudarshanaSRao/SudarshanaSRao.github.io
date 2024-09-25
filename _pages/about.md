@@ -182,7 +182,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 </style>
 
-<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="display: flex; flex-direction: column; align-items: center; margin-top: 100px;">
     <img src="/images/Carcool.jpg" alt="Cool Car" style="cursor: crosshair;">
-    <span style="font-style: italic; margin-top: 0;">"Your time is limited, so don't waste it living someone else's life." - Steve Jobs</span>
+    <span style="font-family: 'Brush Script MT', cursive; margin-top: 0;">"Your time is limited, so don't waste it living someone else's life." - Steve Jobs</span>
 </div>
