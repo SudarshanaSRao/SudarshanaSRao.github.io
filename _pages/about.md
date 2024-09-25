@@ -192,7 +192,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 </div>
 
 <a id="car-image" style="scroll-margin-top: 0vh;"></a> <!-- Set scroll-margin-top to 0 to ensure the full image is visible -->
-<div style="margin-top: 500px; text-align:center;">
+<div style="margin-top: 600px; text-align:center;">
     <img src='/images/Carcool.jpg'> <!-- Limit image height to fit in the viewport -->
 </div>
 
