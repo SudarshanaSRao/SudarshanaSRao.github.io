@@ -192,15 +192,15 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 </div>
 
 <a id="car-image"></a>
-<div style="margin-top: 70px; text-align:center;">
+<div style="margin-top: 170px; text-align:center;">
     <img src='/images/Carcool.jpg'>
 </div>
 
 <div style="margin-top: 5px; text-align:center;">
     <div class="arrow-container">
-        <a href="#top" class="arrow" style="font-size: 4em; text-decoration: none;">&#x2304;</a>
-        <a href="#top" class="arrow" style="font-size: 4em; text-decoration: none;">&#x2304;</a>
-        <a href="#top" class="arrow" style="font-size: 4em; text-decoration: none;">&#x2304;</a>
+        <a href="#top" class="arrow" style="font-size: 4em; text-decoration: none;">&#x2303;</a>
+        <a href="#top" class="arrow" style="font-size: 4em; text-decoration: none;">&#x2303;</a>
+        <a href="#top" class="arrow" style="font-size: 4em; text-decoration: none;">&#x2303;</a>
     </div>
 </div>
 
@@ -215,14 +215,13 @@ I am seeking full-time roles and craving challenging opportunities to contribute
         align-items: center;
         justify-content: center;
     }
-    /* Arrow animation */
+    /* Arrow styling */
     .arrow {
-        color: gray; /* Default dull color */
+        color: gray;
         opacity: 0.4;
         animation: highlightArrow 4s infinite;
-        margin: 0; /* Remove margin to eliminate space */
-        padding: 0; /* Remove padding to eliminate space */
-        line-height: 0; /* Adjust line height to remove space between arrows */
+        margin: -20px 0; /* Negative top and bottom margin to bring arrows closer */
+        padding: 0;
     }
     .arrow:nth-child(1) {
         animation-delay: 0s; /* First arrow starts immediately */
@@ -243,3 +242,4 @@ I am seeking full-time roles and craving challenging opportunities to contribute
         }
     }
 </style>
+
