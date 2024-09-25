@@ -183,8 +183,8 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 </style>
 
 <div style="margin-top: 50px; text-align:center;">
-    <p><strong>You have scrolled down too far; here, enjoy a picture of a cool car:</strong></p>
-    <a href="#car-image" style="font-size: 2em; text-decoration: none; scroll-behavior: smooth;">&#x25BC;</a> <!-- Downward-facing V -->
+    <p style="color: blue;"><strong>You have scrolled down too far; here, enjoy a picture of a cool car:</strong></p>
+    <a href="#car-image" style="font-size: 6em; text-decoration: none; scroll-behavior: smooth;">&#x25BC;</a> <!-- Downward-facing V -->
 </div>
 
 <a id="car-image"></a>
@@ -192,8 +192,8 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     <img src='/images/Carcool.jpg'>
 </div>
 
-<div style="margin-top: 30px; text-align:center;">
-    <a href="#top" style="font-size: 2em; text-decoration: none; scroll-behavior: smooth;">&#x25B2;</a> <!-- Upward-facing V -->
+<div style="margin-top: 70px; text-align:center;">
+    <a href="#top" style="font-size: 6em; text-decoration: none; scroll-behavior: smooth;">&#x25B2;</a> <!-- Upward-facing V -->
 </div>
 
 <style>
