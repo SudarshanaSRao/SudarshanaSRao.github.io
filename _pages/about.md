@@ -196,7 +196,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     <img src='/images/Carcool.jpg'>
 </div>
 
-<div class="arrow-container0" style="margin-top: 5px;">
+<div class="arrow-container0" style="margin-top: 20px;">
         <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
         <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
         <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
