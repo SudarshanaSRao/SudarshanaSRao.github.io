@@ -183,55 +183,62 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 </style>
 
 <div style="margin-top: 100px; text-align:center;">
-    <h2 style="margin-bottom: 0; padding-bottom: 0;">You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
-    <div class="arrow-container">
-        <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
-        <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
-        <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
+    <div class="top-section">
+        <h2 style="margin-bottom: 0; padding-bottom: 0;">You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
+        <div class="arrow-container">
+            <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
+            <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
+            <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
+        </div>
     </div>
 </div>
 
 <div id="car-image" class="image-container">
     <img src="/images/Carcool.jpg" alt="Cool Car" class="car-image">
-</div>
-
-<div class="arrow-container0">
-    <a href="#top" class="arrow">&#x2303;</a>
-    <a href="#top" class="arrow">&#x2303;</a>
-    <a href="#top" class="arrow">&#x2303;</a>
+    <div class="arrow-container0">
+        <a href="#top" class="arrow">&#x2303;</a>
+        <a href="#top" class="arrow">&#x2303;</a>
+        <a href="#top" class="arrow">&#x2303;</a>
+    </div>
 </div>
 
 <style>
     html {
         scroll-behavior: smooth;
     }
-    /* Flexbox layout for the arrow containers */
+    /* Flexbox for top section with arrows on the right of the text */
+    .top-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px; /* Add some padding to give space between text and arrows */
+    }
     .arrow-container, .arrow-container0 {
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
-    }
-    /* Ensure arrows are directly next to the text and image with no space */
-    .arrow-container {
-        padding-top: 0; /* No padding above the arrows */
-    } 
-    .arrow-container0 {
-        padding-bottom: 0; /* No padding below the arrows */
+        align-items: center;
+        margin: 0; /* Remove any extra margin */
     }
     .image-container {
-        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
+        height: 100vh;
         margin-top: 500px;
-    } 
+    }
+    .arrow-container0 {
+        position: absolute;
+        right: 20px; /* Align arrows to the right of the image */
+        top: 50%;
+        transform: translateY(-50%);
+    }
     .car-image {
         max-width: 100%;
         max-height: 100%;
         object-fit: contain; /* Ensures proper scaling and aspect ratio */
     }
-    /* Style for the arrows */
     .arrow {
         color: gray;
         opacity: 0.4;
@@ -242,13 +249,13 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     }
     .arrow:nth-child(1) {
         animation-delay: 0s;
-    } 
+    }
     .arrow:nth-child(2) {
         animation-delay: 0.66s;
-    } 
+    }
     .arrow:nth-child(3) {
         animation-delay: 1.33s;
-    }  
+    }
     @keyframes highlightArrow {
         0%, 100% {
             color: gray;
@@ -258,7 +265,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
             opacity: 1;
         }
     }
-    /* Responsiveness for smaller screens */
+    /* Add responsiveness */
     @media (max-width: 768px) {
         .arrow {
             font-size: 4em;
@@ -267,6 +274,9 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     @media (max-width: 480px) {
         .arrow {
             font-size: 3em;
+        }
+        .top-section {
+            flex-direction: column;
         }
     }
 </style>
