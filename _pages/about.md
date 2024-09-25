@@ -184,64 +184,85 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <div style="margin-top: 100px; text-align:center;">
     <h2 style="margin-bottom: 0; padding-bottom: 0;">You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
-    <div class="arrow-container" style="margin-top: -45px;">
+    <div class="arrow-container">
         <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage(event)">&#8964;</a>
         <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage(event)">&#8964;</a>
         <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage(event)">&#8964;</a>
     </div>
 </div>
+
 <div id="car-image" class="image-container" style="margin-top: 500px;">
-    <img src='/images/Carcool.jpg' alt="Cool Car">
+    <img src="/images/Carcool.jpg" alt="Cool Car" class="car-image">
 </div>
-<div class="arrow-container0" style="margin-top: -87px;">
-        <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
-        <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
-        <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
+
+<div class="arrow-container0">
+    <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
+    <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
+    <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
 </div>
 
 <style>
     html {
         scroll-behavior: smooth;
     }
-  .arrow-container, .arrow-container0 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin-top: 0; 
-  }
-  .image-container {
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 0;
-  }
-  .arrow {
-      color: gray;
-      opacity: 0.4;
-      animation: highlightArrow 4s infinite;
-      margin: -60px 0; 
-      padding: 0;
-  }
-  .arrow:nth-child(1) {
-      animation-delay: 0s; 
-  }
-  .arrow:nth-child(2) {
-      animation-delay: 0.66s; 
-  }
-  .arrow:nth-child(3) {
-      animation-delay: 1.33s; 
-  }
-  @keyframes highlightArrow {
-      0%, 100% {
-          color: gray;
-          opacity: 0.4;
-      }
-      50% {
-          opacity: 1;
-      }
-  }
+    .arrow-container, .arrow-container0 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .image-container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .car-image {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain; /* Ensures proper scaling and aspect ratio */
+    }
+    .arrow {
+        color: gray;
+        opacity: 0.4;
+        font-size: 6em;
+        animation: highlightArrow 4s infinite;
+        margin: -60px 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    .arrow:nth-child(1) {
+        animation-delay: 0s;
+    }
+    .arrow:nth-child(2) {
+        animation-delay: 0.66s;
+    }
+    
+    .arrow:nth-child(3) {
+        animation-delay: 1.33s;
+    }
+    @keyframes highlightArrow {
+        0%, 100% {
+            color: gray;
+            opacity: 0.4;
+        }
+        50% {
+            opacity: 1;
+        }
+    }
+    /* Add responsiveness */
+    @media (max-width: 768px) {
+        .arrow {
+            font-size: 4em;
+        }
+    }
+    @media (max-width: 480px) {
+        .arrow {
+            font-size: 3em;
+        }
+    }
 </style>
 
 <script>
