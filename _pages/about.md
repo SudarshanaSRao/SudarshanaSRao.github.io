@@ -182,80 +182,104 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 </style>
 
-<div style="margin-top: 100px; text-align:center;">
-    <h2 style="margin-bottom: 0; padding-bottom: 0;">You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
-    <div class="arrow-container" style="margin-top: -45px;">
-        <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage(event)">&#8964;</a>
-        <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage(event)">&#8964;</a>
-        <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage(event)">&#8964;</a>
-    </div>
-</div>
-
-<div id="car-image" class="image-container" style="margin-top: 500px;">
-    <img src='/images/Carcool.jpg' alt="Cool Car">
-</div>
-
-<div class="arrow-container0" style="margin-top: -87px;">
-        <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
-        <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
-        <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
-</div>
-
 <style>
     html {
         scroll-behavior: smooth;
     }
-    /* Container for the arrows */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .markdown-wrapper {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    .top-section {
+        margin-top: 100px;
+        text-align: center;
+    }
+    h2 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
     .arrow-container, .arrow-container0 {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 0; /* Remove space between text and arrows */
+        margin-top: 0;
     }
     .image-container {
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 500px;
         margin-bottom: 0;
     }
-    /* Arrow styling */
     .arrow {
         color: gray;
         opacity: 0.4;
         animation: highlightArrow 4s infinite;
-        margin: -60px 0; /* Adjust negative margin to reduce white space */
+        margin: -60px 0;
         padding: 0;
+        font-size: 6em;
+        text-decoration: none;
     }
-          .markdown-wrapper {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
     .arrow:nth-child(1) {
-        animation-delay: 0s; /* First arrow starts immediately */
+        animation-delay: 0s;
     }
     .arrow:nth-child(2) {
-        animation-delay: 0.66s; /* Second arrow starts after 0.66 seconds */
+        animation-delay: 0.66s;
     }
     .arrow:nth-child(3) {
-        animation-delay: 1.33s; /* Third arrow starts after 1.33 seconds */
+        animation-delay: 1.33s;
     }
     @keyframes highlightArrow {
         0%, 100% {
             color: gray;
-            opacity: 0.4; /* Dull arrows */
+            opacity: 0.4;
         }
         50% {
-            opacity: 1; /* Highlighted arrow */
+            opacity: 1;
         }
     }
-          @media (max-width: 600px) {
-            .markdown-wrapper {
-                padding: 10px;
-            }
+    @media (max-width: 600px) {
+        .markdown-wrapper {
+            padding: 10px;
+        }
+        .arrow {
+            font-size: 4em;
+        }
+    }
 </style>
+
+<div class="markdown-wrapper">
+    <div class="content-wrapper">
+        <div class="top-section">
+            <h2>You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
+            <div class="arrow-container">
+                <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
+                <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
+                <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
+            </div>
+        </div>
+        <div id="car-image" class="image-container">
+            <img src='/images/Carcool.jpg' alt="Cool Car">
+        </div>
+        <div class="arrow-container0">
+            <a href="#top" class="arrow">&#x2303;</a>
+            <a href="#top" class="arrow">&#x2303;</a>
+            <a href="#top" class="arrow">&#x2303;</a>
+        </div>
+    </div>
+</div>
 
 <script>
     function scrollToImage(event) {
