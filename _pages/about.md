@@ -185,15 +185,14 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 <div style="margin-top: 70px; text-align:center;">
     <h2 style="margin-bottom: 0; padding-bottom: 0;">You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
     <div class="arrow-container" style="margin-top: -45px;">
-        <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage()">&#8964;</a>
-        <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage()">&#8964;</a>
-        <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage()">&#8964;</a>
+        <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage(event)">&#8964;</a>
+        <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage(event)">&#8964;</a>
+        <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage(event)">&#8964;</a>
     </div>
 </div>
 
-<a id="car-image" style="scroll-margin-top: 0vh;"></a> <!-- Set scroll-margin-top to 0 to ensure the full image is visible -->
-<div style="margin-top: 600px; text-align:center;">
-    <img src='/images/Carcool.jpg'> <!-- Limit image height to fit in the viewport -->
+<div id="car-image" class="image-container">
+    <img src='/images/Carcool.jpg' alt="Cool Car">
 </div>
 
 <div class="arrow-container0" style="margin-top: 20px;">
@@ -213,6 +212,12 @@ I am seeking full-time roles and craving challenging opportunities to contribute
         align-items: center;
         justify-content: center;
         margin-top: 0; /* Remove space between text and arrows */
+    }
+    .image-container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     /* Arrow styling */
     .arrow {
