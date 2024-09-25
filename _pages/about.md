@@ -204,42 +204,34 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     html {
         scroll-behavior: smooth;
     }
+    /* Arrow container aligned to the right of the text/image */
     .arrow-container-right {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 20px; /* Adds space between text/image and arrows */
+        margin-left: 20px; /* Space between the text/image and arrows */
     }
-    .image-container {
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0;
-        margin-top: 500px;
-        position: relative; /* To align the arrows beside the image */
-    }
-    .car-image {
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-    }
+    /* Arrow styles */
     .arrow {
         color: gray;
         opacity: 0.4;
         font-size: 6em;
-        animation: highlightArrow 4s infinite;
         text-decoration: none;
-    } 
+        padding: 0; /* Remove padding around the arrows */
+        margin: 0; /* Remove margin to eliminate spacing between arrows */
+        line-height: 1; /* Ensure arrows are stacked closely */
+        animation: highlightArrow 4s infinite;
+    }
+    /* Animation for the arrows */
     .arrow:nth-child(1) {
         animation-delay: 0s;
-    } 
+    }
     .arrow:nth-child(2) {
         animation-delay: 0.66s;
-    } 
+    }
     .arrow:nth-child(3) {
         animation-delay: 1.33s;
-    }  
+    }
     @keyframes highlightArrow {
         0%, 100% {
             color: gray;
@@ -249,7 +241,22 @@ I am seeking full-time roles and craving challenging opportunities to contribute
             opacity: 1;
         }
     }
-    /* Add responsiveness */
+    /* Ensure image is responsive and properly aligned */
+    .image-container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        position: relative;
+        margin-top: 500px;
+    }
+    .car-image {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+    /* Add responsiveness for smaller devices */
     @media (max-width: 768px) {
         .arrow {
             font-size: 4em;
