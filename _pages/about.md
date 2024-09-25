@@ -191,9 +191,9 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     </div>
 </div>
 
-<div id="car-image"></div>
+<a id="car-image" style="scroll-margin-top: 0vh;"></a> <!-- Set scroll-margin-top to 0 to ensure the full image is visible -->
 <div style="margin-top: 500px; text-align:center;">
-    <img id="car" src='/images/Carcool.jpg'>
+    <img src='/images/Carcool.jpg'> <!-- Limit image height to fit in the viewport -->
 </div>
 
 <div class="arrow-container0" style="margin-top: 20px;">
@@ -243,10 +243,11 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 </style>
 
 <script>
-    function scrollToImage() {
-        const image = document.getElementById("car");
+    function scrollToImage(event) {
+        event.preventDefault();
+        const image = document.getElementById("car-image");
         const imageRect = image.getBoundingClientRect();
-        const scrollPosition = window.pageYOffset + imageRect.top - (window.innerHeight - imageRect.height) / 2;
+        const scrollPosition = window.pageYOffset + imageRect.top;
         window.scrollTo({ top: scrollPosition, behavior: 'smooth' });
     }
 </script>
