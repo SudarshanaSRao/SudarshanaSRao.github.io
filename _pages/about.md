@@ -182,9 +182,20 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 </style>
 
+# Welcome to My Website
+
+Some introductory content goes here...
+
+## Scroll down
+
+<!-- Add margin, center the content, and blue text with animated arrows -->
 <div style="margin-top: 50px; text-align:center;">
-    <p style="color: blue;"><strong>You have scrolled down too far; here, enjoy a picture of a cool car:</strong></p>
-    <a href="#car-image" style="font-size: 6em; text-decoration: none; scroll-behavior: smooth;">&#x25BC;</a> <!-- Downward-facing V -->
+    <p><strong>You have scrolled down too far; here, enjoy a picture of a cool car:</strong></p>
+    <div class="arrow-container">
+        <a href="#car-image" class="arrow" style="font-size: 4em; text-decoration: none;">&#x25BC;</a>
+        <a href="#car-image" class="arrow" style="font-size: 4em; text-decoration: none;">&#x25BC;</a>
+        <a href="#car-image" class="arrow" style="font-size: 4em; text-decoration: none;">&#x25BC;</a>
+    </div>
 </div>
 
 <a id="car-image"></a>
@@ -192,12 +203,49 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     <img src='/images/Carcool.jpg'>
 </div>
 
-<div style="margin-top: 70px; text-align:center;">
-    <a href="#top" style="font-size: 6em; text-decoration: none; scroll-behavior: smooth;">&#x25B2;</a> <!-- Upward-facing V -->
+<div style="margin-top: 30px; text-align:center;">
+    <div class="arrow-container">
+        <a href="#top" class="arrow" style="font-size: 4em; text-decoration: none;">&#x25B2;</a>
+        <a href="#top" class="arrow" style="font-size: 4em; text-decoration: none;">&#x25B2;</a>
+        <a href="#top" class="arrow" style="font-size: 4em; text-decoration: none;">&#x25B2;</a>
+    </div>
 </div>
 
+<!-- Add smooth scroll behavior and animation styles -->
 <style>
     html {
         scroll-behavior: smooth;
+    }
+    /* Container for the arrows */
+    .arrow-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    /* Arrow animation */
+    .arrow {
+        color: gray; /* Default dull color */
+        opacity: 0.4;
+        animation: highlightArrow 2s infinite;
+    }
+    .arrow:nth-child(1) {
+        animation-delay: 0s; /* First arrow starts immediately */
+    }
+    .arrow:nth-child(2) {
+        animation-delay: 0.66s; /* Second arrow starts after 0.66 seconds */
+    }
+    .arrow:nth-child(3) {
+        animation-delay: 1.33s; /* Third arrow starts after 1.33 seconds */
+    }
+    @keyframes highlightArrow {
+        0%, 100% {
+            color: gray;
+            opacity: 0.4; /* Dull arrows */
+        }
+        50% {
+            color: blue;
+            opacity: 1; /* Highlighted arrow */
+        }
     }
 </style>
