@@ -196,12 +196,10 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     <img src='/images/Carcool.jpg'>
 </div>
 
-<div style="text-align:center;">
-    <div class="arrow-container0">
+<div class="arrow-container0" style="margin-top: 0px;">
         <a href="#top" class="arrow0" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
         <a href="#top" class="arrow0" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
         <a href="#top" class="arrow0" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
-    </div>
 </div>
 
 <style>
@@ -221,7 +219,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
         color: gray;
         opacity: 0.4;
         animation: highlightArrow 4s infinite;
-        margin: -50px 0; /* Adjust negative margin to reduce white space */
+        margin: -60px 0; /* Adjust negative margin to reduce white space */
         padding: 0;
     }
     .arrow:nth-child(1) {
