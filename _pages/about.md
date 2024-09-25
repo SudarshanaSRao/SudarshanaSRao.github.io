@@ -182,9 +182,9 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 </style>
 
-<div style="margin-top: 100px; text-align:center; display: flex; justify-content: center; align-items: center;">
+<div style="margin-top: 100px; text-align:center;">
     <h2 style="margin-bottom: 0; padding-bottom: 0;">You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
-    <div class="arrow-container-right">
+    <div class="arrow-container">
         <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
         <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
         <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
@@ -193,45 +193,56 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <div id="car-image" class="image-container">
     <img src="/images/Carcool.jpg" alt="Cool Car" class="car-image">
-    <div class="arrow-container-right">
-        <a href="#top" class="arrow">&#x2303;</a>
-        <a href="#top" class="arrow">&#x2303;</a>
-        <a href="#top" class="arrow">&#x2303;</a>
-    </div>
+</div>
+
+<div class="arrow-container0">
+    <a href="#top" class="arrow">&#x2303;</a>
+    <a href="#top" class="arrow">&#x2303;</a>
+    <a href="#top" class="arrow">&#x2303;</a>
 </div>
 
 <style>
     html {
         scroll-behavior: smooth;
     }
-    /* Arrow container aligned to the right of the text/image */
-    .arrow-container-right {
+    .arrow-container, .arrow-container0 {
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
-        margin-left: 20px; /* Space between the text/image and arrows */
+        margin-top: 0;
     }
-    /* Arrow styles */
+    .image-container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        margin-top: 500px;
+    }
+    .car-image {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain; /* Ensures proper scaling and aspect ratio */
+    } 
     .arrow {
         color: gray;
         opacity: 0.4;
         font-size: 6em;
-        text-decoration: none;
-        padding: 0; /* Remove padding around the arrows */
-        margin: 0; /* Remove margin to eliminate spacing between arrows */
-        line-height: 1; /* Ensure arrows are stacked closely */
         animation: highlightArrow 4s infinite;
-    }
-    /* Animation for the arrows */
+        margin: -60px 0;
+        padding: 0;
+        text-decoration: none;
+    } 
     .arrow:nth-child(1) {
         animation-delay: 0s;
-    }
+    }  
     .arrow:nth-child(2) {
         animation-delay: 0.66s;
-    }
+    }  
     .arrow:nth-child(3) {
         animation-delay: 1.33s;
-    }
+    }  
     @keyframes highlightArrow {
         0%, 100% {
             color: gray;
@@ -241,22 +252,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
             opacity: 1;
         }
     }
-    /* Ensure image is responsive and properly aligned */
-    .image-container {
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0;
-        position: relative;
-        margin-top: 500px;
-    }
-    .car-image {
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-    }
-    /* Add responsiveness for smaller devices */
+    /* Add responsiveness */
     @media (max-width: 768px) {
         .arrow {
             font-size: 4em;
