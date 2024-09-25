@@ -221,6 +221,8 @@ I am seeking full-time roles and craving challenging opportunities to contribute
         opacity: 0.4;
         animation: highlightArrow 4s infinite;
         margin: 0; /* Remove margin to eliminate space */
+        padding: 0; /* Remove padding to eliminate space */
+        line-height: 0; /* Adjust line height to remove space between arrows */
     }
     .arrow:nth-child(1) {
         animation-delay: 0s; /* First arrow starts immediately */
