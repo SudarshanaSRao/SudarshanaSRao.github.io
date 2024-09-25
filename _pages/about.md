@@ -185,9 +185,9 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 <div style="margin-top: 100px; text-align:center;">
     <h2 style="margin-bottom: 0; padding-bottom: 0;">You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
     <div class="arrow-container">
-        <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
-        <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
-        <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
+        <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#9660;</a>
+        <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#9660;</a>
+        <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#9660;</a>
     </div>
 </div>
 
@@ -196,9 +196,9 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 </div>
 
 <div class="arrow-container0">
-    <a href="#top" class="arrow">&#x2303;</a>
-    <a href="#top" class="arrow">&#x2303;</a>
-    <a href="#top" class="arrow">&#x2303;</a>
+    <a href="#top" class="arrow">&#9650;</a>
+    <a href="#top" class="arrow">&#9650;</a>
+    <a href="#top" class="arrow">&#9650;</a>
 </div>
 
 <style>
