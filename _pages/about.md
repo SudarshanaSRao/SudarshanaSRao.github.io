@@ -184,14 +184,14 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <div style="margin-top: 70px; text-align:center;">
     <h2 style="margin-bottom: 0; padding-bottom: 0;">You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
-    <div class="arrow-container" style="margin-top: -40px;">
+    <div class="arrow-container" style="margin-top: -50px;">
         <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;">&#8964;</a>
         <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;">&#8964;</a>
         <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;">&#8964;</a>
     </div>
 </div>
 
-<a id="car-image" style="scroll-margin-top: 50vh;"></a>
+<a id="car-image" style="scroll-margin-top: 100vh;"></a>
 <div style="margin-top: 400px; text-align:center;">
     <img src='/images/Carcool.jpg'>
 </div>
@@ -221,7 +221,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
         color: gray;
         opacity: 0.4;
         animation: highlightArrow 4s infinite;
-        margin: -40px 0; /* Adjust negative margin to reduce white space */
+        margin: -50px 0; /* Adjust negative margin to reduce white space */
         padding: 0;
     }
     .arrow:nth-child(1) {
