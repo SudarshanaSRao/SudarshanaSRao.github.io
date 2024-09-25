@@ -193,7 +193,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <a id="car-image" style="scroll-margin-top: 0vh;"></a>
 <div style="margin-top: 500px; text-align:center;">
-    <img src='/images/Carcool.jpg'>
+    <img src='/images/Carcool.jpg' style="max-height: 90vh; width: auto;">
 </div>
 
 <div class="arrow-container0" style="margin-top: 20px;">
