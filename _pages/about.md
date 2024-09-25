@@ -182,36 +182,28 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 </style>
 
-# Welcome to My Website
-
-Some introductory content goes here...
-
-## Scroll down
-
-<!-- Add margin, center the content, and blue text with animated arrows -->
 <div style="margin-top: 50px; text-align:center;">
-    <p><strong>You have scrolled down too far; here, enjoy a picture of a cool car:</strong></p>
+    <h2>You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
     <div class="arrow-container">
-        <a href="#car-image" class="arrow" style="font-size: 4em; text-decoration: none;">&#x25BC;</a>
-        <a href="#car-image" class="arrow" style="font-size: 4em; text-decoration: none;">&#x25BC;</a>
-        <a href="#car-image" class="arrow" style="font-size: 4em; text-decoration: none;">&#x25BC;</a>
+        <a href="#car-image" class="arrow" style="font-size: 4em; text-decoration: none;">&#8964;</a>
+        <a href="#car-image" class="arrow" style="font-size: 4em; text-decoration: none;">&#8964;</a>
+        <a href="#car-image" class="arrow" style="font-size: 4em; text-decoration: none;">&#8964;</a>
     </div>
 </div>
 
 <a id="car-image"></a>
-<div style="text-align:center;">
+<div style="margin-top: 70px; text-align:center;">
     <img src='/images/Carcool.jpg'>
 </div>
 
-<div style="margin-top: 30px; text-align:center;">
+<div style="margin-top: 5px; text-align:center;">
     <div class="arrow-container">
-        <a href="#top" class="arrow" style="font-size: 4em; text-decoration: none;">&#x25B2;</a>
-        <a href="#top" class="arrow" style="font-size: 4em; text-decoration: none;">&#x25B2;</a>
-        <a href="#top" class="arrow" style="font-size: 4em; text-decoration: none;">&#x25B2;</a>
+        <a href="#top" class="arrow" style="font-size: 4em; text-decoration: none;">&#x2304;</a>
+        <a href="#top" class="arrow" style="font-size: 4em; text-decoration: none;">&#x2304;</a>
+        <a href="#top" class="arrow" style="font-size: 4em; text-decoration: none;">&#x2304;</a>
     </div>
 </div>
 
-<!-- Add smooth scroll behavior and animation styles -->
 <style>
     html {
         scroll-behavior: smooth;
@@ -227,7 +219,8 @@ Some introductory content goes here...
     .arrow {
         color: gray; /* Default dull color */
         opacity: 0.4;
-        animation: highlightArrow 2s infinite;
+        animation: highlightArrow 4s infinite;
+        margin: 0; /* Remove margin to eliminate space */
     }
     .arrow:nth-child(1) {
         animation-delay: 0s; /* First arrow starts immediately */
@@ -244,7 +237,6 @@ Some introductory content goes here...
             opacity: 0.4; /* Dull arrows */
         }
         50% {
-            color: blue;
             opacity: 1; /* Highlighted arrow */
         }
     }
