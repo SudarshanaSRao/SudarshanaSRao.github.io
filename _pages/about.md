@@ -193,7 +193,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <a id="car-image" style="scroll-margin-top: 0vh;"></a>
 <div style="margin-top: 500px; text-align:center;">
-    <img src='/images/Carcool.jpg' style="max-height: 90vh; width: auto;">
+    <img src='/images/Carcool.jpg'>
 </div>
 
 <div class="arrow-container0" style="margin-top: 20px;">
@@ -241,3 +241,12 @@ I am seeking full-time roles and craving challenging opportunities to contribute
         }
     }
 </style>
+
+<script>
+    function scrollToImage() {
+        const image = document.getElementById("car-image");
+        const imageRect = image.getBoundingClientRect();
+        const scrollPosition = window.pageYOffset + imageRect.top - (window.innerHeight - imageRect.height) / 2;
+        window.scrollTo({ top: scrollPosition, behavior: 'smooth' });
+    }
+</script>
