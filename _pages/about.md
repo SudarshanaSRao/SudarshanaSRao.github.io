@@ -182,20 +182,18 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 </style>
 
-<div style="margin-top: 100px; text-align:center;">
-    <div class="top-section">
-        <h2 style="margin-bottom: 0; padding-bottom: 0;">You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
-        <div class="arrow-container">
-            <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
-            <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
-            <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
-        </div>
+<div style="margin-top: 100px; text-align:center; display: flex; justify-content: center; align-items: center;">
+    <h2 style="margin-bottom: 0; padding-bottom: 0;">You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
+    <div class="arrow-container-right">
+        <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
+        <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
+        <a href="#car-image" class="arrow" onclick="scrollToImage(event)">&#8964;</a>
     </div>
 </div>
 
 <div id="car-image" class="image-container">
     <img src="/images/Carcool.jpg" alt="Cool Car" class="car-image">
-    <div class="arrow-container0">
+    <div class="arrow-container-right">
         <a href="#top" class="arrow">&#x2303;</a>
         <a href="#top" class="arrow">&#x2303;</a>
         <a href="#top" class="arrow">&#x2303;</a>
@@ -206,56 +204,42 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     html {
         scroll-behavior: smooth;
     }
-    /* Flexbox for top section with arrows on the right of the text */
-    .top-section {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 20px; /* Add some padding to give space between text and arrows */
-    }
-    .arrow-container, .arrow-container0 {
+    .arrow-container-right {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        margin: 0; /* Remove any extra margin */
+        margin-left: 20px; /* Adds space between text/image and arrows */
     }
     .image-container {
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        position: relative;
-        height: 100vh;
+        margin-bottom: 0;
         margin-top: 500px;
-    }
-    .arrow-container0 {
-        position: absolute;
-        right: 20px; /* Align arrows to the right of the image */
-        top: 50%;
-        transform: translateY(-50%);
+        position: relative; /* To align the arrows beside the image */
     }
     .car-image {
         max-width: 100%;
         max-height: 100%;
-        object-fit: contain; /* Ensures proper scaling and aspect ratio */
+        object-fit: contain;
     }
     .arrow {
         color: gray;
         opacity: 0.4;
         font-size: 6em;
         animation: highlightArrow 4s infinite;
-        padding: 0; /* Remove any padding around arrows */
         text-decoration: none;
-    }
+    } 
     .arrow:nth-child(1) {
         animation-delay: 0s;
-    }
+    } 
     .arrow:nth-child(2) {
         animation-delay: 0.66s;
-    }
+    } 
     .arrow:nth-child(3) {
         animation-delay: 1.33s;
-    }
+    }  
     @keyframes highlightArrow {
         0%, 100% {
             color: gray;
@@ -274,9 +258,6 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     @media (max-width: 480px) {
         .arrow {
             font-size: 3em;
-        }
-        .top-section {
-            flex-direction: column;
         }
     }
 </style>
