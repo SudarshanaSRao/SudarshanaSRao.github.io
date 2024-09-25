@@ -182,9 +182,9 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 </style>
 
-<div style="margin-top: 50px; text-align:center;">
-    <h2>You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
-    <div class="arrow-container">
+<div style="margin-top: 70px; text-align:center;">
+    <h2 style="margin-bottom: 0;">You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
+    <div class="arrow-container" style="margin-top: 0;">
         <a href="#car-image" class="arrow" style="font-size: 4em; text-decoration: none;">&#8964;</a>
         <a href="#car-image" class="arrow" style="font-size: 4em; text-decoration: none;">&#8964;</a>
         <a href="#car-image" class="arrow" style="font-size: 4em; text-decoration: none;">&#8964;</a>
@@ -192,7 +192,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 </div>
 
 <a id="car-image"></a>
-<div style="margin-top: 170px; text-align:center;">
+<div style="margin-top: 270px; text-align:center;">
     <img src='/images/Carcool.jpg'>
 </div>
 
@@ -214,13 +214,14 @@ I am seeking full-time roles and craving challenging opportunities to contribute
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 0; /* Remove space between text and arrows */
     }
     /* Arrow styling */
     .arrow {
         color: gray;
         opacity: 0.4;
         animation: highlightArrow 4s infinite;
-        margin: -20px 0; /* Negative top and bottom margin to bring arrows closer */
+        margin: -20px 0; /* Adjust negative margin to reduce white space */
         padding: 0;
     }
     .arrow:nth-child(1) {
