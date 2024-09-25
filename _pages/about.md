@@ -181,3 +181,17 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   animation: pulse 2s infinite ease-in-out;
 }
 </style>
+
+<div style="text-align:center;">
+    <p><strong>You have scrolled down too far; here, enjoy a picture of a cool car:</strong></p>
+    <a href="#car-image"><img src="https://img.icons8.com/ios-filled/50/000000/down.png" alt="Down Arrow" style="width: 30px;"/></a>
+</div>
+
+<a id="car-image"></a>
+<div style="text-align:center;">
+    ![Cool Car](/images/Carcool.jpg)
+</div>
+
+<div style="text-align:center;">
+    <a href="#top"><img src="https://img.icons8.com/ios-filled/50/000000/up.png" alt="Up Arrow" style="width: 30px;"/></a>
+</div>
