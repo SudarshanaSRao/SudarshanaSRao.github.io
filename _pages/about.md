@@ -197,10 +197,10 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 </div>
 
 <div style="text-align:center;">
-    <div class="arrow-container">
-        <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
-        <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
-        <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
+    <div class="arrow-container0">
+        <a href="#top" class="arrow0" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
+        <a href="#top" class="arrow0" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
+        <a href="#top" class="arrow0" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
     </div>
 </div>
 
@@ -209,7 +209,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
         scroll-behavior: smooth;
     }
     /* Container for the arrows */
-    .arrow-container {
+    .arrow-container, .arrow-container0 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -217,7 +217,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
         margin-top: 0; /* Remove space between text and arrows */
     }
     /* Arrow styling */
-    .arrow {
+    .arrow, .arrow0 {
         color: gray;
         opacity: 0.4;
         animation: highlightArrow 4s infinite;
