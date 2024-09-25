@@ -218,6 +218,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-down: 0;
     }
     /* Arrow styling */
     .arrow {
