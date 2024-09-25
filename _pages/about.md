@@ -182,7 +182,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 </style>
 
-<div style="margin-top: 70px; text-align:center;">
+<div style="margin-top: 100px; text-align:center;">
     <h2 style="margin-bottom: 0; padding-bottom: 0;">You have scrolled down too far; here, enjoy a picture of a cool car:</h2>
     <div class="arrow-container" style="margin-top: -45px;">
         <a href="#car-image" class="arrow" style="font-size: 6em; text-decoration: none;" onclick="scrollToImage(event)">&#8964;</a>
@@ -195,7 +195,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     <img src='/images/Carcool.jpg' alt="Cool Car">
 </div>
 
-<div class="arrow-container0" style="margin-top: -20px;">
+<div class="arrow-container0">
         <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
         <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
         <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
@@ -218,7 +218,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-down: 0;
+        margin-bottom: 0;
     }
     /* Arrow styling */
     .arrow {
