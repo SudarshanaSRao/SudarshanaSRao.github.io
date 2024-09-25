@@ -191,15 +191,15 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     </div>
 </div>
 
-<a id="car-image" style="scroll-margin-top: 100vh;"></a>
+<a id="car-image" style="scroll-margin-top: 0vh;"></a>
 <div style="margin-top: 500px; text-align:center;">
     <img src='/images/Carcool.jpg'>
 </div>
 
-<div class="arrow-container0" style="margin-top: 0px;">
-        <a href="#top" class="arrow0" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
-        <a href="#top" class="arrow0" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
-        <a href="#top" class="arrow0" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
+<div class="arrow-container0" style="margin-top: 5px;">
+        <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
+        <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
+        <a href="#top" class="arrow" style="font-size: 6em; text-decoration: none;">&#x2303;</a>
 </div>
 
 <style>
@@ -215,7 +215,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
         margin-top: 0; /* Remove space between text and arrows */
     }
     /* Arrow styling */
-    .arrow, .arrow0 {
+    .arrow {
         color: gray;
         opacity: 0.4;
         animation: highlightArrow 4s infinite;
