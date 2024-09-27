@@ -18,13 +18,14 @@ collection: portfolio
   .app-button {
     background: url('/images/button.png') no-repeat center center;
     background-size: cover;
-    width: 150px;  /* Adjusted size */
-    height: 50px;  /* Adjusted size */
+    width: 150px;
+    height: 50px;
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    box-shadow: 0 4px #999;  /* 3D shadow effect */
+    box-shadow: 0 4px #999;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
   }
   .app-button:hover {
     transform: translateY(-3px);
@@ -34,7 +35,49 @@ collection: portfolio
     transform: translateY(2px);
     box-shadow: 0 2px #333;
   }
+  /* Tooltip styles */
+  .tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    display: none;
+    white-space: nowrap;
+    z-index: 1000;
+  }
 </style>
+
+<div class="container" style="margin-top: -25px;">
+  <div class="app-text">
+    <h2> Access the app ↪️</h2>
+  </div>
+  <a href="https://talk-to-your-data.streamlit.app/" target="_blank">
+    <button class="app-button" id="appButton">
+      <div class="tooltip" id="tooltip">https://talk-to-your-data.streamlit.app/</div>
+    </button>
+  </a>
+</div>
+
+<script>
+  const button = document.getElementById('appButton');
+  const tooltip = document.getElementById('tooltip');
+  button.addEventListener('mouseover', (e) => {
+    tooltip.style.display = 'block';
+    moveTooltip(e);
+  });
+  button.addEventListener('mousemove', (e) => {
+    moveTooltip(e);
+  });
+  button.addEventListener('mouseout', () => {
+    tooltip.style.display = 'none';
+  });
+  function moveTooltip(e) {
+    tooltip.style.left = e.clientX + 10 + 'px'; // Adjust the position slightly to the right
+    tooltip.style.top = e.clientY + 10 + 'px'; // Adjust the position slightly below
+  }
+</script>
 
 <div class="container" style="margin-top: -25px;">
   <div class="app-text"> <h2> Access the app ↪️</h2> </div>
