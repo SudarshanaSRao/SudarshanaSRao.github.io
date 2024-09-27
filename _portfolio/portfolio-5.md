@@ -3,6 +3,7 @@ title: "🤏Deep Learning based American Sign Language Recognition"
 excerpt: "<img height='500'  width='500' src='/images/preprocess.png'>"
 collection: portfolio
 ---
+<span align='center'>✨Received extra credit for this project✨</span>
 
 <img src="/images/test-dataset1.png" style="cursor: crosshair;">
 <img src="/images/dataset.png" style="cursor: crosshair;">
