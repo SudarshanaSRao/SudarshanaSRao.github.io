@@ -56,7 +56,6 @@ Education
     .flexcontainer ul li {
         display: flex;
         justify-content: space-between;
-        align-items: center;
         width: 100%;
     }
     /* Thumbnail and popup styling */
@@ -131,7 +130,6 @@ Education
             flex-direction: column;
             align-items: flex-start;
         }
-
         .thumbnail-container2 {
             align-self: flex-end;
             margin-top: 10px;
@@ -177,7 +175,6 @@ Education
     function openPopup2() {
         document.getElementById('popup2').style.display = 'flex';
     }
-
     function closePopup2() {
         document.getElementById('popup2').style.display = 'none';
     }
@@ -189,15 +186,29 @@ Education
       <img class="pulse" height="140px" src="/images/bmsce_logo.jpg" width="70px">
     </a>
   </div>
-  <div>
-    <ul>
-      <li style="display: flex; justify-content: space-between;">
-      <span>Bachelor of Engineering (B.E.) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering</span>
-        <span>2022</span>
-      </li>
-    </ul>
-  </div>
+
+<div class="thumbnail-container2" onclick="openPopup2()">
+  <img src="/images/Degree Certificate_page-0001.jpg" class="thumbnail2">
+  <span class="popup-icon2">&#x2197;</span>
 </div>
+
+<div>
+  <ul>
+    <li>
+    <span>Bachelor of Engineering (B.E.) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering</span>
+      <span>2022</span>
+    </li>
+  </ul>
+</div>
+</div>
+
+<div id="popup2" onclick="closePopup2()">
+    <div class="popup-content2" onclick="event.stopPropagation()">
+        <span class="close-button2" onclick="closePopup2()">&times;</span>
+        <img id="popupImage2" src="/images/Degree Certificate_page-0001.jpg">
+    </div>
+</div>
+
 <style>
 @keyframes pulse {
   0% {
