@@ -37,8 +37,6 @@ citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering
 
 <div class="framed-certificate">
 <img src="/images/8051 paper.jpeg" alt="Certificate Image">
-<div class="corner top-left"></div>
-<div class="corner bottom-right"></div>
 </div>
 
 <style>
@@ -48,50 +46,21 @@ citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering
 }
 .framed-certificate {
   display: inline-block;
-  position: relative;
-  max-width: 90%; /* Responsive width */
-  margin: 0 auto;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Enhanced 3D shadow effect */
-}
-.framed-certificate img {
-  width: 100%;
-  height: auto;
-  display: block;
+  padding: 2%;
+  border: 5px solid #000; /* Black border for the frame */
   border-radius: 10px;
-  margin: 5px 0;
-}
-.corner {
-  position: absolute;
-  width: 70px; /* Size of the corner */
-  height: 70px;
-  background-color: rgba(91, 60, 17, 0.7); /* Dark brown with transparency */
-  border-radius: 15px; /* Rounded corners for smoother effect */
-}
-.corner.top-left {
-  top: -10px; /* Offset slightly outside the image */
-  left: -10px;
-  clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 15% 100%, 15% 15%, 100% 15%, 100% 0%);
-}
-.corner.bottom-right {
-  bottom: -10px;
-  right: -10px;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 85% 85%, 85% 100%, 0% 100%, 0% 0%);
-}
-/* Ensure dynamic alignment on different screen sizes */
-.framed-certificate {
+  background-color: #FFD700;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* 3D effect */
+  max-width: 90%; /* Make sure it adjusts based on screen size */
+  margin: 0 auto;
   position: relative;
 }
 .framed-certificate img {
-  display: block;
   width: 100%;
   height: auto;
-}
-/* Make corners responsive */
-@media (max-width: 600px) {
-  .corner {
-    width: 50px;
-    height: 50px;
-  }
+  display: block;
+  border-radius: 5px;
+  margin: 5px 0;
 }
 </style>
 
