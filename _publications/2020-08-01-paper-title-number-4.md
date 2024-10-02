@@ -48,11 +48,11 @@ citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering
   display: inline-block;
   padding: 2%;
   border: 5px solid #000; /* Black border for the frame */
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #FFD700;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* 3D effect */
   max-width: 90%; /* Make sure it adjusts based on screen size */
-  margin: 0 auto;
+  margin: 5px 0;
   position: relative;
 }
 .framed-certificate img {
@@ -60,6 +60,5 @@ citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering
   height: auto;
   display: block;
   border-radius: 5px;
-  margin: 5px 0;
 }
 </style>
