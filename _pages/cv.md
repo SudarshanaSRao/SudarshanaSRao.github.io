@@ -76,6 +76,7 @@ Education
         top: 10px;
         right: 5px;
         font-size: 18px;
+        color: white;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 50%;
         padding: 2px 5px;
@@ -96,8 +97,8 @@ Education
     /* Popup content styling */
     .popup-content2 {
         position: relative;
-        width: 500px;
-        height: 500px;
+        width: 700px;
+        height: 700px;
         border-radius: 10px;
         overflow: hidden;
     }
@@ -211,6 +212,7 @@ Education
         top: 10px;
         right: 5px;
         font-size: 18px;
+        color: white;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 50%;
         padding: 2px 5px;
@@ -231,8 +233,8 @@ Education
     /* Popup content styling */
     .popup-content3 {
         position: relative;
-        width: 500px;
-        height: 500px;
+        width: 700px;
+        height: 700px;
         border-radius: 10px;
         overflow: hidden;
     }
@@ -386,6 +388,7 @@ _{October 2022-May 2023}_ (**Apple** funded project)
         top: 10px;
         right: 5px;
         font-size: 18px;
+        color: white;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 50%;
         padding: 2px 5px;
@@ -406,8 +409,8 @@ _{October 2022-May 2023}_ (**Apple** funded project)
     /* Popup content styling */
     .popup-content4 {
         position: relative;
-        width: 500px;
-        height: 500px;
+        width: 700px;
+        height: 700px;
         border-radius: 10px;
         overflow: hidden;
     }
@@ -513,6 +516,7 @@ Awards
         top: 5px;
         right: 5px;
         font-size: 18px;
+        color: white;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 50%;
         padding: 2px 5px;
@@ -606,6 +610,7 @@ Awards
         top: 10px;
         right: 5px;
         font-size: 18px;
+        color: white;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 50%;
         padding: 2px 5px;
