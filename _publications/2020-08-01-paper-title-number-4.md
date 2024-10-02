@@ -40,25 +40,64 @@ citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering
 </div>
 
 <style>
-      #certificate-frame {
+#certificate-frame {
   text-align: center;
   margin: 20px;
 }
 .framed-certificate {
   display: inline-block;
+  position: relative;
   padding: 2%;
-  border: 5px solid #000; /* Black border for the frame */
-  border-radius: 10px;
-  background-color: #f5f5f5;
+  background-color: #fff;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* 3D effect */
-  max-width: 90%; /* Make sure it adjusts based on screen size */
+  max-width: 90%;
   margin: 0 auto;
+}
+/* Base photo corners */
+.framed-certificate::before,
+.framed-certificate::after {
+  content: '';
+  position: absolute;
+  background: #5b3c11; /* Dark brown color for the corners */
+}
+.framed-certificate::before,
+.framed-certificate::after {
+  width: 3vw; /* Scales with the viewport width */
+  height: 3vw; /* Scales with the viewport width */
+}
+.framed-certificate::before {
+  top: 0;
+  left: 0;
+  border-left: 0.5vw solid #5b3c11;
+  border-top: 0.5vw solid #5b3c11;
+}
+.framed-certificate::after {
+  bottom: 0;
+  right: 0;
+  border-right: 0.5vw solid #5b3c11;
+  border-bottom: 0.5vw solid #5b3c11;
 }
 .framed-certificate img {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 5px;
+  z-index: 1;
+}
+/* Responsive corners for smaller screens */
+@media (max-width: 600px) {
+  .framed-certificate::before,
+  .framed-certificate::after {
+    width: 5vw; /* Increase corner size on smaller screens */
+    height: 5vw;
+  }
+  .framed-certificate::before {
+    border-left: 0.8vw solid #5b3c11;
+    border-top: 0.8vw solid #5b3c11;
+  }
+  .framed-certificate::after {
+    border-right: 0.8vw solid #5b3c11;
+    border-bottom: 0.8vw solid #5b3c11;
+  }
 }
 </style>
 
