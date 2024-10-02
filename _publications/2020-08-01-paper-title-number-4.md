@@ -34,3 +34,31 @@ citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering
     transform-origin: center; /* Pivot around the top center */
   }
 </style>
+
+<div class="framed-certificate">
+<img src="/images/8051 paper.jpeg" alt="Python Programming Certificate" style="cursor: crosshair;">
+</div>
+
+<style>
+      #certificate-frame {
+  text-align: center;
+  margin: 20px;
+}
+.framed-certificate {
+  display: inline-block;
+  padding: 2%;
+  border: 5px solid #000; /* Black border for the frame */
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* 3D effect */
+  max-width: 90%; /* Make sure it adjusts based on screen size */
+  margin: 0 auto;
+}
+.framed-certificate img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+</style>
+
