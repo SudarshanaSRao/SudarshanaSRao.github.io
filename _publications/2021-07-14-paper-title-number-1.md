@@ -34,3 +34,31 @@ citation: 'Rao, Sudarshana S and Desai, Santosh R, Machine Learning based Traffi
     transform-origin: center; /* Pivot around the top center */
   }
 </style>
+
+<div class="framed-certificate">
+<img src="/images/106-1_page-0001.jpg" alt="Certificate Image" style="cursor: crosshair;">
+</div>
+
+<style>
+#certificate-frame {
+  text-align: center;
+  margin: 5px;
+}
+.framed-certificate {
+  display: inline-block;
+  padding: 2%;
+  border: 5px solid #000; /* Black border for the frame */
+  border-radius: 5px;
+  background-color: #FFD700;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* 3D effect */
+  max-width: 90%; /* Make sure it adjusts based on screen size */
+  margin: 5px 0;
+  position: relative;
+}
+.framed-certificate img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+</style>
