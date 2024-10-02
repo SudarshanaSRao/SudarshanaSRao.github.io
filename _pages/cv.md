@@ -458,6 +458,7 @@ _{October 2022-May 2023}_ (**Apple** funded project)
     <img src="/images/Internship_page-0001.jpg" class="thumbnail4">
     <span class="popup-icon4">&#x2197;</span>
 </div>
+</div>
 
 <div id="popup4" onclick="closePopup4()">
     <div class="popup-content4" onclick="event.stopPropagation()">
