@@ -61,25 +61,35 @@ citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering
 }
 .corner {
   position: absolute;
-  width: 100px; /* Increased size for larger effect */
-  height: 100px;
+  width: 70px; /* Size of the corner */
+  height: 70px;
   background-color: rgba(91, 60, 17, 0.7); /* Dark brown with transparency */
-  clip-path: polygon(0% 0%, 100% 0%, 0% 100%); /* Creates triangular shape */
+  border-radius: 15px; /* Rounded corners for smoother effect */
 }
 .corner.top-left {
-  top: -20px; /* Adjusted positioning for bigger size */
-  left: -20px;
+  top: -10px; /* Offset slightly outside the image */
+  left: -10px;
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 15% 100%, 15% 15%, 100% 15%, 100% 0%);
 }
 .corner.bottom-right {
-  bottom: -20px;
-  right: -20px;
-  transform: rotate(180deg); /* Rotate the corner to the correct position */
+  bottom: -10px;
+  right: -10px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 85% 85%, 85% 100%, 0% 100%, 0% 0%);
+}
+/* Ensure dynamic alignment on different screen sizes */
+.framed-certificate {
+  position: relative;
+}
+.framed-certificate img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 /* Make corners responsive */
 @media (max-width: 600px) {
   .corner {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
   }
 }
 </style>
