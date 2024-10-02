@@ -51,7 +51,7 @@ citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering
   position: relative;
   max-width: 90%; /* Responsive width */
   margin: 0 auto;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* 3D shadow effect */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Enhanced 3D shadow effect */
 }
 .framed-certificate img {
   width: 100%;
@@ -61,25 +61,25 @@ citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering
 }
 .corner {
   position: absolute;
-  width: 50px;
-  height: 50px;
-  background-color: #5b3c11; /* Dark brown color for corners */
+  width: 100px; /* Increased size for larger effect */
+  height: 100px;
+  background-color: rgba(91, 60, 17, 0.7); /* Dark brown with transparency */
   clip-path: polygon(0% 0%, 100% 0%, 0% 100%); /* Creates triangular shape */
 }
 .corner.top-left {
-  top: 0;
-  left: 0;
+  top: -20px; /* Adjusted positioning for bigger size */
+  left: -20px;
 }
 .corner.bottom-right {
-  bottom: 0;
-  right: 0;
+  bottom: -20px;
+  right: -20px;
   transform: rotate(180deg); /* Rotate the corner to the correct position */
 }
 /* Make corners responsive */
 @media (max-width: 600px) {
   .corner {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
   }
 }
 </style>
