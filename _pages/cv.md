@@ -97,8 +97,8 @@ Education
     /* Popup content styling */
     .popup-content2 {
         position: relative;
-        width: 600px;
-        height: 600px;
+        width: 500px;
+        height: 500px;
         border-radius: 10px;
         overflow: hidden;
     }
@@ -133,7 +133,6 @@ Education
         }
         .thumbnail-container2 {
             align-self: flex-end;
-            margin-top: 10px;
         }
     }
 </style>
@@ -181,6 +180,99 @@ Education
     }
 </script>
 
+<style>
+    /* Flexcontainer styling for your main content */
+    .flexcontainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    /* Styling for the list item */
+    .flexcontainer ul li {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-right: 10px;
+    }
+    /* Thumbnail and popup styling */
+    .thumbnail-container3 {
+        position: relative;
+        display: inline-block;
+        cursor: pointer; /* Makes the entire container clickable */
+    }
+    .thumbnail3 {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .popup-icon3 {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        font-size: 18px;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        padding: 2px 5px;
+    }
+    /* Popup overlay */
+    #popup3 {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        align-items: center;
+        justify-content: center;
+    }
+    /* Popup content styling */
+    .popup-content3 {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .close-button3 {
+        position: absolute;
+        top: 35px;
+        right: 5px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    /* Popup image styling */
+    #popupImage3 {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    /* Media query to ensure responsiveness */
+    @media (max-width: 768px) {
+        .flexcontainer {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .thumbnail-container3 {
+            align-self: flex-end;
+        }
+    }
+</style>
+
 <div class="flexcontainer">
   <div>
     <a href="https://www.bmsce.ac.in/" onclick="trackOutboundLink(this);">
@@ -188,9 +280,9 @@ Education
     </a>
   </div>
 
-<div class="thumbnail-container2" onclick="openPopup2()">
-  <img src="/images/Degree Certificate_page-0001.jpg" class="thumbnail2">
-  <span class="popup-icon2">&#x2197;</span>
+<div class="thumbnail-container3" onclick="openPopup3()">
+  <img src="/images/Degree Certificate_page-0001.jpg" class="thumbnail3">
+  <span class="popup-icon3">&#x2197;</span>
 </div>
 
 <div class="flexcontainer">
@@ -203,12 +295,21 @@ Education
 </div>
 </div>
 
-<div id="popup2" onclick="closePopup2()">
-    <div class="popup-content2" onclick="event.stopPropagation()">
-        <span class="close-button2" onclick="closePopup2()">&times;</span>
-        <img id="popupImage2" src="/images/Degree Certificate_page-0001.jpg">
+<div id="popup3" onclick="closePopup3()">
+    <div class="popup-content3" onclick="event.stopPropagation()">
+        <span class="close-button3" onclick="closePopup3()">&times;</span>
+        <img id="popupImage3" src="/images/Degree Certificate_page-0001.jpg">
     </div>
 </div>
+
+<script>
+    function openPopup3() {
+        document.getElementById('popup3').style.display = 'flex';
+    }
+    function closePopup3() {
+        document.getElementById('popup3').style.display = 'none';
+    }
+</script>
 
 <style>
 @keyframes pulse {
@@ -261,6 +362,92 @@ _{October 2022-May 2023}_ (**Apple** funded project)
 * Worked at the **S**ignal **A**nalysis and **I**nterpretation **L**aboratory (**SAIL** under the **SIPI**- **S**ignal and **I**mage **P**rocessing **I**nstitute) to annotate audio files.    
 * These annotations will train a Machine Learning model to identify, classify, and filter out the noise in recorded conversations.
 * Appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
+
+<style>
+    /* Flexcontainer styling for your main content */
+    .flexcontainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    /* Thumbnail and popup styling */
+    .thumbnail-container4 {
+        position: relative;
+        display: inline-block;
+        cursor: pointer; /* Makes the entire container clickable */
+    }
+    .thumbnail4 {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .popup-icon4 {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        font-size: 18px;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        padding: 2px 5px;
+    }
+    /* Popup overlay */
+    #popup4 {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        align-items: center;
+        justify-content: center;
+    }
+    /* Popup content styling */
+    .popup-content4 {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .close-button4 {
+        position: absolute;
+        top: 35px;
+        right: 5px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    /* Popup image styling */
+    #popupImage4 {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    /* Media query to ensure responsiveness */
+    @media (max-width: 768px) {
+        .flexcontainer {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .thumbnail-container4 {
+            align-self: flex-end;
+        }
+    }
+</style>
   
  <div class="flexcontainer">
   <div>
@@ -269,6 +456,27 @@ _{October 2022-May 2023}_ (**Apple** funded project)
     </a>
   </div>
 </div>
+
+<div class="thumbnail-container4" onclick="openPopup4()">
+    <img src="/images/Internship_page-0001.jpg" class="thumbnail4">
+    <span class="popup-icon4">&#x2197;</span>
+</div>
+
+<div id="popup4" onclick="closePopup4()">
+    <div class="popup-content4" onclick="event.stopPropagation()">
+        <span class="close-button4" onclick="closePopup4()">&times;</span>
+        <img id="popupImage4" src="/images/Internship_page-0001.jpg">
+    </div>
+</div>
+
+<script>
+    function openPopup4() {
+        document.getElementById('popup4').style.display = 'flex';
+    }
+    function closePopup4() {
+        document.getElementById('popup4').style.display = 'none';
+    }
+</script>
 
 ### Summer Intern at ennVee Solutions Private Limited, Bangalore [Summer 2021]
   *  Developed a bot (using UiPath studio ReFramework) for E-commerce companies to generate purchase order I.D.s against orders received online, thus ensuring on-time delivery of products.
