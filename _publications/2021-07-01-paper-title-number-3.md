@@ -13,14 +13,14 @@ citation: 'Sudarshana S Rao, Vani A - B.M.S. College of Engineering, Bangalore, 
 <style>
       @keyframes bounce {
     0%, 20%, 50%, 80%, 100% { transform: rotate(0deg); }
-    40% { transform: rotate(10deg); }
-    60% { transform: rotate(7deg); }  
+    40% { transform: rotate(-10deg); }
+    60% { transform: rotate(-7deg); }  
   }
   .bounce {
     display: inline-block;
     animation: bounce 1.3s ease infinite;
     cursor: not-allowed;
-    transform-origin: center; /* Pivot around the top center */
+    transform-origin: bottom center; /* Pivot around the top center */
   }
 </style>
 
