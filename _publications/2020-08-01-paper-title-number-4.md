@@ -58,6 +58,7 @@ citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering
   height: auto;
   display: block;
   border-radius: 10px;
+  margin: 5px 0;
 }
 .corner {
   position: absolute;
