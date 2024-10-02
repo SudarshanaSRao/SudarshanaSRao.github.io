@@ -57,7 +57,7 @@ Education
         display: flex;
         justify-content: space-between;
         width: 100%;
-/*         padding-right: 10px; */
+        padding-right: 10px;
     }
     /* Thumbnail and popup styling */
     .thumbnail-container2 {
