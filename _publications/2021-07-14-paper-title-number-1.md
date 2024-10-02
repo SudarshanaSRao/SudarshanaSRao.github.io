@@ -20,7 +20,7 @@ citation: 'Rao, Sudarshana S and Desai, Santosh R, Machine Learning based Traffi
     display: inline-block;
     cursor: not-allowed;
     animation: bounce 1.3s ease infinite;
-    transform-origin: center; /* Pivot around the top center */
+    transform-origin: bottom center; /* Pivot around the top center */
   }
 </style>
 
