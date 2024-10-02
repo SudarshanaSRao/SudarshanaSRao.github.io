@@ -152,7 +152,7 @@ Education
   </div>
   
   <!-- Bullet point section -->
-  <div class="flexcontainer">
+  <div>
     <ul>
       <li>
         <span>Master of Science (MS) in Electrical Engineering (Machine Learning & Data Science), University of Southern California</span>
@@ -182,14 +182,14 @@ Education
 
 <style>
     /* Flexcontainer styling for your main content */
-    .flexcontainer {
+    .flexcontainer77 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: flex-start;
     }
     /* Styling for the list item */
-    .flexcontainer ul li {
+    .flexcontainer77 ul li {
         display: flex;
         justify-content: space-between;
         width: 100%;
@@ -263,7 +263,7 @@ Education
     }
     /* Media query to ensure responsiveness */
     @media (max-width: 768px) {
-        .flexcontainer {
+        .flexcontainer77 {
             flex-direction: column;
             align-items: flex-start;
         }
@@ -273,7 +273,7 @@ Education
     }
 </style>
 
-<div class="flexcontainer">
+<div class="flexcontainer77">
   <div>
     <a href="https://www.bmsce.ac.in/" onclick="trackOutboundLink(this);">
       <img class="pulse" height="140px" src="/images/bmsce_logo.jpg" width="70px">
@@ -285,7 +285,7 @@ Education
   <span class="popup-icon3">&#x2197;</span>
 </div>
 
-<div class="flexcontainer">
+<div>
   <ul>
     <li>
     <span>Bachelor of Engineering (B.E.) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering</span>
@@ -365,7 +365,7 @@ _{October 2022-May 2023}_ (**Apple** funded project)
 
 <style>
     /* Flexcontainer styling for your main content */
-    .flexcontainer {
+    .flexcontainer88 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -439,7 +439,7 @@ _{October 2022-May 2023}_ (**Apple** funded project)
     }
     /* Media query to ensure responsiveness */
     @media (max-width: 768px) {
-        .flexcontainer {
+        .flexcontainer88 {
             flex-direction: column;
             align-items: flex-start;
         }
@@ -449,7 +449,7 @@ _{October 2022-May 2023}_ (**Apple** funded project)
     }
 </style>
   
- <div class="flexcontainer">
+ <div class="flexcontainer88">
   <div>
     <a href="https://ennvee.com/" onclick="trackOutboundLink(this);">
       <img class="pulse" height="100px" src="/images/ennlogog.jpeg" width="70px">
