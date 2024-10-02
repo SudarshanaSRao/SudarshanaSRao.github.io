@@ -76,7 +76,6 @@ Education
         top: 10px;
         right: 5px;
         font-size: 18px;
-        color: white;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 50%;
         padding: 2px 5px;
@@ -212,7 +211,6 @@ Education
         top: 10px;
         right: 5px;
         font-size: 18px;
-        color: white;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 50%;
         padding: 2px 5px;
@@ -455,7 +453,6 @@ _{October 2022-May 2023}_ (**Apple** funded project)
       <img class="pulse" height="100px" src="/images/ennlogog.jpeg" width="70px">
     </a>
   </div>
-</div>
 
 <div class="thumbnail-container4" onclick="openPopup4()">
     <img src="/images/Internship_page-0001.jpg" class="thumbnail4">
