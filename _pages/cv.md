@@ -57,7 +57,7 @@ Education
         display: flex;
         justify-content: space-between;
         width: 100%;
-        padding-right: 10px;
+/*         padding-right: 10px; */
     }
     /* Thumbnail and popup styling */
     .thumbnail-container2 {
@@ -153,7 +153,7 @@ Education
   </div>
   
   <!-- Bullet point section -->
-  <div>
+  <div class="flexcontainer">
     <ul>
       <li>
         <span>Master of Science (MS) in Electrical Engineering (Machine Learning & Data Science), University of Southern California</span>
@@ -193,7 +193,7 @@ Education
   <span class="popup-icon2">&#x2197;</span>
 </div>
 
-<div>
+<div class="flexcontainer">
   <ul>
     <li>
     <span>Bachelor of Engineering (B.E.) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering</span>
