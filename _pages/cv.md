@@ -48,7 +48,8 @@ Education
     /* Flexcontainer styling for your main content */
     .flexcontainer {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
         align-items: flex-start;
     }
     /* Styling for the list item */
@@ -62,9 +63,7 @@ Education
     .thumbnail-container2 {
         position: relative;
         display: inline-block;
-        margin-left: 20px;
         cursor: pointer; /* Makes the entire container clickable */
-        float: right; /* Aligns the thumbnail image to the right */
     }
     .thumbnail2 {
         width: 100px;
@@ -126,6 +125,18 @@ Education
         height: 100%;
         object-fit: contain;
     }
+    /* Media query to ensure responsiveness */
+    @media (max-width: 768px) {
+        .flexcontainer {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .thumbnail-container2 {
+            align-self: flex-end;
+            margin-top: 10px;
+        }
+    }
 </style>
 
 <div class="flexcontainer">
@@ -134,11 +145,12 @@ Education
     <a href="https://usc.edu" onclick="trackOutboundLink(this);">
       <img class="pulse" height="150px" src="/images/usc_logo.png" width="250px">
     </a>
-    <!-- Floating thumbnail with popup functionality -->
-    <div class="thumbnail-container2" onclick="openPopup2()">
-        <img src="/images/Scanned Documents_page-0001.jpg" alt="Second PUC Math" class="thumbnail2">
-        <span class="popup-icon2">&#x2197;</span>
-    </div>
+  </div>
+  
+  <!-- Floating thumbnail with popup functionality, aligned right -->
+  <div class="thumbnail-container2" onclick="openPopup2()">
+      <img src="/images/Scanned Documents_page-0001.jpg" class="thumbnail2">
+      <span class="popup-icon2">&#x2197;</span>
   </div>
   
   <!-- Bullet point section -->
@@ -156,7 +168,7 @@ Education
 <div id="popup2" onclick="closePopup2()">
     <div class="popup-content2" onclick="event.stopPropagation()">
         <span class="close-button2" onclick="closePopup2()">&times;</span>
-        <img id="popupImage2" src="/images/Scanned Documents_page-0001.jpg" alt="Full size image PUC Math">
+        <img id="popupImage2" src="/images/Scanned Documents_page-0001.jpg">
     </div>
 </div>
 
@@ -165,7 +177,8 @@ Education
     function openPopup2() {
         document.getElementById('popup2').style.display = 'flex';
     }
-    function closePopup1() {
+
+    function closePopup2() {
         document.getElementById('popup2').style.display = 'none';
     }
 </script>
