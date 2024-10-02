@@ -386,7 +386,6 @@ _{October 2022-May 2023}_ (**Apple** funded project)
         top: 10px;
         right: 5px;
         font-size: 18px;
-        color: white;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 50%;
         padding: 2px 5px;
@@ -514,7 +513,6 @@ Awards
         top: 5px;
         right: 5px;
         font-size: 18px;
-        color: white;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 50%;
         padding: 2px 5px;
@@ -608,7 +606,6 @@ Awards
         top: 10px;
         right: 5px;
         font-size: 18px;
-        color: white;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 50%;
         padding: 2px 5px;
