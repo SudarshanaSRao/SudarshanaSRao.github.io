@@ -44,21 +44,131 @@ redirect_from:
 
 Education
 ==================
+<style>
+    /* Flexcontainer styling for your main content */
+    .flexcontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    /* Styling for the list item */
+    .flexcontainer ul li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    /* Thumbnail and popup styling */
+    .thumbnail-container2 {
+        position: relative;
+        display: inline-block;
+        margin-left: 20px;
+        cursor: pointer; /* Makes the entire container clickable */
+        float: right; /* Aligns the thumbnail image to the right */
+    }
+    .thumbnail2 {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .popup-icon2 {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        font-size: 18px;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        padding: 2px 5px;
+    }
+    /* Popup overlay */
+    #popup2 {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        align-items: center;
+        justify-content: center;
+    }
+    /* Popup content styling */
+    .popup-content2 {
+        position: relative;
+        width: 600px;
+        height: 600px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .close-button2 {
+        position: absolute;
+        top: 35px;
+        right: 5px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    /* Popup image styling */
+    #popupImage2 {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+</style>
+
 <div class="flexcontainer">
   <div>
+    <!-- USC logo and main link -->
     <a href="https://usc.edu" onclick="trackOutboundLink(this);">
       <img class="pulse" height="150px" src="/images/usc_logo.png" width="250px">
     </a>
+    <!-- Floating thumbnail with popup functionality -->
+    <div class="thumbnail-container2" onclick="openPopup2()">
+        <img src="/images/Scanned Documents_page-0001.jpg" alt="Second PUC Math" class="thumbnail2">
+        <span class="popup-icon2">&#x2197;</span>
+    </div>
   </div>
+  
+  <!-- Bullet point section -->
   <div>
     <ul>
-      <li style="display: flex; justify-content: space-between;">
+      <li>
         <span>Master of Science (MS) in Electrical Engineering (Machine Learning & Data Science), University of Southern California</span>
         <span>2024</span>
       </li>
     </ul>
   </div>
 </div>
+
+<!-- Popup overlay for the image -->
+<div id="popup2" onclick="closePopup2()">
+    <div class="popup-content2" onclick="event.stopPropagation()">
+        <span class="close-button2" onclick="closePopup2()">&times;</span>
+        <img id="popupImage2" src="/images/Scanned Documents_page-0001.jpg" alt="Full size image PUC Math">
+    </div>
+</div>
+
+<!-- Popup control script -->
+<script>
+    function openPopup2() {
+        document.getElementById('popup2').style.display = 'flex';
+    }
+    function closePopup1() {
+        document.getElementById('popup2').style.display = 'none';
+    }
+</script>
 
 <div class="flexcontainer">
   <div>
