@@ -191,7 +191,7 @@ Education
     /* Styling for the list item */
     .flexcontainer77 ul li {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         width: 100%;
         padding-right: 10px;
     }
