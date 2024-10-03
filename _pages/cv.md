@@ -197,7 +197,7 @@ Education
 /* Degree title */
 .degree {
     flex-grow: 1; /* This will make it take up all the available space */
-    padding-right: 10px; /* Add some space between the degree and the year */
+    padding-right: 30px; /* Add some space between the degree and the year */
 }
 /* Year should be aligned to the right */
 .year {
