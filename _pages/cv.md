@@ -181,25 +181,6 @@ Education
 </script>
 
 <style>
-    /* Flexcontainer styling for your main content 
-    .flexcontainer77 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-.flexcontainer77 ul li {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.degree {
-    flex-grow: 1; 
-    padding-right: 30px;
-}
-.year {
-    white-space: nowrap; 
-}*/
     /* Thumbnail and popup styling */
     .thumbnail-container3 {
         position: relative;
@@ -293,7 +274,7 @@ Education
 <div>
   <ul>
     <li>
-    <span>Bachelor of Engineering (B.E.) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering</span> &nbsp; 
+    <span>Bachelor of Engineering (B.E.) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering</span> &nbsp; &nbsp; &nbsp; &nbsp;
       <span>2022</span>
     </li>
   </ul>
