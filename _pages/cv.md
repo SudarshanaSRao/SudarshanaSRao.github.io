@@ -181,28 +181,25 @@ Education
 </script>
 
 <style>
-    /* Flexcontainer styling for your main content */
+    /* Flexcontainer styling for your main content 
     .flexcontainer77 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: flex-start;
     }
-    /* Styling for the list item */
 .flexcontainer77 ul li {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-/* Degree title */
 .degree {
-    flex-grow: 1; /* This will make it take up all the available space */
-    padding-right: 30px; /* Add some space between the degree and the year */
+    flex-grow: 1; 
+    padding-right: 30px;
 }
-/* Year should be aligned to the right */
 .year {
-    white-space: nowrap; /* Prevents wrapping of the year */
-}
+    white-space: nowrap; 
+}*/
     /* Thumbnail and popup styling */
     .thumbnail-container3 {
         position: relative;
@@ -281,7 +278,7 @@ Education
     }
 </style>
 
-<div class="flexcontainer77">
+<div class="flexcontainer">
   <div>
     <a href="https://www.bmsce.ac.in/" onclick="trackOutboundLink(this);">
       <img class="pulse" height="140px" src="/images/bmsce_logo.jpg" width="70px">
@@ -296,8 +293,8 @@ Education
 <div>
   <ul>
     <li>
-    <span class="degree">Bachelor of Engineering (B.E.) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering</span>
-      <span class="year">2022</span>
+    <span>Bachelor of Engineering (B.E.) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering</span>
+      <span>2022</span>
     </li>
   </ul>
 </div>
