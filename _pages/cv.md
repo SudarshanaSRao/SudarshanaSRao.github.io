@@ -189,14 +189,19 @@ Education
         align-items: flex-start;
     }
     /* Styling for the list item */
-    .flexcontainer77 ul li {
-        display: flex;
-        justify-content: flex-start;
-        width: 100%;
-        padding-right: 10px;
-    }
-  .flexcontainer77 ul li span:last-child {
-    margin-left: auto;
+.flexcontainer77 ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* Degree title */
+.degree {
+    flex-grow: 1; /* This will make it take up all the available space */
+    padding-right: 10px; /* Add some space between the degree and the year */
+}
+/* Year should be aligned to the right */
+.year {
+    white-space: nowrap; /* Prevents wrapping of the year */
 }
     /* Thumbnail and popup styling */
     .thumbnail-container3 {
@@ -291,8 +296,8 @@ Education
 <div>
   <ul>
     <li>
-    <span>Bachelor of Engineering (B.E.) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering</span>
-      <span>2022</span>
+    <span class="degree">Bachelor of Engineering (B.E.) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering</span>
+      <span class="year">2022</span>
     </li>
   </ul>
 </div>
