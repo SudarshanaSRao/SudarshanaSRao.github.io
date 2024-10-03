@@ -195,6 +195,9 @@ Education
         width: 100%;
         padding-right: 10px;
     }
+  .flexcontainer77 ul li span:last-child {
+    margin-left: auto;
+}
     /* Thumbnail and popup styling */
     .thumbnail-container3 {
         position: relative;
