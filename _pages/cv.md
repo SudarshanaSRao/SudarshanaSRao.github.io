@@ -275,7 +275,7 @@ Education
   <ul>
     <li>
     <span>Bachelor of Engineering (B.E.) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering</span> &nbsp; &nbsp; &nbsp; &nbsp;
-      <span>2022</span>
+      <span>  2022</span>
     </li>
   </ul>
 </div>
