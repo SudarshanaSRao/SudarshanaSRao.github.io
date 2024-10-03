@@ -233,8 +233,8 @@ Education
     /* Popup content styling */
     .popup-content3 {
         position: relative;
-        width: 550px;
-        height: 550px;
+        width: 535px;
+        height: 535px;
         border-radius: 10px;
         overflow: hidden;
     }
@@ -409,8 +409,8 @@ _{October 2022-May 2023}_ (**Apple** funded project)
     /* Popup content styling */
     .popup-content4 {
         position: relative;
-        width: 550px;
-        height: 550px;
+        width: 535px;
+        height: 535px;
         border-radius: 10px;
         overflow: hidden;
     }
