@@ -289,8 +289,9 @@ Education
   <img src="/images/Degree Certificate_page-0001.jpg" class="thumbnail3">
   <span class="popup-icon3">&#x2197;</span>
 </div>
+</div>
 
-<div>
+<div class="flexcontainer">
   <ul>
     <li>
     <span>Bachelor of Engineering (B.E.) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering</span>
@@ -298,7 +299,7 @@ Education
     </li>
   </ul>
 </div>
-</div>
+
 
 <div id="popup3" onclick="closePopup3()">
     <div class="popup-content3" onclick="event.stopPropagation()">
