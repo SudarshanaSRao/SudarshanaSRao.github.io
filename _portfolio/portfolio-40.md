@@ -9,7 +9,7 @@ collection: portfolio
 
 <img height="500" width="500" src="/images/prompt1.png" style="cursor: crosshair;">
 
-<img height="450" width="450" src="/images/prompt2.png" style="cursor: crosshair;">
+<img src="/images/prompt2.png" style="cursor: crosshair;">
 
 <img src="/images/hackathon.jpeg" style="cursor: crosshair;">
 
