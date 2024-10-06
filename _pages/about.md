@@ -84,7 +84,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 <style>
 .right-align {
   position: absolute; /* Or use 'fixed' if you want it to stay as you scroll */
-  top: 40px; /* Adjust this value for spacing from the top */
+  top: 80px; /* Adjust this value for spacing from the top */
   right: 20px; /* Adjust this value for spacing from the right */
 }
 @media screen and (max-width: 768px) {
