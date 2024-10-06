@@ -323,7 +323,7 @@ Skills
   * Streamlit GUI  \|  Beautiful Soup  \|  PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib  \|  Seaborn  \|  Pandas  \|  HuggingFace  \|  Kaggle  \|  LangChain  \|  OpenCV  \|  Gradio
 
 * ### Tools
-  * Git  \|  MS Azure  \|  GCP  \|  MS Office  \|  LLMOps  \|  MLOps  \|  DataOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  CI/CD  \|  Tableau  \|  LATEX  \|  Data Structues and Algorithms  \|  ETL  \|  Power BI  
+  * Git  \|  MS Azure  \|  GCP  \|  MS Office  \|  LLMOps  \|  MLOps  \|  DataOps  \|  AIOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  CI/CD  \|  Tableau  \|  LATEX  \|  Data Structues and Algorithms  \|  ETL  \|  Power BI  
 
 Work Experience
 ==================
