@@ -75,7 +75,7 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="sudarshana-rao" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/sudarshana-rao?trk=profile-badge">Sudarshana S Rao</a></div>
+<div style="text-align: center;" class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="sudarshana-rao" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/sudarshana-rao?trk=profile-badge"></a></div>
 
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
