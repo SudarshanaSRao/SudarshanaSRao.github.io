@@ -75,7 +75,25 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
-<div style="text-align: center;" class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="sudarshana-rao" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/sudarshana-rao?trk=profile-badge"></a></div>
+<div class="right-align">
+  <div style="text-align: center;" class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="sudarshana-rao" data-version="v1">
+    <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/sudarshana-rao?trk=profile-badge"></a>
+  </div>
+</div>
+
+<style>
+  .right-align {
+  display: flex;
+  justify-content: flex-end; /* Aligns the content to the right */
+  padding-right: 20px; /* Adjust as needed for spacing from the right */
+}
+@media screen and (max-width: 768px) {
+  .right-align {
+    justify-content: center; /* Center align for smaller screens */
+    padding-right: 0; /* No padding on smaller screens */
+  }
+}
+</style>
 
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
