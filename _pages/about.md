@@ -82,15 +82,16 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 </div>
 
 <style>
-  .right-align {
-  display: flex;
-  justify-content: flex-end; /* Aligns the content to the right */
-  padding-right: 20px; /* Adjust as needed for spacing from the right */
+.right-align {
+  position: absolute; /* Or use 'fixed' if you want it to stay as you scroll */
+  top: 20px; /* Adjust this value for spacing from the top */
+  right: 20px; /* Adjust this value for spacing from the right */
 }
 @media screen and (max-width: 768px) {
   .right-align {
-    justify-content: center; /* Center align for smaller screens */
-    padding-right: 0; /* No padding on smaller screens */
+    position: static; /* Reset the position for small screens */
+    margin-top: 20px; /* Optional: Add some margin on top */
+    text-align: center; /* Center the badge for small screens */
   }
 }
 </style>
