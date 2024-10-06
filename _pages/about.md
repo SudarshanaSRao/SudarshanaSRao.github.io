@@ -86,7 +86,6 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   position: absolute; /* Or use 'fixed' if you want it to stay as you scroll */
   top: 100px; /* Adjust this value for spacing from the top */
   right: 20px; /* Adjust this value for spacing from the right */
-  z-index: 999;
 }
 @media screen and (max-width: 768px) {
   .right-align {
