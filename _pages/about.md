@@ -76,27 +76,34 @@ Through my studies and projects, I have developed skills in Large Language Model
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
 <div class="right-align">
-  <div style="text-align: center;" class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="sudarshana-rao" data-version="v1">
-    <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/sudarshana-rao?trk=profile-badge"></a>
+  <div class="badge-base LI-profile-badge" 
+       data-locale="en_US" 
+       data-size="large" 
+       data-theme="light" 
+       data-type="VERTICAL" 
+       data-vanity="sudarshana-rao" 
+       data-version="v1">
+    <a class="badge-base__link LI-simple-link" 
+       href="https://www.linkedin.com/in/sudarshana-rao?trk=profile-badge"></a>
   </div>
 </div>
 
 <style>
-.right-align {
-  position: absolute; /* Or use 'fixed' if you want it to stay as you scroll */
-  top: 100px; /* Adjust this value for spacing from the top */
-  right: 20px; /* Adjust this value for spacing from the right */
-}
-@media screen and (max-width: 768px) {
   .right-align {
-    position: static; /* Reset the position for small screens */
-    margin-top: 20px; /* Optional: Add some margin on top */
-    text-align: center; /* Center the badge for small screens */
+    position: absolute;
+    top: 100px;
+    right: 20px;
   }
-}
+  @media screen and (max-width: 768px) {
+    .right-align {
+      position: static;
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
 </style>
 
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+<script async defer src="https://platform.linkedin.com/badges/js/profile.js" type="text/javascript"></script>
 
 <div class="separator">
   <div class="shape-separator">
