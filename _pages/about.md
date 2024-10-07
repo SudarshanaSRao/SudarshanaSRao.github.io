@@ -75,6 +75,8 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://platform.linkedin.com;">
+
 <div class="right-align">
   <div class="badge-base LI-profile-badge" 
        data-locale="en_US" 
