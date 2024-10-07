@@ -340,7 +340,7 @@ _{August 2024-Present}_
 * Researching and implementing **LLM** use cases in **Data Analytics**.   
 
 _{May 2023-August 2024}_ (**Disney** sponsored project)
-* Researched and analyzed human interaction with an AI (Nobu) to improve its Automatic Speech Recognition (ASR).  
+* Researched and analyzed human interaction with an AI agent (Nobu) to improve its Automatic Speech Recognition (ASR).  
 * Managed the interaction sessions (data collection) by assigning participants to the respective time slots.
 * Project: Speech quality assessment for automatic speech recognition. 
 
