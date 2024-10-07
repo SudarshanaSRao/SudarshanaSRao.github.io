@@ -103,7 +103,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   }
 </style>
 
-<script defer src="https://platform.linkedin.com/badges/js/profile.js" type="text/javascript"></script>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
 <div class="separator">
   <div class="shape-separator">
