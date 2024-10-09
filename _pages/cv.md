@@ -330,7 +330,7 @@ Work Experience
 <div class="flexcontainer">
   <div>
     <a href="https://sail.usc.edu/" onclick="trackOutboundLink(this);">
-      <img class="pulse" height="50px" src="/images/4951549.png" width="250px">
+      <img class="pulse" src="/images/4951549.png">
     </a>
   </div>
  </div>
