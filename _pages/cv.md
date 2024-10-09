@@ -337,15 +337,15 @@ Work Experience
  
 ### Student worker at University of Southern California, Los Angeles [October 2022-Present]
 _{August 2024-Present}_
-* Researching and implementing **LLM** use cases in **Data Analytics**.   
+* Researching and implementing **LLM** use cases in **Data Analytics** as a **Researcher**.   
 
 _{May 2023-August 2024}_ (**Disney** sponsored project)
-* Researched and analyzed human interaction with an AI agent (Nobu) to improve its Automatic Speech Recognition (ASR).  
+* Researched and analyzed human interaction with an AI agent (Nobu) to improve its Automatic Speech Recognition (ASR) at the **S**ignal **A**nalysis and **I**nterpretation **L**aboratory (**SAIL** under **SIPI**- **S**ignal and **I**mage **P**rocessing **I**nstitute).  
 * Managed the interaction sessions (data collection) by assigning participants to the respective time slots.
 * Project: Speech quality assessment for automatic speech recognition. 
 
 _{October 2022-May 2023}_ (**Apple** funded project)
-* Worked at the **S**ignal **A**nalysis and **I**nterpretation **L**aboratory (**SAIL** under the **SIPI**- **S**ignal and **I**mage **P**rocessing **I**nstitute) to annotate audio files.    
+* Worked at **SAIL** to annotate audio files using **Sonic Visualizer**.    
 * These annotations will train a Machine Learning model to identify, classify, and filter out the noise in recorded conversations.
 * Appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
 
