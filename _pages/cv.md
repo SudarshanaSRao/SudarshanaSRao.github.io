@@ -473,7 +473,7 @@ _{October 2022-May 2023}_ (**Apple** funded project)
   
 Leadership & Involvement
 ==================
-* Course Producer for the Database Systems (CSCI-585) course under Prof. Saty Raghavachary's guidance during the _Spring 2024_ term. Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
+* Course Producer for the Database Systems (CSCI-585) course under [Prof. Saty Raghavachary's](https://www.linkedin.com/in/satychary/) guidance during the _Spring 2024_ term. Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
 * Project Coordinator of The Department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium Phase Shift 2021, organized in B.M.S. College of Engineering (BMSCE).
 * Student Volunteer of Mitsubishi Electric Cup- National Level Competition for Factory Automation held at BMSCE.
 
