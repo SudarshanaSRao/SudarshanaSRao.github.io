@@ -24,6 +24,7 @@ collection: portfolio
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 0 4px #999;  /* 3D shadow effect */
+    color: "red";
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
   .app-button:hover {
