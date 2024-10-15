@@ -78,7 +78,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 <div class="right-align">
   <div class="badge-base LI-profile-badge" 
        data-locale="en_US" 
-       data-size="medium" 
+       data-size="large" 
        data-theme="light" 
        data-type="VERTICAL" 
        data-vanity="sudarshana-rao" 
@@ -92,7 +92,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   .right-align {
     position: absolute;
     top: 100px;
-    right: 50px;
+    right: 10px;
   }
   @media screen and (max-width: 768px) {
     .right-align {
