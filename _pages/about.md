@@ -75,11 +75,10 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
-
 <div class="right-align">
   <div class="badge-base LI-profile-badge" 
        data-locale="en_US" 
-       data-size="large" 
+       data-size="medium" 
        data-theme="light" 
        data-type="VERTICAL" 
        data-vanity="sudarshana-rao" 
@@ -88,19 +87,18 @@ I am seeking full-time roles and craving challenging opportunities to contribute
        href="https://www.linkedin.com/in/sudarshana-rao?trk=profile-badge"></a>
   </div>
 </div>
+
 <style>
   .right-align {
     position: absolute;
     top: 100px;
     right: 50px;
-    padding-top: 100px;
   }
   @media screen and (max-width: 768px) {
     .right-align {
       position: static;
       margin-top: 20px;
       text-align: center;
-      padding-top: 20px;
     }
   }
 </style>
