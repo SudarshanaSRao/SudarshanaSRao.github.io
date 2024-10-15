@@ -75,41 +75,35 @@ Through my studies and projects, I have developed skills in Large Language Model
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
-<style>
-    .content-wrapper {
-        display: flex;
-        flex-direction: row-reverse;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-    .main-content {
-        flex: 1;
-        padding-right: 20px;
-    }
-    .badge-container {
-        width: 300px;
-        margin-left: 20px;
-    }
-    @media screen and (max-width: 768px) {
-        .content-wrapper {
-            flex-direction: column;
-        }
-        .badge-container {
-            width: 100%;
-            margin-left: 0;
-            margin-bottom: 20px;
-        }
-    }
-</style>
 
-<div class="content-wrapper">
-    <div class="badge-container">
-        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="sudarshana-rao" data-version="v1">
-            <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/sudarshana-rao?trk=profile-badge"></a>
-        </div>
-    </div>
+<div class="right-align">
+  <div class="badge-base LI-profile-badge" 
+       data-locale="en_US" 
+       data-size="large" 
+       data-theme="light" 
+       data-type="VERTICAL" 
+       data-vanity="sudarshana-rao" 
+       data-version="v1">
+    <a class="badge-base__link LI-simple-link" 
+       href="https://www.linkedin.com/in/sudarshana-rao?trk=profile-badge"></a>
+  </div>
 </div>
+<style>
+  .right-align {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    padding-top: 100px;
+  }
+  @media screen and (max-width: 768px) {
+    .right-align {
+      position: static;
+      margin-top: 20px;
+      text-align: center;
+      padding-top: 20px;
+    }
+  }
+</style>
 
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
