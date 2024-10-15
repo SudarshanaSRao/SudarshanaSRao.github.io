@@ -101,6 +101,14 @@ I am seeking full-time roles and craving challenging opportunities to contribute
       text-align: center;
     }
   }
+    body {
+    padding-right: 100px; /* Adds space to prevent overlap */
+  }
+  @media screen and (max-width: 600px) {
+    body {
+      padding-right: 0; /* Removes padding on smaller screens */
+    }
+  }
 </style>
 
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
