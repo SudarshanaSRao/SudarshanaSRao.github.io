@@ -102,7 +102,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     }
   }
     body {
-    padding-right: 10px; /* Adds space to prevent overlap */
+    padding-right: 100px; /* Adds space to prevent overlap */
   }
   @media screen and (max-width: 600px) {
     body {
