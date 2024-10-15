@@ -78,7 +78,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 <div class="right-align">
   <div class="badge-base LI-profile-badge" 
        data-locale="en_US" 
-       data-size="large" 
+       data-size="small" 
        data-theme="light" 
        data-type="VERTICAL" 
        data-vanity="sudarshana-rao" 
