@@ -92,7 +92,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   .right-align {
     position: absolute;
     top: 100px;
-    right: 10px;
+    right: 5px;
   }
   @media screen and (max-width: 768px) {
     .right-align {
