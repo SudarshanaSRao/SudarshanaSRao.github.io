@@ -21,7 +21,7 @@ Fundamental Courses
 ==================
 * EE 503  Probability for Electrical and Computer Engineers
 * EE 510  Linear Algebra for Engineering
-* [19EI5PE1PY](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML) Python Programming and Applications
+* [19EI5PE1PY](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML) Python Programming and Applications (Data Structures and Algorithms)
 * 18CS2ESCCP C & C++ Programming
 
 Online Courses
