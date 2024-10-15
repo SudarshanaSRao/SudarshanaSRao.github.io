@@ -10,18 +10,18 @@ redirect_from:
 {% include base_path %}
 <!-- Graduate Coursework:  -->
 
-* CSCI 561 Foundations of AI
-* EE 541   A Computational Introduction to Deep Learning
-* CSCI 585 Database systems
-* CSCI 499 Language Models in Natural Language Processing
-* EE 559   Machine Learning
-* EE 599   Robotic Mobility
+* [CSCI 561](https://github.com/SudarshanaSRao/CSCI561-AI_USC) Foundations of AI
+* [EE 541](https://github.com/SudarshanaSRao/EE541-Deep_Learning-USC)   A Computational Introduction to Deep Learning
+* [CSCI 585](https://github.com/SudarshanaSRao/USC_CSCI-585_Database-Systems) Database systems
+* [CSCI 499](https://github.com/SudarshanaSRao/CSCI-499_LMs-in-NLP_USC) Language Models in Natural Language Processing
+* [EE 559](https://github.com/SudarshanaSRao/EE559-Machine_Learning-USC)   Machine Learning
+* [EE 599](https://github.com/SudarshanaSRao/USC_EE-599_Robotics)   Robotic Mobility
 
 Fundamental Courses
 ==================
 * EE 503  Probability for Electrical and Computer Engineers
 * EE 510  Linear Algebra for Engineering
-* 19EI5PE1PY Python Programming and Applications
+* [19EI5PE1PY](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML) Python Programming and Applications
 * 18CS2ESCCP C & C++ Programming
 
 Online Courses
