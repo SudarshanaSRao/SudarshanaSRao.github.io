@@ -316,7 +316,7 @@ Education
 
 Skills
 ==================
-* ### <ion-icon name="code-slash-outline"></ion-icon> Programming Languages
+* ### ⚙️ Programming Languages
   * Python  \|  SQL  \|  MySQL  \|  MongoDB Atlas  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML  \|  PostgreSQL  \|  ESRI ArcGIS  \|  BigQuery  \|  UiPath studio (Robotics Process Automation) 
 
 * ### 🏗️ ML Frameworks & Libraries
