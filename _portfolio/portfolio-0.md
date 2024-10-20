@@ -5,7 +5,19 @@ collection: portfolio
 ---
 
 * Developed and implemented a comprehensive **ETL pipeline** for extracting, transforming, and loading game-related metadata, details, and sales figures from Steamspy and Steam APIs into a **MySQL database** on Aiven Cloud.
-* Created and deployed a [_**Python PyPI package**_](https://pypi.org/project/steamstore-etl/) (library).
+<div class="flexcontainer45">
+  <div>
+        <span>• Created and deployed a <strong>Python PyPI package</strong> (library).</span> <a href="https://pypi.org/project/steamstore-etl/" onclick="trackOutboundLink(this);">
+      <img class="pulse" height="50px" src="/images/py-pkgs-hex.png" width="50px">
+    </a>
+  </div>
+</div>
+<style>
+  .flexcontainer45 {
+    display: flex;
+    align-items: center;  
+  }
+</style>
 * Engineered data retrieval and processing with batch processing and bulk inserts to ensure accurate and efficient data ingestion and validation.
 * Designed **interactive Tableau dashboard** to visualize data dynamically, providing actionable insights into gaming trends and sales performance (showcasing **KPIs**).
 
