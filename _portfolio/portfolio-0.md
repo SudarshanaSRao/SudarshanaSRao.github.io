@@ -8,15 +8,26 @@ collection: portfolio
 <div class="flexcontainer45">
   <div>
         <span>• Created and deployed a <strong>Python PyPI package</strong> (library).</span> <a href="https://pypi.org/project/steamstore-etl/" onclick="trackOutboundLink(this);">
-      <img class="pulse" height="50px" src="/images/py-pkgs-hex.png" width="50px">
+      <img class="rotate" height="50px" src="/images/py-pkgs-hex.png" width="50px">
     </a>
   </div>
 </div>
 <style>
   .flexcontainer45 {
-    display: flex;
-    align-items: center;  
+    display: flex; 
   }
+    .rotate {
+    animation: rotateImage 3s infinite; /* 3 seconds for one full rotation */
+  }
+  @keyframes rotateImage {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>
 </style>
 * Engineered data retrieval and processing with batch processing and bulk inserts to ensure accurate and efficient data ingestion and validation.
 * Designed **interactive Tableau dashboard** to visualize data dynamically, providing actionable insights into gaming trends and sales performance (showcasing **KPIs**).
