@@ -155,7 +155,7 @@ Education
   <div>
     <ul>
       <li>
-        <span>Master of Science (MS) in Electrical Engineering (Machine Learning & Data Science), University of Southern California</span>
+        <span>Master of Science (MS) in Electrical Engineering (Machine Learning & Data Science), University of Southern California (USC)</span>
         <span>2024</span>
       </li>
     </ul>
@@ -274,7 +274,7 @@ Education
 <div>
   <ul>
     <li>
-    <span>Bachelor of Engineering (B.E.) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering</span> &nbsp; &nbsp; &nbsp; &nbsp;
+    <span>Bachelor of Engineering (B.E.) in Electronics and Instrumentation Engineering, B.M.S. College of Engineering (BMSCE)</span> &nbsp; &nbsp; &nbsp; &nbsp;
       <span>  2022</span>
     </li>
   </ul>
@@ -473,8 +473,8 @@ _{October 2022-May 2023}_ (**Apple** funded project)
   
 Leadership & Involvement
 ==================
-* Course Producer for the Database Systems (CSCI-585) course under [Prof. Saty](https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty) [Raghavachary's](https://www.linkedin.com/in/satychary/) guidance during the _Spring 2024_ term. Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
-* Project Coordinator of The Department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium Phase Shift 2021, organized in B.M.S. College of Engineering (BMSCE).
+* Course Producer for the Database Systems (CSCI-585) course under [Prof. Saty](https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty) [Raghavachary's](https://www.linkedin.com/in/satychary/) guidance during my master's program at USC in the _Spring 2024_ term. Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
+* Project Coordinator of The Department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium Phase Shift 2021, organized in BMSCE.
 * Student Volunteer of Mitsubishi Electric Cup- National Level Competition for Factory Automation held at BMSCE.
 
 Awards
