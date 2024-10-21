@@ -4,31 +4,22 @@ excerpt: "<img src='/images/steamstore-etl.drawio.png'>"
 collection: portfolio
 ---
 
-* Developed and implemented a comprehensive **ETL pipeline** for extracting, transforming, and loading game-related metadata, details, and sales figures from Steamspy and Steam APIs into a **MySQL database** on Aiven Cloud.
 <div class="flexcontainer45">
   <div>
-        <span>• Created and deployed a <strong>Python PyPI package</strong> (library).</span> <a href="https://pypi.org/project/steamstore-etl/" onclick="trackOutboundLink(this);">
-      <img class="rotate" height="50px" src="/images/py-pkgs-hex.png" width="50px">
+        <span>Created and deployed a <strong>Python PyPI package</strong> (library): - </span> <a href="https://pypi.org/project/steamstore-etl/" onclick="trackOutboundLink(this);">
+      <img height="50px" src="/images/py-pkgs-hex.png" width="50px">
     </a>
   </div>
 </div>
 <style>
   .flexcontainer45 {
     display: flex; 
-  }
-    .rotate {
-    animation: rotateImage 3s infinite; /* 3 seconds for one full rotation */
-  }
-  @keyframes rotateImage {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+    align-items: center;
+    justify-content: center;
   }
 </style>
-</style>
+
+* Developed and implemented a comprehensive **ETL pipeline** for extracting, transforming, and loading game-related metadata, details, and sales figures from Steamspy and Steam APIs into a **MySQL database** on Aiven Cloud.
 * Engineered data retrieval and processing with batch processing and bulk inserts to ensure accurate and efficient data ingestion and validation.
 * Designed **interactive Tableau dashboard** to visualize data dynamically, providing actionable insights into gaming trends and sales performance (showcasing **KPIs**).
 
