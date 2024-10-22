@@ -468,7 +468,7 @@ _{October 2022-May 2023}_ (**Apple** funded project)
     }
 </script>
 
-### Summer Intern at ennVee Solutions Private Limited, Bangalore [Summer (July-September) 2021]
+### Summer Intern at ennVee Solutions Private Limited, Bangalore [July 2021-September 2021]
 I worked on **Robotics Process Automation** using **UiPath studio** for automating and streamlining day-to-day business operations, which include:
   *  Developed a bot (using ReFramework) for E-commerce companies to generate purchase order I.D.s against orders received online, thus ensuring on-time delivery of products.
   *  Programmed a bot to automatically fill Google forms by taking input (applicant's details) from an **MS Excel spreadsheet**, reducing the hiring process time by **25%**.
