@@ -2,6 +2,12 @@
 title: "🕹️Steam Sales Analysis"
 excerpt: "<img src='/images/steamstore-etl.drawio.png'>"
 collection: portfolio
+tags: 
+  - Steam
+  - Sales Analysis
+  - ETL
+  - Data Visualization
+  - Python
 ---
 
 <div class="flexcontainer45">
