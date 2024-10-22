@@ -4,7 +4,7 @@ excerpt: "<img height='500'  width='500' src='/images/blockchain.png'>"
 collection: portfolio
 tags: 
   - Multi-agentic workflow
-  - GenAI
+  - AWS GenAI Loft
   - Prompt-engineering
   - LLM
   - Gradio
