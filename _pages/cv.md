@@ -477,7 +477,7 @@ Leadership & Involvement
 * Course Producer for the Database Systems (CSCI-585) course under [Prof. Saty](https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty) [Raghavachary's](https://www.linkedin.com/in/satychary/) guidance during my master's program at USC in the _Spring 2024_ term. Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
 * Project Coordinator of The Department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium Phase Shift 2021, organized in BMSCE.
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/WVq641EbiAQ" title="BMSCE Phase Shift 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="200" height="200" src="https://www.youtube.com/embed/WVq641EbiAQ" title="BMSCE Phase Shift 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 * Student Volunteer of Mitsubishi Electric Cup- National Level Competition for Factory Automation held at BMSCE.
 
