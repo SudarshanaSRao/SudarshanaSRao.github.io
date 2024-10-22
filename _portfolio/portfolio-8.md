@@ -2,6 +2,12 @@
 title: "🔎Exploring Correlation-Driven Feature Selection for Mushroom Classification"
 excerpt: '<br><img src="/images/chi_scores_.png" height="500"  width="500">'
 collection: portfolio
+tags: 
+  - TensorFlow
+  - Keras
+  - Power BI
+  - Machine Learning algorithms
+  - Python
 ---
 
 * Analyzed the effect of different feature engineering and dimensionality adjustment techniques (performed on the [_UCI's mushroom dataset_](https://archive.ics.uci.edu/dataset/73/mushroom)) on the performance of various Machine Learning models.
