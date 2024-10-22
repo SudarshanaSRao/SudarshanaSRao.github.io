@@ -8,7 +8,7 @@
 {% endcase %}
 
 {% if site.tag_archive.path %}
-  {% comment %}
+  {% comment %} 
     <!-- Sort alphabetically regardless of case e.g. a B c d E -->
     <!-- modified from http://www.codeofclimber.ru/2015/sorting-site-tags-in-jekyll/ -->
   {% endcomment %}
@@ -21,7 +21,7 @@
     {% for hash in tag_hashes %}
       {% assign keyValue = hash | split: '#' %}
       {% capture tag_word %}{{ keyValue[1] | strip_newlines }}{% endcapture %}
-      <a href="{{ base_path }}{{ tag_word | slugify | prepend: path_type | prepend: site.tag_archive.path }}" class="page__taxonomy-item" rel="tag">{{ tag_word }}</a>{% unless forloop.last %}<span class="sep">, </span>{% endunless %}
+      <span class="page__taxonomy-item">{{ tag_word }}</span>{% unless forloop.last %}<span class="sep">, </span>{% endunless %}
     {% endfor %}
     </span>
   </p>
