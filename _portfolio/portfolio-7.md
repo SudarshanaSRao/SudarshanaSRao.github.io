@@ -2,6 +2,12 @@
 title: "🚥ML Based Traffic Light Detection and IR Sensor Based Proximity Sensing for Autonomous Cars"
 excerpt: '<br><img src="/images/mlblock.png" height="500"  width="500">'
 collection: portfolio
+tags: 
+  - Machine Learning
+  - Python
+  - Open CV
+  - Arduino Uno
+  - Sensors
 ---
 
 * Used **OpenCV2** library to build an automated system to detect and recognize traffic lights for an autonomous car.
