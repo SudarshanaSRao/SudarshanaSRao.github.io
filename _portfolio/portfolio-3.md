@@ -2,6 +2,10 @@
 title: "❓FAQ Generator"
 excerpt: "<img height='600'  width='600' src='/images/summ.png'>"
 collection: portfolio
+tags: 
+  - LLM
+  - Fine-tuning
+  - GenAI
 ---
 
 * Fine-tuned (supervised instruction) **LLaMA-3 8b, LLaMA-2 7b, Mistral 7b, T5, and BART** to generate FAQs based on the website’s content.
