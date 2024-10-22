@@ -2,6 +2,12 @@
 title: "🤏Deep Learning based American Sign Language Recognition"
 excerpt: "<img height='500'  width='500' src='/images/preprocess.png'>"
 collection: portfolio
+tags: 
+  - Deep Learning
+  - Computer Vision
+  - PyTorch
+  - CNN
+  - Image classification
 ---
 <div style="text-align:center; margin-bottom: 20px;"><i><strong>✨Received extra credit for this project✨</strong></i></div>
 
