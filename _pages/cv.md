@@ -475,11 +475,10 @@ I worked on **Robotics Process Automation** using **UiPath studio** for automati
 Leadership & Involvement
 ==================
 * Course Producer for the Database Systems (CSCI-585) course under [Prof. Saty](https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty) [Raghavachary's](https://www.linkedin.com/in/satychary/) guidance during my master's program at USC in the _Spring 2024_ term. Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
+* Student Volunteer of Mitsubishi Electric Cup- National Level Competition for Factory Automation held at BMSCE.
 * Project Coordinator of The Department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium Phase Shift 2021, organized in BMSCE.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/WVq641EbiAQ" title="BMSCE Phase Shift 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-* Student Volunteer of Mitsubishi Electric Cup- National Level Competition for Factory Automation held at BMSCE.
+<iframe width="160" height="90" src="https://www.youtube.com/embed/WVq641EbiAQ" title="BMSCE Phase Shift 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Awards
 ==================
