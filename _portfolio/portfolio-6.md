@@ -2,6 +2,12 @@
 title: "🦹Smart Burglar Alarm"
 excerpt: '<br><img src="/images/brug1.gif" height="500"  width="500">'
 collection: portfolio
+tags: 
+  - Python
+  - Machine Learning
+  - Open CV
+  - Arduino Uno
+  - Internet of Things
 ---
 
 <img src="/images/brug2.gif" style="cursor: crosshair;">
