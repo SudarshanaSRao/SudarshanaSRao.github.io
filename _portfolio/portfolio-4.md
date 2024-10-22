@@ -4,6 +4,7 @@ excerpt: "<img height='500'  width='500' src='/images/implementation.png'>"
 collection: portfolio
 tags: 
   - Prompt-engineering
+  - RAG
   - GenAI
   - LangChain
   - LLM
