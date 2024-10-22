@@ -335,7 +335,7 @@ Work Experience
   </div>
  </div>
  
-### Student worker at University of Southern California, Los Angeles [October 2022-Present]
+### Student worker at the University of Southern California, Los Angeles [October 2022-Present]
 _{August 2024-Present}_
 * Researching and implementing **LLM** use cases in **Data Analytics** as a **Researcher**.   
 
