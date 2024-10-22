@@ -3,11 +3,14 @@ title: "🕹️Steam Sales Analysis"
 excerpt: "<img src='/images/steamstore-etl.drawio.png'>"
 collection: portfolio
 tags: 
-  - Steam
-  - Sales Analysis
+  - Data pipeline
   - ETL
-  - Data Visualization
+  - Tableau
+  - Docker
   - Python
+  - MySQL
+  - Automation
+  - Data Analytics
 ---
 
 <div class="flexcontainer45">
