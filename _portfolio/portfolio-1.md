@@ -2,6 +2,12 @@
 title: "🗣️Data Visualization Assistant"
 excerpt: "<img src='/images/Flowchart.png'>"
 collection: portfolio
+tags: 
+  - Web app
+  - AI
+  - EDA
+  - LLM
+  - Streamlit GUI
 ---
 
 <style>
