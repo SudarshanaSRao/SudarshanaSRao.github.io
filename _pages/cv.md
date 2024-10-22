@@ -155,7 +155,7 @@ Education
   <div>
     <ul>
       <li>
-        <span>Master of Science (MS) in Electrical Engineering (Machine Learning & Data Science), University of Southern California (USC)</span>
+        <span>Master of Science (MS) in Electrical Engineering (Machine Learning & Data Science), University of Southern California</span>
         <span>2024</span>
       </li>
     </ul>
@@ -339,7 +339,7 @@ Work Experience
 _{August 2024-Present}_
 * Researching and implementing **LLM** use cases in **Data Analytics** as a **Researcher**.   
 
-_{January 2024-May 2024}_ (Spring 2024 semester/term)
+_{January 2024-May 2024}_ 
 * **Course Producer** for the **Database Systems (CSCI-585) course** under [Prof. Saty](https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty) [Raghavachary's](https://www.linkedin.com/in/satychary/) guidance.
 * Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
 
