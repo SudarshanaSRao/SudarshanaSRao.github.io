@@ -339,6 +339,10 @@ Work Experience
 _{August 2024-Present}_
 * Researching and implementing **LLM** use cases in **Data Analytics** as a **Researcher**.   
 
+_{January 2024-May 2024}_ (Spring 2024 semester/term)
+* **Course Producer** for the **Database Systems (CSCI-585) course** under [Prof. Saty](https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty) [Raghavachary's](https://www.linkedin.com/in/satychary/) guidance.
+* Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
+
 _{May 2023-August 2024}_ (**Disney** sponsored project)
 * Researched and analyzed human interaction with an AI agent (Nobu) to improve its Automatic Speech Recognition (ASR) at the **S**ignal **A**nalysis and **I**nterpretation **L**aboratory (**SAIL** under [**SIPI**](https://minghsiehece.usc.edu/groups-and-institutes/sipi/)- **S**ignal and **I**mage **P**rocessing **I**nstitute).  
 * Managed the interaction sessions (data collection) by assigning participants to the respective time slots.
@@ -471,14 +475,6 @@ I worked on **Robotics Process Automation** using **UiPath studio** for automati
   *  Built a bot to extract specific emails based on textual metadata, improving employee productivity; ported the extracted data to Excel sheets for analysis.
   *  Implemented a bot to extract identified data from websites into Excel workbooks, saving **15%** of the buyer's time.
   *  Coded a bot to automatically generate complaint tickets and assign tickets to responsible personnel, enhancing customer service.
-  
-Leadership & Involvement
-==================
-* Course Producer for the Database Systems (CSCI-585) course under [Prof. Saty](https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty) [Raghavachary's](https://www.linkedin.com/in/satychary/) guidance during my master's program at USC in the _Spring 2024_ term. Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
-* Student Volunteer of Mitsubishi Electric Cup- National Level Competition for Factory Automation held at BMSCE.
-* Project Coordinator of The Department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium Phase Shift 2021, organized in BMSCE.
-
-<iframe width="160" height="90" src="https://www.youtube.com/embed/WVq641EbiAQ" title="BMSCE Phase Shift 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Awards
 ==================
@@ -669,3 +665,10 @@ Awards
         document.getElementById('popup1').style.display = 'none';
     }
 </script>
+
+Leadership & Involvement
+==================
+* Student Volunteer of Mitsubishi Electric Cup- National Level Competition for Factory Automation held at BMSCE.
+* Project Coordinator of The Department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium Phase Shift 2021, organized in BMSCE.
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/WVq641EbiAQ" title="BMSCE Phase Shift 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
