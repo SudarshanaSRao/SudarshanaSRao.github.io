@@ -2,6 +2,12 @@
 title: "🧞QuizGenie"
 excerpt: "<img height='500'  width='500' src='/images/implementation.png'>"
 collection: portfolio
+tags: 
+  - Prompt-engineering
+  - GenAI
+  - LangChain
+  - LLM
+  - Streamlit GUI
 ---
 
 * Developed an **AI-powered and RAG-based** quiz platform using **Python, Langchain, and Google Gemini** to generate personalized quizzes dynamically from user-provided documents.
