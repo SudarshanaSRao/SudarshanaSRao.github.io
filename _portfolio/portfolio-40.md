@@ -2,6 +2,12 @@
 title: "👨‍💻Promptimizer"
 excerpt: "<img height='500'  width='500' src='/images/blockchain.png'>"
 collection: portfolio
+tags: 
+  - Multi-agentic workflow
+  - GenAI
+  - Prompt-engineering
+  - LLM
+  - Gradio
 ---
 
 * Led the development of a **multi-agentic workflow** at the **AWS Gen-AI Loft** hackathon, iteratively optimizing prompts to solve [_LeetCode hard problems_](https://www.kaggle.com/datasets/akshatsharma0610/leetcode-all-hard-problems-dataset), enabling automatic conversion of any prompt into an optimized prompt (with task, context, example input & output).
