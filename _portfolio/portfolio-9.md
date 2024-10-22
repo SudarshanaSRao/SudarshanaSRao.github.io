@@ -2,6 +2,11 @@
 title: "🧬Single cell RNA sequencing"
 excerpt: '<br><img src="/images/diagb.png" height="500"  width="500">'
 collection: portfolio
+tags: 
+  - Python
+  - Machine Learning models
+  - Plotly
+  - 3-D graphs
 ---
 
 * Identified important cells among the dataset and ranked in a hierarchy using **k-means clustering** and **Logistic Regression**.  
