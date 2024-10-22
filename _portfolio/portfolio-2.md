@@ -2,6 +2,11 @@
 title: "🎖️From Data to Gold: My Journey Creating an Olympic Tableau Dashboard"
 excerpt: "<img src='/images/Bring Home the Gold in Your Own Reading Olympics! _ Red Apple Reading Blog.jpeg'>"
 collection: portfolio
+tags: 
+  - Tableau
+  - Python
+  - EDA
+  - Data Science
 ---
 
 * Developed an interactive dashboard using **Tableau** with [_Kaggle's Olympic dataset_](https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals/data).
