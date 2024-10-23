@@ -12,7 +12,7 @@ redirect_from:
 
 * [CSCI 561](https://github.com/SudarshanaSRao/CSCI561-AI_USC) Foundations of AI
 * [EE 541](https://github.com/SudarshanaSRao/EE541-Deep_Learning-USC)   A Computational Introduction to Deep Learning
-* [CSCI 585](https://github.com/SudarshanaSRao/USC_CSCI-585_Database-Systems) Database systems
+* [CSCI 585](https://github.com/SudarshanaSRao/USC_CSCI-585_Database-Systems) Database systems [I was the Course Producer during the Spring '24 term :)]
 * [CSCI 499](https://github.com/SudarshanaSRao/CSCI-499_LMs-in-NLP_USC) Language Models in Natural Language Processing
 * [EE 559](https://github.com/SudarshanaSRao/EE559-Machine_Learning-USC)   Machine Learning
 * [EE 599](https://github.com/SudarshanaSRao/USC_EE-599_Robotics)   Robotic Mobility
