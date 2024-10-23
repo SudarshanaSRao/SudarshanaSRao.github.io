@@ -7,6 +7,10 @@ date: 2020-08-01
 venue: 'International Journal of Management Technology and Engineering'
 paperurl: 'https://www.ijamtes.org/VOL-10-ISSUE-8-2020/'
 citation: 'Sudarshana.S.Rao, Sudamshu.S.Rao and Ajaykumar.D - BMS of Engineering, Bangalore, India. Page No : 72-75. DOI:16.10089.IJMTE.2020.V10I08.20.4307'
+tags: 
+  - 8051 microcontroller
+  - Wi-Fi modem
+  - Ultrasonic sensor
 ---
 
 <center><img class="bounce" src="/images/trash.jpg" height="50px"></center>
