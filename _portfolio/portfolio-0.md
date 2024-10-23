@@ -5,7 +5,7 @@ collection: portfolio
 tags: 
   - Data pipeline
   - ETL
-  - Tableau
+  - Tableau dashboard
   - Docker
   - Python
   - MySQL
