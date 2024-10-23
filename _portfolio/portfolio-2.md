@@ -3,7 +3,7 @@ title: "🎖️From Data to Gold: My Journey Creating an Olympic Tableau Dashboa
 excerpt: "<img src='/images/Bring Home the Gold in Your Own Reading Olympics! _ Red Apple Reading Blog.jpeg'>"
 collection: portfolio
 tags: 
-  - Tableau
+  - Tableau dashboard
   - Python
   - EDA
   - Data Science
