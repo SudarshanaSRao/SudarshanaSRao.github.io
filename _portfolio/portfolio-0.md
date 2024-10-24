@@ -1,7 +1,5 @@
 ---
 title: "🕹️Steam Sales Analysis"
-excerpt: "<img src='/images/steamstore-etl.drawio.png'>"
-collection: portfolio
 tags: 
   - Data pipeline
   - ETL
@@ -11,6 +9,8 @@ tags:
   - MySQL
   - Automation
   - Data Analytics
+excerpt: "<img src='/images/steamstore-etl.drawio.png'>"
+collection: portfolio
 ---
 
 <div class="flexcontainer45">
