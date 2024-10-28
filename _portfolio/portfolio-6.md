@@ -21,7 +21,7 @@ tags:
 
 <div class="flexcontainer">
   <div>
-        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Human-detection" onclick="trackOutboundLink(this);">
+        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Human-detection" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
   </div>
@@ -29,7 +29,7 @@ tags:
   
 <div class="flexcontainer">
   <div>
-        <span>✦ <strong>Publication:</strong></span> <a href="https://www.ijamtes.org/VOL-11-ISSUE-7-2021/" onclick="trackOutboundLink(this);">
+        <span>✦ <strong>Publication:</strong></span> <a href="https://www.ijamtes.org/VOL-11-ISSUE-7-2021/" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="70px" src="/images/Down_ijmte.jpeg" width="150px">
     </a>
   </div>
