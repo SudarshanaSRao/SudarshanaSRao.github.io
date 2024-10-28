@@ -340,7 +340,7 @@ _{August 2024-Present}_
 * Researching and implementing **LLM** use cases in **Data Analytics** as a **Researcher**.   
 
 _{January 2024-May 2024}_ 
-* **Course Producer** for the **Database Systems (CSCI-585) course** under [**Prof. Saty**](https://www.linkedin.com/in/satychary/) [**Raghavachary's**](https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty) guidance.
+* **Course Producer** for the **Database Systems (CSCI-585) course** under [**Prof. Saty**](https://www.linkedin.com/in/satychary/) [**Raghavachary's**](https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty) guidance in the [**Computer Science**](https://www.cs.usc.edu/) department.
 * Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
 
 _{May 2023-August 2024}_ (**Disney** sponsored project)
@@ -550,7 +550,7 @@ Awards
 </style>
 
 <div class="content-container">
-    <p>✔ Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in RV PU College.</p>
+    <p>✔ Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in [**RV PU College**](https://rvpucollege.edu.in/).</p>
     <div class="thumbnail-container" onclick="openPopup()">
         <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" class="thumbnail"> 
         <span class="popup-icon">&#x2197;</span>
