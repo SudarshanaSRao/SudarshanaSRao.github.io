@@ -19,7 +19,7 @@ tags:
 
 <div class="flexcontainer">
   <div>
-        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition" onclick="trackOutboundLink(this);">
+        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Traffic-light-detection-and-recognition" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
   </div>
@@ -27,7 +27,7 @@ tags:
     
 <div class="flexcontainer">
   <div>
-        <span>✦ <strong>Publication:</strong></span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3883931" onclick="trackOutboundLink(this);">
+        <span>✦ <strong>Publication:</strong></span> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3883931" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="70px" src="/images/download_SSRN.jpg" width="150px">
     </a>
   </div>
