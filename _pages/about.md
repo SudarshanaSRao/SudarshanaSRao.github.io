@@ -166,7 +166,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   
 <div class="flexcontainer">
   <div>
-    <span>✦ A blog explaining my <strong>Steam Sales Analysis</strong> project:</span> <a href="https://medium.com/@sudarshanasrao/steam-sales-insight-data-driven-analysis-and-visualization-pipeline-803862e5f555" onclick="trackOutboundLink(this);">
+    <span>✦ A blog explaining my <strong>Steam Sales Analysis</strong> project:</span> <a href="https://medium.com/@sudarshanasrao/steam-sales-insight-data-driven-analysis-and-visualization-pipeline-803862e5f555" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="30px" src="/images/tds_logo.png" width="80px">
     </a>
   </div>
