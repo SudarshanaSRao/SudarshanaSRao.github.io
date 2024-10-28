@@ -140,7 +140,7 @@ Education
 <div class="flexcontainer">
   <div>
     <!-- USC logo and main link -->
-    <a href="https://usc.edu" onclick="trackOutboundLink(this);">
+    <a href="https://minghsiehece.usc.edu/" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="150px" src="/images/usc_logo.png" width="250px">
     </a>
   </div>
@@ -261,7 +261,7 @@ Education
 
 <div class="flexcontainer">
   <div>
-    <a href="https://www.bmsce.ac.in/" onclick="trackOutboundLink(this);">
+    <a href="https://www.bmsce.ac.in/" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="140px" src="/images/bmsce_logo.jpg" width="70px">
     </a>
   </div>
@@ -329,7 +329,7 @@ Work Experience
 ==================
 <div class="flexcontainer">
   <div>
-    <a href="https://sail.usc.edu/" onclick="trackOutboundLink(this);">
+    <a href="https://sail.usc.edu/" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" src="/images/4951549.png">
     </a>
   </div>
@@ -441,7 +441,7 @@ _{October 2022-May 2023}_ (**Apple** funded project)
   
  <div class="flexcontainer88">
   <div>
-    <a href="https://ennvee.com/" onclick="trackOutboundLink(this);">
+    <a href="https://ennvee.com/" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="100px" src="/images/ennlogog.jpeg" width="70px">
     </a>
   </div>
@@ -550,7 +550,7 @@ Awards
 </style>
 
 <div class="content-container">
-    <p>✔ Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in [**RV PU College**](https://rvpucollege.edu.in/).</p>
+    <p>✔ Won second prize in a Computer Science seminar on satellite communication held at the Sumeru Fest in <a href="https://rvpucollege.edu.in/" target="_blank"><strong>RV PU College</strong></a>.</p>
     <div class="thumbnail-container" onclick="openPopup()">
         <img src="/images/Trophy.jpg" alt="Satellite Communication Seminar" class="thumbnail"> 
         <span class="popup-icon">&#x2197;</span>
