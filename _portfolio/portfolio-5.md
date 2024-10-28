@@ -14,7 +14,7 @@ tags:
 <img src="/images/test-dataset1.png" style="cursor: crosshair;">
 <img src="/images/dataset.png" style="cursor: crosshair;">
 
-* Developed three classes of Artificial Neural Network (ANN) models using the PyTorch framework to translate [_American Sign Language_](https://www.kaggle.com/datasets/grassknoted/asl-alphabet) into a text-based representation.
+* Developed three classes of Artificial Neural Network (ANN) models using the PyTorch framework to translate [_American Sign Language_](https://www.kaggle.com/datasets/grassknoted/asl-alphabet){:target="_blank"} into a text-based representation.
 
 <img src="/images/cnnarchitecture.jpg" style="cursor: crosshair;">
 
@@ -27,7 +27,7 @@ tags:
 
 <div class="flexcontainer">
   <div>
-        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/EE541-final_project-USC" onclick="trackOutboundLink(this);">
+        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/EE541-final_project-USC" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
   </div>
