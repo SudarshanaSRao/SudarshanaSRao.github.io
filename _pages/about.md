@@ -174,7 +174,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <div class="flexcontainer">
   <div>
-    <span>✦ A post describing the features of my app <strong>Data Visualization Assistant</strong>:</span> <a href="https://medium.com/@sudarshanasrao/introducing-the-file-conversational-assistant-revolutionizing-document-interaction-with-ai-bf878e5c9ed5" onclick="trackOutboundLink(this);">
+    <span>✦ A post describing the features of my app <strong>Data Visualization Assistant</strong>:</span> <a href="https://medium.com/@sudarshanasrao/introducing-the-file-conversational-assistant-revolutionizing-document-interaction-with-ai-bf878e5c9ed5" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="30px" src="/images/webapp.jpeg" width="100px">
     </a>
   </div>
@@ -182,7 +182,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <div class="flexcontainer">
   <div>
-    <span>✦ A fun and a <strong>data-driven analysis</strong> on the Summer Olympics:</span> <a href="https://medium.com/@sudarshanasrao/olympics-tableau-3a79b7b49619" onclick="trackOutboundLink(this);">
+    <span>✦ A fun and a <strong>data-driven analysis</strong> on the Summer Olympics:</span> <a href="https://medium.com/@sudarshanasrao/olympics-tableau-3a79b7b49619" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="20px" src="/images/indy.jpg" width="70px">
     </a>
   </div>
@@ -190,7 +190,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <div class="flexcontainer">
   <div>
-    <span>✦ A short, simple, and interesting read on <strong>Generative Adversarial Networks</strong>:</span> <a href="https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html" onclick="trackOutboundLink(this);">
+    <span>✦ A short, simple, and interesting read on <strong>Generative Adversarial Networks</strong>:</span> <a href="https://sudarshanagan.blogspot.com/2021/07/everyone-i-am-currently-engineering.html" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="30px" src="/images/1200px-Blogger_icon_2017.svg.png" width="80px">
     </a>
   </div>
@@ -198,7 +198,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <div class="flexcontainer">
   <div>
-    <span>✦ A descriptive post on my <strong>FAQ Generator</strong> project:</span> <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" onclick="trackOutboundLink(this);">
+    <span>✦ A descriptive post on my <strong>FAQ Generator</strong> project:</span> <a href="https://medium.com/@sudarshanasrao/faq-generation-using-large-language-models-88746c9381a6" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="30px" src="/images/image.jpeg" width="80px">
     </a>
   </div>
