@@ -71,7 +71,7 @@
         <li><a href="https://dribbble.com/{{ author.dribbble }}"><i class="fab fa-fw fa-dribbble icon-pad-right" aria-hidden="true"></i>Dribbble</a></li>
       {% endif %}      
       {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
+        <li><a href="https://github.com/{{ author.github }}" target="_blank"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
       {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
@@ -109,13 +109,13 @@
         <li><a href="https://lastfm.com/user/{{ author.lastfm }}"><i class="fab fa-fw fa-lastfm icon-pad-right" aria-hidden="true"></i>Last.fm</a></li>
       {% endif %}      
       {% if author.linkedin %}
-        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
       {% endif %}      
       {% if author.mastodon %}
         <li><a href="{{ author.mastodon }}"><i class="fab fa-fw fa-mastodon icon-pad-right" aria-hidden="true"></i>Mastodon</a></li>
       {% endif %}
       {% if author.medium %}
-        <li><a href="{{ author.medium }}"><i class="fab fa-fw fa-medium icon-pad-right" aria-hidden="true"></i>Medium</a></li>
+        <li><a href="{{ author.medium }}" target="_blank"><i class="fab fa-fw fa-medium icon-pad-right" aria-hidden="true"></i>Medium</a></li>
       {% endif %}      
       {% if author.pinterest %}
         <li><a href="https://www.pinterest.com/{{ author.pinterest }}"><i class="fab fa-fw fa-pinterest icon-pad-right" aria-hidden="true"></i>Pinterest</a></li>
