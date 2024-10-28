@@ -28,6 +28,8 @@ tags:
   }
 </style>
 
+This paper discusses an automated smart garbage disposal system using an 8051 microcontroller, ultrasonic sensor, and Wi-Fi modem to detect when a garbage bin is full. The system leverages IoT, where each bin has a unique ID, and the Wi-Fi modem sends signals to a waste disposal center, providing the exact location of the bin for efficient waste management.
+
 <div class="framed-certificate">
 <img src="/images/8051 paper.jpeg" alt="Certificate Image" style="cursor: crosshair;">
 </div>
