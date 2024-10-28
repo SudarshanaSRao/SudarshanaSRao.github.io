@@ -29,6 +29,8 @@ tags:
   }
 </style>
 
+This paper presents a cost-effective method for automatic dent detection on cars using IR sensors for distance measurement from a defined threshold. The system interfaces IR sensors with an Arduino Uno board and a computer to identify and display surface dents, offering a simpler and more reliable alternative to traditional methods like Mask-R CNN. IR sensors make the solution flexible, efficient, and easily integrated with various surfaces and microcontrollers.
+
 <div class="framed-certificate">
 <img src="/images/34-1_page-0001.jpg" alt="Certificate Image" style="cursor: crosshair;">
 </div>
