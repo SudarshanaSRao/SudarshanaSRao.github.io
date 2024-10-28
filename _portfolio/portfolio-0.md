@@ -15,7 +15,7 @@ collection: portfolio
 
 <div class="flexcontainer45">
   <div>
-        <span>Created and deployed a (open-source contribution) <strong>Python PyPI package</strong> (library): - </span> <a href="https://pypi.org/project/steamstore-etl/" onclick="trackOutboundLink(this);">
+        <span>Created and deployed a (open-source contribution) <strong>Python PyPI package</strong> (library): - </span> <a href="https://pypi.org/project/steamstore-etl/" target="_blank" onclick="trackOutboundLink(this);">
       <img height="50px" src="/images/py-pkgs-hex.png" width="50px">
     </a>
   </div>
@@ -54,7 +54,7 @@ collection: portfolio
 
 <div class="flexcontainer">
   <div>
-        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/DataForgeOpenAIHub/Steam-Sales-Analysis" onclick="trackOutboundLink(this);">
+        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/DataForgeOpenAIHub/Steam-Sales-Analysis" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
   </div>
@@ -62,7 +62,7 @@ collection: portfolio
 
 <div class="flexcontainer">
   <div>
-        <span>✦ <strong>Medium blog:</strong></span> <a href="https://medium.com/@sudarshanasrao/steam-sales-insight-data-driven-analysis-and-visualization-pipeline-803862e5f555" onclick="trackOutboundLink(this);">
+        <span>✦ <strong>Medium blog:</strong></span> <a href="https://medium.com/@sudarshanasrao/steam-sales-insight-data-driven-analysis-and-visualization-pipeline-803862e5f555" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="200px" src="/images/unmanned.png" width="200px">
     </a>
   </div>
