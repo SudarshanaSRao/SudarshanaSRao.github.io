@@ -7,13 +7,13 @@
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
     {% if site.author.github %}
-      <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <li><a href="http://github.com/{{ site.author.github }}" target="_blank"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
     {% endif %}
     {% if site.author.linkedin %}
-      <li><a href="http://linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+      <li><a href="http://linkedin.com/in/{{ site.author.linkedin }}" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
     {% endif %}
     {% if site.author.medium %}
-      <li><a href="https://medium.com/@sudarshanasrao"><i class="fab fa-medium" aria-hidden="true"></i> Medium</a></li>
+      <li><a href="https://medium.com/@sudarshanasrao" target="_blank"><i class="fab fa-medium" aria-hidden="true"></i> Medium</a></li>
     {% endif %}
 <!--     {% if site.atom_feed.hide != true %}
     <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
@@ -22,4 +22,4 @@
 </div>
 {% endif %}
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="http://sudarshanasrao.github.io/">{{ site.name | default: site.title }}</a>; {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a>, <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="http://sudarshanasrao.github.io/">{{ site.name | default: site.title }}</a>; {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow" target="_blank">Jekyll</a>, <a href="https://github.com/academicpages/academicpages.github.io" target="_blank">AcademicPages</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow" target="_blank">Minimal Mistakes</a>.</div>
