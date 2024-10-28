@@ -10,7 +10,7 @@ tags:
   - Python
 ---
 
-* Analyzed the effect of different feature engineering and dimensionality adjustment techniques (performed on the [_UCI's mushroom dataset_](https://archive.ics.uci.edu/dataset/73/mushroom)) on the performance of various Machine Learning models.
+* Analyzed the effect of different feature engineering and dimensionality adjustment techniques (performed on the [_UCI's mushroom dataset_](https://archive.ics.uci.edu/dataset/73/mushroom){:target="_blank"}) on the performance of various Machine Learning models.
 * Pre-processing included feature engineering by **Pearson Correlation Coefficient** method and dimensionality reduction of _173 different species of 61,069 mushrooms_ using **Univariate Feature Selection** and **Principal Component Analysis**.
 * Performed comprehensive feature analysis and visualization using **Power BI** and **Tableau** to highlight the impact of feature engineering and dimensionality reduction techniques. Developed interactive dashboards to illustrate feature distributions, correlations, and their contributions to model performance, enhancing interpretability and data-driven decision-making.
 
@@ -25,7 +25,7 @@ tags:
 
 <div class="flexcontainer">
   <div>
-        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/EE559-final_project-USC" onclick="trackOutboundLink(this);">
+        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/EE559-final_project-USC" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
   </div>
