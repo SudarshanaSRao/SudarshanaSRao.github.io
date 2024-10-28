@@ -30,6 +30,8 @@ tags:
   }
 </style>
 
+This paper focuses on traffic light detection using the OpenCV2 module and proximity sensing with IR sensors to detect nearby traffic, obstacles, and pedestrians. The system interfaces these sensors with an Arduino Uno board and a computer to monitor the behavior of the autonomous car, addressing critical challenges in outdoor perception and obstacle detection.
+
 <div class="framed-certificate">
 <img src="/images/106-1_page-0001.jpg" alt="Certificate Image" style="cursor: crosshair;">
 </div>
