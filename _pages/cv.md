@@ -340,11 +340,11 @@ _{August 2024-Present}_
 * Researching and implementing **LLM** use cases in **Data Analytics** as a **Researcher**.   
 
 _{January 2024-May 2024}_ 
-* **Course Producer** for the **Database Systems (CSCI-585) course** under [**Prof. Saty**](https://www.linkedin.com/in/satychary/) [**Raghavachary's**](https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty) guidance in the [**Computer Science**](https://www.cs.usc.edu/) department.
+* **Course Producer** for the **Database Systems (CSCI-585) course** under [**Prof. Saty**](https://www.linkedin.com/in/satychary/){:target="_blank"} [**Raghavachary's**](https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty){:target="_blank"} guidance in the [**Computer Science**](https://www.cs.usc.edu/){:target="_blank"} department.
 * Held office hours, mentored, and evaluated homework and exams for a class of 300 students.
 
 _{May 2023-August 2024}_ (**Disney** sponsored project)
-* Researched and analyzed human interaction with a **Conversational AI agent** (Nobu) to improve its Automatic Speech Recognition (ASR) at the **S**ignal **A**nalysis and **I**nterpretation **L**aboratory (**SAIL** under [**SIPI**](https://minghsiehece.usc.edu/groups-and-institutes/sipi/)- **S**ignal and **I**mage **P**rocessing **I**nstitute).  
+* Researched and analyzed human interaction with a **Conversational AI agent** (Nobu) to improve its Automatic Speech Recognition (ASR) at the **S**ignal **A**nalysis and **I**nterpretation **L**aboratory (**SAIL** under [**SIPI**](https://minghsiehece.usc.edu/groups-and-institutes/sipi/){:target="_blank"}- **S**ignal and **I**mage **P**rocessing **I**nstitute).  
 * Managed the interaction sessions (data collection) by assigning participants to the respective time slots.
 * Project: Speech quality assessment for automatic speech recognition. 
 
