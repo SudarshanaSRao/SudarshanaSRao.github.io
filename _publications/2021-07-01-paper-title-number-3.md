@@ -30,6 +30,8 @@ tags:
   }
 </style>
 
+This paper introduces a Smart Burglar Alarm system that uses a passive infrared (PIR) sensor to detect unwanted intrusions at home entrances and exits. Upon detecting an intruder, the system activates a buzzer, sends a mobile alert via GSM, and automatically locks the doors to prevent escape. A surveillance camera captures live footage, while a machine learning algorithm using OpenCV2, histogram of oriented gradients, and support vector machine detects intruders and sends another alert, helping homeowners prevent burglaries in real-time.
+
 <div class="framed-certificate">
 <img src="/images/3804.jpg" alt="Certificate Image" style="cursor: crosshair;">
 </div>
