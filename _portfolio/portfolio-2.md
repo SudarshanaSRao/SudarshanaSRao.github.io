@@ -9,7 +9,7 @@ tags:
   - Data Science
 ---
 
-* Developed an interactive dashboard using **Tableau** with [_Kaggle's Olympic dataset_](https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals/data).
+* Developed an interactive dashboard using **Tableau** with [_Kaggle's Olympic dataset_](https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals/data){:target="_blank"}.
 * Enhanced data quality by **cleaning** and **transforming** dataset attributes for better insights.
 
 <div class='tableauPlaceholder' id='viz1723672153855' style='position: relative'>
@@ -45,7 +45,7 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);
 
 <div class="flexcontainer">
   <div>
-        <span>✦ <strong>Medium blog:</strong></span> <a href="https://medium.com/@sudarshanasrao/olympics-tableau-3a79b7b49619" onclick="trackOutboundLink(this);">
+        <span>✦ <strong>Medium blog:</strong></span> <a href="https://medium.com/@sudarshanasrao/olympics-tableau-3a79b7b49619" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="200px" src="/images/unmanned.png" width="200px">
     </a>
   </div>
@@ -53,7 +53,7 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);
 
 <div class="flexcontainer">
   <div>
-        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/From-Data-to-Gold--My-Journey-Creating-an-Olympic-Tableau-Dashboard" onclick="trackOutboundLink(this);">
+        <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/From-Data-to-Gold--My-Journey-Creating-an-Olympic-Tableau-Dashboard" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
   </div>
