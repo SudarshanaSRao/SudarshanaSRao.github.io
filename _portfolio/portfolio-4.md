@@ -23,19 +23,19 @@ tags:
 <img height="450" width="450" src="/images/generated_question.png" style="cursor: crosshair;">
 
 <div class="flexcontainer">
-<div>
-      <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/QuizGenie" target="_blank" onclick="trackOutboundLink(this);">
-    <img class="pulse" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
-  </a>
-</div>
-</div>
-
-<div class="flexcontainer">
   <div>
         <span>✦ <strong>Medium blog:</strong></span> <a href="https://medium.com/@sudarshanasrao/quizgenie-e3f375287f7e" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="100px" src="/images/unmanned.png" width="100px">
     </a>
   </div>
+</div>
+
+<div class="flexcontainer">
+<div>
+      <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/QuizGenie" target="_blank" onclick="trackOutboundLink(this);">
+    <img class="pulse" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
+  </a>
+</div>
 </div>
 
 <style>
