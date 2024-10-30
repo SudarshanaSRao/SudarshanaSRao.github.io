@@ -29,6 +29,15 @@ tags:
   </a>
 </div>
 </div>
+
+<div class="flexcontainer">
+  <div>
+        <span>✦ <strong>Medium blog:</strong></span> <a href="https://medium.com/@sudarshanasrao/quizgenie-e3f375287f7e" target="_blank" onclick="trackOutboundLink(this);">
+      <img class="pulse" height="200px" src="/images/unmanned.png" width="200px">
+    </a>
+  </div>
+</div>
+
 <style>
 @keyframes pulse {
   0% {
