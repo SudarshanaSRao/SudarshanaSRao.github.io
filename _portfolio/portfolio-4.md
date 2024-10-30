@@ -33,7 +33,7 @@ tags:
 <div class="flexcontainer">
   <div>
         <span>✦ <strong>Medium blog:</strong></span> <a href="https://medium.com/@sudarshanasrao/quizgenie-e3f375287f7e" target="_blank" onclick="trackOutboundLink(this);">
-      <img class="pulse" height="200px" src="/images/unmanned.png" width="200px">
+      <img class="pulse" height="100px" src="/images/unmanned.png" width="100px">
     </a>
   </div>
 </div>
