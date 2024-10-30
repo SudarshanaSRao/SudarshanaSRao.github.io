@@ -203,6 +203,15 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     </a>
   </div>
 </div>
+
+<div class="flexcontainer">
+  <div>
+    <span>✦ An article on my <strong>QuizGenie</strong> project:</span> <a href="https://medium.com/@sudarshanasrao/quizgenie-e3f375287f7e" target="_blank" onclick="trackOutboundLink(this);">
+      <img class="pulse" height="30px" src="/images/image.jpeg" width="80px">
+    </a>
+  </div>
+</div>
+
 <style>
   @keyframes pulse {
   0% {
