@@ -668,7 +668,7 @@ Awards
 
 Leadership & Involvement
 ==================
-* Student Volunteer of Mitsubishi Electric Cup- National Level Competition for Factory Automation held at BMSCE.
-* Project Coordinator of The Department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium Phase Shift 2021, organized in BMSCE.
+* Student Volunteer of [**Mitsubishi Electric Cup**](https://mitsubishielectric.in/fa/mecup/index.php){:target="_blank"}- National Level Competition for Factory Automation held at BMSCE.
+* Project Coordinator of The Department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium [**Phase Shift**](https://bmsce.ac.in/home/Phase-Shift){:target="_blank"} 2021, organized in BMSCE.
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/WVq641EbiAQ" title="BMSCE Phase Shift 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
