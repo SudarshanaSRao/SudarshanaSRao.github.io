@@ -11,13 +11,16 @@ tags:
 ---
 
 * Led the development of a **multi-agentic workflow** at the **AWS Gen-AI Loft** hackathon, iteratively optimizing prompts to solve [_LeetCode hard problems_](https://www.kaggle.com/datasets/akshatsharma0610/leetcode-all-hard-problems-dataset){:target="_blank"}, enabling automatic conversion of any prompt into an optimized prompt (with task, context, example input & output).
-* Created a user-friendly interactive UI using **Gradio**.
 
 <img height="500" width="500" src="/images/prompt1.png" style="cursor: crosshair;">
 
 <img src="/images/prompt2.png" style="cursor: crosshair;">
 
 <img src="/images/hackathon.jpeg" style="cursor: crosshair;">
+
+* Created a user-friendly interactive UI using **Gradio**.
+
+<img src="/images/Graddaree.png" style="cursor: crosshair;">
 
 <div class="flexcontainer">
 <div>
