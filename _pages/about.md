@@ -229,7 +229,66 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 </style>
 
-<div style="display: flex; flex-direction: column; align-items: center; margin-top: 100px;">
-    <img src="/images/Carcool.jpg" alt="Cool Car" style="cursor: crosshair;">
-    <span style="font-family: 'Brush Script MT', cursive; font-size: 30px; color: #806517; margin-top: 0;">"Your time on earth is limited, so don't waste it by living someone else's life." <i>-</i> SJ</span>
+<style>
+    /* Container and initial styles */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        overflow: hidden;
+    }
+    /* Image initial state */
+    .animated-image {
+        opacity: 0;
+        transform: translateX(-100%);
+        transition: transform 1s ease, opacity 1s ease;
+    } 
+    /* Text initial state */
+    .animated-text {
+        opacity: 0;
+        transform: translateX(100%);
+        font-family: 'Brush Script MT', cursive;
+        font-size: 30px;
+        color: #806517;
+        margin-top: 0;
+        transition: transform 1s ease, opacity 1s ease;
+    }
+    /* Image and text center-aligned state */
+    .in-view .animated-image,
+    .in-view .animated-text {
+        opacity: 1;
+        transform: translateX(0);
+    }
+</style>
+
+<div class="container">
+    <img src="/images/Carcool.jpg" alt="Cool Car" class="animated-image" style="cursor: crosshair;">
+    <span class="animated-text">"Your time on earth is limited, so don't waste it by living someone else's life." <i>-</i> SJ</span>
 </div>
+
+<script>
+    // Function to check if elements are in view
+    function isElementInView(element) {
+        const rect = element.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+    // Function to add or remove 'in-view' class based on scroll
+    function handleScroll() {
+        const container = document.querySelector('.container');
+        if (isElementInView(container)) {
+            container.classList.add('in-view');
+        } else {
+            container.classList.remove('in-view');
+        }
+    }
+    // Event listener for scroll
+    window.addEventListener('scroll', handleScroll);
+    // Initial check for elements in view on page load
+    document.addEventListener('DOMContentLoaded', handleScroll);
+</script>
