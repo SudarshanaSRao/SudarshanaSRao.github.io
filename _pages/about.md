@@ -264,7 +264,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <div class="inspiration-section">
     <div class="inspiration-box">
-        <img src="/images/Carcool.jpg" alt="Cool Car">
+        <img src="/images/Carcool.jpg" alt="Cool Car" style="cursor: crosshair;">
         <span>"Your time on earth is limited, so don't waste it by living someone else's life." <i>- SJ</i></span>
     </div>
 </div>
