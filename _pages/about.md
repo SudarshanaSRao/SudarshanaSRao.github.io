@@ -270,7 +270,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 </div>
 
 <style>
-  .inspiration-section {
+.inspiration-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,33 +279,30 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 .inspiration-box {
     text-align: center;
     padding: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
     border-radius: 10px;
-    cursor: pointer;
-    /* Initial "submerged" look */
+    /* Light grey background for a subtle effect */
+    background-color: #f0f0f0;
     transform: scale(0.98);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
 }
-/* Hover effect to "pop up" the box */
 .inspiration-box:hover {
-    transform: scale(1.03);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 .inspiration-box img {
-    width: 100%;  /* Adjust image width to fit the box */
+    width: 100%; /* Adjust image width to fit the box */
     border-radius: 5px;
-    transition: transform 0.3s ease;
+    transition: transform 0.6s ease-in-out;
 }
 .inspiration-box span {
     display: block;
     font-family: 'Brush Script MT', cursive;
     font-size: 30px;
-    color: #806517;
+    color: #806517; /* Original text color */
     margin-top: 10px;
-    transition: transform 0.3s ease;
+    transition: transform 0.6s ease-in-out;
 }
-/* Optional hover effect for the image */
 .inspiration-box:hover img,
 .inspiration-box:hover span {
     transform: translateY(-3px);
