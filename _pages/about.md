@@ -262,33 +262,52 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     }
 </style>
 
-<div class="container">
-    <img src="/images/Carcool.jpg" alt="Cool Car" class="animated-image" style="cursor: crosshair;">
-    <span class="animated-text">"Your time on earth is limited, so don't waste it by living someone else's life." <i>-</i> SJ</span>
+<div class="inspiration-section">
+    <div class="inspiration-box">
+        <img src="/images/Carcool.jpg" alt="Cool Car">
+        <span>"Your time on earth is limited, so don't waste it by living someone else's life." <i>- SJ</i></span>
+    </div>
 </div>
 
-<script>
-    // Function to check if elements are in view
-    function isElementInView(element) {
-        const rect = element.getBoundingClientRect();
-        return (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-    }
-    // Function to add or remove 'in-view' class based on scroll
-    function handleScroll() {
-        const container = document.querySelector('.container');
-        if (isElementInView(container)) {
-            container.classList.add('in-view');
-        } else {
-            container.classList.remove('in-view');
-        }
-    }
-    // Event listener for scroll
-    window.addEventListener('scroll', handleScroll);
-    // Initial check for elements in view on page load
-    document.addEventListener('DOMContentLoaded', handleScroll);
-</script>
+<style>
+  .inspiration-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.inspiration-box {
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    cursor: pointer;
+    /* Initial "submerged" look */
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+/* Hover effect to "pop up" the box */
+.inspiration-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.inspiration-box img {
+    width: 100%;  /* Adjust image width to fit the box */
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.inspiration-box span {
+    display: block;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+    color: #806517;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+/* Optional hover effect for the image */
+.inspiration-box:hover img,
+.inspiration-box:hover span {
+    transform: translateY(-3px);
+}
+</style>
