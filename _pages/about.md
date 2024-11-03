@@ -115,14 +115,14 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <div class="separator">
   <div class="shape-separator">
-    <div class="shape"></div>
-    <div class="shape"></div>
-    <div class="shape"></div>
-    <div class="shape"></div>
-    <div class="shape"></div>
-    <div class="shape"></div>
-    <div class="shape"></div>
-    <div class="shape"></div>
+    <div class="shape">🛆</div>
+    <div class="shape">🛆</div>
+    <div class="shape">🛆</div>
+    <div class="shape">🛆</div>
+    <div class="shape">🛆</div>
+    <div class="shape">🛆</div>
+    <div class="shape">🛆</div>
+    <div class="shape">🛆</div>
   </div>
 </div>
 
@@ -140,18 +140,20 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   transform: rotate(180deg);
 }
 .shape {
-  width: 0;
-  height: 0;
-  border-left: 18px solid transparent;
-  border-right: 18px solid transparent;
-  border-bottom: 36px solid; /* Set color here */
-  /* Apply gradient colors */
+  font-size: 36px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  /* Darker multi-color gradient for a richer look */
   background: linear-gradient(135deg, #ff7078 0%, #f8a1b0 25%, #f58ad4 50%, #8b70c1 75%, #f8a1b0 100%);
   color: transparent;
+  /* Clipping the background to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
   /* Enhanced 3D shadow with multiple layers */
-  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25),
-              6px 6px 12px rgba(0, 0, 0, 0.15),
-              9px 9px 18px rgba(0, 0, 0, 0.1);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25),
+               6px 6px 12px rgba(0, 0, 0, 0.15),
+               9px 9px 18px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 600px) {
   .shape-separator {
