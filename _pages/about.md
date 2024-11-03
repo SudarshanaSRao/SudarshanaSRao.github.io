@@ -115,14 +115,31 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <div class="separator">
   <div class="shape-separator">
-    <div class="shape">🛆</div>
-    <div class="shape">🛆</div>
-    <div class="shape">🛆</div>
-    <div class="shape">🛆</div>
-    <div class="shape">🛆</div>
-    <div class="shape">🛆</div>
-    <div class="shape">🛆</div>
-    <div class="shape">🛆</div>
+    <!-- Replacing emoji with SVG triangles for consistent cross-platform display -->
+    <svg class="shape" width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,0 100,100 0,100"/>
+    </svg>
+    <svg class="shape" width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,0 100,100 0,100"/>
+    </svg>
+    <svg class="shape" width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,0 100,100 0,100"/>
+    </svg>
+    <svg class="shape" width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,0 100,100 0,100"/>
+    </svg>
+    <svg class="shape" width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,0 100,100 0,100"/>
+    </svg>
+    <svg class="shape" width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,0 100,100 0,100"/>
+    </svg>
+    <svg class="shape" width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,0 100,100 0,100"/>
+    </svg>
+    <svg class="shape" width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,0 100,100 0,100"/>
+    </svg>
   </div>
 </div>
 
@@ -140,20 +157,23 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   transform: rotate(180deg);
 }
 .shape {
-  font-size: 36px;
+  width: 36px;
+  height: 36px;
+  fill: url(#gradient); /* Apply gradient to the SVG */
+}
+.shape polygon {
+  /* Darker multi-color gradient for a richer look */
+  fill: url(#gradient);
+}
+/* Define the gradient */
+svg {
   display: inline-block;
   position: relative;
   z-index: 1;
-  /* Darker multi-color gradient for a richer look */
-  background: linear-gradient(135deg, #ff7078 0%, #f8a1b0 25%, #f58ad4 50%, #8b70c1 75%, #f8a1b0 100%);
-  color: transparent;
-  /* Clipping the background to the text */
-  -webkit-background-clip: text;
-  background-clip: text;
   /* Enhanced 3D shadow with multiple layers */
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25),
-               6px 6px 12px rgba(0, 0, 0, 0.15),
-               9px 9px 18px rgba(0, 0, 0, 0.1);
+  filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.25))
+          drop-shadow(6px 6px 12px rgba(0, 0, 0, 0.15))
+          drop-shadow(9px 9px 18px rgba(0, 0, 0, 0.1));
 }
 @media (max-width: 600px) {
   .shape-separator {
