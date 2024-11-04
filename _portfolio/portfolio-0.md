@@ -5,6 +5,7 @@ tags:
   - ETL
   - Tableau dashboard
   - Docker
+  - Cloud computing
   - Python
   - MySQL
   - Automation
