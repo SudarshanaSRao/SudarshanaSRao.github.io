@@ -260,6 +260,46 @@ I am seeking full-time roles and craving challenging opportunities to contribute
         opacity: 1;
         transform: translateX(0);
     }
+    /* Inspiration Section */
+    .inspiration-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .inspiration-box {
+        text-align: center;
+        padding: 20px;
+        transition: transform 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
+        border-radius: 10px;
+        background-color: #f0f0f0;
+        transform: scale(0.98);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .inspiration-box:hover,
+    .inspiration-box.active {
+        transform: scale(1.02);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
+    .inspiration-box img {
+        width: 100%; /* Adjust image width to fit the box */
+        border-radius: 5px;
+        transition: transform 0.6s ease-in-out;
+    }
+    .inspiration-box span {
+        display: block;
+        font-family: 'Brush Script MT', cursive;
+        font-size: 30px;
+        color: #806517; /* Original text color */
+        margin-top: 10px;
+        transition: transform 0.6s ease-in-out;
+    }
+    .inspiration-box:hover img,
+    .inspiration-box:hover span,
+    .inspiration-box.active img,
+    .inspiration-box.active span {
+        transform: translateY(-3px);
+    }
 </style>
 
 <div class="inspiration-section">
@@ -269,51 +309,8 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     </div>
 </div>
 
-<style>
-.inspiration-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-}
-.inspiration-box {
-    text-align: center;
-    padding: 20px;
-    transition: transform 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
-    border-radius: 10px;
-    /* Light grey background for a subtle effect */
-    background-color: #f0f0f0;
-    transform: scale(0.98);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-.inspiration-box:hover,
-.inspiration-box.active {
-    transform: scale(1.02);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-}
-.inspiration-box img {
-    width: 100%; /* Adjust image width to fit the box */
-    border-radius: 5px;
-    transition: transform 0.6s ease-in-out;
-}
-.inspiration-box span {
-    display: block;
-    font-family: 'Brush Script MT', cursive;
-    font-size: 30px;
-    color: #806517; /* Original text color */
-    margin-top: 10px;
-    transition: transform 0.6s ease-in-out;
-}
-.inspiration-box:hover img,
-.inspiration-box:hover span,
-.inspiration-box.active img,
-.inspiration-box.active span {
-    transform: translateY(-3px);
-}
-</style>
-
 <script>
     function toggleAnimation(element) {
-        element.classList.toggle("active");
+        element.classList.toggle("active"); // Toggles active state on click
     }
 </script>
