@@ -263,7 +263,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 </style>
 
 <div class="inspiration-section">
-    <div class="inspiration-box">
+    <div class="inspiration-box" onclick="toggleAnimation(this)">
         <img src="/images/Carcool.jpg" alt="Cool Car" style="cursor: crosshair;">
         <span>"Your time on earth is limited, so don't waste it by living someone else's life." <i>- SJ</i></span>
     </div>
@@ -286,7 +286,8 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     transform: scale(0.98);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.inspiration-box:hover {
+.inspiration-box:hover,
+.inspiration-box.active {
     transform: scale(1.02);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
@@ -304,7 +305,15 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     transition: transform 0.6s ease-in-out;
 }
 .inspiration-box:hover img,
-.inspiration-box:hover span {
+.inspiration-box:hover span,
+.inspiration-box.active img,
+.inspiration-box.active span {
     transform: translateY(-3px);
 }
 </style>
+
+<script>
+    function toggleAnimation(element) {
+        element.classList.toggle("active");
+    }
+</script>
