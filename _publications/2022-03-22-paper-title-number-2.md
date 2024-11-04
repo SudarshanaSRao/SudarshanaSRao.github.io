@@ -10,7 +10,7 @@ citation: 'Rao, S.S., Desai, S.R. (2022). Automatic Dent Detection in Automobile
 tags: 
   - Automation
   - Arduino Uno
-  - IR Sensors
+  - IR sensor
   - RCNN
 ---
 
