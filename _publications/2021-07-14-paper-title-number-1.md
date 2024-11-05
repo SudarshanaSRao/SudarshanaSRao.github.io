@@ -18,7 +18,7 @@ tags:
 <div style="display: flex; align-items: center; justify-content: center;">
     <img class="bounce" src="/images/traffic.jpeg" height="100" style="margin-right: 10px;">
     <a href="https://plu.mx/plum/a/?doi=10.2139%2Fssrn.3883931" 
-       data-popup="right" 
+       data-popup="bottom" 
        data-size="large" 
        class="plumx-plum-print-popup plum-liberty-theme" 
        data-site="plum" 
