@@ -15,7 +15,8 @@ tags:
   - Sensors
 ---
 
-<center><img class="bounce" src="/images/traffic.jpeg" height="100"></center>
+<center><img class="bounce" src="/images/traffic.jpeg" height="100"> &nbsp; <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script> <a href="https://plu.mx/plum/a/?doi=10.2139%2Fssrn.3883931" data-popup="right" data-size="large" class="plumx-plum-print-popup plum-liberty-theme" data-site="plum" data-hide-when-empty="true">Machine Learning based Traffic Light Detection and IR Sensor based Proximity Sensing for Autonomous Cars</a></center>
+
 <style>
       @keyframes bounce {
     0%, 20%, 50%, 80%, 100% { transform: rotate(0deg); }
