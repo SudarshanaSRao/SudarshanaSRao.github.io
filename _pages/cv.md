@@ -668,7 +668,192 @@ Awards
 
 Leadership & Involvement
 ==================
-* Student Volunteer of [**Mitsubishi Electric Cup**](https://mitsubishielectric.in/fa/mecup/index.php){:target="_blank"}- National Level Competition for Factory Automation held at BMSCE.
-* Project Coordinator of the department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium [**Phase Shift**](https://bmsce.ac.in/home/Phase-Shift){:target="_blank"} 2021, organized in BMSCE.
+<style>
+    .content-container17 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .thumbnail-container17 {
+        position: relative;
+        display: inline-block;
+        margin-left: 20px;
+        cursor: pointer; /* Makes the entire container clickable */
+    }
+    .thumbnail17 {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .popup-icon17 {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 18px;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        padding: 2px 5px;
+    }
+    #popup17 {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        align-items: center;
+        justify-content: center;
+    }
+    .popup-content17 {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .close-button17 {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    #popupImage17 {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+</style>
+
+<div class="content-container17">
+    <p>❖ Student Volunteer of <a href="https://mitsubishielectric.in/fa/mecup/index.php" target="_blank"><strong>Mitsubishi Electric Cup</strong></a>- National Level Competition for Factory Automation held at BMSCE.</p>
+    <div class="thumbnail-container17" onclick="openPopup17()">
+        <img src="/images/LOR-1.jpg" alt="LOR" class="thumbnail17"> 
+        <span class="popup-icon17">&#x2197;</span>
+    </div>
+</div>
+<div id="popup" onclick="closePopup17()">
+    <div class="popup-content17" onclick="event.stopPropagation()">
+        <span class="close-button17" onclick="closePopup17()">&times;</span>
+        <img id="popupImage17" src="/images/LOR-1.jpg" alt="Full size image"> 
+    </div>
+</div>
+
+<script>
+    function openPopup17() {
+        document.getElementById('popup17').style.display = 'flex';
+    }
+    function closePopup17() {
+        document.getElementById('popup17').style.display = 'none';
+    }
+</script>
+
+<style>
+    .content-container18 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .thumbnail-container18 {
+        position: relative;
+        display: inline-block;
+        margin-left: 20px;
+        cursor: pointer; /* Makes the entire container clickable */
+    }
+    .thumbnail18 {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .popup-icon18 {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        font-size: 18px;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        padding: 2px 5px;
+    }
+    #popup18 {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        align-items: center;
+        justify-content: center;
+    }
+    .popup-content18 {
+        position: relative;
+        width: 600px;
+        height: 600px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .close-button18 {
+        position: absolute;
+        top: 35px;
+        right: 5px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    #popupImage18 {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+</style>
+
+<div class="content-container18">
+    <p>❖ Project Coordinator of the department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium <a href="https://bmsce.ac.in/home/Phase-Shift" target="_blank"><strong>Phase Shift</strong></a> 2021, organized in BMSCE.</p>
+    <div class="thumbnail-container18" onclick="openPopup18()">
+        <img src="/images/PS21 Certificate.jpg" alt="Phase" class="thumbnail1">
+        <span class="popup-icon18">&#x2197;</span>
+    </div>
+</div>
+<div id="popup18" onclick="closePopup18()">
+    <div class="popup-content18" onclick="event.stopPropagation()">
+        <span class="close-button18" onclick="closePopup18()">&times;</span>
+        <img id="popupImage18" src="/images/PS21 Certificate.jpg" alt="Full size image Phase">
+    </div>
+</div>
+
+<script>
+    function openPopup18() {
+        document.getElementById('popup18').style.display = 'flex';
+    }
+    function closePopup18() {
+        document.getElementById('popup18').style.display = 'none';
+    }
+</script>
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/WVq641EbiAQ" title="BMSCE Phase Shift 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
