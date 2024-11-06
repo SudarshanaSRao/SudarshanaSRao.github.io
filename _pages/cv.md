@@ -837,7 +837,7 @@ Leadership & Involvement
 </style>
 
 <div class="content-container18">
-    <p>❖ Project Coordinator of the department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium <a href="https://bmsce.ac.in/home/Phase-Shift" target="_blank"><strong>Phase Shift</strong></a> <a href="https://phaseshift.bmsce.in/2021/"><strong>2021</strong></a>, organized in BMSCE.</p>
+    <p>❖ Project Coordinator of the department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium <a href="https://bmsce.ac.in/home/Phase-Shift" target="_blank"><strong>Phase Shift</strong></a> <a href="https://phaseshift.bmsce.in/2021/" target="_blank"><strong>2021</strong></a>, organized in BMSCE.</p>
     <div class="thumbnail-container18" onclick="openPopup18()">
         <img src="/images/PS21 Certificate.jpg" alt="Phase" class="thumbnail1">
         <span class="popup-icon18">&#x2197;</span>
