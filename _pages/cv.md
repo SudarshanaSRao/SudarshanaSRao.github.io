@@ -673,6 +673,7 @@ Leadership & Involvement
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: 5px;
     }
     .thumbnail-container17 {
         position: relative;
@@ -767,6 +768,7 @@ Leadership & Involvement
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: 5px;
     }
     .thumbnail-container18 {
         position: relative;
