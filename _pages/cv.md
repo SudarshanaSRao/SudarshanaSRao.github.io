@@ -746,10 +746,10 @@ Leadership & Involvement
         <span class="popup-icon17">&#x2197;</span>
     </div>
 </div>
-<div id="popup" onclick="closePopup17()">
+<div id="popup17" onclick="closePopup17()">
     <div class="popup-content17" onclick="event.stopPropagation()">
         <span class="close-button17" onclick="closePopup17()">&times;</span>
-        <img id="popupImage17" src="/images/LOR-1.jpg" alt="Full size image"> 
+        <img id="popupImage17" src="/images/LOR-1.jpg" alt="Full size image lor"> 
     </div>
 </div>
 
@@ -834,7 +834,7 @@ Leadership & Involvement
 </style>
 
 <div class="content-container18">
-    <p>❖ Project Coordinator of the department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium <a href="https://bmsce.ac.in/home/Phase-Shift" target="_blank"><strong>Phase Shift</strong></a> 2021, organized in BMSCE.</p>
+    <p>❖ Project Coordinator of the department of Electronics & Instrumentation Engineering during the National Level Annual Technical Symposium <a href="https://bmsce.ac.in/home/Phase-Shift" target="_blank"><strong>Phase Shift</strong></a> <a href="https://phaseshift.bmsce.in/2021/">2021</a>, organized in BMSCE.</p>
     <div class="thumbnail-container18" onclick="openPopup18()">
         <img src="/images/PS21 Certificate.jpg" alt="Phase" class="thumbnail1">
         <span class="popup-icon18">&#x2197;</span>
