@@ -17,7 +17,7 @@ collection: portfolio
 <div class="flexcontainer45">
   <div>
         <span>Created and deployed a (open-source contribution) <strong>Python PyPI package</strong> (library): - </span> <a href="https://pypi.org/project/steamstore-etl/" target="_blank" onclick="trackOutboundLink(this);">
-      <img height="50px" src="/images/py-pkgs-hex.png" width="50px">
+      <img class="pulse" height="50px" src="/images/py-pkgs-hex.png" width="50px">
     </a>
   </div>
 </div>
