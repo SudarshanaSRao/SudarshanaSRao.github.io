@@ -97,6 +97,22 @@ Online Courses
     <p class="text fade-in-text"><i>➤ Getting Started with Python</i></p>
     <img src="/images/umich_1.png">
   </div>
+    <div class="course">
+    <p class="text fade-in-text"><i>➤ ML/DL Workshop</i></p>
+    <img src="/images/ML DL workshop.png">
+  </div>
+      <div class="course">
+    <p class="text fade-in-text"><i>➤ IIT-Bombay Python</i></p>
+    <img src="/images/IITB python course.jpg">
+  </div>
+        <div class="course">
+    <p class="text fade-in-text"><i>➤ Robotic Process Automation</i></p>
+    <img src="/images/LearningPath_Certificate_07232021141549826.jpg">
+  </div>
+          <div class="course">
+    <p class="text fade-in-text"><i>➤ Smart Room with Alexa</i></p>
+    <img src="/images/Smart room with alexa.jpg">
+  </div>
 </div>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
