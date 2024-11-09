@@ -1,5 +1,5 @@
 ---
-title: 🕹️"Steam Sales Analysis"
+title: "🕹️Steam Sales Analysis"
 tags: 
   - Data pipeline
   - ETL
