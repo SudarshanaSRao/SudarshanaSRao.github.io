@@ -1,6 +1,6 @@
 ---
 title: "🧞QuizGenie"
-excerpt: "<img height='500'  width='500' src='/images/implementation.png'>"
+excerpt: "<img height='500'  width='500' src='/images/implementation.png' style='cursor: crosshair;'>"
 collection: portfolio
 tags: 
   - Prompt-engineering
