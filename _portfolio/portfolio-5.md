@@ -1,6 +1,6 @@
 ---
 title: "🤏Deep Learning based American Sign Language Recognition"
-excerpt: "<img height='500'  width='500' src='/images/preprocess.png'>"
+excerpt: "<img height='500'  width='500' src='/images/preprocess.png' style='cursor: crosshair;'>"
 collection: portfolio
 tags: 
   - Deep Learning
