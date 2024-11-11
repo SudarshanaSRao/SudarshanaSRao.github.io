@@ -10,7 +10,7 @@ tags:
   - MySQL
   - Automation
   - Data Analytics
-excerpt: "<img src='/images/steamstore-etl.drawio.png'>"
+excerpt: "<img src='/images/steamstore-etl.drawio.png' style="cursor: crosshair;">"
 collection: portfolio
 ---
 
