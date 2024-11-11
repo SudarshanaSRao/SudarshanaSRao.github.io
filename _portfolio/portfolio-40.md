@@ -1,6 +1,6 @@
 ---
 title: "👨‍💻Promptimizer"
-excerpt: "<img height='500'  width='500' src='/images/blockchain.png'>"
+excerpt: "<img height='500'  width='500' src='/images/blockchain.png' style='cursor: crosshair;'>"
 collection: portfolio
 tags: 
   - Multi-agentic workflow
