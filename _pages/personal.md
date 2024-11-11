@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function() {
 The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻‍👧🏻‍👦🏻!!!! 
 
 <div class="container1">
-  <img src="/images/femily.jpg" class="image1">
+  <img src="/images/femily.jpg" class="image1" style="cursor: crosshair;">
 </div>
 <style>
   .container1 {
