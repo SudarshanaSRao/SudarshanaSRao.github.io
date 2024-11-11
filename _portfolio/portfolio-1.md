@@ -1,6 +1,6 @@
 ---
 title: "🗣️Data Visualization Assistant"
-excerpt: "<img src='/images/Flowchart.png'>"
+excerpt: "<img src='/images/Flowchart.png' style='cursor: crosshair;'>"
 collection: portfolio
 tags: 
   - Web app
