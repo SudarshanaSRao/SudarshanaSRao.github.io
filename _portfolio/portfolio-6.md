@@ -1,6 +1,6 @@
 ---
 title: "🦹Smart Burglar Alarm"
-excerpt: '<br><img src="/images/brug1.gif" height="500"  width="500">'
+excerpt: '<br><img src="/images/brug1.gif" height="500"  width="500" style='cursor: crosshair;'>'
 collection: portfolio
 tags: 
   - Python
