@@ -166,7 +166,7 @@ Education
 <div id="popup2" onclick="closePopup2()">
     <div class="popup-content2" onclick="event.stopPropagation()">
         <span class="close-button2" onclick="closePopup2()">&times;</span>
-        <img id="popupImage2" src="/images/Scanned Documents_page-0001.jpg" style="cursor: crosshair;">
+        <img id="popupImage2" src="/images/Scanned Documents_page-0001.jpg">
     </div>
 </div>
 
@@ -284,7 +284,7 @@ Education
 <div id="popup3" onclick="closePopup3()">
     <div class="popup-content3" onclick="event.stopPropagation()">
         <span class="close-button3" onclick="closePopup3()">&times;</span>
-        <img id="popupImage3" src="/images/Degree Certificate_page-0001.jpg" style="cursor: crosshair;">
+        <img id="popupImage3" src="/images/Degree Certificate_page-0001.jpg">
     </div>
 </div>
 
@@ -455,7 +455,7 @@ Work Experience
 <div id="popup4" onclick="closePopup4()">
     <div class="popup-content4" onclick="event.stopPropagation()">
         <span class="close-button4" onclick="closePopup4()">&times;</span>
-        <img id="popupImage4" src="/images/Internship_page-0001.jpg" style="cursor: crosshair;">
+        <img id="popupImage4" src="/images/Internship_page-0001.jpg">
     </div>
 </div>
 
@@ -559,7 +559,7 @@ Awards
 <div id="popup" onclick="closePopup()">
     <div class="popup-content" onclick="event.stopPropagation()">
         <span class="close-button" onclick="closePopup()">&times;</span>
-        <img id="popupImage" src="/images/Trophy.jpg" alt="Full size image" style="cursor: crosshair;"> 
+        <img id="popupImage" src="/images/Trophy.jpg" alt="Full size image"> 
     </div>
 </div>
 
@@ -653,7 +653,7 @@ Awards
 <div id="popup1" onclick="closePopup1()">
     <div class="popup-content1" onclick="event.stopPropagation()">
         <span class="close-button1" onclick="closePopup1()">&times;</span>
-        <img id="popupImage1" src="/images/Second PUC math.jpg" style="cursor: crosshair;" alt="Full size image PUC Math">
+        <img id="popupImage1" src="/images/Second PUC math.jpg" alt="Full size image PUC Math">
     </div>
 </div>
 
@@ -751,7 +751,7 @@ Leadership & Involvement
 <div id="popup17" onclick="closePopup17()">
     <div class="popup-content17" onclick="event.stopPropagation()">
         <span class="close-button17" onclick="closePopup17()">&times;</span>
-        <img id="popupImage17" src="/images/LOR-1.jpg" style="cursor: crosshair;" alt="Full size image lor"> 
+        <img id="popupImage17" src="/images/LOR-1.jpg" alt="Full size image lor"> 
     </div>
 </div>
 
@@ -846,7 +846,7 @@ Leadership & Involvement
 <div id="popup18" onclick="closePopup18()">
     <div class="popup-content18" onclick="event.stopPropagation()">
         <span class="close-button18" onclick="closePopup18()">&times;</span>
-        <img id="popupImage18" src="/images/PS21 Certificate.jpg" style="cursor: crosshair;" alt="Full size image Phase">
+        <img id="popupImage18" src="/images/PS21 Certificate.jpg" alt="Full size image Phase">
     </div>
 </div>
 
