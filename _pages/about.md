@@ -131,6 +131,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10px;
 }
 .shape-separator {
   display: flex;
