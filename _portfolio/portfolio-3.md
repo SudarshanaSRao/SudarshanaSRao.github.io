@@ -9,7 +9,7 @@ tags:
   - GenAI
 ---
 
-* Fine-tuned (supervised instruction) **LLaMA-3 8b, LLaMA-2 7b, Mistral 7b, T5, and BART** to generate FAQs based on the website’s content.
+* Fine-tuned (supervised instruction) **LLaMA-3 8b, LLaMA-2 7b, Mistral 7b, T5, and BART** to generate FAQs based on the website’s content. **HuggingFace** API calls were made to load the models, and **NLTK** tokenizer was used.
 
 <img src="/images/LLMwei.png" style="cursor: crosshair;">
 
