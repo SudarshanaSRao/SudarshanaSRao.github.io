@@ -10,6 +10,7 @@ tags:
   - LangChain
   - LLM
   - Streamlit GUI
+  - Vertex AI
 ---
 
 * Developed an **AI-powered and RAG-based** quiz platform using **Python, Langchain, and Google Gemini** to generate personalized quizzes dynamically from user-provided documents.
