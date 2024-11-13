@@ -29,7 +29,7 @@ collection: portfolio
   }
 </style>
 
-* Developed and implemented a comprehensive **ETL pipeline** for extracting, transforming, and loading game-related metadata, details, and sales figures from Steamspy and Steam APIs into a **MySQL database** on **Aiven Cloud**.
+* Developed and implemented a comprehensive **ETL pipeline** for extracting, transforming, and loading game-related metadata, details, and sales figures from Steamspy and Steam APIs (requests library) into a **MySQL database** on **Aiven Cloud**.
 
 <img src="/images/steam_logo_banner.jpg" style="cursor: crosshair;">
 
