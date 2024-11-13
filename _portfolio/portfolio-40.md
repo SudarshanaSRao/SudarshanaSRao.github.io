@@ -8,6 +8,7 @@ tags:
   - Prompt-engineering
   - LLM
   - Gradio
+  - CrewAI
 ---
 
 * Led the development of a **multi-agentic workflow** at the **AWS Gen-AI Loft** hackathon, iteratively optimizing prompts to solve [_LeetCode hard problems_](https://www.kaggle.com/datasets/akshatsharma0610/leetcode-all-hard-problems-dataset){:target="_blank"}, enabling automatic conversion of any prompt into an optimized prompt (with task, context, example input & output).
