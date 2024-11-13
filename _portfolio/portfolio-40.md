@@ -11,7 +11,7 @@ tags:
   - CrewAI
 ---
 
-* Led the development of a **multi-agentic workflow** at the **AWS Gen-AI Loft** hackathon, iteratively optimizing prompts to solve [_LeetCode hard problems_](https://www.kaggle.com/datasets/akshatsharma0610/leetcode-all-hard-problems-dataset){:target="_blank"}, enabling automatic conversion of any prompt into an optimized prompt (with task, context, example input & output).
+* Led the development of a **multi-agentic workflow** using **CrewAI** at the **AWS Gen-AI Loft** hackathon, iteratively optimizing prompts to solve [_LeetCode hard problems_](https://www.kaggle.com/datasets/akshatsharma0610/leetcode-all-hard-problems-dataset){:target="_blank"}, enabling automatic conversion of any prompt into an optimized prompt (with task, context, example input & output).
 
 <img height="500" width="500" src="/images/prompt1.png" style="cursor: crosshair;">
 
