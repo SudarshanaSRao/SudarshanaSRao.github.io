@@ -317,14 +317,29 @@ Education
 Skills
 ==================
 * ### ⚙️ Programming Languages
-  * Python  \|  SQL  \|  MySQL  \|  MongoDB Atlas  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML  \|  PostgreSQL  \|  ESRI ArcGIS  \|  BigQuery  \|  UiPath studio (Robotics Process Automation) 
+  * Python  \|  SQL  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML  
 
-* ### 🏗️ ML Frameworks & Libraries
-  * Streamlit GUI  \|  Beautiful Soup  \|  PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib  \|  Seaborn  \|  Pandas  \|  HuggingFace  \|  Kaggle  \|  LangChain  \|  OpenCV  \|  Gradio
+* ### 📥 Databases (Relational & non-relational)
+  * MS SQL Server (SSMS)  \|  MySQL  \|  MongoDB Atlas (NoSQL)  \|  PostgreSQL PostGIS  \|  ESRI ArcGIS  \|  BigQuery  \|  ChromaDB
 
-* ### 🛠️ Tools
-  * Git  \|  MS Azure  \|  Google Cloud Platform (GCP)  \|  MS Office  \|  LLMOps  \|  MLOps  \|  DataOps  \|  AIOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  CI/CD  \|  Tableau  \|  LATEX  \|  Data Structues and Algorithms  \|  ETL  \|  Power BI  \|  Docker  
+* ### 💹 Data Visualization Tools
+  * Power BI  \|  Tableau 
 
+* ### 🏗️ Frameworks & Libraries
+  * PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib  \|  Seaborn  \|  Pandas  \|  LangChain  \|  OpenCV  \|  Streamlit GUI  \|  Beautiful Soup  \|  Gradio GUI  \|  CrewAI  \|  Natural Language Toolkit (NLTK)
+
+* ### 💾 APIs
+  * HuggingFace  \|  Kaggle
+
+* ## ☁️ Cloud Platforms
+  * MS Azure  \|  Google Cloud Platform (GCP)  \|  Aiven  \|  Vertex AI          
+
+* ### 🛠️ Software Tools
+  * Git  \|  MS (Excel) Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  LATEX  \|  Docker  \|  UiPath studio (Robotics Process Automation)
+ 
+* ### 📠 Technical
+  * LLMOps  \|  MLOps  \|  DataOps  \|  AIOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  CI/CD  \|  Data Structues and Algorithms  \|  ETL Pipelines
+  
 Work Experience
 ==================
 <div class="flexcontainer">
