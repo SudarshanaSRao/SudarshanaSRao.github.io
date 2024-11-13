@@ -316,28 +316,28 @@ Education
 
 Skills
 ==================
-* ### ⚙️ Programming Languages
+### ⚙️ Programming Languages
   * Python  \|  SQL  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML  
 
-* ### 📥 Databases (Relational & non-relational)
+### 📥 Databases (Relational & non-relational)
   * MS SQL Server (SSMS)  \|  MySQL  \|  MongoDB Atlas (NoSQL)  \|  PostgreSQL PostGIS  \|  ESRI ArcGIS  \|  BigQuery  \|  ChromaDB
 
-* ### 💹 Data Visualization Tools
+### 💹 Data Visualization Tools
   * Power BI  \|  Tableau 
 
-* ### 🏗️ Frameworks & Libraries
+### 🏗️ Frameworks & Libraries
   * PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib  \|  Seaborn  \|  Pandas  \|  LangChain  \|  OpenCV  \|  Streamlit GUI  \|  Beautiful Soup  \|  Gradio GUI  \|  CrewAI  \|  Natural Language Toolkit (NLTK)
 
-* ### 💾 APIs
+### 💾 APIs
   * HuggingFace  \|  Kaggle
 
-* ## ☁️ Cloud Platforms
+### ☁️ Cloud Platforms
   * MS Azure  \|  Google Cloud Platform (GCP)  \|  Aiven  \|  Vertex AI          
 
-* ### 🛠️ Software Tools
+### 🛠️ Software Tools
   * Git  \|  MS (Excel) Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  LATEX  \|  Docker  \|  UiPath studio (Robotics Process Automation)
  
-* ### 📠 Technical
+### 📠 Technical
   * LLMOps  \|  MLOps  \|  DataOps  \|  AIOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  CI/CD  \|  Data Structues and Algorithms  \|  ETL Pipelines
   
 Work Experience
