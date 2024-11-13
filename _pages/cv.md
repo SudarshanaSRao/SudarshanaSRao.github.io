@@ -326,7 +326,7 @@ Skills
   * Power BI  \|  Tableau 
 
 * ### 🏗️ Frameworks & Libraries
-  * PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib  \|  Seaborn  \|  Pandas  \|  LangChain  \|  OpenCV  \|  Streamlit GUI  \|  Beautiful Soup  \|  Gradio GUI  \|  CrewAI  \|  Natural Language Toolkit (NLTK)
+  * PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib  \|  Seaborn  \|  Pandas  \|  LangChain  \|  OpenCV  \|  Streamlit GUI  \|  Beautiful Soup  \|  Gradio GUI  \|  CrewAI  \|  Natural Language Toolkit (NLTK)  \|  Requests
 
 * ### 💾 APIs
   * HuggingFace  \|  Kaggle
