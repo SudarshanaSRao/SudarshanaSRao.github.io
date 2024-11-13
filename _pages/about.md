@@ -290,7 +290,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     .inspiration-box span {
         display: block;
         font-family: 'Brush Script MT', cursive;
-        font-size: 30px;
+        font-size: 34px;
         color: #806517; /* Original text color */
         margin-top: 10px;
         transition: transform 0.6s ease-in-out;
