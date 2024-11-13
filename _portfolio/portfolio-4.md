@@ -13,7 +13,7 @@ tags:
   - Vertex AI
 ---
 
-* Developed an **AI-powered and RAG-based** quiz platform using **Python, Langchain, and Google Gemini** to generate personalized quizzes dynamically from user-provided documents.
+* Developed an **AI-powered and RAG-based** quiz platform using **Python, LangChain, Vertex AI, and Google Gemini** to generate personalized quizzes dynamically from user-provided documents.
 * Implemented a user-friendly interface with **Streamlit**, enhancing accessibility and engagement for students and learners.
 
 <img height="500" width="500" src="/images/pdf_input.png" style="cursor: crosshair;">
