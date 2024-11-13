@@ -337,7 +337,7 @@ Skills
 * ### 🛠️ Software Tools
   * Git  \|  MS (Excel) Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  LATEX  \|  Docker  \|  UiPath studio (Robotics Process Automation)
  
-* ### 📠 Technical
+* ### 📠 Tech Stack
   * LLMOps  \|  MLOps  \|  DataOps  \|  AIOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  CI/CD  \|  Data Structues and Algorithms  \|  ETL Pipelines
   
 Work Experience
