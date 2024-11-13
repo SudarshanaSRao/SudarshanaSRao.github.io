@@ -30,6 +30,9 @@ collection: portfolio
 </style>
 
 * Developed and implemented a comprehensive **ETL pipeline** for extracting, transforming, and loading game-related metadata, details, and sales figures from Steamspy and Steam APIs into a **MySQL database** on **Aiven Cloud**.
+
+<img src="/images/steam_logo_banner.jpg" style="cursor: crosshair;">
+
 * Engineered data retrieval and processing with batch processing and bulk inserts to ensure accurate and efficient data ingestion and validation.
 * Designed **interactive Tableau dashboard** to visualize data dynamically, providing actionable insights into gaming trends and sales performance (showcasing **KPIs**).
 
