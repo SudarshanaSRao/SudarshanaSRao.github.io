@@ -319,7 +319,7 @@ Skills
 * ### ⚙️ Programming Languages
   * Python  \|  SQL  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML  
 
-* ### 📥 Databases (Relational & non-relational)
+* ### 📥 Databases (Relational, non-relational & vector)
   * MS SQL Server (SSMS)  \|  MySQL  \|  MongoDB Atlas (NoSQL)  \|  PostgreSQL PostGIS  \|  ESRI ArcGIS  \|  BigQuery  \|  ChromaDB
 
 * ### 💹 Data Visualization Tools
