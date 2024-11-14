@@ -318,25 +318,18 @@ Skills
 ==================
 * ### ⚙️ Programming Languages
   * Python  \|  SQL  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML  
-
 * ### 📥 Databases (Relational, non-relational & vector)
   * MS SQL Server (SSMS)  \|  MySQL  \|  MongoDB Atlas (NoSQL)  \|  PostgreSQL PostGIS  \|  ESRI ArcGIS  \|  BigQuery  \|  ChromaDB
-
 * ### 💹 Data Visualization Tools
   * Power BI  \|  Tableau 
-
 * ### 🏗️ Frameworks & Libraries
   * PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib  \|  Seaborn  \|  Pandas  \|  LangChain  \|  OpenCV  \|  Streamlit GUI  \|  Beautiful Soup  \|  Gradio GUI  \|  CrewAI  \|  Natural Language Toolkit (NLTK)  \|  Requests
-
 * ### 💾 APIs
   * HuggingFace  \|  Kaggle
-
 * ### ☁️ Cloud Platforms
   * MS Azure  \|  Google Cloud Platform (GCP)  \|  Aiven  \|  Vertex AI          
-
 * ### 🛠️ Software Tools
   * Git  \|  MS (Excel) Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  LATEX  \|  Docker  \|  UiPath studio (Robotics Process Automation)
- 
 * ### 📠 Tech Stack
   * LLMOps  \|  MLOps  \|  DataOps  \|  AIOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  CI/CD  \|  Data Structues and Algorithms  \|  ETL Pipelines
   
