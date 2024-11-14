@@ -317,21 +317,21 @@ Education
 Skills
 ==================
 * ### ⚙️ Programming Languages
-  * Python  \|  SQL  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML  
+  * Python  \|  SQL  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML  <br>  
 * ### 📥 Databases (Relational, non-relational & vector)
-  * MS SQL Server (SSMS)  \|  MySQL  \|  MongoDB Atlas (NoSQL)  \|  PostgreSQL PostGIS  \|  ESRI ArcGIS  \|  BigQuery  \|  ChromaDB
+  * MS SQL Server (SSMS)  \|  MySQL  \|  MongoDB Atlas (NoSQL)  \|  PostgreSQL PostGIS  \|  ESRI ArcGIS  \|  BigQuery  \|  ChromaDB  <br>
 * ### 💹 Data Visualization Tools
-  * Power BI  \|  Tableau 
+  * Power BI  \|  Tableau  <br> 
 * ### 🏗️ Frameworks & Libraries
-  * PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib  \|  Seaborn  \|  Pandas  \|  LangChain  \|  OpenCV  \|  Streamlit GUI  \|  Beautiful Soup  \|  Gradio GUI  \|  CrewAI  \|  Natural Language Toolkit (NLTK)  \|  Requests
+  * PyTorch  \|  TensorFlow  \| NumPy \|  Keras  \|  Scikit-learn  \|  SciPy  \|  Plotly  \|  Matplotlib  \|  Seaborn  \|  Pandas  \|  LangChain  \|  OpenCV  \|  Streamlit GUI  \|  Beautiful Soup  \|  Gradio GUI  \|  CrewAI  \|  Natural Language Toolkit (NLTK)  \|  Requests  <br>
 * ### 💾 APIs
-  * HuggingFace  \|  Kaggle
+  * HuggingFace  \|  Kaggle  <br>
 * ### ☁️ Cloud Platforms
-  * MS Azure  \|  Google Cloud Platform (GCP)  \|  Aiven  \|  Vertex AI          
+  * MS Azure  \|  Google Cloud Platform (GCP)  \|  Aiven  \|  Vertex AI  <br>          
 * ### 🛠️ Software Tools
-  * Git  \|  MS (Excel) Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  LATEX  \|  Docker  \|  UiPath studio (Robotics Process Automation)
+  * Git  \|  MS (Excel) Office  \|  Google Sheets  \|  Jupyter Notebook (Anaconda navigator)  \|  VS Code  \|  LATEX  \|  Docker  \|  UiPath studio (Robotics Process Automation)  <br>
 * ### 📠 Tech Stack
-  * LLMOps  \|  MLOps  \|  DataOps  \|  AIOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  CI/CD  \|  Data Structues and Algorithms  \|  ETL Pipelines
+  * LLMOps  \|  MLOps  \|  DataOps  \|  AIOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  CI/CD  \|  Data Structues and Algorithms  \|  ETL Pipelines  
   
 Work Experience
 ==================
