@@ -12,10 +12,10 @@ redirect_from:
 
 * [CSCI 561](https://github.com/SudarshanaSRao/CSCI561-AI_USC){:target="_blank"} Foundations of AI
 * [EE 541](https://github.com/SudarshanaSRao/EE541-Deep_Learning-USC){:target="_blank"}   A Computational Introduction to Deep Learning [✨I was awarded _extra credit_ for the [final project](https://sudarshanasrao.github.io/portfolio/portfolio-5/)✨]
-* [CSCI 585](https://github.com/SudarshanaSRao/USC_CSCI-585_Database-Systems){:target="_blank"} Database systems [✨I was the Course Producer during _Spring '24_ term✨]
+* [CSCI 585](https://github.com/SudarshanaSRao/USC_CSCI-585_Database-Systems){:target="_blank"} Database systems [🚀I was the Course Producer during _Spring '24_ term🚀]
 * [CSCI 499](https://github.com/SudarshanaSRao/CSCI-499_LMs-in-NLP_USC){:target="_blank"} Language Models in Natural Language Processing
 * [EE 559](https://github.com/SudarshanaSRao/EE559-Machine_Learning-USC){:target="_blank"}   Machine Learning
-* [EE 599](https://github.com/SudarshanaSRao/USC_EE-599_Robotics){:target="_blank"}   Robotic Mobility [✨My team’s [final project](https://www.youtube.com/watch?v=7GFFjOJgJMA){:target="_blank"} earned _second place_ in the cohort✨]
+* [EE 599](https://github.com/SudarshanaSRao/USC_EE-599_Robotics){:target="_blank"}   Robotic Mobility [🥈My team’s [final project](https://www.youtube.com/watch?v=7GFFjOJgJMA){:target="_blank"} earned _second place_ in the cohort🥈]
 
 Fundamental Courses
 ==================
