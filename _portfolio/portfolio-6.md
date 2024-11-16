@@ -13,6 +13,9 @@ tags:
 <img src="/images/brug2.gif" style="cursor: crosshair;">
 
 * Detected burglars in real time using **OpenCV2 library, Support Vector Machine, and Histogram of Oriented Gradient**.
+
+<img src="/images/prone.png" style="cursor: crosshair;">
+
 * As another line of defense, a **PIR sensor** interfaced with an **Arduino Uno board** was utilized for the exact cause to avoid false detection.
 
 <img src="/images/sudam.png" style="cursor: crosshair;">
