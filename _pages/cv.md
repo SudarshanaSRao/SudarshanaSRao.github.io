@@ -346,7 +346,7 @@ Work Experience
 ### Student worker at the University of Southern California, Los Angeles [October 2022-Present]
 🧑‍🔬 _{August 2024-Present}_
 * Researching and implementing **LLM** use cases in **Data Analytics** as a **Researcher**.
-* Launched an AI-powered app called [**Data Visualization Assistant**](https://sudarshanasrao.github.io/portfolio/portfolio-1/).
+* Launched an **AI-powered app** called [**Data Visualization Assistant**](https://sudarshanasrao.github.io/portfolio/portfolio-1/).
 * Integrated **Anthropic’s Claude** (LLM) to facilitate user interaction with data.   
 
 🧑‍🏫 _{January 2024-May 2024}_ 
