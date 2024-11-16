@@ -347,7 +347,7 @@ Work Experience
 🧑‍🔬 _{August 2024-Present}_
 * Researching and implementing **LLM** use cases in **Data Analytics** as a **Researcher**.
 * Launched an **AI-powered app**, [**Data Visualization Assistant**](https://sudarshanasrao.github.io/portfolio/portfolio-1/), with **Anthropic’s Claude** (LLM) integration to facilitate user interaction with data.
-* Developed a comprehensive end-to-end [**ETL pipeline**](https://sudarshanasrao.github.io/portfolio/portfolio-0/) of Steam video games data, created an interactive Tableau sales dashboard and deployed a Python PyPI package. 
+* Developed a comprehensive end-to-end [**ETL pipeline**](https://sudarshanasrao.github.io/portfolio/portfolio-0/) of Steam video games data, created an interactive **Tableau sales dashboard** and deployed a **Python PyPI package**. 
 
 🧑‍🏫 _{January 2024-May 2024}_ 
 * **Course Producer** for the **Database Systems (CSCI-585) course** in the [**Computer Science**](https://www.cs.usc.edu/){:target="_blank"} department under [**Prof. Saty**](https://www.linkedin.com/in/satychary/){:target="_blank"} [**Raghavachary's**](https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty){:target="_blank"} guidance.
