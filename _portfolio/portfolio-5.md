@@ -8,13 +8,14 @@ tags:
   - PyTorch
   - CNN
   - Image classification
+  - Kaggle
 ---
 <div style="text-align:center; margin-bottom: 20px;"><i><strong>✨Received extra credit for this project✨</strong></i></div>
 
 <img src="/images/test-dataset1.png" style="cursor: crosshair;">
 <img src="/images/dataset.png" style="cursor: crosshair;">
 
-* Developed three classes of Artificial Neural Network (ANN) models using the PyTorch framework to translate [_American Sign Language_](https://www.kaggle.com/datasets/grassknoted/asl-alphabet){:target="_blank"} into a text-based representation.
+* Developed three classes of Artificial Neural Network (ANN) models using the PyTorch framework to translate [_American Sign Language_](https://www.kaggle.com/datasets/grassknoted/asl-alphabet){:target="_blank"} (**Kaggle** dataset) into a text-based representation.
 
 <img src="/images/cnnarchitecture.jpg" style="cursor: crosshair;">
 
