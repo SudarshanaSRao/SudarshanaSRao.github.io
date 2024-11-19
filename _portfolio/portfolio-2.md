@@ -7,6 +7,7 @@ tags:
   - Python
   - EDA
   - Data Science
+  - Kaggle
 ---
 
 * Developed an interactive dashboard using **Tableau** with [_Kaggle's Olympic dataset_](https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals/data){:target="_blank"}.
