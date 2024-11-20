@@ -848,7 +848,7 @@ Leadership & Involvement
 </style>
 
 <div class="content-container57">
-    <p>❖ Participated in the “CyHack” hackathon on 26th May 2021</p>
+    <p>❖ Participated in the “CyHack” <strong>hackathon</strong> on 26th May 2021</p>
     <div class="thumbnail-container57" onclick="openPopup57()">
         <img src="/images/Hackathon.jpeg" alt="hack" class="thumbnail57"> 
         <span class="popup-icon57">&#x2197;</span>
@@ -944,7 +944,7 @@ Leadership & Involvement
 </style>
 
 <div class="content-container77">
-    <p>❖ Helped to create a website to support a societal cause.</p>
+    <p>❖ Helped to create a <strong>website</strong> to support a societal cause.</p>
     <div class="thumbnail-container77" onclick="openPopup77()">
         <img src="/images/Volunteering website.jpeg" alt="web" class="thumbnail77"> 
         <span class="popup-icon77">&#x2197;</span>
