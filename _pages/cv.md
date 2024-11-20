@@ -944,7 +944,7 @@ Leadership & Involvement
 </style>
 
 <div class="content-container77">
-    <p>❖ Helped to create a <strong>website</strong> to support a societal cause.</p>
+    <p>❖ Volunteered to create a <strong>website</strong> to support a societal cause.</p>
     <div class="thumbnail-container77" onclick="openPopup77()">
         <img src="/images/Volunteering website.jpeg" alt="web" class="thumbnail77"> 
         <span class="popup-icon77">&#x2197;</span>
