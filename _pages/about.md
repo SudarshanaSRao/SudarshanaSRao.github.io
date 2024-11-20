@@ -46,7 +46,7 @@ redirect_from:
 }
 </style>
 
-<span class="usc">Welcome to my portfolio website's homepage</span> 😄 I am a recent MS graduate from the University of Southern California. I am fascinated by the ability of machines to learn from data and uncover patterns that assist us in making data-driven decisions. I am eager to start my career and learn from experienced teams. 
+<span class="usc">Welcome to my portfolio website's homepage</span> 😄 I am a recent MS graduate from the University of Southern California. I am fascinated by the ability of machines to learn from data and uncover patterns that assist us in making data-driven decisions. I actively compete in technical hackathons and participate in webinars, tech talks (seminars), and workshops. I am eager to start my career and learn from experienced teams. 
 <style>
   @keyframes usc-colors {
     0% {
