@@ -775,6 +775,198 @@ Leadership & Involvement
 </script>
 
 <style>
+    .content-container57 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+    .thumbnail-container57 {
+        position: relative;
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        cursor: pointer; /* Makes the entire container clickable */
+    }
+    .thumbnail57 {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .popup-icon57 {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 18px;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        padding: 2px 5px;
+    }
+    #popup57 {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        align-items: center;
+        justify-content: center;
+    }
+    .popup-content57 {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .close-button57 {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    #popupImage57 {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+</style>
+
+<div class="content-container57">
+    <p>❖ Participated in the “CyHack” hackathon on 26th May 2021</p>
+    <div class="thumbnail-container57" onclick="openPopup57()">
+        <img src="/images/Hackathon.jpeg" alt="hack" class="thumbnail57"> 
+        <span class="popup-icon57">&#x2197;</span>
+    </div>
+</div>
+<div id="popup57" onclick="closePopup57()">
+    <div class="popup-content57" onclick="event.stopPropagation()">
+        <span class="close-button57" onclick="closePopup57()">&times;</span>
+        <img id="popupImage57" src="/images/Hackathon.jpeg" alt="Full size image hack"> 
+    </div>
+</div>
+
+<script>
+    function openPopup57() {
+        document.getElementById('popup57').style.display = 'flex';
+    }
+    function closePopup57() {
+        document.getElementById('popup57').style.display = 'none';
+    }
+</script>
+
+<style>
+    .content-container77 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+    .thumbnail-container77 {
+        position: relative;
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        cursor: pointer; /* Makes the entire container clickable */
+    }
+    .thumbnail77 {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .popup-icon77 {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 18px;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        padding: 2px 5px;
+    }
+    #popup77 {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        align-items: center;
+        justify-content: center;
+    }
+    .popup-content77 {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .close-button77 {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    #popupImage77 {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+</style>
+
+<div class="content-container77">
+    <p>❖ Helped to create a website to support a societal cause.</p>
+    <div class="thumbnail-container77" onclick="openPopup77()">
+        <img src="/images/Volunteering website.jpeg" alt="web" class="thumbnail77"> 
+        <span class="popup-icon77">&#x2197;</span>
+    </div>
+</div>
+<div id="popup77" onclick="closePopup77()">
+    <div class="popup-content77" onclick="event.stopPropagation()">
+        <span class="close-button77" onclick="closePopup77()">&times;</span>
+        <img id="popupImage77" src="/images/Volunteering website.jpeg" alt="Full size image web"> 
+    </div>
+</div>
+
+<script>
+    function openPopup77() {
+        document.getElementById('popup77').style.display = 'flex';
+    }
+    function closePopup77() {
+        document.getElementById('popup77').style.display = 'none';
+    }
+</script>
+
+<style>
     .content-container18 {
         display: flex;
         align-items: center;
