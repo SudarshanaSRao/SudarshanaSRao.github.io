@@ -31,7 +31,7 @@ tags:
 <div class="flexcontainer">
   <div>
         <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/EE541-final_project-USC" target="_blank" onclick="trackOutboundLink(this);">
-      <img class="pulse" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
+      <img class="pulse" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="60px">
     </a>
   </div>
 </div>
