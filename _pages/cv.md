@@ -848,7 +848,7 @@ Leadership & Involvement
 </style>
 
 <div class="content-container57">
-    <p>❖ Participated in the “CyHack” <strong>hackathon</strong> on 26th May 2021</p>
+    <p>❖ Participated in the “CyHack” <strong>hackathon</strong> on 26<sup>th</sup> May 2021</p>
     <div class="thumbnail-container57" onclick="openPopup57()">
         <img src="/images/Hackathon.jpeg" alt="hack" class="thumbnail57"> 
         <span class="popup-icon57">&#x2197;</span>
