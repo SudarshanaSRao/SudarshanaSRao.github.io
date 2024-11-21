@@ -14,6 +14,7 @@ tags:
 
 <img src="/images/test-dataset1.png" style="cursor: crosshair;">
 <img src="/images/dataset.png" style="cursor: crosshair;">
+<img src="/images/nfmil.png" style="cursor: crosshair;">
 
 * Developed three classes of Artificial Neural Network (ANN) models using the PyTorch framework to translate [_American Sign Language_](https://www.kaggle.com/datasets/grassknoted/asl-alphabet){:target="_blank"} (**Kaggle** dataset) into a text-based representation.
 
@@ -25,6 +26,7 @@ tags:
 * All five models were tested using images captured in real-time and achieved an accuracy of above **90%**.
 
 <img src="/images/googlenet_training.png" style="cursor: crosshair;">
+<img src="/images/matrixco.png" style="cursor: crosshair;">
 
 <div class="flexcontainer">
   <div>
@@ -33,6 +35,15 @@ tags:
     </a>
   </div>
 </div>
+
+<div class="flexcontainer">
+  <div>
+        <span>✦ <strong>Medium blog:</strong></span> <a href="https://medium.com/@sudarshanasrao/bridging-communication-gaps-using-deep-learning-for-american-sign-language-recognition-34bbd089f465" target="_blank" onclick="trackOutboundLink(this);">
+      <img class="pulse" height="200px" src="/images/unmanned.png" width="200px">
+    </a>
+  </div>
+</div>
+
 <style>
 @keyframes pulse {
   0% {
