@@ -207,6 +207,14 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
 <div class="flexcontainer">
   <div>
+    <span>✦ An informative blog post article on my <strong>Deep Learning based American Sign Language Recognition</strong> project:</span> <a href="https://medium.com/@sudarshanasrao/bridging-communication-gaps-using-deep-learning-for-american-sign-language-recognition-34bbd089f465" target="_blank" onclick="trackOutboundLink(this);">
+      <img class="pulse" height="30px" src="/images/medlogo.png" width="80px">
+    </a>
+  </div>
+</div>
+
+<div class="flexcontainer">
+  <div>
     <span>✦ An article on my <strong>QuizGenie</strong> project:</span> <a href="https://medium.com/@sudarshanasrao/quizgenie-e3f375287f7e" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" height="30px" src="/images/quizg.jpeg" width="80px">
     </a>
