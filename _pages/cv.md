@@ -326,6 +326,13 @@ Skills
       max-width: 90%;
       margin: auto;
     }
+      .tech-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      max-width: 90%;
+    }
     .tech-icon {
       width: 40px;
       height: 40px;
@@ -361,7 +368,7 @@ Skills
 * **📠 Tech Stack**
   * LLMOps  \|  MLOps  \|  DataOps  \|  AIOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  CI/CD  \|  Data Structures and Algorithms  \|  ETL Pipelines  
 
-<div>
+<div class="tech-container">
   <img class="tech-icon" alt="Python" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
   <img class="tech-icon" alt="R" src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" />
   <img class="tech-icon" alt="C++" src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
