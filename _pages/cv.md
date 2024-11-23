@@ -329,21 +329,23 @@ Skills
 </div>
 
 <style>
-/* Flex container for icons */
-#tech-icons {
 .tech-icons-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  margin: 0; /* Removes space above and below */
-  opacity: 0;
-  transform: translateY(50px);
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 20px; /* Adjust as needed for spacing */
+  opacity: 0; /* Hidden by default */
+  transform: translateY(50px); /* Slide up effect */
   transition: all 0.8s ease-in-out;
+  text-align: center;
 }
 .tech-icons-container.scrolled {
-  opacity: 1;
+  opacity: 1; /* Visible when scrolled into view */
   transform: translateY(0);
 }
 img {
