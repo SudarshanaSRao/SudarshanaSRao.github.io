@@ -323,14 +323,6 @@ Skills
       justify-content: center;
       align-items: center;
       gap: 20px;
-      background: #fff;
-      opacity: 0;
-      transform: translateY(50px);
-      transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
-    }
-    .tech-icons-container.visible {
-      opacity: 1;
-      transform: translateY(0);
     }
     .tech-icon {
       width: 40px;
