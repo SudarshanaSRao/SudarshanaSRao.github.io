@@ -357,20 +357,24 @@ Skills
 </style>
 
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
   const techIcons = document.getElementById("tech-icons");
-  const observer = new IntersectionObserver(
-    (entries) => {
+  // Check if IntersectionObserver is supported
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           techIcons.classList.add("scrolled");
         } else {
-          techIcons.classList.remove("scrolled"); // For bi-directional animation
+          techIcons.classList.remove("scrolled");
         }
       });
-    },
-  );
-  observer.observe(techIcons);
+    });
+    observer.observe(techIcons);
+  } else {
+    // Fallback for browsers that do not support IntersectionObserver
+    techIcons.classList.add("scrolled");
+  }
 });
 </script>
 * **⚙️ Programming Languages**
