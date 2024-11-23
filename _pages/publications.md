@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: 
+excerpt: "Publications📜" 
 permalink: /publications/
 author_profile: true
 ---
