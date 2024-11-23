@@ -331,6 +331,7 @@ Skills
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
+      gap: 5px;
       max-width: 90%;
     }
     .tech-icon {
@@ -350,6 +351,8 @@ Skills
   <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" />
   <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" />
   <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" />
+  <img class="tech-icon" alt="msazure" src="https://miro.medium.com/v2/resize:fit:526/0*cRQxJXXdoxsEpeYH.png" /> 
+  <img class="tech-icon" alt="streamlit" src="https://cdn.thenewstack.io/media/2021/11/28de6660-screen-shot-2021-11-29-at-6.46.11-am.png" />
 </div>
 * **⚙️ Programming Languages**
   * Python  \|  SQL  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML   
