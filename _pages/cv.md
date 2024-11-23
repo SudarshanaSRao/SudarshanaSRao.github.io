@@ -323,9 +323,6 @@ Skills
       justify-content: center;
       align-items: center;
       gap: 20px;
-      width: 100%;
-      padding: 20px;
-      margin-top: 50vh; /* Position it halfway down the page */
       background: #fff;
       opacity: 0;
       transform: translateY(50px);
@@ -353,35 +350,6 @@ Skills
   <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" />
   <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" />
 </div>
-
-<script>
-   // Function to check if an element is in viewport
-    function isInViewport(element) {
-      const rect = element.getBoundingClientRect();
-      return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-      );
-    }
-    // Function to handle scroll and animation
-    function handleScroll() {
-      const container = document.querySelector('.tech-icons-container');
-      if (isInViewport(container)) {
-        container.classList.add('visible');
-        // Remove scroll listener once animation is triggered
-        window.removeEventListener('scroll', handleScroll);
-      }
-    }
-    // Add scroll event listener
-    window.addEventListener('scroll', handleScroll);
-    // Check initial position
-    document.addEventListener('DOMContentLoaded', () => {
-      handleScroll();
-    });
-</script>
-
 * **⚙️ Programming Languages**
   * Python  \|  SQL  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML   
 * **📥 Databases (Relational, non-relational & vector)**
