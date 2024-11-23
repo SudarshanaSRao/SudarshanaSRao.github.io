@@ -325,14 +325,13 @@ Skills
       gap: 20px;
       width: 100%;
       padding: 20px;
-      min-height: 200px;
-      /* Initial state */
+      margin-top: 50vh; /* Position it halfway down the page */
+      background: #fff;
       opacity: 0;
       transform: translateY(50px);
-      transition: all 0.8s ease-in-out;
+      transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
     }
-    /* Animation class */
-    .tech-icons-container.scrolled {
+    .tech-icons-container.visible {
       opacity: 1;
       transform: translateY(0);
     }
@@ -340,7 +339,6 @@ Skills
       width: 40px;
       height: 40px;
       object-fit: contain;
-      cursor: default;
     }
 </style>
 
@@ -357,30 +355,31 @@ Skills
 </div>
 
 <script>
-  // Wait for the DOM to be fully loaded
-  document.addEventListener('DOMContentLoaded', () => {
-    const techIcons = document.querySelector('.tech-icons-container');
-    // Create and configure the Intersection Observer
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('scrolled');
-          } else {
-            entry.target.classList.remove('scrolled');
-          }
-        });
-      },
-    );
-    // Start observing the tech icons container
-    if (techIcons) {
-      observer.observe(techIcons);
+   // Function to check if an element is in viewport
+    function isInViewport(element) {
+      const rect = element.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
     }
-    // Fallback for browsers that don't support IntersectionObserver
-    if (!window.IntersectionObserver) {
-      techIcons.classList.add('scrolled');
+    // Function to handle scroll and animation
+    function handleScroll() {
+      const container = document.querySelector('.tech-icons-container');
+      if (isInViewport(container)) {
+        container.classList.add('visible');
+        // Remove scroll listener once animation is triggered
+        window.removeEventListener('scroll', handleScroll);
+      }
     }
-  });
+    // Add scroll event listener
+    window.addEventListener('scroll', handleScroll);
+    // Check initial position
+    document.addEventListener('DOMContentLoaded', () => {
+      handleScroll();
+    });
 </script>
 
 * **⚙️ Programming Languages**
