@@ -316,63 +316,71 @@ Education
 
 Skills
 ==================
-<div id="tech-icons" class="tech-icons-container">
-  <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40" />
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40" />
-  <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40" />
-  <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" />
-</div>
-
 <style>
-.tech-icons-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 20px; /* Adjust as needed for spacing */
-  opacity: 0; /* Hidden by default */
-  transform: translateY(50px); /* Slide up effect */
-  transition: all 0.8s ease-in-out;
-  text-align: center;
-}
-.tech-icons-container.scrolled {
-  opacity: 1; /* Visible when scrolled into view */
-  transform: translateY(0);
-}
-img {
-  cursor: default;
-}
+    .tech-icons-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+      padding: 20px;
+      min-height: 200px;
+      /* Initial state */
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 0.8s ease-in-out;
+    }
+    /* Animation class */
+    .tech-icons-container.scrolled {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .tech-icon {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      cursor: default;
+    }
 </style>
 
+<div class="tech-icons-container">
+  <img class="tech-icon" src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" />
+  <img class="tech-icon" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" />
+  <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" />
+  <img class="tech-icon" src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" />
+  <img class="tech-icon" src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" />
+  <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" />
+  <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" />
+  <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" />
+  <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" />
+</div>
+
 <script>
-document.addEventListener("DOMContentLoaded", () => {
-  const techIcons = document.getElementById("tech-icons");
-  // Check if IntersectionObserver is supported
-  if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          techIcons.classList.add("scrolled");
-        } else {
-          techIcons.classList.remove("scrolled");
-        }
-      });
-    });
-    observer.observe(techIcons);
-  } else {
-    // Fallback for browsers that do not support IntersectionObserver
-    techIcons.classList.add("scrolled");
-  }
-});
+  // Wait for the DOM to be fully loaded
+  document.addEventListener('DOMContentLoaded', () => {
+    const techIcons = document.querySelector('.tech-icons-container');
+    // Create and configure the Intersection Observer
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('scrolled');
+          } else {
+            entry.target.classList.remove('scrolled');
+          }
+        });
+      },
+    );
+    // Start observing the tech icons container
+    if (techIcons) {
+      observer.observe(techIcons);
+    }
+    // Fallback for browsers that don't support IntersectionObserver
+    if (!window.IntersectionObserver) {
+      techIcons.classList.add('scrolled');
+    }
+  });
 </script>
 
 * **⚙️ Programming Languages**
