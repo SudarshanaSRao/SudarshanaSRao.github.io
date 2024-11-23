@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Adventurous Me!🤸‍♂️"
+excerpt: "Adventurous Me!🤸‍♂️"
 permalink: /personal/
 author_profile: true
 redirect_from:
