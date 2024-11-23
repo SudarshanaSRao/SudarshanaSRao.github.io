@@ -326,18 +326,17 @@ Skills
       max-width: 90%;
       margin: auto;
     }
-      .tech-container {
+    .tech-container {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
       gap: 5px;
       max-width: 90%;
       object-fit: contain;
+      margin-bottom: 20px;
     }
     .tech-icon {
-      width: 40px;
-      height: 40px;
+      width: 50px;
+      height: 50px;
       object-fit: contain;
     }
 </style>
