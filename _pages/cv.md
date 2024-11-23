@@ -316,61 +316,38 @@ Education
 
 Skills
 ==================
-<section id="tech-icons">
-  <a href="https://opencv.org/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40" />
-  </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" />
-  </a>
-  <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40" />
-  </a>
-  <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer">
-    <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40" />
-  </a>
-  <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40" />
-  </a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40" />
-  </a>
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40" />
-  </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" />
-  </a>
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" />
-  </a>
-  <img alt="msazure" src="https://miro.medium.com/v2/resize:fit:526/0*cRQxJXXdoxsEpeYH.png" height="90px" width="100px" />
-  <img alt="streamlit" src="https://cdn.thenewstack.io/media/2021/11/28de6660-screen-shot-2021-11-29-at-6.46.11-am.png" height="70px" width="90px" />
-</section>
+<div id="tech-icons" class="tech-icons-container">
+  <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40" />
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40" />
+  <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40" />
+  <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" />
+</div>
 
 <style>
 /* Flex container for icons */
 #tech-icons {
+.tech-icons-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; /* Wrap icons to the next line on smaller screens */
-  gap: 10px; /* Space between icons */
-  padding: 0;
-  margin: 0;
-  overflow: hidden; /* Prevent overflow */
+  gap: 20px;
+  margin: 0; /* Removes space above and below */
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-in-out;
 }
-/* Icon styling */
-#tech-icons img {
-  opacity: 0; /* Start hidden */
-  transform: translateY(20px); /* Initial position slightly below */
-  transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out; /* Smooth animation */
-  cursor: default; /* Default cursor (no pointer) */
+.tech-icons-container.scrolled {
+  opacity: 1;
+  transform: translateY(0);
 }
-/* Animation triggered when section is in view */
-#tech-icons.scrolled img {
-  opacity: 1; /* Fully visible */
-  transform: translateY(0); /* Reset position */
+img {
+  cursor: default;
 }
 </style>
 
@@ -395,6 +372,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 </script>
+
 * **⚙️ Programming Languages**
   * Python  \|  SQL  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML   
 * **📥 Databases (Relational, non-relational & vector)**
