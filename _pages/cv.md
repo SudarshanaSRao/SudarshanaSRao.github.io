@@ -326,14 +326,14 @@ Skills
       max-width: 90%;
       margin: auto;
     }
-    .tech-container {
+/*     .tech-container {
       display: flex;
       flex-wrap: wrap;
       gap: 5px;
       max-width: 90%;
       object-fit: contain;
       margin-bottom: 20px;
-    }
+    } */
     .tech-icon {
       width: 50px;
       height: 50px;
@@ -356,7 +356,7 @@ Skills
 * **⚙️ Programming Languages**
   * ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  \|  SQL  \|  ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)  \|  C  \|  ![HTML](https://img.shields.io/badge/HTML5-black?logo=html5&amp;amp;style=plastic)  \|  CSS  \|  ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&amp;amp;style=plastic)  \|  ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)  \|  MATLAB  \| XML   
 * **📥 Databases (Relational, non-relational & vector)**
-  * MS SQL Server (SSMS)  \|  ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)  \|  MongoDB Atlas (NoSQL)  \|  ![Postgre](https://img.shields.io/badge/postgre-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)SQL PostGIS  \|  ESRI ArcGIS  \|  BigQuery  \|  ChromaDB  
+  * MS SQL Server (SSMS)  \|  ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)  \|  MongoDB Atlas (NoSQL)  \|  ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) PostGIS  \|  ESRI ArcGIS  \|  BigQuery  \|  ChromaDB  
 * **💹 Data Visualization Tools**
   * Power BI  \|  ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)  
 * **🏗️ Frameworks & Libraries**
@@ -366,11 +366,11 @@ Skills
 * **☁️ Cloud Platforms**
   * MS Azure  \|  ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) Platform (GCP)  \|  Aiven  \|  Vertex AI           
 * **🛠️ Software Tools**
-  * Git  \|  MS (Excel) Office  \|  Google Sheets  \|  ![Jupyter Notebook](https://img.shields.io/badge/Jupyter Notebook-black?logo=jupyter&amp;amp;style=plastic) (![Anaconda navigator](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white))  \|  VS Code  \|  ![LATEX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)  \|  Docker  \|  UiPath studio (Robotics Process Automation)  
+  * Git  \|  MS (Excel) Office  \|  Google Sheets  \|  ![Jupyter Notebook](https://img.shields.io/badge/Jupyter Notebook-black?logo=jupyter&amp;amp;style=plastic) ![Anaconda navigator](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)  \|  VS Code  \|  ![LATEX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)  \|  Docker  \|  UiPath studio (Robotics Process Automation)  
 * **📠 Tech Stack**
   * LLMOps  \|  MLOps  \|  DataOps  \|  AIOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  ![CI-CD](https://img.shields.io/badge/CI-CD-orange?style=for-the-badge)  \|  Data Structures and Algorithms  \|  ETL Pipelines  
 
-<div class="tech-container">
+<div class="tech-icons-container">
   <img alt="LINUX" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img alt="googlecolab" src="https://img.shields.io/badge/Google Colab-black?logo=googlecolab&amp;amp;style=plastic" />
   <img alt="github-actions" src="https://img.shields.io/badge/Github%20Actions-black?logo=github-actions&amp;amp;style=plastic" />
