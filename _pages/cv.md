@@ -356,7 +356,7 @@ Skills
   <img class="tech-icon" alt="streamlit" src="https://cdn.thenewstack.io/media/2021/11/28de6660-screen-shot-2021-11-29-at-6.46.11-am.png" />
 </div>
 * **⚙️ Programming Languages**
-  * ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  \|  SQL  \|  ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)  \|  C  \|  ![HTML](https://img.shields.io/badge/HTML5-black?logo=html5&amp;amp;style=plastic)  \|  CSS  \|  ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&amp;amp;style=plastic)  \|  ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)  \|  MATLAB  \| XML   
+  * ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  \|  SQL  \|  ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)  \|  C  \|  ![HTML](https://img.shields.io/badge/HTML-black?logo=html5&amp;amp;style=plastic)  \|  CSS  \|  ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&amp;amp;style=plastic)  \|  ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)  \|  MATLAB  \| XML   
 * **📥 Databases (Relational, non-relational & vector)**
   * MS SQL Server (SSMS)  \|  ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)  \|  MongoDB Atlas (NoSQL)  \|  ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) PostGIS  \|  ESRI ArcGIS  \|  BigQuery  \|  ChromaDB  
 * **💹 Data Visualization Tools**
