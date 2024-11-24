@@ -354,7 +354,7 @@ Skills
   <img class="tech-icon" alt="streamlit" src="https://cdn.thenewstack.io/media/2021/11/28de6660-screen-shot-2021-11-29-at-6.46.11-am.png" />
 </div>
 * **⚙️ Programming Languages**
-  * Python  \|  SQL  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML   
+  * ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  \|  SQL  \|  C++  \|  C  \|  HTML  \|  CSS  \|  JavaScript  \|  R  \|  MATLAB  \| XML   
 * **📥 Databases (Relational, non-relational & vector)**
   * MS SQL Server (SSMS)  \|  MySQL  \|  MongoDB Atlas (NoSQL)  \|  PostgreSQL PostGIS  \|  ESRI ArcGIS  \|  BigQuery  \|  ChromaDB  
 * **💹 Data Visualization Tools**
