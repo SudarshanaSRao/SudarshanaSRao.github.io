@@ -326,14 +326,16 @@ Skills
       max-width: 90%;
       margin: auto;
     }
-/*     .tech-container {
+     .tech-container {
       display: flex;
       flex-wrap: wrap;
-      gap: 5px;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
       max-width: 90%;
       object-fit: contain;
       margin-bottom: 20px;
-    } */
+    } 
     .tech-icon {
       width: 50px;
       height: 50px;
@@ -370,7 +372,7 @@ Skills
 * **📠 Tech Stack**
   * LLMOps  \|  MLOps  \|  DataOps  \|  AIOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  ![CI-CD](https://img.shields.io/badge/CI-CD-orange?style=for-the-badge)  \|  Data Structures and Algorithms  \|  ETL Pipelines  
 
-<div class="tech-icons-container">
+<div class="tech-container">
   <img alt="LINUX" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img alt="googlecolab" src="https://img.shields.io/badge/Google Colab-black?logo=googlecolab&amp;amp;style=plastic" />
   <img alt="github-actions" src="https://img.shields.io/badge/Github%20Actions-black?logo=github-actions&amp;amp;style=plastic" />
