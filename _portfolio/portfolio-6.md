@@ -22,7 +22,18 @@ tags:
   
 * A **GSM module** was used to send an alert to the homeowner when a burglar is detected.
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/G2lrNOPaiA8" title="Smart Burglar Alarm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin-bottom: 15px;"></iframe>
+<div style="margin-bottom: 15px;">
+    <iframe 
+        width="853" 
+        height="480" 
+        src="https://www.youtube.com/embed/G2lrNOPaiA8" 
+        title="Smart Burglar Alarm" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+</div>
 
 <div class="flexcontainer">
   <div>
