@@ -22,6 +22,8 @@ tags:
   
 * A **GSM module** was used to send an alert to the homeowner when a burglar is detected.
 
+<iframe width="853" height="480" src="https://www.youtube.com/embed/G2lrNOPaiA8" title="Smart Burglar Alarm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <div class="flexcontainer">
   <div>
         <span>✦ <strong>Code:</strong></span> <a href="https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML/tree/Human-detection" target="_blank" onclick="trackOutboundLink(this);">
