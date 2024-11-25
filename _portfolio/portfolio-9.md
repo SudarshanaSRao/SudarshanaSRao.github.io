@@ -10,7 +10,7 @@ tags:
 ---
 
 * Identified important cells among the dataset and ranked in a hierarchy using **k-means clustering** and **Logistic Regression**.  
-* The dataset comprised 2169 cells taken from the neocortex region of a rat's brain and distributed in 20,000 columns. **Principal Component Analysis** was used to reduce 20,000 columns to 3-5 components.
+* The dataset comprised _2169 cells_ taken from the neocortex region of a rat's brain and distributed in _20,000 columns_. **Principal Component Analysis** was used to _reduce 20,000 columns to 3-5 components_.
 * Visualized the output data through a dynamic 3-D graph using **Plotly**.
 
 <img src="/images/3d.gif" style="cursor: crosshair;">
