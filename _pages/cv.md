@@ -337,8 +337,8 @@ Skills
       margin-bottom: 20px;
     } 
     .tech-icon {
-      width: 50px;
-      height: 50px;
+      width: 55px;
+      height: 55px;
       object-fit: contain;
     }
 </style>
@@ -348,12 +348,12 @@ Skills
   <img class="tech-icon" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" />
   <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" />
   <img class="tech-icon" src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" />
-  <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" />
+  <img class="tech-icon" alt="msazure" src="https://miro.medium.com/v2/resize:fit:526/0*cRQxJXXdoxsEpeYH.png" />
   <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" />
+  <img class="tech-icon" alt="streamlit" src="https://cdn.thenewstack.io/media/2021/11/28de6660-screen-shot-2021-11-29-at-6.46.11-am.png" />
   <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" />
   <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" />
-  <img class="tech-icon" alt="msazure" src="https://miro.medium.com/v2/resize:fit:526/0*cRQxJXXdoxsEpeYH.png" /> 
-  <img class="tech-icon" alt="streamlit" src="https://cdn.thenewstack.io/media/2021/11/28de6660-screen-shot-2021-11-29-at-6.46.11-am.png" />
+  <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" />
 </div>
 * **⚙️ Programming Languages**
   * ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  \|  SQL  \|  ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)  \|  C  \|  ![HTML](https://img.shields.io/badge/HTML-black?logo=html5&amp;amp;style=plastic)  \|  CSS  \|  ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&amp;amp;style=plastic)  \|  ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)  \|  MATLAB  \| XML   
