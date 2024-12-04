@@ -389,9 +389,9 @@ Work Experience
   </div>
  </div>
  
-### Student worker at the University of Southern California, Los Angeles [October 2022-Present]
+### Student worker at the University of Southern California, Los Angeles [October 2022-December 2024]
 🧑‍🔬 _{August 2024-Present}_
-* Researching and implementing **LLM** use cases in **Data Analytics** as a **Researcher**.
+* Researched and implemented **LLM** use cases in **Data Analytics** as a **Researcher**.
 * Launched an **AI-powered app**, [**Data Visualization Assistant**](https://sudarshanasrao.github.io/portfolio/portfolio-1/), with **Anthropic’s Claude** (LLM) integration to facilitate user interaction with data.
 * Developed a comprehensive end-to-end automated [**ETL pipeline**](https://sudarshanasrao.github.io/portfolio/portfolio-0/) of Steam video games data, created an interactive **Tableau sales dashboard** and deployed a **Python PyPI package**. 
 
