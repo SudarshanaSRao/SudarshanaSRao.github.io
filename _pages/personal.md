@@ -143,21 +143,15 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
   });
 </script>
 
-<div class="scroll-container">
-  <div class="scroll-bar">
-    <div class="scroll-fill"></div>
-  </div>
-  <div class="scroll-message" id="scroll-message">Scroll to Explore!</div>
-</div>
-
 <style>
 /* Scroll container fixed on the right side */
 .scroll-container {
   position: fixed;
-  right: 10px; /* Adjust for margin */
-  top: 20%; /* Vertical center adjustment */
-  height: 60%; /* Takes up a percentage of the vertical screen */
-  width: 12px; /* Thinner scroll bar */
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 60vh;
+  width: 12px;
   z-index: 9999;
   display: flex;
   flex-direction: column;
@@ -168,11 +162,11 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
 .scroll-bar {
   width: 100%;
   height: 100%;
-  background-color: rgba(224, 224, 224, 0.2); /* Transparent bar */
+  background-color: rgba(224, 224, 224, 0.2);
   border-radius: 6px;
   position: relative;
   overflow: hidden;
-  border: 1px solid rgba(0, 0, 0, 0.1); /* Optional border */
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 /* Scroll fill that animates */
 .scroll-fill {
@@ -180,7 +174,7 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
   height: 0;
   background: linear-gradient(90deg, #00f260, #0575e6);
   border-radius: 6px;
-  transition: height 0.2s ease-out; /* Smooth animation */
+  transition: height 0.2s ease-out;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   animation: glowing 1.5s infinite alternate;
 }
@@ -192,37 +186,63 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
 /* Motivational message */
 .scroll-message {
   margin-top: 10px;
-  writing-mode: vertical-rl; /* Rotates text vertically */
-  transform: rotate(180deg); /* Adjust text orientation */
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
   font-size: 12px;
   font-weight: bold;
   color: #444;
   text-align: center;
+  white-space: nowrap;
 }
 </style>
+
+<div class="scroll-container">
+<div class="scroll-bar">
+  <div class="scroll-fill"></div>
+</div>
+<div class="scroll-message" id="scroll-message">Scroll to Explore!</div>
+</div>
 
 <script>
 const messages = [
   "Keep going! 🚀",
-  "You're doing great! 🌟",
+  "You're doing great! 🌟", 
   "Almost there! 🎯",
-  "Explore the journey! 🧭",
+  "Explore the journey! 🧭", 
   "Just a bit more! 🚀",
   "Victory is near! 🏆"
 ];
+const scrollFill = document.querySelector(".scroll-fill");
+const scrollMessage = document.getElementById("scroll-message");
+// Debounce function to improve performance
+function debounce(func, wait) {
+  let timeout;
+  return function executedFunction(...args) {
+      const later = () => {
+          clearTimeout(timeout);
+          func(...args);
+      };
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+  };
+}
 // Update scroll bar and messages
-document.addEventListener("scroll", () => {
-  const scrollTop = document.documentElement.scrollTop;
+function updateScrollProgress() {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
-  const scrolledPercentage = (scrollTop / scrollHeight) * 100;
+  const scrolledPercentage = Math.max(0, Math.min(100, (scrollTop / scrollHeight) * 100));
   // Update scroll fill height based on scrolled percentage
-  const scrollFill = document.querySelector(".scroll-fill");
   scrollFill.style.height = `${scrolledPercentage}%`;
   // Change motivational message
   const messageIndex = Math.min(
-    Math.floor((messages.length * scrolledPercentage) / 100),
-    messages.length - 1
+      Math.floor((messages.length * scrolledPercentage) / 100),
+      messages.length - 1
   );
-  document.getElementById("scroll-message").textContent = messages[messageIndex];
-});
+  scrollMessage.textContent = messages[messageIndex];
+}
+// Add event listener with debounce
+const debouncedScrollProgress = debounce(updateScrollProgress, 10);
+window.addEventListener("scroll", debouncedScrollProgress);
+// Initial call to set up initial state
+updateScrollProgress();
 </script>
