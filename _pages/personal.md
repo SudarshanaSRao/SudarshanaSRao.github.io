@@ -58,7 +58,6 @@ document.addEventListener("DOMContentLoaded", function() {
   <img src="/images/grouppic.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_cd38722a.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_5ea38d29.jpg" class="image" style="cursor: crosshair;">
-  <img src="/images/WhatsApp Image 2024-05-26 at 19.32.02_bf5bccb7.jpg" class="image" style="cursor: crosshair;">
 </div>
 <style>
   .container {
