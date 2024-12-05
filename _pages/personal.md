@@ -143,44 +143,83 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
   });
 </script>
 
-<!-- Add this inside the <body> tag -->
-<div class="photo-album-icon">
-  <div class="fill"></div>
+<div class="scroll-container">
+  <div class="scroll-bar">
+    <div class="scroll-fill"></div>
+  </div>
+  <div class="scroll-message" id="scroll-message">Scroll to Explore!</div>
 </div>
 
 <style>
-/* Style for the floating photo album icon */
-.photo-album-icon {
+  /* Scroll container to position the bar */
+.scroll-container {
   position: fixed;
-  top: 50%;
-  right: 20px;
-  width: 40px;
-  height: 100px;
-  background-color: #d3d3d3; /* Grey color for submerged effect */
-  border-radius: 10px;
-  overflow: hidden;
-  transform: translateY(-50%);
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 20px;
   z-index: 9999;
 }
-.fill {
-  position: absolute;
-  bottom: 0;
+/* Scroll bar background */
+.scroll-bar {
   width: 100%;
-  height: 0;
-  background-color: #0078D4; /* Color that fills up as user scrolls */
-  transition: height 0.25s ease-out;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+/* Scroll fill that animates */
+.scroll-fill {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #00f260, #0575e6);
+  animation: glowing 1.5s infinite alternate;
+  border-radius: 5px;
+}
+/* Glowing effect for the fill */
+@keyframes glowing {
+  0% { box-shadow: 0 0 5px #00f260, 0 0 10px #0575e6; }
+  100% { box-shadow: 0 0 20px #00f260, 0 0 30px #0575e6; }
+}
+/* Motivational message */
+.scroll-message {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #444;
+  animation: fadeIn 1s ease-in;
+}
+/* Fade-in animation for messages */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 </style>
 
 <script>
-document.addEventListener("scroll", function() {
+  const messages = [
+  "Keep going! 🚀",
+  "You're doing great! 🌟",
+  "Almost there! 🎯",
+  "Explore the journey! 🧭",
+  "Just a bit more! 🚀",
+  "Victory is near! 🏆"
+];
+document.addEventListener("scroll", () => {
   const scrollTop = document.documentElement.scrollTop;
-  const scrollHeight = document.documentElement.scrollHeight;
-  const clientHeight = document.documentElement.clientHeight;
-  // Calculate the scroll percentage
-  const scrolled = (scrollTop / (scrollHeight - clientHeight)) * 100;
-  // Set the height of the fill element based on scroll percentage
-  const fillElement = document.querySelector(".photo-album-icon .fill");
-  fillElement.style.height = `${scrolled}%`;
+  const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const scrolledPercentage = (scrollTop / scrollHeight) * 100;
+  // Update scroll fill width
+  const scrollFill = document.querySelector(".scroll-fill");
+  scrollFill.style.width = `${scrolledPercentage}%`;
+  // Show motivational messages based on scroll progress
+  const messageIndex = Math.min(
+    Math.floor((messages.length * scrolledPercentage) / 100),
+    messages.length - 1
+  );
+  document.getElementById("scroll-message").textContent = messages[messageIndex];
 });
 </script>
