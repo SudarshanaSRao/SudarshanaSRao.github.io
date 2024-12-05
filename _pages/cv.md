@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV📄"
-excerpt: "CV📄"
+excerpt: "Profile"
 permalink: /cv/
 author_profile: true
 redirect_from:
