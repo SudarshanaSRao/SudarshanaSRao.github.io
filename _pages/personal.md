@@ -151,56 +151,58 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
 </div>
 
 <style>
-  /* Scroll container to position the bar */
+/* Scroll container fixed on the right side */
 .scroll-container {
   position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80%;
-  height: 20px;
+  right: 10px; /* Adjust for margin */
+  top: 20%; /* Vertical center adjustment */
+  height: 60%; /* Takes up a percentage of the vertical screen */
+  width: 12px; /* Thinner scroll bar */
   z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-/* Scroll bar background */
+/* Scroll bar background, initially transparent */
 .scroll-bar {
   width: 100%;
-  height: 10px;
-  background-color: #e0e0e0;
-  border-radius: 5px;
-  overflow: hidden;
+  height: 100%;
+  background-color: rgba(224, 224, 224, 0.2); /* Transparent bar */
+  border-radius: 6px;
   position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Optional border */
 }
 /* Scroll fill that animates */
 .scroll-fill {
-  height: 100%;
-  width: 0;
+  width: 100%;
+  height: 0;
   background: linear-gradient(90deg, #00f260, #0575e6);
+  border-radius: 6px;
+  transition: height 0.2s ease-out; /* Smooth animation */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   animation: glowing 1.5s infinite alternate;
-  border-radius: 5px;
 }
 /* Glowing effect for the fill */
 @keyframes glowing {
-  0% { box-shadow: 0 0 5px #00f260, 0 0 10px #0575e6; }
+  0% { box-shadow: 0 0 10px #00f260, 0 0 15px #0575e6; }
   100% { box-shadow: 0 0 20px #00f260, 0 0 30px #0575e6; }
 }
 /* Motivational message */
 .scroll-message {
-  margin-top: 5px;
-  text-align: center;
-  font-size: 16px;
+  margin-top: 10px;
+  writing-mode: vertical-rl; /* Rotates text vertically */
+  transform: rotate(180deg); /* Adjust text orientation */
+  font-size: 12px;
   font-weight: bold;
   color: #444;
-  animation: fadeIn 1s ease-in;
-}
-/* Fade-in animation for messages */
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  text-align: center;
 }
 </style>
 
 <script>
-  const messages = [
+const messages = [
   "Keep going! 🚀",
   "You're doing great! 🌟",
   "Almost there! 🎯",
@@ -208,14 +210,15 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
   "Just a bit more! 🚀",
   "Victory is near! 🏆"
 ];
+// Update scroll bar and messages
 document.addEventListener("scroll", () => {
   const scrollTop = document.documentElement.scrollTop;
   const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
   const scrolledPercentage = (scrollTop / scrollHeight) * 100;
-  // Update scroll fill width
+  // Update scroll fill height based on scrolled percentage
   const scrollFill = document.querySelector(".scroll-fill");
-  scrollFill.style.width = `${scrolledPercentage}%`;
-  // Show motivational messages based on scroll progress
+  scrollFill.style.height = `${scrolledPercentage}%`;
+  // Change motivational message
   const messageIndex = Math.min(
     Math.floor((messages.length * scrolledPercentage) / 100),
     messages.length - 1
