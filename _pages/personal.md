@@ -53,10 +53,13 @@ document.addEventListener("DOMContentLoaded", function() {
   <img src="/images/WhatsApp Image 2024-12-04 at 18.30.32_9408a9bf.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/chiara.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/WhatsApp Image 2024-12-04 at 17.29.41_cb1d7af8.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/skii.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/WhatsApp Image 2024-12-04 at 12.37.46_5df20689.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/WhatsApp Image 2024-12-04 at 18.28.22_0317bc6c.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/grouppic.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/sledge.JPG" class="image" style="cursor: crosshair;">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_cd38722a.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/jetty.JPG" class="image" style="cursor: crosshair;">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_5ea38d29.jpg" class="image" style="cursor: crosshair;">
 </div>
 <style>
@@ -138,4 +141,46 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
       observer.observe(image);
     });
   });
+</script>
+
+<!-- Add this inside the <body> tag -->
+<div class="photo-album-icon">
+  <div class="fill"></div>
+</div>
+
+<style>
+/* Style for the floating photo album icon */
+.photo-album-icon {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  width: 40px;
+  height: 100px;
+  background-color: #d3d3d3; /* Grey color for submerged effect */
+  border-radius: 10px;
+  overflow: hidden;
+  transform: translateY(-50%);
+  z-index: 9999;
+}
+.fill {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background-color: #0078D4; /* Color that fills up as user scrolls */
+  transition: height 0.25s ease-out;
+}
+</style>
+
+<script>
+document.addEventListener("scroll", function() {
+  const scrollTop = document.documentElement.scrollTop;
+  const scrollHeight = document.documentElement.scrollHeight;
+  const clientHeight = document.documentElement.clientHeight;
+  // Calculate the scroll percentage
+  const scrolled = (scrollTop / (scrollHeight - clientHeight)) * 100;
+  // Set the height of the fill element based on scroll percentage
+  const fillElement = document.querySelector(".photo-album-icon .fill");
+  fillElement.style.height = `${scrolled}%`;
+});
 </script>
