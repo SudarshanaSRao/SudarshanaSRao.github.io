@@ -46,64 +46,6 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 <div class="container">
-  <div class="image-wrapper">
-    <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_cd38722a.jpg" class="image" alt="Image 1">
-    <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_5ea38d29.jpg" class="image" alt="Image 2">
-  </div>
-</div>
-
-<style>
-  .container {
-    width: 100%;
-    max-width: 800px;
-    margin: 20px auto;
-  }
-  .image-wrapper {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px; /* Add spacing between images */
-  }
-  .image {
-    width: 100%;
-    max-width: calc(50% - 5px); /* Ensures both images take up equal space and maintain spacing */
-    height: auto;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  }
-  .image.show {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  @media (max-width: 600px) {
-    .image-wrapper {
-      flex-direction: column; /* Stack images vertically on smaller screens */
-    }
-    .image {
-      max-width: 100%;
-    }
-  }
-</style>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const images = document.querySelectorAll('.image');
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('show');
-        } else {
-          entry.target.classList.remove('show');
-        }
-      });
-    });
-    images.forEach(image => {
-      observer.observe(image);
-    });
-  });
-</script>
-
-<div class="container">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.02_180d4cf9.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_2896198e.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/nick.jpg" class="image" style="cursor: crosshair;">
