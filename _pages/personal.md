@@ -195,7 +195,7 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
         margin-top: 10px;
         writing-mode: vertical-rl;
         transform: rotate(180deg);
-        font-size: 12px;
+        font-size: 14px;
         font-weight: bold;
         color: #444;
         text-align: center;
