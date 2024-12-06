@@ -149,7 +149,7 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
         right: 20px;
         top: 50%;
         transform: translateY(-50%);
-        width: 40px; /* Increased for better zig-zag visibility */
+        width: 40px;
         height: 60vh;
         z-index: 1000;
         display: flex;
@@ -160,46 +160,39 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
     .scroll-bar {
         width: 100%;
         height: 100%;
-        background-color: rgba(224, 224, 224, 0.3);
+        background: repeating-linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent 10px,
+            rgba(0, 0, 0, 0.2) 10px,
+            rgba(0, 0, 0, 0.2) 20px
+        );
+        clip-path: polygon(
+            0% 0%, 50% 5%, 100% 0%,
+            100% 10%, 50% 15%, 0% 10%,
+            0% 20%, 50% 25%, 100% 20%,
+            100% 30%, 50% 35%, 0% 30%,
+            0% 40%, 50% 45%, 100% 40%,
+            100% 50%, 50% 55%, 0% 50%,
+            0% 60%, 50% 65%, 100% 60%,
+            100% 70%, 50% 75%, 0% 70%,
+            0% 80%, 50% 85%, 100% 80%,
+            100% 90%, 50% 95%, 0% 90%,
+            0% 100%, 50% 95%, 100% 100%
+        );
+        border: 1px solid rgba(0, 0, 0, 0.3);
         position: relative;
         overflow: hidden;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        clip-path: polygon(
-            0% 0%, 50% 10%, 100% 0%, 
-            100% 25%, 50% 35%, 0% 25%, 
-            0% 50%, 50% 60%, 100% 50%, 
-            100% 75%, 50% 85%, 0% 75%, 
-            0% 100%, 50% 90%, 100% 100%, 
-            100% 0%
-        );
     }
 
     .scroll-fill {
-        width: 100%;
-        height: 0;
-        background: linear-gradient(to right, #00f260, #0575e6);
         position: absolute;
         bottom: 0;
+        width: 100%;
+        height: 0;
+        background: linear-gradient(to bottom, #00f260, #0575e6);
         transition: height 0.3s ease;
-        animation-name: glowing;
-        animation-duration: 1.5s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-        animation-timing-function: ease-in-out;
-        clip-path: inherit; /* Matches the zig-zag pattern of the scroll-bar */
-    }
-
-    @keyframes glowing {
-        0% { 
-            box-shadow: 0 0 10px rgba(0, 242, 96, 0.7), 
-                        0 0 15px rgba(5, 117, 230, 0.7);
-            filter: brightness(0.9);
-        }
-        100% { 
-            box-shadow: 0 0 20px rgba(0, 242, 96, 0.9), 
-                        0 0 30px rgba(5, 117, 230, 0.9);
-            filter: brightness(1.1);
-        }
+        clip-path: inherit;
     }
 
     .scroll-message {
