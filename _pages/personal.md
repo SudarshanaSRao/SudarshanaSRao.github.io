@@ -156,29 +156,36 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
         flex-direction: column;
         align-items: center;
     }
-    .scroll-bar {
-        width: 100%;
-        height: 100%;
-        background-color: rgba(224, 224, 224, 0.3);
-        border-radius: 10px;
-        position: relative;
-        overflow: hidden;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-    }
-.scroll-fill {
-    width: 100%;
-    height: 0;
-    background: linear-gradient(to right, #00f260, #0575e6);
-    position: absolute;
-    bottom: 0;
-    transition: height 0.3s ease;
-    animation-name: glowing;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
-    clip-path: polygon(20% 0%, 80% 0%, 80% 90%, 60% 90%, 60% 100%, 40% 100%, 40% 90%, 20% 90%);
+ .scroll-bar {
+    width: 30px; /* Adjusted for a cricket bat's width */
+    height: 100%;
+    background: linear-gradient(to bottom, #d9d9d9, #bfbfbf 70%, #8c8c8c);
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    clip-path: polygon(
+        25% 0%, 75% 0%, /* Handle */
+        75% 80%, 65% 80%, /* Transition from handle to blade */
+        65% 100%, 35% 100%, /* Blade bottom */
+        35% 80%, 25% 80% /* Transition from blade to handle */
+    );
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3), inset -2px -2px 5px rgba(255, 255, 255, 0.6);
 }
+ .scroll-fill {
+        width: 100%;
+        height: 0;
+        background: linear-gradient(to right, #00f260, #0575e6);
+        position: absolute;
+        bottom: 0;
+        transition: height 0.3s ease;
+        /* Ensure animation is always active */
+        animation-name: glowing;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+    }
     @keyframes glowing {
         0% { 
             box-shadow: 0 0 10px rgba(0, 242, 96, 0.7), 
