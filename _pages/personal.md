@@ -163,9 +163,17 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
         height: 100%;
         background-color: rgba(0, 0, 0, 0.2);
         position: relative;
-        clip-path: polygon(
-            0% 50%, 25% 0%, 50% 50%, 75% 100%, 100% 50%, 
-        );
+  clip-path: polygon(
+    0% 50%,   /* Point 1: X=0%, Y=50% (middle of the left edge) */
+    25% 0%,   /* Point 2: X=25%, Y=0% (top left corner) */
+    50% 50%,  /* Point 3: X=50%, Y=50% (middle of the top edge) */
+    75% 100%, /* Point 4: X=75%, Y=100% (bottom right corner) */
+    100% 50%, /* Point 5: X=100%, Y=50% (middle of the right edge) */
+    75% 0%,   /* Point 6: X=75%, Y=0% (top right corner) */
+    50% 50%,  /* Point 7: X=50%, Y=50% (middle of the top edge) */
+    25% 100%, /* Point 8: X=25%, Y=100% (bottom left corner) */
+    0% 50%    /* Point 9: X=0%, Y=50% (middle of the left edge) */
+);
         overflow: hidden;
     }
     /* Dynamic water-fill effect inside the zig-zag */
