@@ -157,27 +157,48 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
         flex-direction: column;
         align-items: center;
     }
-    /* Zig-zag shaped scroll bar */
-    .scroll-bar {
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.2);
-        position: relative;
-        clip-path: polygon(
-            0% 50%, 25% 0%, 50% 50%, 75% 100%, 100% 50%, 
-            75% 0%, 50% 50%, 25% 100%, 0% 50%
-        );
-        overflow: hidden;
-    }
-    /* Dynamic fill inside the zig-zag */
+/* Zig-zag shaped scroll bar */
+.scroll-bar {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+    clip-path: polygon(
+        0% 100%, 25% 50%, 50% 100%, 75% 50%, 100% 100%, 
+        75% 150%, 50% 100%, 25% 150%, 0% 100%
+    );
+    overflow: hidden;
+}
+    /* Dynamic water-fill effect inside the zig-zag */
     .scroll-fill {
         position: absolute;
         bottom: 0;
         width: 100%;
         height: 0;
         background: linear-gradient(to bottom, #00f260, #0575e6);
-        transition: height 0.3s ease;
-        clip-path: inherit; /* Ensures the fill matches the zig-zag shape */
+        clip-path: inherit;
+        animation: water-fill-ripple 4s infinite ease-in-out, water-height 0.3s ease-out;
+    }
+    /* Ripple effect for water-like animation */
+    @keyframes water-fill-ripple {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    /* Height adjustment animation (smooth filling up like water) */
+    @keyframes water-height {
+        0% {
+            height: 0;
+        }
+        100% {
+            height: 100%;
+        }
     }
     /* Optional message next to the scroll bar */
     .scroll-message {
