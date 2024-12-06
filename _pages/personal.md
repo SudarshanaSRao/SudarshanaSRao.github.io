@@ -144,6 +144,7 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
 </script>
 
 <style>
+    /* Container for the scroll bar */
     .scroll-container {
         position: fixed;
         right: 20px;
@@ -156,35 +157,25 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
         flex-direction: column;
         align-items: center;
     }
-
+    /* Zig-zag shaped scroll bar */
     .scroll-bar {
         width: 100%;
         height: 100%;
-        background: repeating-linear-gradient(
-            to bottom,
-            transparent 0,
-            transparent 10px,
-            rgba(0, 0, 0, 0.2) 10px,
-            rgba(0, 0, 0, 0.2) 20px
-        );
-        clip-path: polygon(
-            0% 0%, 50% 5%, 100% 0%,
-            100% 10%, 50% 15%, 0% 10%,
-            0% 20%, 50% 25%, 100% 20%,
-            100% 30%, 50% 35%, 0% 30%,
-            0% 40%, 50% 45%, 100% 40%,
-            100% 50%, 50% 55%, 0% 50%,
-            0% 60%, 50% 65%, 100% 60%,
-            100% 70%, 50% 75%, 0% 70%,
-            0% 80%, 50% 85%, 100% 80%,
-            100% 90%, 50% 95%, 0% 90%,
-            0% 100%, 50% 95%, 100% 100%
-        );
-        border: 1px solid rgba(0, 0, 0, 0.3);
+        background-color: rgba(0, 0, 0, 0.2);
         position: relative;
+        clip-path: polygon(
+            0% 5%, 25% 0%, 50% 5%, 75% 0%, 100% 5%, 
+            100% 20%, 75% 25%, 50% 20%, 25% 25%, 0% 20%,
+            0% 35%, 25% 30%, 50% 35%, 75% 30%, 100% 35%,
+            100% 50%, 75% 55%, 50% 50%, 25% 55%, 0% 50%,
+            0% 65%, 25% 60%, 50% 65%, 75% 60%, 100% 65%,
+            100% 80%, 75% 85%, 50% 80%, 25% 85%, 0% 80%,
+            0% 95%, 25% 90%, 50% 95%, 75% 90%, 100% 95%, 
+            100% 100%, 75% 95%, 50% 100%, 25% 95%, 0% 100%
+        );
         overflow: hidden;
     }
-
+    /* Dynamic fill inside the zig-zag */
     .scroll-fill {
         position: absolute;
         bottom: 0;
@@ -192,9 +183,9 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
         height: 0;
         background: linear-gradient(to bottom, #00f260, #0575e6);
         transition: height 0.3s ease;
-        clip-path: inherit;
+        clip-path: inherit; /* Ensures the fill matches the zig-zag shape */
     }
-
+    /* Optional message next to the scroll bar */
     .scroll-message {
         margin-top: 10px;
         writing-mode: vertical-rl;
@@ -216,12 +207,12 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
 
 <script>
     const messages = [
-        "🏋️Keep going",
-        "You're doing great👌", 
-        "🧩Almost there", 
-        "Just a bit more🧭",
-        "🏆Victory is near",
-        "Secret revealed👀"
+        "🏋️ Keep going",
+        "You're doing great 👌",
+        "🧩 Almost there",
+        "Just a bit more 🧭",
+        "🏆 Victory is near",
+        "Secret revealed 👀"
     ];
     const scrollFill = document.getElementById('scrollFill');
     const scrollMessage = document.getElementById('scrollMessage');
