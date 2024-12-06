@@ -207,7 +207,7 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
     <div class="scroll-bar">
         <div class="scroll-fill" id="scrollFill"></div>
     </div>
-    <div class="scroll-message" id="scrollMessage">Swipe to reveal the secret👀</div>
+    <div class="scroll-message" id="scrollMessage"></div>
 </div>
 
 <script>
@@ -216,7 +216,8 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
         "You're doing great👌", 
         "🧩Almost there", 
         "Just a bit more🧭",
-        "🏆Victory is near"
+        "🏆Victory is near",
+        "Secret revealed👀"
     ];
     const scrollFill = document.getElementById('scrollFill');
     const scrollMessage = document.getElementById('scrollMessage');
