@@ -182,7 +182,7 @@ clip-path: polygon(
         bottom: 0;
         width: 100%;
         height: 0;
-        background: linear-gradient(to bottom, #00f260, #0575e6);
+        background: linear-gradient(to bottom, #009c40, #045b9b);
         clip-path: inherit;
         animation: water-fill-ripple 4s infinite ease-in-out, water-height 0.3s ease-out;
     }
