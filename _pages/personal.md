@@ -157,21 +157,21 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
         align-items: center;
     }
 .scroll-bar {
-    width: 40px; /* Adjusted for a wider bat blade */
+    width: 60px; /* Increased width for a cricket bat shape */
     height: 100%;
-    background: linear-gradient(to bottom, #e0cda9, #d1b58c 70%, #a89d86); /* Wood texture colors */
+    background: linear-gradient(to bottom, #d3d3d3, #c0c0c0 70%, #a9a9a9); /* Light grey gradient */
     position: relative;
     overflow: hidden;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: none; /* No border */
     clip-path: polygon(
-        35% 0%, 65% 0%, /* Handle top */
-        65% 15%, 55% 15%, /* Handle width transition */
-        55% 80%, 75% 80%, /* Blade edges */
-        65% 100%, 35% 100%, /* Blade bottom */
-        25% 80%, 45% 80%, /* Other blade edge */
-        45% 15%, 35% 15% /* Handle width transition */
+        40% 0%, 60% 0%, /* Handle top */
+        70% 10%, 50% 10%, /* Handle width transition */
+        50% 85%, 80% 85%, /* Blade edges */
+        60% 100%, 40% 100%, /* Blade bottom */
+        20% 85%, 45% 85%, /* Other blade edge */
+        40% 10%, 30% 10% /* Handle width transition */
     );
-    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3), inset -2px -2px 5px rgba(255, 255, 255, 0.6);
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.2), inset -1px -1px 3px rgba(255, 255, 255, 0.4);
 }
  .scroll-fill {
         width: 100%;
