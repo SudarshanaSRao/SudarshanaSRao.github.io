@@ -159,7 +159,7 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
     }
 /* Zig-zag shaped scroll bar */
 .scroll-bar {
-    width: 50px;  /* Fixed width */
+    width: 20px;  /* Fixed width */
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     position: relative;
