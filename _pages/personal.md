@@ -144,7 +144,7 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
 </script>
 
 <style>
-    /* Container for the scroll bar */
+    /* Scroll container */
     .scroll-container {
         position: fixed;
         right: 20px;
@@ -164,14 +164,8 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
         background-color: rgba(0, 0, 0, 0.2);
         position: relative;
         clip-path: polygon(
-            0% 5%, 25% 0%, 50% 5%, 75% 0%, 100% 5%, 
-            100% 20%, 75% 25%, 50% 20%, 25% 25%, 0% 20%,
-            0% 35%, 25% 30%, 50% 35%, 75% 30%, 100% 35%,
-            100% 50%, 75% 55%, 50% 50%, 25% 55%, 0% 50%,
-            0% 65%, 25% 60%, 50% 65%, 75% 60%, 100% 65%,
-            100% 80%, 75% 85%, 50% 80%, 25% 85%, 0% 80%,
-            0% 95%, 25% 90%, 50% 95%, 75% 90%, 100% 95%, 
-            100% 100%, 75% 95%, 50% 100%, 25% 95%, 0% 100%
+            0% 50%, 25% 0%, 50% 50%, 75% 100%, 100% 50%, 
+            75% 0%, 50% 50%, 25% 100%, 0% 50%
         );
         overflow: hidden;
     }
