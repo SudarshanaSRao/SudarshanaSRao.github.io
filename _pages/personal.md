@@ -158,17 +158,16 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
         align-items: center;
     }
 /* Zig-zag shaped scroll bar */
-.scroll-bar {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-    position: relative;
-    clip-path: polygon(
-        0% 100%, 25% 50%, 50% 100%, 75% 50%, 100% 100%, 
-        75% 150%, 50% 100%, 25% 150%, 0% 100%
-    );
-    overflow: hidden;
-}
+    .scroll-bar {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+        position: relative;
+        clip-path: polygon(
+            0% 50%, 25% 0%, 50% 50%, 75% 100%, 100% 50%, 
+        );
+        overflow: hidden;
+    }
     /* Dynamic water-fill effect inside the zig-zag */
     .scroll-fill {
         position: absolute;
