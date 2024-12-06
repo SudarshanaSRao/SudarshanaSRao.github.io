@@ -156,19 +156,20 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
         flex-direction: column;
         align-items: center;
     }
- .scroll-bar {
-    width: 30px; /* Adjusted for a cricket bat's width */
+.scroll-bar {
+    width: 40px; /* Adjusted for a wider bat blade */
     height: 100%;
-    background: linear-gradient(to bottom, #d9d9d9, #bfbfbf 70%, #8c8c8c);
+    background: linear-gradient(to bottom, #e0cda9, #d1b58c 70%, #a89d86); /* Wood texture colors */
     position: relative;
     overflow: hidden;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
     clip-path: polygon(
-        25% 0%, 75% 0%, /* Handle */
-        75% 80%, 65% 80%, /* Transition from handle to blade */
+        35% 0%, 65% 0%, /* Handle top */
+        65% 15%, 55% 15%, /* Handle width transition */
+        55% 80%, 75% 80%, /* Blade edges */
         65% 100%, 35% 100%, /* Blade bottom */
-        35% 80%, 25% 80% /* Transition from blade to handle */
+        25% 80%, 45% 80%, /* Other blade edge */
+        45% 15%, 35% 15% /* Handle width transition */
     );
     box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3), inset -2px -2px 5px rgba(255, 255, 255, 0.6);
 }
