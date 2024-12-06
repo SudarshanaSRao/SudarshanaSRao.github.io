@@ -149,44 +149,46 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
         right: 20px;
         top: 50%;
         transform: translateY(-50%);
-        width: 20px;
+        width: 40px; /* Increased for better zig-zag visibility */
         height: 60vh;
         z-index: 1000;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-.scroll-bar {
-  width: 80px; 
-  height: 100%;
-  background: linear-gradient(to bottom, #d3d3d3, #a9a9a9); 
-  position: relative;
-  overflow: hidden;
-  border: none; 
-  clip-path: polygon(
-  35% 0%, 65% 0%, 
-  75% 15%, 45% 15%, 
-  45% 85%, 80% 85%, 
-  65% 100%, 35% 100%, 
-  20% 85%, 55% 85%,
-  55% 15%, 30% 15% 
-  );
-  box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.2), inset -1px -1px 3px rgba(255, 255, 255, 0.4);
-  }
- .scroll-fill {
+
+    .scroll-bar {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(224, 224, 224, 0.3);
+        position: relative;
+        overflow: hidden;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        clip-path: polygon(
+            0% 0%, 50% 10%, 100% 0%, 
+            100% 25%, 50% 35%, 0% 25%, 
+            0% 50%, 50% 60%, 100% 50%, 
+            100% 75%, 50% 85%, 0% 75%, 
+            0% 100%, 50% 90%, 100% 100%, 
+            100% 0%
+        );
+    }
+
+    .scroll-fill {
         width: 100%;
         height: 0;
         background: linear-gradient(to right, #00f260, #0575e6);
         position: absolute;
         bottom: 0;
         transition: height 0.3s ease;
-        /* Ensure animation is always active */
         animation-name: glowing;
         animation-duration: 1.5s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
         animation-timing-function: ease-in-out;
+        clip-path: inherit; /* Matches the zig-zag pattern of the scroll-bar */
     }
+
     @keyframes glowing {
         0% { 
             box-shadow: 0 0 10px rgba(0, 242, 96, 0.7), 
@@ -199,6 +201,7 @@ The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻�
             filter: brightness(1.1);
         }
     }
+
     .scroll-message {
         margin-top: 10px;
         writing-mode: vertical-rl;
