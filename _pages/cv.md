@@ -383,6 +383,16 @@ Work Experience
 ==================
 <div class="flexcontainer">
   <div>
+    <a href="https://eltropy.com/" target="_blank" onclick="trackOutboundLink(this);">
+      <img class="pulse" src="/images/worklogo.png">
+    </a>
+  </div>
+ </div>
+ 
+### AI Implementation Manager at Eltropy, Santa Clara [December 2024-Present]
+
+<div class="flexcontainer">
+  <div>
     <a href="https://sail.usc.edu/" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" src="/images/4951549.png">
     </a>
