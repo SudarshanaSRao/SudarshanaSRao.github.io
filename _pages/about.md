@@ -71,7 +71,7 @@ redirect_from:
   }
 </style>
 
-Through my studies and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. My ideal role involves applying math to develop models or algorithms, analyze data patterns, understand model interpretability, build LLMs, and code data pipelines. Additionally, I am passionate about deriving impactful business insights through data analysis and making AI models safe, reliable, and transparent.    
+Through my work experience and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. My ideal role involves applying math to develop models or algorithms, analyze data patterns, understand model interpretability, build LLMs, and code data pipelines. Additionally, I am passionate about deriving impactful business insights through data analysis and making AI models safe, reliable, and transparent.    
 
 I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
