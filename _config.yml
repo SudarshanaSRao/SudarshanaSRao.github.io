@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "DL | ML | NLP | AI | DS | CV"
   location         : "Santa Clara, CA, USA"
-  employer         : 
+  employer         : AI Implementation Manager @ Eltropy Inc.
   uri              : # URL
   email            : "sudarshanasrao@gmail.com" 
 
@@ -282,7 +282,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Santa_Clara # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
