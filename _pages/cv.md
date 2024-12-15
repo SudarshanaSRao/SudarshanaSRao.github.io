@@ -368,9 +368,9 @@ Skills
 * **☁️ Cloud Platforms**
   * MS Azure  \|  ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) Platform (GCP)  \|  Aiven  \|  Vertex AI           
 * **🛠️ Software Tools**
-  * Git  \|  MS (Excel) Office  \|  Google Sheets  \|  ![Jupyter Notebook](https://img.shields.io/badge/Jupyter Notebook-black?logo=jupyter&amp;amp;style=plastic) ![Anaconda navigator](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)  \|  VS Code  \|  ![LATEX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)  \|  Docker  \|  UiPath studio (Robotics Process Automation)  
+  * Git  \|  MS (Excel) Office  \|  Google Sheets  \|  ![Jupyter Notebook](https://img.shields.io/badge/Jupyter Notebook-black?logo=jupyter&amp;amp;style=plastic) ![Anaconda navigator](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)  \|  VS Code  \|  ![LATEX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)  \|  Docker  \|  UiPath studio (Robotics Process Automation)  \|  GUIDEcx  \|  Gong  \|  Jira  \|  Confluence  \|  Salesforce CRM  \|  Slack  \|  Microsoft 365  \|  Google Workspace  \|  Atlassian Cloud    
 * **📠 Tech Stack**
-  * LLMOps  \|  MLOps  \|  DataOps  \|  AIOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  ![CI-CD](https://img.shields.io/badge/CI-CD-orange?style=for-the-badge)  \|  Data Structures and Algorithms  \|  ETL Pipelines  
+  * LLMOps  \|  MLOps  \|  DataOps  \|  AIOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  ![CI-CD](https://img.shields.io/badge/CI-CD-orange?style=for-the-badge)  \|  Data Structures and Algorithms  \|  ETL Pipelines  \|  SaaS (Software as a Service)  
 
 <div class="tech-container">
   <img alt="LINUX" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
