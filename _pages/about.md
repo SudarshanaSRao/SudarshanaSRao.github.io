@@ -239,56 +239,84 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 </style>
 
 <style>
-    /* General container styling */
-    .recommendation-container {
-      position: relative; /* Parent for positioning the pin */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #f4f4f4; /* Light contrasting background */
-      border-radius: 15px; /* Rounded corners */
-      overflow: hidden; /* Ensure image corners match container */
-      max-width: 900px; /* Optional: Set max-width */
-      margin: 10px auto 0; /* 10px gap on top, centered horizontally */
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Add depth */
+  /* General container styling */
+  .recommendation-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Space between heading and image */
+    max-width: 900px;
+    margin: 20px auto; /* Centered with top margin */
+  }
+  /* Heading styling */
+  .recommendation-heading {
+    font-size: 1.8rem;
+    color: gold;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    position: relative; /* Allows alignment with the pin */
+    width: 100%;
+  }
+  /* Container for the image */
+  .recommendation-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Full width */
+  }
+  /* Image styling */
+  .recommendation-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  /* Stamp-like Pin (without text) */
+  .stamp-pin {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 70px;
+    height: 70px;
+    background: radial-gradient(circle at 30% 30%, #ff5b5b, #d60000);
+    border: 4px solid #fff; /* White border */
+    border-radius: 50%; /* Circle shape */
+    box-shadow: 
+      0 4px 6px rgba(0, 0, 0, 0.3),
+      inset -3px -3px 8px rgba(255, 255, 255, 0.6),
+      inset 3px 3px 8px rgba(0, 0, 0, 0.2);
+  }
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .recommendation-heading {
+      font-size: 1.5rem;
     }
-    /* Image styling */
-    .recommendation-image {
-      width: 100%; /* Full width of container */
-      height: auto; /* Maintain aspect ratio */
-      display: block; /* Remove default spacing */
+    .stamp-pin {
+      width: 50px;
+      height: 50px;
     }
-    /* 3D Glossy Pin */
-    .recommendation-container::before {
-      content: ''; /* Required for pseudo-elements */
-      position: absolute;
-      top: -8px; /* Slightly above container */
-      left: 12px; /* Adjusted from left */
-      width: 30px; /* Bigger pin */
-      height: 30px; /* Bigger pin */
-      background: radial-gradient(circle at 30% 30%, #ff5b5b, #d60000); /* Glossy red gradient */
-      border-radius: 50%; /* Perfect circle */
-      box-shadow: 
-        0 4px 6px rgba(0, 0, 0, 0.3), /* Drop shadow */
-        inset -2px -2px 5px rgba(255, 255, 255, 0.5), /* Top glossy shine */
-        inset 2px 2px 5px rgba(0, 0, 0, 0.2); /* Inner shadow for depth */
-    }
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-      .recommendation-container {
-        border-radius: 10px; /* Slightly smaller corners for small screens */
-      }
-      .recommendation-container::before {
-        width: 24px; /* Smaller pin on small screens */
-        height: 24px;
-        top: -6px;
-        left: 8px;
-      }
-    }
+  }
 </style>
 
-<div class="recommendation-container">
-<img src="/images/recco.png" alt="Recommendations" class="recommendation-image">
+<!-- Recommendations Section -->
+<div class="recommendation-section">
+  <!-- Heading -->
+  <div class="recommendation-heading">
+    Recommendations
+    <!-- Stamp-like Pin -->
+    <div class="stamp-pin"></div>
+  </div>
+
+  <!-- Image Container -->
+  <div class="recommendation-container">
+    <img src="/images/recco.png" alt="Recommendations" class="recommendation-image">
+  </div>
 </div>
 
 <style>
