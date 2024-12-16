@@ -251,13 +251,19 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   }
   /* Heading styling */
   .recommendation-heading {
-    font-size: 1.8rem;
-    color: gold;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
-    position: relative; /* Allows alignment with the pin */
-    width: 100%;
+    color: #FFD700; /* Shiny golden color */
+    text-shadow: 
+      0 0 5px #fff, 
+      0 0 10px #FFD700, 
+      0 0 15px #FFD700, 
+      0 0 20px #FFC400, 
+      0 0 35px #FFC400, 
+      0 0 40px #FFA500;
+    margin: 0;
   }
   /* Container for the image */
   .recommendation-container {
@@ -277,18 +283,18 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     height: auto;
     display: block;
   }
-  /* Stamp-like Pin (without text) */
+  /* Stamp-like Pin */
   .stamp-pin {
     position: absolute;
-    top: -10px;
-    right: -10px;
+    top: -15px;
+    right: -15px;
     width: 70px;
     height: 70px;
     background: radial-gradient(circle at 30% 30%, #ff5b5b, #d60000);
-    border: 4px solid #fff; /* White border */
+    border: 5px solid #fff; /* White border for contrast */
     border-radius: 50%; /* Circle shape */
     box-shadow: 
-      0 4px 6px rgba(0, 0, 0, 0.3),
+      0 4px 6px rgba(0, 0, 0, 0.4),
       inset -3px -3px 8px rgba(255, 255, 255, 0.6),
       inset 3px 3px 8px rgba(0, 0, 0, 0.2);
   }
@@ -309,13 +315,13 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   <!-- Heading -->
   <div class="recommendation-heading">
     Recommendations
-    <!-- Stamp-like Pin -->
-    <div class="stamp-pin"></div>
   </div>
 
   <!-- Image Container -->
   <div class="recommendation-container">
-    <img src="/images/recco.png" alt="Recommendations" class="recommendation-image">
+    <img src="recco.png" alt="Recommendations" class="recommendation-image">
+    <!-- Stamp-like Pin -->
+    <div class="stamp-pin"></div>
   </div>
 </div>
 
