@@ -245,9 +245,9 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px; /* Space between heading and image */
+    /*gap: 10px;  Space between heading and image */
     max-width: 900px;
-    margin: 20px auto 0; /* Centered with top margin */
+    margin: 20px auto; /* Centered with top margin */
   }
   /* Heading styling */
   .recommendation-heading {
