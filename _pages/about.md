@@ -131,7 +131,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 20px;
+/*   padding-bottom: 20px; */
 }
 .shape-separator {
   display: flex;
@@ -163,8 +163,68 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 }
 </style>
 
+<style>
+  /* General container styling */
+  .recommendation-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*gap: 10px;  Space between heading and image */
+    max-width: 900px;
+    margin: 20px auto; /* Centered with top margin */
+  }
+  /* Heading styling */
+  .recommendation-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color: #A9A9A9; /* Shiny silver color */
+    text-shadow: 
+      2px 2px 5px rgba(128, 128, 128, 0.4), /* Light grey shadow */
+      -2px -2px 5px rgba(128, 128, 128, 0.3); /* Subtle mirrored grey */
+    margin: 0;
+  }
+  /* Container for the image */
+  .recommendation-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Full width */
+  }
+  /* Image styling */
+  .recommendation-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .recommendation-heading {
+      font-size: 1.5rem;
+    }
+  }
+</style>
+
+<!-- Recommendations Section -->
+<div class="recommendation-section">
+  <!-- Heading -->
+  <div class="recommendation-heading">
+    Recommendations
+  </div>
+  <!-- Image Container -->
+  <div class="recommendation-container">
+    <img src="/images/recco.jpg" alt="Recommendations" class="recommendation-image">
+  </div>
+</div>
+
 # Blogs📝
-  
 <div class="flexcontainer">
   <div>
     <span>✦ A blog explaining my <strong>Steam Sales Analysis</strong> project:</span> <a href="https://medium.com/@sudarshanasrao/steam-sales-insight-data-driven-analysis-and-visualization-pipeline-803862e5f555" target="_blank" onclick="trackOutboundLink(this);">
@@ -237,67 +297,6 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   animation: pulse 2s infinite ease-in-out;
 }
 </style>
-
-<style>
-  /* General container styling */
-  .recommendation-section {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /*gap: 10px;  Space between heading and image */
-    max-width: 900px;
-    margin: 20px auto; /* Centered with top margin */
-  }
-  /* Heading styling */
-  .recommendation-heading {
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: underline;
-    color: #A9A9A9; /* Shiny silver color */
-    text-shadow: 
-      2px 2px 5px rgba(128, 128, 128, 0.4), /* Light grey shadow */
-      -2px -2px 5px rgba(128, 128, 128, 0.3); /* Subtle mirrored grey */
-    margin: 0;
-  }
-  /* Container for the image */
-  .recommendation-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f4f4f4;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    width: 100%; /* Full width */
-  }
-  /* Image styling */
-  .recommendation-image {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .recommendation-heading {
-      font-size: 1.5rem;
-    }
-  }
-</style>
-
-<!-- Recommendations Section -->
-<div class="recommendation-section">
-  <!-- Heading -->
-  <div class="recommendation-heading">
-    Recommendations
-  </div>
-  <!-- Image Container -->
-  <div class="recommendation-container">
-    <img src="/images/recco.jpg" alt="Recommendations" class="recommendation-image">
-  </div>
-</div>
 
 <style>
     /* Container and initial styles */
