@@ -257,8 +257,8 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     text-decoration: underline;
     color: #FFD700; /* Shiny golden color */
     text-shadow: 
-        2px 2px 5px rgba(192, 192, 192, 0.3), /* Lighter grey shadow */
-        -2px -2px 5px rgba(192, 192, 192, 0.2); /* Subtle mirrored grey */
+      2px 2px 5px rgba(128, 128, 128, 0.4), /* Light grey shadow */
+      -2px -2px 5px rgba(128, 128, 128, 0.3); /* Subtle mirrored grey */
     margin: 0;
   }
   /* Container for the image */
