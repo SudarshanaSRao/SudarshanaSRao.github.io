@@ -391,7 +391,7 @@ Work Experience
  </div>
  
 ### AI Implementation Manager at Eltropy, Santa Clara [December 2024-Present]
-* Managing **SaaS** customer implementation projects using **GUIDEcx**, **Jira**, and **Confluence**, integrating **AWS (S3)** and **Pinecone** for secure data storage and **RAG-based agentic workflows**, ensuring **95%** on-time delivery and seamless connections with core banking and marketing automation systems.
+* Managing **SaaS** customer implementation projects using **GUIDEcx**, **Jira**, and **Confluence**, integrating **AWS (S3)** and **Pinecone** for secure data storage and **RAG-based AI (GPT) agentic workflows**, ensuring **95%** on-time delivery and seamless connections with core banking and marketing automation systems.
 * Collaborating with cross-functional teams and customers, leveraging **Gong**, **Salesforce CRM**, **Microsoft 365**, **Google Workspace**, and **Atlassian Cloud** to resolve **90%** of technical challenges within **48 hours**.
 
 <div class="flexcontainer">
