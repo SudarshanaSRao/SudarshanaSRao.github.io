@@ -173,6 +173,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     /*gap: 10px;  Space between heading and image */
     max-width: 900px;
     margin: 10px auto; /* Centered with top margin */
+    padding-bottom: 10px;
   }
   /* Heading styling */
   .recommendation-heading {
