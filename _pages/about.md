@@ -255,7 +255,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
-    color: #D3D3D3; /* Shiny golden color */
+    color: #A9A9A9; /* Shiny silver color */
     text-shadow: 
       2px 2px 5px rgba(128, 128, 128, 0.4), /* Light grey shadow */
       -2px -2px 5px rgba(128, 128, 128, 0.3); /* Subtle mirrored grey */
