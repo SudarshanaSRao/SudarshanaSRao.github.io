@@ -279,29 +279,10 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     height: auto;
     display: block;
   }
-  /* Stamp-like Pin */
-  .stamp-pin {
-    position: absolute;
-    top: -15px;
-    right: -15px;
-    width: 70px;
-    height: 70px;
-    background: radial-gradient(circle at 30% 30%, #ff5b5b, #d60000);
-    border: 5px solid #fff; /* White border for contrast */
-    border-radius: 50%; /* Circle shape */
-    box-shadow: 
-      0 4px 6px rgba(0, 0, 0, 0.4),
-      inset -3px -3px 8px rgba(255, 255, 255, 0.6),
-      inset 3px 3px 8px rgba(0, 0, 0, 0.2);
-  }
   /* Responsive adjustments */
   @media (max-width: 768px) {
     .recommendation-heading {
       font-size: 1.5rem;
-    }
-    .stamp-pin {
-      width: 50px;
-      height: 50px;
     }
   }
 </style>
@@ -312,12 +293,9 @@ I am seeking full-time roles and craving challenging opportunities to contribute
   <div class="recommendation-heading">
     Recommendations
   </div>
-
   <!-- Image Container -->
   <div class="recommendation-container">
     <img src="/images/recco.jpg" alt="Recommendations" class="recommendation-image">
-    <!-- Stamp-like Pin -->
-    <div class="stamp-pin"></div>
   </div>
 </div>
 
