@@ -239,53 +239,56 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 </style>
 
 <style>
-/* General container styling */
-.recommendation-container {
-  position: relative; /* Parent for positioning the pin */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f4f4f4; /* Light contrasting background */
-  border-radius: 15px; /* Rounded corners */
-  overflow: hidden; /* Ensure image corners match container */
-  max-width: 900px; /* Optional: Set max-width */
-  margin: auto; /* Center horizontally */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Add depth */
-}
-/* Image styling */
-.recommendation-image {
-  width: 100%; /* Full width of container */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Remove default spacing */
-}
-/* Red pin styling using pseudo-element */
-.recommendation-container::before {
-  content: ''; /* Required for pseudo-elements */
-  position: absolute;
-  top: 10px; /* Position from the top */
-  left: 10px; /* Position from the left */
-  width: 15px; /* Pin size */
-  height: 15px; /* Pin size */
-  background-color: red; /* Red pin */
-  border-radius: 50%; /* Circle shape */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Add some depth to the pin */
-}
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .recommendation-container {
-    border-radius: 10px; /* Slightly smaller corners for small screens */
-  }
-  .recommendation-container::before {
-    width: 12px; /* Smaller pin on small screens */
-    height: 12px;
-    top: 8px;
-    left: 8px;
-  }
-}
+    /* General container styling */
+    .recommendation-container {
+      position: relative; /* Parent for positioning the pin */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f4f4f4; /* Light contrasting background */
+      border-radius: 15px; /* Rounded corners */
+      overflow: hidden; /* Ensure image corners match container */
+      max-width: 900px; /* Optional: Set max-width */
+      margin: 10px auto 0; /* 10px gap on top, centered horizontally */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Add depth */
+    }
+    /* Image styling */
+    .recommendation-image {
+      width: 100%; /* Full width of container */
+      height: auto; /* Maintain aspect ratio */
+      display: block; /* Remove default spacing */
+    }
+    /* 3D Glossy Pin */
+    .recommendation-container::before {
+      content: ''; /* Required for pseudo-elements */
+      position: absolute;
+      top: -8px; /* Slightly above container */
+      left: 12px; /* Adjusted from left */
+      width: 30px; /* Bigger pin */
+      height: 30px; /* Bigger pin */
+      background: radial-gradient(circle at 30% 30%, #ff5b5b, #d60000); /* Glossy red gradient */
+      border-radius: 50%; /* Perfect circle */
+      box-shadow: 
+        0 4px 6px rgba(0, 0, 0, 0.3), /* Drop shadow */
+        inset -2px -2px 5px rgba(255, 255, 255, 0.5), /* Top glossy shine */
+        inset 2px 2px 5px rgba(0, 0, 0, 0.2); /* Inner shadow for depth */
+    }
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .recommendation-container {
+        border-radius: 10px; /* Slightly smaller corners for small screens */
+      }
+      .recommendation-container::before {
+        width: 24px; /* Smaller pin on small screens */
+        height: 24px;
+        top: -6px;
+        left: 8px;
+      }
+    }
 </style>
 
 <div class="recommendation-container">
-<img src="recco.png" alt="Recommendations" class="recommendation-image">
+<img src="/images/recco.png" alt="Recommendations" class="recommendation-image">
 </div>
 
 <style>
