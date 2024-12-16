@@ -319,7 +319,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 
   <!-- Image Container -->
   <div class="recommendation-container">
-    <img src="recco.png" alt="Recommendations" class="recommendation-image">
+    <img src="/images/recco.png" alt="Recommendations" class="recommendation-image">
     <!-- Stamp-like Pin -->
     <div class="stamp-pin"></div>
   </div>
