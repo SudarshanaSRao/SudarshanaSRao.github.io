@@ -239,6 +239,56 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 </style>
 
 <style>
+/* General container styling */
+.recommendation-container {
+  position: relative; /* Parent for positioning the pin */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4; /* Light contrasting background */
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden; /* Ensure image corners match container */
+  max-width: 900px; /* Optional: Set max-width */
+  margin: auto; /* Center horizontally */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Add depth */
+}
+/* Image styling */
+.recommendation-image {
+  width: 100%; /* Full width of container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default spacing */
+}
+/* Red pin styling using pseudo-element */
+.recommendation-container::before {
+  content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  top: 10px; /* Position from the top */
+  left: 10px; /* Position from the left */
+  width: 15px; /* Pin size */
+  height: 15px; /* Pin size */
+  background-color: red; /* Red pin */
+  border-radius: 50%; /* Circle shape */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Add some depth to the pin */
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .recommendation-container {
+    border-radius: 10px; /* Slightly smaller corners for small screens */
+  }
+  .recommendation-container::before {
+    width: 12px; /* Smaller pin on small screens */
+    height: 12px;
+    top: 8px;
+    left: 8px;
+  }
+}
+</style>
+
+<div class="recommendation-container">
+<img src="recco.png" alt="Recommendations" class="recommendation-image">
+</div>
+
+<style>
     /* Container and initial styles */
     .container {
         display: flex;
