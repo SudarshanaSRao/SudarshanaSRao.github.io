@@ -176,17 +176,19 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     padding-bottom: 10px;
   }
   /* Heading styling */
-  .recommendation-heading {
-    font-size: 2rem;
+.recommendation-heading {
+    font-size: 3rem; /* Slightly larger for more emphasis */
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
-    color: #B0B0B0; /* Shiny silver color */
-/*     text-shadow: 
-      2px 2px 5px rgba(128, 128, 128, 0.4), /* Light grey shadow */
-     /* -2px -2px 5px rgba(128, 128, 128, 0.3); /* Subtle mirrored grey */ 
+    color: #A9A9A9; /* Shiny silver color */
+    text-shadow: 
+        2px 2px 5px rgba(128, 128, 128, 0.6), /* Light grey shadow for depth */
+        -2px -2px 5px rgba(128, 128, 128, 0.5), /* Mirrored shadow */
+        3px 3px 10px rgba(0, 0, 0, 0.2); /* Darker shadow to simulate 3D effect */
     margin: 0;
-  }
+    transform: translateY(-2px); /* Small upward shift for a subtle 3D feel */
+}
   /* Container for the image */
   .recommendation-container {
     position: relative;
