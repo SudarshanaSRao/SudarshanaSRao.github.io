@@ -406,21 +406,21 @@ Work Experience
  </div>
  
 ### Student worker at the University of Southern California, Los Angeles [October 2022-December 2024]
-🧑‍🔬 _{August 2024-December 2024}_
+_{August 2024-December 2024}_🧑‍🔬
 * Researched and implemented **LLM** use cases in **Data Analytics** as a **Researcher**.
 * Launched an **AI-powered app**, [**Data Visualization Assistant**](https://sudarshanasrao.github.io/portfolio/portfolio-1/), with **Anthropic’s Claude** (LLM) integration to facilitate user interaction with data.
 * Developed a comprehensive end-to-end automated [**ETL pipeline**](https://sudarshanasrao.github.io/portfolio/portfolio-0/) of Steam video games data, created an interactive **Tableau sales dashboard** and deployed a **Python PyPI package**. 
 
-🧑‍🏫 _{January 2024-May 2024}_ 
+_{January 2024-May 2024}_🧑‍🏫 
 * **Course Producer** for the **Database Systems (CSCI-585) course** in the [**Computer Science**](https://www.cs.usc.edu/){:target="_blank"} department under [**Prof. Saty**](https://www.linkedin.com/in/satychary/){:target="_blank"} [**Raghavachary's**](https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty){:target="_blank"} guidance.
 * Held office hours, mentored, and evaluated homework and exams for a class of **300** students.
 
-👷 _{May 2023-August 2024}_ (**Disney** sponsored project)
+_{May 2023-August 2024}_👷 (**Disney** sponsored project)
 * Researched and analyzed human interaction with a **Conversational AI agent** (Nobu) to improve its Automatic Speech Recognition (ASR) at the **S**ignal **A**nalysis and **I**nterpretation **L**aboratory (**SAIL** under [**SIPI**](https://minghsiehece.usc.edu/groups-and-institutes/sipi/){:target="_blank"}- **S**ignal and **I**mage **P**rocessing **I**nstitute).  
 * Managed the interaction sessions (data collection) by assigning participants to the respective time slots.
 * _Project_: Speech quality assessment for automatic speech recognition. 
 
-🎧 _{October 2022-May 2023}_ (**Apple** funded project)
+_{October 2022-May 2023}_🎧 (**Apple** funded project)
 * Worked at **SAIL** to annotate audio files using **Sonic Visualizer**.    
 * These annotations will train a Machine Learning model to identify, classify, and filter out the noise in recorded conversations.
 * Appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
