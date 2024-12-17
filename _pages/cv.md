@@ -356,23 +356,23 @@ Skills
   <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" />
   <img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" />
 </div>
-* **⚙️ Programming Languages**
+* **⚙️Programming Languages**
   * ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  \|  SQL  \|  ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)  \|  C  \|  ![HTML](https://img.shields.io/badge/HTML-black?logo=html5&amp;amp;style=plastic)  \|  CSS  \|  ![JavaScript](https://img.shields.io/badge/JavaScript-black?logo=javascript&amp;amp;style=plastic)  \|  ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)  \|  MATLAB  \| XML   
-* **📥 Databases (Relational, non-relational & vector)**
+* **📥Databases (Relational, non-relational & vector)**
   * <img alt="MS SQL Server (SSMS)" src="https://img.shields.io/badge/MS SQL Server (SSMS)-black?logo=Microsoft&style=plastic" />  \|  ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)  \|  MongoDB Atlas (NoSQL)  \|  ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) PostGIS  \|  <img alt="ESRI ArcGIS" src="https://img.shields.io/badge/ESRI ArcGIS-black?logo=ESRI&amp;amp;style=plastic" />  \|  <img alt="BigQuery" src="https://img.shields.io/badge/BigQuery-black?logo=Google&amp;amp;style=plastic" />  \|  ChromaDB  \|  SQLite  \|  <img alt="S3" src="https://img.shields.io/badge/Amazon S3-black?logo=Amazon&amp;amp;style=plastic" />  \|  Pinecone  
-* **💹 Data Visualization Tools**
+* **💹Data Visualization Tools**
   * <img alt="Power BI" src="https://img.shields.io/badge/Power BI-black?logo=Microsoft&style=plastic" />  \|  ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)  
-* **🤖📔 Large Language Models (LLMs)**
+* **🤖📔Large Language Models (LLMs)**
   * <img alt="LLaMA" src="https://img.shields.io/badge/LLaMA-black?logo=meta&amp;amp;style=plastic" />  \|  Mistral  \|  <img alt="T5" src="https://img.shields.io/badge/T5-black?logo=Google&amp;amp;style=plastic" />  \|  <img alt="BART" src="https://img.shields.io/badge/BART-black?logo=Meta&amp;amp;style=plastic" />  \|  <img alt="GPT" src="https://img.shields.io/badge/GPT-black?logo=OpenAI&amp;amp;style=plastic" />  \|  <img alt="Claude" src="https://img.shields.io/badge/Claude-black?logo=Anthropic&amp;amp;style=plastic" />  \|  <img alt="Gemini" src="https://img.shields.io/badge/Gemini-black?logo=Google&amp;amp;style=plastic" />
-* **🏗️ Frameworks & Libraries**
+* **🏗️Frameworks & Libraries**
   * ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)  \|  ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)  \| ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) \|  ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)  \|  ![Scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)  \|  ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)  \|  ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)  \|  Matplotlib  \|  Seaborn  \|  ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)  \|  <img alt="LangChain" src="https://img.shields.io/badge/LangChain-black?logo=LangChain&amp;amp;style=plastic" />  \|  OpenCV  \|  <img alt="Streamlit GUI" src="https://img.shields.io/badge/Streamlit GUI-black?logo=Streamlit&amp;amp;style=plastic" />  \|  Beautiful Soup  \|  <img alt="Gradio GUI" src="https://img.shields.io/badge/Gradio GUI-black?logo=HuggingFace&amp;amp;style=plastic" />  \|  CrewAI  \|  Natural Language Toolkit (NLTK)  \|  Requests  
-* **💾 APIs**
+* **💾APIs**
   * <img alt="HuggingFace" src="https://img.shields.io/badge/HuggingFace-black?logo=HuggingFace&amp;amp;style=plastic" />  \|  <img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-black?logo=Kaggle&amp;amp;style=plastic" />  \|  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />  
-* **☁️ Cloud Platforms**
+* **☁️Cloud Platforms**
   * <img alt="MS Azure" src="https://img.shields.io/badge/MS Azure-black?logo=Azure&style=plastic" />  \|  ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) Platform (GCP)  \|  Aiven  \|  ![Vertex AI](https://img.shields.io/badge/Vertex_AI-purple?style=for-the-badge&logo=google-cloud&logoColor=white)  \|  <img alt="aws" src="https://img.shields.io/badge/Amazon Web Services (AWS)-black?logo=amazon-web-services&amp;amp;style=plastic" />           
-* **🛠️ Software Tools**
+* **🛠️Software Tools**
   * <img alt="Git" src="https://img.shields.io/badge/Git-black?logo=Microsoft&style=plastic" />  \|  <img alt="MS (Excel) Office" src="https://img.shields.io/badge/MS (Excel) Office-black?logo=Microsoft&style=plastic" />  \|  <img alt="Google Sheets" src="https://img.shields.io/badge/Google Sheets-black?logo=Google&amp;amp;style=plastic" />  \|  ![Jupyter Notebook](https://img.shields.io/badge/Jupyter Notebook-black?logo=jupyter&amp;amp;style=plastic) ![Anaconda navigator](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)  \|  <img alt="VS Code" src="https://img.shields.io/badge/VS Code-black?logo=Microsoft&style=plastic" />  \|  ![LATEX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)  \|  Docker  \|  <img alt="UiPath studio (Robotics Process Automation)" src="https://img.shields.io/badge/UiPath studio (Robotics Process Automation)-black?logo=UiPath&amp;amp;style=plastic" />  \|  GUIDEcx  \|  Gong  \|  <img alt="Jira" src="https://img.shields.io/badge/Jira-black?logo=Jira&amp;amp;style=plastic" />  \|  <img alt="Confluence" src="https://img.shields.io/badge/Confluence-black?logo=Confluence&amp;amp;style=plastic" />  \|  <img alt="Salesforce CRM" src="https://img.shields.io/badge/Salesforce CRM-black?logo=Salesforce&amp;amp;style=plastic" />  \|  <img alt="Slack" src="https://img.shields.io/badge/Slack-black?logo=Slack&amp;amp;style=plastic" />  \|  <img alt="Microsoft 365" src="https://img.shields.io/badge/Microsoft 365-black?logo=Microsoft;style=plastic" />  \|  <img alt="Google Workspace" src="https://img.shields.io/badge/Google Workspace-black?logo=Google&amp;amp;style=plastic" />  \|  <img alt="Atlassian Cloud" src="https://img.shields.io/badge/Atlassian Cloud-black?logo=Atlassian&amp;amp;style=plastic" />  \|  <img src="https://img.shields.io/badge/VirtualBox-red?style=for-the-badge&logo=oracle&logoColor=white"/>  \|  <img alt="zoom" src="https://img.shields.io/badge/Zoom-black?logo=zoom&amp;amp;style=plastic" />
-* **📠 Tech Stack**
+* **📠Tech Stack**
   * LLMOps  \|  MLOps  \|  DataOps  \|  AIOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  ![CI-CD](https://img.shields.io/badge/CI-CD-orange?style=for-the-badge)  \|  Data Structures and Algorithms  \|  ETL Pipelines  \|  SaaS (Software as a Service)  \|  JSON  
 
 <div class="tech-container">
@@ -406,21 +406,21 @@ Work Experience
  </div>
  
 ### Student worker at the University of Southern California, Los Angeles [October 2022-December 2024]
-_{August 2024-December 2024}_🧑‍🔬
+🧑‍🔬_{August 2024-December 2024}_
 * Researched and implemented **LLM** use cases in **Data Analytics** as a **Researcher**.
 * Launched an **AI-powered app**, [**Data Visualization Assistant**](https://sudarshanasrao.github.io/portfolio/portfolio-1/), with **Anthropic’s Claude** (LLM) integration to facilitate user interaction with data.
 * Developed a comprehensive end-to-end automated [**ETL pipeline**](https://sudarshanasrao.github.io/portfolio/portfolio-0/) of Steam video games data, created an interactive **Tableau sales dashboard** and deployed a **Python PyPI package**. 
 
-_{January 2024-May 2024}_🧑‍🏫 
+🧑‍🏫_{January 2024-May 2024}_ 
 * **Course Producer** for the **Database Systems (CSCI-585) course** in the [**Computer Science**](https://www.cs.usc.edu/){:target="_blank"} department under [**Prof. Saty**](https://www.linkedin.com/in/satychary/){:target="_blank"} [**Raghavachary's**](https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty){:target="_blank"} guidance.
 * Held office hours, mentored, and evaluated homework and exams for a class of **300** students.
 
-_{May 2023-August 2024}_👷 (**Disney** sponsored project)
+👷_{May 2023-August 2024}_ (**Disney** sponsored project)
 * Researched and analyzed human interaction with a **Conversational AI agent** (Nobu) to improve its Automatic Speech Recognition (ASR) at the **S**ignal **A**nalysis and **I**nterpretation **L**aboratory (**SAIL** under [**SIPI**](https://minghsiehece.usc.edu/groups-and-institutes/sipi/){:target="_blank"}- **S**ignal and **I**mage **P**rocessing **I**nstitute).  
 * Managed the interaction sessions (data collection) by assigning participants to the respective time slots.
 * _Project_: Speech quality assessment for automatic speech recognition. 
 
-_{October 2022-May 2023}_🎧 (**Apple** funded project)
+🎧_{October 2022-May 2023}_ (**Apple** funded project)
 * Worked at **SAIL** to annotate audio files using **Sonic Visualizer**.    
 * These annotations will train a Machine Learning model to identify, classify, and filter out the noise in recorded conversations.
 * Appeared at the Interspeech 2023 conference under the research paper title- "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings".
