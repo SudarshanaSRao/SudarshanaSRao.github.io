@@ -205,6 +205,15 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     height: auto;
     display: block;
   }
+  .recommendation-link {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits the color from the parent element */
+}
+.recommendation-link:hover,
+.recommendation-link:focus {
+  text-decoration: none; /* Ensures no underline on hover/focus */
+  color: inherit; /* Maintains the same color on hover/focus */
+}
   /* Responsive adjustments */
   @media (max-width: 768px) {
     .recommendation-heading {
@@ -217,7 +226,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 <div class="recommendation-section">
   <!-- Heading -->
   <div class="recommendation-heading">
-    Recommendations
+    <a href="https://www.linkedin.com/in/sudarshana-rao/details/recommendations/" class="recommendation-link">Recommendations</a>
   </div>
   <!-- Image Container -->
   <div class="recommendation-container">
