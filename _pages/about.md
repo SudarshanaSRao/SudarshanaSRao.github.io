@@ -226,7 +226,7 @@ I am seeking full-time roles and craving challenging opportunities to contribute
 <div class="recommendation-section">
   <!-- Heading -->
   <div class="recommendation-heading">
-    <a href="https://www.linkedin.com/in/sudarshana-rao/details/recommendations/" class="recommendation-link">Recommendations</a>
+    <a href="https://www.linkedin.com/in/sudarshana-rao/details/recommendations/" target="_blank" class="recommendation-link">Recommendations</a>
   </div>
   <!-- Image Container -->
   <div class="recommendation-container">
