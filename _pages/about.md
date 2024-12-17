@@ -182,9 +182,9 @@ I am seeking full-time roles and craving challenging opportunities to contribute
     text-align: center;
     text-decoration: underline;
     color: #B0B0B0; /* Shiny silver color */
-    text-shadow: 
+/*     text-shadow: 
       2px 2px 5px rgba(128, 128, 128, 0.4), /* Light grey shadow */
-      -2px -2px 5px rgba(128, 128, 128, 0.3); /* Subtle mirrored grey */
+     /* -2px -2px 5px rgba(128, 128, 128, 0.3); /* Subtle mirrored grey */ 
     margin: 0;
   }
   /* Container for the image */
