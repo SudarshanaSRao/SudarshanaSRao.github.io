@@ -413,7 +413,7 @@ Work Experience
 
 🧑‍🏫_{January 2024-May 2024}_ 
 * **Course Producer** for the **Database Systems (CSCI-585) course** in the [**Computer Science**](https://www.cs.usc.edu/){:target="_blank"} department under [**Prof. Saty**](https://www.linkedin.com/in/satychary/){:target="_blank"} [**Raghavachary's**](https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty){:target="_blank"} guidance.
-* Held office hours, mentored, and evaluated homework and exams for a class of **300** students.
+* Held office hours, mentored, and evaluated homework and exams for a class of **300+** students.
 
 👷_{May 2023-August 2024}_ (**Disney** sponsored project)
 * Researched and analyzed human interaction with a **Conversational AI agent** (Nobu) to improve its Automatic Speech Recognition (ASR) at the **S**ignal **A**nalysis and **I**nterpretation **L**aboratory (**SAIL** under [**SIPI**](https://minghsiehece.usc.edu/groups-and-institutes/sipi/){:target="_blank"}- **S**ignal and **I**mage **P**rocessing **I**nstitute).  
@@ -716,7 +716,7 @@ Awards
 </style>
 
 <div class="content-container1">
-    <p>✔ Qualified in the 12th grade state-level examination with distinction and scored 100/100 in mathematics.</p>
+    <p>✔ Qualified in the 12<sup>th</sup> grade state-level examination with distinction and scored 100/100 in mathematics.</p>
     <div class="thumbnail-container1" onclick="openPopup1()">
         <img src="/images/Second PUC math.jpg" alt="Second PUC Math" class="thumbnail1">
         <span class="popup-icon1">&#x2197;</span>
