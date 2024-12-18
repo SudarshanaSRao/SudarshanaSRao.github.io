@@ -46,7 +46,10 @@ redirect_from:
 }
 </style>
 
-<span class="usc">Welcome to my portfolio website's homepage</span> 😄 I am a recent MS graduate from the University of Southern California. I am fascinated by the ability of machines to learn from data and uncover patterns that assist us in making data-driven decisions. I actively compete in technical hackathons and participate in webinars, tech talks (seminars), and workshops. I am eager to start my career and learn from experienced teams. 
+<span class="usc">Welcome to my portfolio website's homepage</span> 😄 I currently work at **Eltropy** as an **AI Implementation Manager**. 
+
+I am fascinated by the ability of machines to learn from data and uncover patterns that assist us in making data-driven decisions. I actively compete in technical hackathons and participate in webinars, tech talks (seminars), and workshops.  
+
 <style>
   @keyframes usc-colors {
     0% {
@@ -72,8 +75,6 @@ redirect_from:
 </style>
 
 Through my work experience and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. My ideal role involves applying math to develop models or algorithms, analyze data patterns, understand model interpretability, build LLMs, and code data pipelines. Additionally, I am passionate about deriving impactful business insights through data analysis and making AI models safe, reliable, and transparent.    
-
-I am seeking full-time roles and craving challenging opportunities to contribute effectively and grow personally and professionally in an employee-friendly environment.
 
 <div class="right-align">
   <div class="badge-base LI-profile-badge" 
