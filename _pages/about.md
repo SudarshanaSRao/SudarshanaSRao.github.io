@@ -15,6 +15,7 @@ redirect_from:
     <span class="emoji">📊</span>
     <span class="emoji">📈</span>
 </div>
+
 <style>
 @keyframes bounce-move {
     0%, 100% {
@@ -48,7 +49,9 @@ redirect_from:
 
 <span class="usc">Welcome to my portfolio website's homepage</span> 😄 
 
-I currently work at **Eltropy** as an **AI Implementation Manager**. I am fascinated by the ability of machines to learn from data and uncover patterns that assist us in making data-driven decisions. I actively compete in technical hackathons and participate in webinars, tech talks (seminars), and workshops.  
+I currently work at **Eltropy** as an **AI Implementation Manager**. I am fascinated by the ability of machines to learn from data and uncover patterns that assist us in making data-driven decisions. 
+Through my work experience and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. 
+I actively compete in technical hackathons and participate in webinars, tech talks (seminars), and workshops.
 
 <style>
   @keyframes usc-colors {
@@ -74,7 +77,7 @@ I currently work at **Eltropy** as an **AI Implementation Manager**. I am fascin
   }
 </style>
 
-Through my work experience and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics. My ideal role involves applying math to develop models or algorithms, analyze data patterns, understand model interpretability, build LLMs, and code data pipelines. Additionally, I am passionate about deriving impactful business insights through data analysis and making AI models safe, reliable, and transparent.    
+My ideal role involves applying math to develop models or algorithms, analyze data patterns, understand model interpretability, build LLMs, and code data pipelines. Additionally, I am passionate about deriving impactful business insights through data analysis and making AI models safe, reliable, and transparent.    
 
 <div class="right-align">
   <div class="badge-base LI-profile-badge" 
