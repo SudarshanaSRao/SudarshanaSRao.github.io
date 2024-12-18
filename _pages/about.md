@@ -46,9 +46,9 @@ redirect_from:
 }
 </style>
 
-<span class="usc">Welcome to my portfolio website's homepage</span> 😄 I currently work at **Eltropy** as an **AI Implementation Manager**. 
+<span class="usc">Welcome to my portfolio website's homepage</span> 😄 
 
-I am fascinated by the ability of machines to learn from data and uncover patterns that assist us in making data-driven decisions. I actively compete in technical hackathons and participate in webinars, tech talks (seminars), and workshops.  
+I currently work at **Eltropy** as an **AI Implementation Manager**. I am fascinated by the ability of machines to learn from data and uncover patterns that assist us in making data-driven decisions. I actively compete in technical hackathons and participate in webinars, tech talks (seminars), and workshops.  
 
 <style>
   @keyframes usc-colors {
