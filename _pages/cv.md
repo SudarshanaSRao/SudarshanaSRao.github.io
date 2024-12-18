@@ -15,11 +15,13 @@ redirect_from:
     </a>
   </div>
 </div>
+
 <style>
   .flexcontainer1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
   }
     .download-container {
     display: flex; /* Ensures content is in a row */
