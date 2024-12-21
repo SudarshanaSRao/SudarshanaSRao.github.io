@@ -37,7 +37,16 @@ tags:
       <img class="pulse" height="200px" src="/images/unmanned.png" width="200px">
     </a>
   </div>
+</div> <br>
+
+<div class="flexcontainer">
+  <div>
+        <span>✦ <strong>Report:</strong></span> <a href="https://github.com/user-attachments/files/18216788/FAQ_Generation_using_Language_Models.pdf" onclick="trackOutboundLink(this);">
+      <img class="pulse" height="30px" src="/images/pdf_ic.png" width="80px">
+    </a>
+  </div>
 </div>
+
 <style>
   .flexcontainer {
     display: flex;
