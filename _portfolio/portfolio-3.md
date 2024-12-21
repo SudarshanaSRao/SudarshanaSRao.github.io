@@ -37,7 +37,7 @@ tags:
       <img class="pulse" height="200px" src="/images/unmanned.png" width="200px">
     </a>
   </div>
-</div> <br>
+</div> 
 
 <div class="flexcontainer">
   <div>
