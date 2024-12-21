@@ -42,6 +42,14 @@ tags:
       <img class="pulse" height="100px" src="/images/unmanned.png" width="100px">
     </a>
   </div>
+</div> <br>
+
+<div class="flexcontainer">
+  <div>
+        <span>✦ <strong>Report:</strong></span> <a href="https://github.com/user-attachments/files/18216783/EE_541_Final_Report.pdf" onclick="trackOutboundLink(this);">
+      <img class="pulse" height="30px" src="/images/pdf_ic.png" width="80px">
+    </a>
+  </div>
 </div>
 
 <style>
