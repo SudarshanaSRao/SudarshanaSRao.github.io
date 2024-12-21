@@ -5,6 +5,7 @@ collection: portfolio
 tags: 
   - Deep Learning
   - Computer Vision
+  - Neural Networks
   - PyTorch
   - CNN
   - MLP
