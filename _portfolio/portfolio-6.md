@@ -49,7 +49,7 @@ tags:
       <img class="pulse" height="70px" src="/images/Down_ijmte.jpeg" width="150px">
     </a>
   </div>
-</div> <br>
+</div> 
 
 <div class="flexcontainer">
   <div>
