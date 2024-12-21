@@ -31,7 +31,7 @@ tags:
       <img class="pulse" height="70px" src="/images/download_SSRN.jpg" width="150px">
     </a>
   </div>
-</div> <br>
+</div> 
 
 <div class="flexcontainer">
   <div>
