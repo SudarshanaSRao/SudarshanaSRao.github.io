@@ -29,7 +29,16 @@ tags:
       <img class="pulse" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
   </div>
+</div> <br>
+
+<div class="flexcontainer">
+  <div>
+        <span>✦ <strong>Report:</strong></span> <a href="https://github.com/user-attachments/files/18216770/EE_559_Final_Project_Report.pdf" onclick="trackOutboundLink(this);">
+      <img class="pulse" height="30px" src="/images/pdf_ic.png" width="80px">
+    </a>
+  </div>
 </div>
+
 <style>
 @keyframes pulse {
   0% {
