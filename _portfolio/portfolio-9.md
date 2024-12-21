@@ -25,12 +25,12 @@ tags:
       <img class="pulse" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
   </div>
-</div>
+</div> <br>
 
 <div class="flexcontainer">
   <div>
         <span>✦ <strong>Report:</strong></span> <a href="https://github.com/user-attachments/files/18216727/RNA.AAT.pdf" onclick="trackOutboundLink(this);">
-      <img class="pulse" height="30px" src="/images/pdf_ic.png" width="30px">
+      <img class="pulse" height="30px" src="/images/pdf_ic.png" width="80px">
     </a>
   </div>
 </div>
