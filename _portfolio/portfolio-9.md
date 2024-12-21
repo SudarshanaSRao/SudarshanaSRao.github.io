@@ -25,7 +25,7 @@ tags:
       <img class="pulse" height="30px" src="/images/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg" width="80px">
     </a>
   </div>
-</div> <br>
+</div><br>
 
 <div class="flexcontainer">
   <div>
