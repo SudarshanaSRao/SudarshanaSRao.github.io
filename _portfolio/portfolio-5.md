@@ -7,6 +7,7 @@ tags:
   - Computer Vision
   - PyTorch
   - CNN
+  - MLP
   - Image classification
   - Kaggle
 ---
