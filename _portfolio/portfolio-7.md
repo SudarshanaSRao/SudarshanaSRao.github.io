@@ -31,7 +31,16 @@ tags:
       <img class="pulse" height="70px" src="/images/download_SSRN.jpg" width="150px">
     </a>
   </div>
+</div> <br>
+
+<div class="flexcontainer">
+  <div>
+        <span>✦ <strong>Report:</strong></span> <a href="https://github.com/user-attachments/files/18216776/Mini.project.1.report.pdf" onclick="trackOutboundLink(this);">
+      <img class="pulse" height="30px" src="/images/pdf_ic.png" width="80px">
+    </a>
+  </div>
 </div>
+
 <style>
   .flexcontainer {
     display: flex;
