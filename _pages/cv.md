@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="flexcontainer1">
   <div>
-    <span><i>Download my:</i></span> <a href="https://github.com/user-attachments/files/18219519/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
+    <span><i>Download my:</i></span> <a href="https://github.com/user-attachments/files/18223185/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
       <img class="bounce" height="100px" src="/images/resum.jpg" width="150px">
     </a>
   </div>
@@ -55,7 +55,7 @@ Work Experience
  </div>
  
 ### AI Implementation Manager at Eltropy, Santa Clara [December 2024-Present]
-* Managing **SaaS** customer implementation projects using **GUIDEcx**, **Jira**, and **Confluence**, integrating **AWS (S3)** and **Pinecone** for secure data storage and **RAG-based AI (GPT) agentic workflows**, ensuring **95%** on-time delivery and seamless connections with core banking and marketing automation systems.
+* Managing **SaaS** customer implementation projects using **GUIDEcx**, **Jira**, and **Confluence**, integrating **AWS (S3)**, **Pinecone**, and **Azure** for secure data storage and **RAG-based AI (GPT) agentic workflows**, ensuring **95%** on-time delivery and seamless connections with core banking and marketing automation systems.
 * Collaborating with cross-functional teams and customers, leveraging **Gong**, **Salesforce CRM**, **Microsoft 365**, **Zoom**, **Google Workspace**, and **Atlassian Cloud** to resolve **90%** of technical challenges within **48 hours**.
 
 <div class="flexcontainer">
