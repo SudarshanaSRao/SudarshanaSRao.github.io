@@ -55,7 +55,7 @@ Work Experience
  </div>
  
 ### AI Implementation Manager at Eltropy, Santa Clara [December 2024-Present]
-* Managing **SaaS** customer implementation projects using **GUIDEcx**, **Jira**, and **Confluence**, integrating **AWS (S3)**, **Pinecone**, and **Azure** for secure data storage and **RAG-based AI (GPT) agentic workflows**, ensuring **95%** on-time delivery and seamless connections with core banking and marketing automation systems.
+* Managing **SaaS** customer implementation projects using **GUIDEcx**, **Jira**, and **Confluence**, integrating **AWS (S3 & QuickSight)**, **Pinecone**, and **Azure** for secure data storage and **RAG-based AI (GPT) agentic workflows**, ensuring **95%** on-time delivery and seamless connections with core banking and marketing automation systems.
 * Collaborating with cross-functional teams and customers, leveraging **Gong**, **Salesforce CRM**, **Microsoft 365**, **Google Workspace**, **Atlassian Cloud**, and **Zoom Workplace** to resolve **90%** of technical challenges within **48 hours**.
 
 <div class="flexcontainer">
@@ -255,7 +255,7 @@ Skills
 * **📥Databases (Relational, non-relational & vector)**
   * <img alt="MS SQL Server (SSMS)" src="https://img.shields.io/badge/MS SQL Server (SSMS)-black?logo=Microsoft&style=plastic" />  \|  ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)  \|  MongoDB Atlas (NoSQL)  \|  ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) PostGIS  \|  <img alt="ESRI ArcGIS" src="https://img.shields.io/badge/ESRI ArcGIS-black?logo=ESRI&amp;amp;style=plastic" />  \|  <img alt="BigQuery" src="https://img.shields.io/badge/BigQuery-black?logo=Google&amp;amp;style=plastic" />  \|  ChromaDB  \|  SQLite  \|  <img alt="S3" src="https://img.shields.io/badge/Amazon S3-black?logo=Amazon&amp;amp;style=plastic" />  \|  Pinecone  
 * **💹Data Visualization Tools**
-  * <img alt="Power BI" src="https://img.shields.io/badge/Power BI-black?logo=Microsoft&style=plastic" />  \|  ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)  
+  * <img alt="Power BI" src="https://img.shields.io/badge/Power BI-black?logo=Microsoft&style=plastic" />  \|  ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)  \|  ![QuickSight](https://img.shields.io/badge/QuickSight-green?style=for-the-badge&logo=amazon-web-services&logoColor=white)  
 * **🤖📔Large Language Models (LLMs)**
   * <img alt="LLaMA" src="https://img.shields.io/badge/LLaMA-black?logo=meta&amp;amp;style=plastic" />  \|  Mistral  \|  <img alt="T5" src="https://img.shields.io/badge/T5-black?logo=Google&amp;amp;style=plastic" />  \|  <img alt="BART" src="https://img.shields.io/badge/BART-black?logo=Meta&amp;amp;style=plastic" />  \|  <img alt="GPT" src="https://img.shields.io/badge/GPT-black?logo=OpenAI&amp;amp;style=plastic" />  \|  <img alt="Claude" src="https://img.shields.io/badge/Claude-black?logo=Anthropic&amp;amp;style=plastic" />  \|  <img alt="Gemini" src="https://img.shields.io/badge/Gemini-black?logo=Google&amp;amp;style=plastic" />
 * **🏗️Frameworks & Libraries**
