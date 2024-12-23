@@ -2,7 +2,7 @@
 layout: archive
 permalink: /courses/
 title: "Academic Coursework (Subjects)📚"
-excerpt: "Academic courses/subjects"
+excerpt: "Academic & online courses/subjects"
 author_profile: true
 redirect_from: 
   - /courses
