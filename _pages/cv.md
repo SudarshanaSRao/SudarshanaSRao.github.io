@@ -272,9 +272,8 @@ Skills
 <div class="tech-container">
   <img alt="LINUX" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img alt="googlecolab" src="https://img.shields.io/badge/Google Colab-black?logo=googlecolab&amp;amp;style=plastic" />
-  <img alt="github-actions" src="https://img.shields.io/badge/Github%20Actions-black?logo=github-actions&amp;amp;style=plastic" />
-  <img alt="chrome" src="https://img.shields.io/badge/Google%20Chrome-black?logo=google-chrome&amp;amp;style=plastic" />
   <img alt="brave" src="https://img.shields.io/badge/Brave-black?logo=brave&amp;amp;style=plastic" />
+  <img alt="chrome" src="https://img.shields.io/badge/Google%20Chrome-black?logo=google-chrome&amp;amp;style=plastic" />
 </div>
 
 Education
