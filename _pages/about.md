@@ -379,7 +379,7 @@ My ideal role involves applying math to develop models or algorithms, analyze da
 <div class="inspiration-section">
     <div class="inspiration-box" onclick="toggleAnimation(this)">
         <img src="/images/Carcool.jpg" alt="Cool Car" style="cursor: crosshair;">
-        <span>"Your time on earth is limited, so don't waste it by living someone else's life." <i>- SJ</i></span>
+        <span>"Your time on earth is limited, so don't waste it by living someone else's." <i>- SJ</i></span>
     </div>
 </div>
 
