@@ -53,17 +53,16 @@
     {% endif %}
 
     {% if post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}" target="_blank"><strong>Download Paper</strong></a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation and post.paperurl %}
-<style>
+    <style>
   /* Button Container */
   .download-button-container {
-    text-align: center;
+    text-align: left;  /* Align content to the left */
     margin-top: 10px;
   }
+
   /* Button Styles */
   .download-paper-button {
-    border: 2px solid #4CAF50;  /* Green border */
+    border: 2px solid #808080;  /* Grey border */
     padding: 15px 32px;  /* Padding for size */
     text-align: center;
     text-decoration: none;
@@ -73,30 +72,79 @@
     cursor: pointer;
     border-radius: 4px;  /* Slightly rounded corners */
     background-color: transparent;  /* No background */
+    color: #808080;  /* Grey text */
+    font-weight: bold;  /* Make text bold */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  /* Hover Effect */
+  .download-paper-button:hover {
+    background-color: #A9A9A9;  /* Darker grey background on hover */
+    color: white;  /* White text on hover */
+    border-color: #696969;  /* Darker grey border on hover */
+  }
+
+  /* Active Effect */
+  .download-paper-button:active {
+    background-color: #696969;  /* Even darker grey on click */
+    border-color: #696969;  /* Darker border on click */
+  }
+</style>
+
+<div class="download-button-container">
+ <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
+  <a href="{{ post.paperurl }}" target="_blank">
+    <button class="download-paper-button">
+      Download Paper
+    </button>
+  </a>
+</div>
+      
+    {% elsif post.citation and post.paperurl %}
+<style>
+  /* Button Container */
+  .download-button-container {
+    text-align: left;  /* Align content to the left */
+    margin-top: 10px;
+  }
+  /* Button Styles */
+  .download-paper-button {
+    border: 2px solid #808080;  /* Grey border */
+    padding: 15px 32px;  /* Padding for size */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;  /* Slightly rounded corners */
+    background-color: transparent;  /* No background */
+    color: #808080;  /* Grey text */
+    font-weight: bold;  /* Make text bold */
     transition: background-color 0.3s ease, border-color 0.3s ease;
   }
   /* Hover Effect */
   .download-paper-button:hover {
-    background-color: #4CAF50;  /* Green background on hover */
+    background-color: #A9A9A9;  /* Darker grey background on hover */
     color: white;  /* White text on hover */
-    border-color: #4CAF50;  /* Maintain green border on hover */
+    border-color: #696969;  /* Darker grey border on hover */
   }
   /* Active Effect */
   .download-paper-button:active {
-    background-color: #45a049;  /* Slightly darker green on click */
-    border-color: #45a049;  /* Darker border on click */
+    background-color: #696969;  /* Even darker grey on click */
+    border-color: #696969;  /* Darker border on click */
   }
 </style>
 
-  <div class="download-button-container">
-    <p>Recommended citation: {{ post.citation }}</p> 
-    <a href="{{ post.paperurl }}" target="_blank">
-      <button class="download-paper-button">
-        Download Paper
-      </button>
-    </a>
-  </div>
-<!--       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}" target="_blank"><strong>Download Paper</strong></a></p> -->
+<div class="download-button-container">
+  <p>Recommended citation: {{ post.citation }}</p> 
+  <a href="{{ post.paperurl }}" target="_blank">
+    <button class="download-paper-button">
+      Download Paper
+    </button>
+  </a>
+</div>
+
     {% elsif post.citation and post.slidesurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.citation %}
@@ -105,12 +153,12 @@
     <style>
   /* Button Container */
   .download-button-container {
-    text-align: center;
+    text-align: left;  /* Align content to the left */
     margin-top: 10px;
   }
   /* Button Styles */
   .download-paper-button {
-    border: 2px solid #4CAF50;  /* Green border */
+    border: 2px solid #808080;  /* Grey border */
     padding: 15px 32px;  /* Padding for size */
     text-align: center;
     text-decoration: none;
@@ -120,29 +168,32 @@
     cursor: pointer;
     border-radius: 4px;  /* Slightly rounded corners */
     background-color: transparent;  /* No background */
+    color: #808080;  /* Grey text */
+    font-weight: bold;  /* Make text bold */
     transition: background-color 0.3s ease, border-color 0.3s ease;
   }
   /* Hover Effect */
   .download-paper-button:hover {
-    background-color: #4CAF50;  /* Green background on hover */
+    background-color: #A9A9A9;  /* Darker grey background on hover */
     color: white;  /* White text on hover */
-    border-color: #4CAF50;  /* Maintain green border on hover */
+    border-color: #696969;  /* Darker grey border on hover */
   }
   /* Active Effect */
   .download-paper-button:active {
-    background-color: #45a049;  /* Slightly darker green on click */
-    border-color: #45a049;  /* Darker border on click */
+    background-color: #696969;  /* Even darker grey on click */
+    border-color: #696969;  /* Darker border on click */
   }
 </style>
 
-  <div class="download-button-container">
-    <a href="{{ post.paperurl }}" target="_blank">
-      <button class="download-paper-button">
-        Download Paper
-      </button>
-    </a>
-  </div>
-<!--       <p><a href="{{ post.paperurl }}" target="_blank"><strong>Download Paper</strong></a></p> -->
+<div class="download-button-container">
+  <p>Recommended citation: {{ post.citation }}</p> 
+  <a href="{{ post.paperurl }}" target="_blank">
+    <button class="download-paper-button">
+      Download Paper
+    </button>
+  </a>
+</div>
+      
     {% elsif post.slidesurl %}
       <p>Download <a href="{{ post.slidesurl }}">Download Slides</a></p></p>
     {% endif %}
