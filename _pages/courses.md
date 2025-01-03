@@ -9,7 +9,79 @@ redirect_from:
 ---
 {% include base_path %}
 <!-- Graduate Coursework:  -->
+<style>
+/* Container for Bullet List */
+.bullet-list {
+  list-style-type: none;
+  padding: 0;
+}
+.bullet-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+/* Custom Bullet */
+.bullet-list li::before {
+  content: "⁌";  /* Custom bullet symbol */
+  font-size: 20px;
+  margin-right: 10px;
+}
+/* Text next to the button */
+.text-right {
+  margin-left: 10px;
+  font-size: 16px;
+}
+/* Button Styles */
+.download-paper-button {
+  border: 2px solid #000;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+.download-paper-button::before {
+  content: "🐙";
+  margin-right: 8px;
+  font-size: 18px;
+}
+/* Hover Effect */
+.download-paper-button:hover {
+  background-color: #A9A9A9;
+  color: white;
+  border-color: #696969;
+  transform: translateY(-3px);
+}
+/* Active Effect */
+.download-paper-button:active {
+  background-color: #696969;
+  border-color: #696969;
+  transform: translateY(2px);
+  box-shadow: 0 2px #D3D3D3;
+}
+</style>
 
+<div class="download-button-container">
+  <ul class="bullet-list">
+    <li>
+      <a href="https://github.com/SudarshanaSRao/CSCI561-AI_USC" target="_blank">
+        <button class="download-paper-button">
+          CSCI 561
+        </button>
+      </a>
+      <span class="text-right">Foundations of Artificial Intelligence</span>
+    </li>
+  </ul>
+</div>
+      
 ⁌ [CSCI 561](https://github.com/SudarshanaSRao/CSCI561-AI_USC){:target="_blank"} Foundations of Artificial Intelligence<br>
 ⁌ [EE 541](https://github.com/SudarshanaSRao/EE541-Deep_Learning-USC){:target="_blank"}   A Computational Introduction to Deep Learning [✨I was awarded _extra credit_ for the [final project](https://sudarshanasrao.github.io/portfolio/portfolio-5/)✨]<br>
 ⁌ [CSCI 585](https://github.com/SudarshanaSRao/USC_CSCI-585_Database-Systems){:target="_blank"} Database systems [🚀I was the Course Producer during _Spring '24_ term🚀]<br>
