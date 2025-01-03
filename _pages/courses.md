@@ -14,11 +14,16 @@ redirect_from:
 .bullet-list {
   list-style-type: none;
   padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
+/* Bullet List Item */
 .bullet-list li {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  width: 100%;  /* Ensures the list items take up the full width */
 }
 /* Custom Bullet */
 .bullet-list li::before {
@@ -28,8 +33,9 @@ redirect_from:
 }
 /* Text next to the button */
 .text-right {
-  margin-left: 10px;
   font-size: 18px;
+  flex-grow: 1;  /* Makes the text take up the remaining space */
+  text-align: left;  /* Aligns text to the left */
 }
 /* Button Styles */
 .download-paper-button {
@@ -71,6 +77,17 @@ redirect_from:
   border-color: #696969;
   transform: translateY(2px);
   box-shadow: 0 2px #D3D3D3;
+}
+/* Responsive Styles */
+@media (max-width: 600px) {
+  /* Adjust button text size and margins for smaller screens */
+  .download-paper-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  .text-right {
+    font-size: 16px;
+  }
 }
 </style>
 
