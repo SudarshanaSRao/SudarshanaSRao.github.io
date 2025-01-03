@@ -49,9 +49,14 @@ redirect_from:
   transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 .download-paper-button::before {
-  content: "🐙";
-  margin-right: 8px;
-  font-size: 18px;
+  content: "";
+  background-image: url("/images/A.jpg");  /* Specify the path to the image */
+  background-size: contain;  /* Adjust size of the image */
+  background-repeat: no-repeat;  /* Prevent repetition of the image */
+  width: 20px;  /* Adjust width */
+  height: 20px;  /* Adjust height */
+  margin-right: 8px;  /* Space between image and text */
+  display: inline-block;  /* Makes it an inline element */
 }
 /* Hover Effect */
 .download-paper-button:hover {
