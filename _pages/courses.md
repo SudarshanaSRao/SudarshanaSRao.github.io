@@ -90,12 +90,12 @@ redirect_from:
 <div class="download-button-container">
   <ul class="bullet-list">
     <li>
-      <a href="https://github.com/SudarshanaSRao/EE541-Deep_Learning-USC" target="_blank">
+      <a href="https://github.com/SudarshanaSRao/CSCI-499_LMs-in-NLP_USC" target="_blank">
         <button class="download-paper-button">
-          EE 541
+          CSCI 499
         </button>
       </a>
-      <span class="text-right">A Computational Introduction to Deep Learning [✨I was awarded <i>extra credit</i> for the <a href="https://sudarshanasrao.github.io/portfolio/portfolio-5/">final project</a>✨</span>
+      <span class="text-right">Language Models in Natural Language Processing</span>
     </li>
   </ul>
 </div>
@@ -116,12 +116,12 @@ redirect_from:
 <div class="download-button-container">
   <ul class="bullet-list">
     <li>
-      <a href="https://github.com/SudarshanaSRao/CSCI-499_LMs-in-NLP_USC" target="_blank">
+      <a href="https://github.com/SudarshanaSRao/EE541-Deep_Learning-USC" target="_blank">
         <button class="download-paper-button">
-          CSCI 499
+          EE 541
         </button>
       </a>
-      <span class="text-right">Language Models in Natural Language Processing</span>
+      <span class="text-right">A Computational Introduction to Deep Learning [✨I was awarded <i>extra credit</i> for the <a href="https://sudarshanasrao.github.io/portfolio/portfolio-5/">final project</a>✨</span>
     </li>
   </ul>
 </div>
@@ -157,22 +157,6 @@ Fundamental Courses
 <div class="download-button-container">
   <ul class="bullet-list">
     <li>
-      <span class="text-right">EE 503 Probability for Electrical and Computer Engineers</span>
-    </li>
-  </ul>
-</div>
-
-<div class="download-button-container">
-  <ul class="bullet-list">
-    <li>
-      <span class="text-right">EE 510 Linear Algebra for Engineering</span>
-    </li>
-  </ul>
-</div>
-
-<div class="download-button-container">
-  <ul class="bullet-list">
-    <li>
       <a href="https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML" target="_blank">
         <button class="download-paper-button">
           19EI5PE1PY
@@ -187,6 +171,22 @@ Fundamental Courses
   <ul class="bullet-list">
     <li>
       <span class="text-right">18CS2ESCCP C & C++ Programming</span>
+    </li>
+  </ul>
+</div>
+
+<div class="download-button-container">
+  <ul class="bullet-list">
+    <li>
+      <span class="text-right">EE 503 Probability for Electrical and Computer Engineers</span>
+    </li>
+  </ul>
+</div>
+
+<div class="download-button-container">
+  <ul class="bullet-list">
+    <li>
+      <span class="text-right">EE 510 Linear Algebra for Engineering</span>
     </li>
   </ul>
 </div>
