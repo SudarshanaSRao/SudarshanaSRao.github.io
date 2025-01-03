@@ -138,7 +138,7 @@ redirect_from:
           EE 541
         </button>
       </a>
-      <span class="text-right">A Computational Introduction to Deep Learning [✨I was awarded <i>extra credit</i> for the <a href="https://sudarshanasrao.github.io/portfolio/portfolio-5/">final project</a>✨</span>
+      <span class="text-right">A Computational Introduction to Deep Learning [✨I was awarded <i>extra credit</i> for the <a href="https://sudarshanasrao.github.io/portfolio/portfolio-5/">final project</a>✨]</span>
     </li>
   </ul>
 </div>
