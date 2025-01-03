@@ -8,7 +8,7 @@ redirect_from:
   - /courses
 ---
 {% include base_path %}
-<!-- Graduate Coursework:  -->
+
 <style>
 /* Container for Bullet List */
 .bullet-list {
@@ -29,7 +29,7 @@ redirect_from:
 /* Text next to the button */
 .text-right {
   margin-left: 10px;
-  font-size: 16px;
+  font-size: 18px;
 }
 /* Button Styles */
 .download-paper-button {
@@ -81,20 +81,110 @@ redirect_from:
     </li>
   </ul>
 </div>
-      
-⁌ [CSCI 561](https://github.com/SudarshanaSRao/CSCI561-AI_USC){:target="_blank"} Foundations of Artificial Intelligence<br>
-⁌ [EE 541](https://github.com/SudarshanaSRao/EE541-Deep_Learning-USC){:target="_blank"}   A Computational Introduction to Deep Learning [✨I was awarded _extra credit_ for the [final project](https://sudarshanasrao.github.io/portfolio/portfolio-5/)✨]<br>
-⁌ [CSCI 585](https://github.com/SudarshanaSRao/USC_CSCI-585_Database-Systems){:target="_blank"} Database systems [🚀I was the Course Producer during _Spring '24_ term🚀]<br>
-⁌ [CSCI 499](https://github.com/SudarshanaSRao/CSCI-499_LMs-in-NLP_USC){:target="_blank"} Language Models in Natural Language Processing<br>
-⁌ [EE 559](https://github.com/SudarshanaSRao/EE559-Machine_Learning-USC){:target="_blank"}   Machine Learning<br>
-⁌ [EE 599](https://github.com/SudarshanaSRao/USC_EE-599_Robotics){:target="_blank"}   Robotic Mobility [🥈My team’s [final project](https://www.youtube.com/watch?v=7GFFjOJgJMA){:target="_blank"} earned _second place_ in the cohort🥈]<br>
+
+<div class="download-button-container">
+  <ul class="bullet-list">
+    <li>
+      <a href="https://github.com/SudarshanaSRao/EE541-Deep_Learning-USC" target="_blank">
+        <button class="download-paper-button">
+          EE 541
+        </button>
+      </a>
+      <span class="text-right">A Computational Introduction to Deep Learning [✨I was awarded <i>extra credit</i> for the <a href="https://sudarshanasrao.github.io/portfolio/portfolio-5/">final project</a>✨</span>
+    </li>
+  </ul>
+</div>
+
+<div class="download-button-container">
+  <ul class="bullet-list">
+    <li>
+      <a href="https://github.com/SudarshanaSRao/USC_CSCI-585_Database-Systems" target="_blank">
+        <button class="download-paper-button">
+          CSCI 585
+        </button>
+      </a>
+      <span class="text-right">Database systems [🚀I was the Course Producer during <i>Spring '24</i> term🚀]</span>
+    </li>
+  </ul>
+</div>
+
+<div class="download-button-container">
+  <ul class="bullet-list">
+    <li>
+      <a href="https://github.com/SudarshanaSRao/CSCI-499_LMs-in-NLP_USC" target="_blank">
+        <button class="download-paper-button">
+          CSCI 499
+        </button>
+      </a>
+      <span class="text-right">Language Models in Natural Language Processing</span>
+    </li>
+  </ul>
+</div>
+
+<div class="download-button-container">
+  <ul class="bullet-list">
+    <li>
+      <a href="https://github.com/SudarshanaSRao/EE559-Machine_Learning-USC" target="_blank">
+        <button class="download-paper-button">
+          EE 559
+        </button>
+      </a>
+      <span class="text-right">Machine Learning</span>
+    </li>
+  </ul>
+</div>
+
+<div class="download-button-container">
+  <ul class="bullet-list">
+    <li>
+      <a href="https://github.com/SudarshanaSRao/USC_EE-599_Robotics" target="_blank">
+        <button class="download-paper-button">
+          EE 599
+        </button>
+      </a>
+      <span class="text-right">Robotic Mobility [🥈My team’s <a href="https://www.youtube.com/watch?v=7GFFjOJgJMA" target="_blank">final project</a> earned <i>second place</i> in the cohort🥈]</span>
+    </li>
+  </ul>
+</div>   
 
 Fundamental Courses
 ==================
-⁌ EE 503  Probability for Electrical and Computer Engineers<br>
-⁌ EE 510  Linear Algebra for Engineering<br>
-⁌ [19EI5PE1PY](https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML){:target="_blank"} Python Programming and Applications (Data Structures and Algorithms)<br>
-⁌ 18CS2ESCCP C & C++ Programming
+<div class="download-button-container">
+  <ul class="bullet-list">
+    <li>
+      <span class="text-right">EE 503 Probability for Electrical and Computer Engineers</span>
+    </li>
+  </ul>
+</div>
+
+<div class="download-button-container">
+  <ul class="bullet-list">
+    <li>
+      <span class="text-right">EE 510 Linear Algebra for Engineering</span>
+    </li>
+  </ul>
+</div>
+
+<div class="download-button-container">
+  <ul class="bullet-list">
+    <li>
+      <a href="https://github.com/SudarshanaSRao/Python-and-its-applications-in-ML" target="_blank">
+        <button class="download-paper-button">
+          19EI5PE1PY
+        </button>
+      </a>
+      <span class="text-right">Python Programming and Applications (Data Structures and Algorithms)</span>
+    </li>
+  </ul>
+</div>
+
+<div class="download-button-container">
+  <ul class="bullet-list">
+    <li>
+      <span class="text-right">18CS2ESCCP C & C++ Programming</span>
+    </li>
+  </ul>
+</div>
 
 Online Courses
 ==================
