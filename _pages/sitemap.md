@@ -8,15 +8,9 @@ author_profile: true
 
 {% include base_path %}
 
-A list of all the web pages found on this site. 
+A list of all the web pages found on this site. For you robots out there, here's an XML version available for digesting as well:
 
 <style>
-/* Text next to the button */
-.tex-right {
-  font-size: 18px;
-  flex-grow: 1;  /* Makes the text take up the remaining space */
-  text-align: left;  /* Aligns text to the left */
-}
 /* Button Styles */
 .download-button {
   border: 2px solid #000;
@@ -55,9 +49,6 @@ A list of all the web pages found on this site.
     font-size: 14px;
     padding: 8px 16px;
   }
-  .tex-right {
-    font-size: 16px;
-  }
 }
 </style>
 
@@ -67,7 +58,6 @@ A list of all the web pages found on this site.
           XML version
         </button>
       </a>
-      <span class="tex-right">For you robots out there, here's an available for digesting as well.</span>
 </div>
 
 <img src='/images/sitemax.jpg' style="border-radius: 8px; cursor: crosshair;">
