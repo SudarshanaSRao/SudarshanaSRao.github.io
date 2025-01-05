@@ -12,6 +12,134 @@ redirect_from:
 
 I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ reading the news, 📟 keeping up with technology, and 🍿 watching movies 📽️ & 📺 TV shows in my free time. Hit me up if you want to 🎮 play video games <img src="https://cdn3.emoji.gg/emojis/3139_Xbox.png" width="15px" height="15px" alt="Xbox"> with me!  
 
+<style>
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f4f9;
+}
+  .slider-container {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .slider-header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .slider-frame {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  .slider-frame img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0.2em;
+  }
+  .arrow:hover {
+    background-color: #ddd;
+  }
+  .arrow-left {
+    left: 10px;
+  }
+  .arrow-right {
+    right: 10px;
+  }
+  .dots-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .dot.active {
+    background-color: #333;
+  }
+</style>
+
+<div class="container">
+<div class="slider-container">
+  <div class="slider-header">Browse my collection of video games</div>
+  <div class="slider-frame">
+    <img src="/images/battlefield.jpg" alt="Image 1">
+    <img src="/images/forza.jpg" alt="Image 2">
+    <img src="/images/halo.jpg" alt="Image 3">
+    <img src="/images/codmw.jpg" alt="Image 4">
+    <img src="/images/fifa.jpeg" alt="Image 5">
+    <img src="/images/witcher.jpg" alt="Image 6">
+    <img src="/images/farcry.jpg" alt="Image 7">
+  </div>
+  <button class="arrow arrow-left">&#8249;</button>
+  <button class="arrow arrow-right">&#8250;</button>
+  <div class="dots-container">
+    <div class="dot active"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+</div>
+</div>
+
+<script>
+    const sliderFrame = document.querySelector('.slider-frame');
+    const images = document.querySelectorAll('.slider-frame img');
+    const dots = document.querySelectorAll('.dot');
+    const leftArrow = document.querySelector('.arrow-left');
+    const rightArrow = document.querySelector('.arrow-right');
+    let currentIndex = 0;
+    function updateSlider() {
+      sliderFrame.style.transform = `translateX(-${currentIndex * 100}%)`;
+      dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentIndex);
+      });
+    }
+    function goToNext() {
+      currentIndex = (currentIndex + 1) % images.length;
+      updateSlider();
+    }
+    function goToPrevious() {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      updateSlider();
+    }
+    function goToSlide(index) {
+      currentIndex = index;
+      updateSlider();
+    }
+    rightArrow.addEventListener('click', goToNext);
+    leftArrow.addEventListener('click', goToPrevious);
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => goToSlide(index));
+    });
+    // Auto slide (optional)
+    setInterval(goToNext, 5000); // Slide every 5 seconds
+</script>
+
 Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world 🌎: 
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
