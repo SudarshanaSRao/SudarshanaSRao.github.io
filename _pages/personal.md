@@ -129,63 +129,43 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ re
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    const sliderFrame = document.querySelector('.slider-frame');
-    const slides = document.querySelectorAll('.slide');
-    const dots = document.querySelectorAll('.dot');
-    const leftArrow = document.querySelector('.arrow-left');
-    const rightArrow = document.querySelector('.arrow-right');
-    let currentIndex = 0;
-    let autoSlideInterval;
-    function updateSlider() {
-        sliderFrame.style.transform = `translateX(-${currentIndex * 100}%)`;   
-        // Update dots
-        dots.forEach((dot, index) => {
-            dot.classList.toggle('active', index === currentIndex);
-        });
-    }
-    function goToNext() {
-        currentIndex = (currentIndex + 1) % slides.length;
-        updateSlider();
-    }
-    function goToPrevious() {
-        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-        updateSlider();
-    }
-    function goToSlide(index) {
-        currentIndex = index;
-        updateSlider();
-        resetAutoSlide();
-    }
-    function resetAutoSlide() {
-        clearInterval(autoSlideInterval);
-        startAutoSlide();
-    }
-    function startAutoSlide() {
-        autoSlideInterval = setInterval(goToNext, 5000); // Slide every 5 seconds
-    }
-    // Event Listeners
-    rightArrow.addEventListener('click', () => {
-        goToNext();
-        resetAutoSlide();
-    });
-    leftArrow.addEventListener('click', () => {
-        goToPrevious();
-        resetAutoSlide();
-    });
+const sliderFrame = document.querySelector('.slider-frame');
+const slides = document.querySelectorAll('.slide');
+const dots = document.querySelectorAll('.dot');
+const leftArrow = document.querySelector('.arrow-left');
+const rightArrow = document.querySelector('.arrow-right');
+let currentIndex = 0;
+// Update the slider position and dots
+function updateSlider() {
+    sliderFrame.style.transform = `translateX(-${currentIndex * 100}%)`;
+    // Update dots
     dots.forEach((dot, index) => {
-        dot.addEventListener('click', () => {
-            goToSlide(index);
-        });
+        dot.classList.toggle('active', index === currentIndex);
     });
-    // Start auto-sliding
-    startAutoSlide();
-    // Pause auto-sliding when hovering over the slider
-    sliderFrame.addEventListener('mouseenter', () => {
-        clearInterval(autoSlideInterval);
-    });
-    sliderFrame.addEventListener('mouseleave', startAutoSlide);
+}
+// Next slide
+function goToNext() {
+    currentIndex = (currentIndex + 1) % slides.length;
+    updateSlider();
+}
+// Previous slide
+function goToPrevious() {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    updateSlider();
+}
+// Go to specific slide
+function goToSlide(index) {
+    currentIndex = index;
+    updateSlider();
+}
+// Event Listeners
+rightArrow.addEventListener('click', goToNext);
+leftArrow.addEventListener('click', goToPrevious);
+dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => goToSlide(index));
 });
+// Initialize slider
+updateSlider();
 </script>
 
 Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world 🌎: 
