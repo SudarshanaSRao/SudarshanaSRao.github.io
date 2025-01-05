@@ -35,12 +35,17 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ re
 .slider-frame {
   display: flex;
   transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+.slide {
+  flex: 0 0 100%;
+  width: 100%;
 }
 .slider-frame img {
   width: 100%;
   height: auto;
-  max-height: 300px; /* Uniform image dimensions */
-  object-fit: cover; /* Ensure images fit nicely */
+  max-height: 300px;
+  object-fit: cover;
   border-radius: 10px;
 }
 .arrow {
@@ -49,15 +54,20 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ re
   transform: translateY(-50%);
   font-size: 2em;
   color: white;
-  background-color: rgba(0, 0, 0, 0.8); /* Darker arrow background */
+  background-color: rgba(0, 0, 0, 0.8);
   border: none;
   cursor: pointer;
   border-radius: 50%;
   padding: 0.2em;
   z-index: 10;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .arrow:hover {
-  background-color: rgba(0, 0, 0, 1); /* Fully opaque on hover */
+  background-color: rgba(0, 0, 0, 1);
 }
 .arrow-left {
   left: 10px;
@@ -77,79 +87,105 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ re
   background-color: #bbb;
   border-radius: 50%;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 .dot.active {
   background-color: #333;
 }
-/* Responsive design */
 @media screen and (max-width: 768px) {
   .slider-container {
-    width: 100%;
+    width: 95%;
   }
   .slider-frame img {
-    max-height: 200px; /* Reduce image size on smaller screens */
+    max-height: 200px;
   }
 }
 </style>
 
 <div class="containernew">
-<div class="slider-container">
-  <div class="slider-header">Browse my collection of video games</div>
-  <div class="slider-frame">
-    <img src="/images/battlefield.jpg" alt="Image 1">
-    <img src="/images/forza.jpg" alt="Image 2">
-    <img src="/images/halo.jpg" alt="Image 3">
-    <img src="/images/codmw.jpg" alt="Image 4">
-    <img src="/images/fifa.jpeg" alt="Image 5">
-    <img src="/images/witcher.jpg" alt="Image 6">
-    <img src="/images/farcry.jpg" alt="Image 7">
+  <div class="slider-container">
+    <div class="slider-header">Browse my collection of video games</div>
+    <div class="slider-frame">
+      <div class="slide"><img src="/images/battlefield.jpg" alt="Battlefield"></div>
+      <div class="slide"><img src="/images/forza.jpg" alt="Forza"></div>
+      <div class="slide"><img src="/images/halo.jpg" alt="Halo"></div>
+      <div class="slide"><img src="/images/codmw.jpg" alt="Call of Duty: Modern Warfare"></div>
+      <div class="slide"><img src="/images/fifa.jpeg" alt="FIFA"></div>
+      <div class="slide"><img src="/images/witcher.jpg" alt="The Witcher"></div>
+      <div class="slide"><img src="/images/farcry.jpg" alt="Far Cry"></div>
+    </div>
+    <button class="arrow arrow-left">&#8249;</button>
+    <button class="arrow arrow-right">&#8250;</button>
+    <div class="dots-container">
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
   </div>
-  <button class="arrow arrow-left">&#8249;</button>
-  <button class="arrow arrow-right">&#8250;</button>
-  <div class="dots-container">
-    <div class="dot active"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-  </div>
-</div>
 </div>
 
 <script>
+document.addEventListener('DOMContentLoaded', function() {
     const sliderFrame = document.querySelector('.slider-frame');
-    const images = document.querySelectorAll('.slider-frame img');
+    const slides = document.querySelectorAll('.slide');
     const dots = document.querySelectorAll('.dot');
     const leftArrow = document.querySelector('.arrow-left');
     const rightArrow = document.querySelector('.arrow-right');
     let currentIndex = 0;
+    let autoSlideInterval;
     function updateSlider() {
-      sliderFrame.style.transform = translateX(-${currentIndex * 100}%);
-      dots.forEach((dot, index) => {
-        dot.classList.toggle('active', index === currentIndex);
-      });
+        sliderFrame.style.transform = `translateX(-${currentIndex * 100}%)`;   
+        // Update dots
+        dots.forEach((dot, index) => {
+            dot.classList.toggle('active', index === currentIndex);
+        });
     }
     function goToNext() {
-      currentIndex = (currentIndex + 1) % images.length;
-      updateSlider();
+        currentIndex = (currentIndex + 1) % slides.length;
+        updateSlider();
     }
     function goToPrevious() {
-      currentIndex = (currentIndex - 1 + images.length) % images.length;
-      updateSlider();
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        updateSlider();
     }
     function goToSlide(index) {
-      currentIndex = index;
-      updateSlider();
+        currentIndex = index;
+        updateSlider();
+        resetAutoSlide();
     }
-    rightArrow.addEventListener('click', goToNext);
-    leftArrow.addEventListener('click', goToPrevious);
-    dots.forEach((dot, index) => {
-      dot.addEventListener('click', () => goToSlide(index));
+    function resetAutoSlide() {
+        clearInterval(autoSlideInterval);
+        startAutoSlide();
+    }
+    function startAutoSlide() {
+        autoSlideInterval = setInterval(goToNext, 5000); // Slide every 5 seconds
+    }
+    // Event Listeners
+    rightArrow.addEventListener('click', () => {
+        goToNext();
+        resetAutoSlide();
     });
-    // Auto slide (optional)
-    setInterval(goToNext, 2000); // Slide every 5 seconds
+    leftArrow.addEventListener('click', () => {
+        goToPrevious();
+        resetAutoSlide();
+    });
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            goToSlide(index);
+        });
+    });
+    // Start auto-sliding
+    startAutoSlide();
+    // Pause auto-sliding when hovering over the slider
+    sliderFrame.addEventListener('mouseenter', () => {
+        clearInterval(autoSlideInterval);
+    });
+    sliderFrame.addEventListener('mouseleave', startAutoSlide);
+});
 </script>
 
 Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world 🌎: 
