@@ -21,62 +21,75 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ re
   margin: 0;
   background-color: #f4f4f9;
 }
+.slider-container {
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  overflow: hidden;
+  text-align: center;
+}
+.slider-header {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.slider-frame {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.slider-frame img {
+  width: 100%;
+  height: auto;
+  max-height: 300px; /* Uniform image dimensions */
+  object-fit: cover; /* Ensure images fit nicely */
+  border-radius: 10px;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8); /* Darker arrow background */
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0.2em;
+  z-index: 10;
+}
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 1); /* Fully opaque on hover */
+}
+.arrow-left {
+  left: 10px;
+}
+.arrow-right {
+  right: 10px;
+}
+.dots-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.dot.active {
+  background-color: #333;
+}
+/* Responsive design */
+@media screen and (max-width: 768px) {
   .slider-container {
-    position: relative;
-    width: 80%;
-    max-width: 600px;
-    overflow: hidden;
-    text-align: center;
-  }
-  .slider-header {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  .slider-frame {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+    width: 100%;
   }
   .slider-frame img {
-    width: 100%;
-    border-radius: 10px;
+    max-height: 200px; /* Reduce image size on smaller screens */
   }
-  .arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 2em;
-    color: #333;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: none;
-    cursor: pointer;
-    border-radius: 50%;
-    padding: 0.2em;
-  }
-  .arrow:hover {
-    background-color: #ddd;
-  }
-  .arrow-left {
-    left: 10px;
-  }
-  .arrow-right {
-    right: 10px;
-  }
-  .dots-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  .dot {
-    width: 10px;
-    height: 10px;
-    margin: 0 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  .dot.active {
-    background-color: #333;
-  }
+}
 </style>
 
 <div class="container">
@@ -95,7 +108,6 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ re
   <button class="arrow arrow-right">&#8250;</button>
   <div class="dots-container">
     <div class="dot active"></div>
-    <div class="dot"></div>
     <div class="dot"></div>
     <div class="dot"></div>
     <div class="dot"></div>
@@ -137,7 +149,7 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ re
       dot.addEventListener('click', () => goToSlide(index));
     });
     // Auto slide (optional)
-    setInterval(goToNext, 5000); // Slide every 5 seconds
+    setInterval(goToNext, 2000); // Slide every 5 seconds
 </script>
 
 Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world 🌎: 
