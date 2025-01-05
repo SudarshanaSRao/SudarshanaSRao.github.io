@@ -35,14 +35,13 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ re
 .slider-frame {
   display: flex;
   transition: transform 0.5s ease-in-out;
-  width: 100%; /* Ensure the frame width matches the container */
 }
 .slider-frame img {
-  width: 100%; /* Image takes the full width of the container */
+  width: 100%;
   height: auto;
   max-height: 300px; /* Uniform image dimensions */
-  object-fit: cover; /* Ensures proper scaling of images */
-  flex-shrink: 0; /* Prevent images from shrinking */
+  object-fit: cover; /* Ensure images fit nicely */
+  border-radius: 10px;
 }
 .arrow {
   position: absolute;
