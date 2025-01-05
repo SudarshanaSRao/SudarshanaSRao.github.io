@@ -125,12 +125,12 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ re
     const leftArrow = document.querySelector('.arrow-left');
     const rightArrow = document.querySelector('.arrow-right');
     let currentIndex = 0;
-function updateSlider() {
-  sliderFrame.style.transform = `translateX(-${currentIndex * 100}%)`; // Show only one image
-  dots.forEach((dot, index) => {
-    dot.classList.toggle('active', index === currentIndex);
-  });
-}
+    function updateSlider() {
+      sliderFrame.style.transform = translateX(-${currentIndex * 100}%);
+      dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentIndex);
+      });
+    }
     function goToNext() {
       currentIndex = (currentIndex + 1) % images.length;
       updateSlider();
