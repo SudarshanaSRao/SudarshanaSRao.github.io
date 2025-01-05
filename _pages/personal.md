@@ -35,13 +35,14 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ re
 .slider-frame {
   display: flex;
   transition: transform 0.5s ease-in-out;
+  width: 100%; /* Ensure the frame width matches the container */
 }
 .slider-frame img {
-  width: 100%;
+  width: 100%; /* Image takes the full width of the container */
   height: auto;
   max-height: 300px; /* Uniform image dimensions */
-  object-fit: cover; /* Ensure images fit nicely */
-  border-radius: 10px;
+  object-fit: cover; /* Ensures proper scaling of images */
+  flex-shrink: 0; /* Prevent images from shrinking */
 }
 .arrow {
   position: absolute;
@@ -125,12 +126,12 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ re
     const leftArrow = document.querySelector('.arrow-left');
     const rightArrow = document.querySelector('.arrow-right');
     let currentIndex = 0;
-    function updateSlider() {
-      sliderFrame.style.transform = `translateX(-${currentIndex * 100}%)`;
-      dots.forEach((dot, index) => {
-        dot.classList.toggle('active', index === currentIndex);
-      });
-    }
+function updateSlider() {
+  sliderFrame.style.transform = `translateX(-${currentIndex * 100}%)`; // Show only one image
+  dots.forEach((dot, index) => {
+    dot.classList.toggle('active', index === currentIndex);
+  });
+}
     function goToNext() {
       currentIndex = (currentIndex + 1) % images.length;
       updateSlider();
