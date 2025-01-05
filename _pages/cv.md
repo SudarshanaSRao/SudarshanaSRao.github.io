@@ -270,9 +270,9 @@ Skills
   * LLMOps  \|  MLOps  \|  DataOps  \|  AIOps  \|  Conversational Agents  \|  Multi-modal Agentic Workflows  \|  ![CI-CD](https://img.shields.io/badge/CI-CD-orange?style=for-the-badge)  \|  Data Structures and Algorithms  \|  ETL Pipelines  \|  SaaS (Software as a Service)  \|  JSON
 <div class="tech-container">
   <img alt="LINUX" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img alt="googlecolab" src="https://img.shields.io/badge/Google Colab-green?style=for-the-badge&logo=googlecolab" />
   <img alt="brave" src="https://img.shields.io/badge/Brave-maroon?logo=brave&amp;amp;style=plastic" />
-  <img alt="chrome" src="https://img.shields.io/badge/Google%20Chrome-pink?logo=google-chrome&amp;amp;style=plastic" />
+  <img alt="googlecolab" src="https://img.shields.io/badge/Google Colab-green?style=for-the-badge&logo=googlecolab" />
+  <img alt="chrome" src="https://img.shields.io/badge/Chrome-pink?logo=google-chrome&amp;amp;style=plastic" />
 </div>
 
 Education
