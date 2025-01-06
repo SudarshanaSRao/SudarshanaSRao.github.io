@@ -94,7 +94,7 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ re
   <button class="arrow arrow-left">&#8249;</button>
   <button class="arrow arrow-right">&#8250;</button>
   <div class="dots-container">
-    <div class="dot active"></div>
+    <div class="dot dot.active"></div>
     <div class="dot"></div>
     <div class="dot"></div>
     <div class="dot"></div>
@@ -102,6 +102,7 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ re
     <div class="dot"></div>
     <div class="dot"></div>
   </div>
+</div>
 </div>
 
 <script>
