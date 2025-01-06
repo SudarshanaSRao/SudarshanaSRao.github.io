@@ -129,43 +129,51 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ re
 </div>
 
 <script>
-const sliderFrame = document.querySelector('.slider-frame');
-const slides = document.querySelectorAll('.slide');
-const dots = document.querySelectorAll('.dot');
-const leftArrow = document.querySelector('.arrow-left');
-const rightArrow = document.querySelector('.arrow-right');
-let currentIndex = 0;
-// Update the slider position and dots
-function updateSlider() {
-    sliderFrame.style.transform = `translateX(-${currentIndex * 100}%)`;
-    // Update dots
+document.addEventListener('DOMContentLoaded', () => {
+    const sliderFrame = document.querySelector('.slider-frame');
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+    const leftArrow = document.querySelector('.arrow-left');
+    const rightArrow = document.querySelector('.arrow-right');
+    let currentIndex = 0;
+    // Calculate the width of a single slide
+    const slideWidth = 100 / slides.length;
+    function updateSlider() {
+        // Move the slider frame by the percentage based on current index
+        const offset = currentIndex * slideWidth;
+        sliderFrame.style.transform = `translateX(-${offset}%)`;
+        // Update active dot
+        dots.forEach((dot, index) => {
+            dot.classList.toggle('active', index === currentIndex);
+        });
+    }
+    function goToNext() {
+        if (currentIndex < slides.length - 1) {
+            currentIndex++;
+            updateSlider();
+        }
+    }
+    function goToPrevious() {
+        if (currentIndex > 0) {
+            currentIndex--;
+            updateSlider();
+        }
+    }
+    function goToSlide(index) {
+        if (index >= 0 && index < slides.length) {
+            currentIndex = index;
+            updateSlider();
+        }
+    }
+    // Event Listeners
+    rightArrow.addEventListener('click', goToNext);
+    leftArrow.addEventListener('click', goToPrevious);
     dots.forEach((dot, index) => {
-        dot.classList.toggle('active', index === currentIndex);
+        dot.addEventListener('click', () => goToSlide(index));
     });
-}
-// Next slide
-function goToNext() {
-    currentIndex = (currentIndex + 1) % slides.length;
+    // Initialize slider
     updateSlider();
-}
-// Previous slide
-function goToPrevious() {
-    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-    updateSlider();
-}
-// Go to specific slide
-function goToSlide(index) {
-    currentIndex = index;
-    updateSlider();
-}
-// Event Listeners
-rightArrow.addEventListener('click', goToNext);
-leftArrow.addEventListener('click', goToPrevious);
-dots.forEach((dot, index) => {
-    dot.addEventListener('click', () => goToSlide(index));
 });
-// Initialize slider
-updateSlider();
 </script>
 
 Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world 🌎: 
