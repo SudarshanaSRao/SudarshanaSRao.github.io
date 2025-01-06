@@ -21,248 +21,122 @@ I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ re
   margin: 0;
   background-color: #f4f4f9;
 }
-.slider-container {
-  position: relative;
-  width: 80%;
-  max-width: 600px;
-  overflow: hidden;
-  text-align: center;
-}
-.slider-header {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-}
-.slider-frame {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  width: 100%;
-}
-.slide {
-  flex: 0 0 100%;
-  width: 100%;
-}
-.slider-frame img {
-  width: 100%;
-  height: auto;
-  max-height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-.arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2em;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.8);
-  border: none;
-  cursor: pointer;
-  border-radius: 50%;
-  padding: 0.2em;
-  z-index: 10;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.arrow:hover {
-  background-color: rgba(0, 0, 0, 1);
-}
-.arrow-left {
-  left: 10px;
-}
-.arrow-right {
-  right: 10px;
-}
-.dots-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-.dot {
-  width: 10px;
-  height: 10px;
-  margin: 0 5px;
-  background-color: #bbb;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.dot.active {
-  background-color: #333;
-}
-@media screen and (max-width: 768px) {
   .slider-container {
-    width: 95%;
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .slider-header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .slider-frame {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
   }
   .slider-frame img {
-    max-height: 200px;
+    width: 100%;
+    border-radius: 10px;
   }
-}
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0.2em;
+  }
+  .arrow:hover {
+    background-color: #ddd;
+  }
+  .arrow-left {
+    left: 10px;
+  }
+  .arrow-right {
+    right: 10px;
+  }
+  .dots-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .dot.active {
+    background-color: #333;
+  }
 </style>
 
 <div class="containernew">
-  <div class="slider-container">
-    <div class="slider-header">Browse my collection of video games</div>
-    <div class="slider-frame">
-      <div class="slide"><img src="/images/battlefield.jpg" alt="Battlefield"></div>
-      <div class="slide"><img src="/images/forza.jpg" alt="Forza"></div>
-      <div class="slide"><img src="/images/halo.jpg" alt="Halo"></div>
-      <div class="slide"><img src="/images/codmw.jpg" alt="Call of Duty: Modern Warfare"></div>
-      <div class="slide"><img src="/images/fifa.jpeg" alt="FIFA"></div>
-      <div class="slide"><img src="/images/witcher.jpg" alt="The Witcher"></div>
-      <div class="slide"><img src="/images/farcry.jpg" alt="Far Cry"></div>
-    </div>
-    <button class="arrow arrow-left">&#8249;</button>
-    <button class="arrow arrow-right">&#8250;</button>
-    <div class="dots-container">
-      <div class="dot active"></div>
-      <div class="dot"></div>
-      <div class="dot"></div>
-      <div class="dot"></div>
-      <div class="dot"></div>
-      <div class="dot"></div>
-      <div class="dot"></div>
-    </div>
+<div class="slider-container">
+  <div class="slider-header">Browse my collection of video games</div>
+  <div class="slider-frame">
+    <img src="/images/battlefield.jpg" alt="Image 1">
+    <img src="/images/forza.jpg" alt="Image 2">
+    <img src="/images/halo.jpg" alt="Image 3">
+    <img src="/images/codmw.jpg" alt="Image 4">
+    <img src="/images/fifa.jpeg" alt="Image 5">
+    <img src="/images/witcher.jpg" alt="Image 6">
+    <img src="/images/farcry.jpg" alt="Image 7">
   </div>
+  <button class="arrow arrow-left">&#8249;</button>
+  <button class="arrow arrow-right">&#8250;</button>
+  <div class="dots-container">
+    <div class="dot active"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+</div>
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
     const sliderFrame = document.querySelector('.slider-frame');
-    const slides = document.querySelectorAll('.slide');
+    const images = document.querySelectorAll('.slider-frame img');
     const dots = document.querySelectorAll('.dot');
     const leftArrow = document.querySelector('.arrow-left');
     const rightArrow = document.querySelector('.arrow-right');
     let currentIndex = 0;
-    // Calculate the width of a single slide
-    const slideWidth = 100 / slides.length;
     function updateSlider() {
-        // Move the slider frame by the percentage based on current index
-        const offset = currentIndex * slideWidth;
-        sliderFrame.style.transform = `translateX(-${offset}%)`;
-        // Update active dot
-        dots.forEach((dot, index) => {
-            dot.classList.toggle('active', index === currentIndex);
-        });
+      sliderFrame.style.transform = translateX(-${currentIndex * 100}%);
+      dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentIndex);
+      });
     }
     function goToNext() {
-        if (currentIndex < slides.length - 1) {
-            currentIndex++;
-            updateSlider();
-        }
+      currentIndex = (currentIndex + 1) % images.length;
+      updateSlider();
     }
     function goToPrevious() {
-        if (currentIndex > 0) {
-            currentIndex--;
-            updateSlider();
-        }
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      updateSlider();
     }
     function goToSlide(index) {
-        if (index >= 0 && index < slides.length) {
-            currentIndex = index;
-            updateSlider();
-        }
+      currentIndex = index;
+      updateSlider();
     }
-    // Event Listeners
     rightArrow.addEventListener('click', goToNext);
     leftArrow.addEventListener('click', goToPrevious);
     dots.forEach((dot, index) => {
-        dot.addEventListener('click', () => goToSlide(index));
+      dot.addEventListener('click', () => goToSlide(index));
     });
-    // Initialize slider
-    updateSlider();
-});
-</script>
-
-Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world 🌎: 
-
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<style>
-.cursor {
-  display: inline-block;
-  animation: blink 0.7s infinite;
-  position: relative;
-}
-@keyframes blink {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-}
-</style>
-<span id="typed-text"></span><span class="cursor">_</span>
-<div class="social-links mt-3 text-center" style="font-size: xx-large"></div>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  var typed = new Typed('#typed-text', {
-    strings: ["(Psst... there's something special for those who scroll all the way to the end 😉)"],
-    typeSpeed: 40,
-    backSpeed: 40,
-    backDelay: 1000,
-    startDelay: 400,
-    loop: true
-  });
-});
-</script>
-
-<div class="container">
-  <img src="/images/WhatsApp Image 2024-12-04 at 18.35.41_553e988f.jpg" class="image" style="cursor: crosshair;">
-  <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_2896198e.jpg" class="image" style="cursor: crosshair;">
-  <img src="/images/WhatsApp Image 2024-05-26 at 19.32.02_180d4cf9.jpg" class="image" style="cursor: crosshair;">
-  <img src="/images/nick.jpg" class="image" style="cursor: crosshair;">
-  <img src="/images/WhatsApp Image 2024-12-04 at 18.30.32_9408a9bf.jpg" class="image" style="cursor: crosshair;">
-  <img src="/images/chiara.jpg" class="image" style="cursor: crosshair;">
-  <img src="/images/parasailing.png" class="image" style="cursor: crosshair;">
-  <img src="/images/WhatsApp Image 2024-12-04 at 17.29.41_cb1d7af8.jpg" class="image" style="cursor: crosshair;">
-  <img src="/images/skii.jpg" class="image" style="cursor: crosshair;">
-  <img src="/images/WhatsApp Image 2024-12-04 at 12.37.46_5df20689.jpg" class="image" style="cursor: crosshair;">
-  <img src="/images/WhatsApp Image 2024-12-04 at 18.28.22_0317bc6c.jpg" class="image" style="cursor: crosshair;">
-  <img src="/images/grouppic.jpg" class="image" style="cursor: crosshair;">
-  <img src="/images/sledge.JPG" class="image" style="cursor: crosshair;">
-  <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_cd38722a.jpg" class="image" style="cursor: crosshair;">
-  <img src="/images/jetty.JPG" class="image" style="cursor: crosshair;">
-  <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_5ea38d29.jpg" class="image" style="cursor: crosshair;">
-</div>
-<style>
-  .container {
-    width: 100%;
-    max-width: 800px;
-    margin: 10px auto;
-    overflow: hidden;
-  }
-  .image {
-    width: 100%;
-    height: 100%;
-    margin: 10px 0;
-    opacity: 0;
-    transform: translateX(-50px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  }
-  .image.show {
-    opacity: 1;
-    transform: translateX(0);
-  }
-</style>
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const images = document.querySelectorAll('.image');
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('show');
-        } else {
-          entry.target.classList.remove('show');
-        }
-      });
-    });
-    images.forEach(image => {
-      observer.observe(image);
-    });
-  });
+    // Auto slide (optional)
+    setInterval(goToNext, 2000); // Slide every 5 seconds
 </script>
 
 The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻‍👧🏻‍👦🏻!!!! 
