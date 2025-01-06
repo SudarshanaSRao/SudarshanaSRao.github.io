@@ -12,129 +12,93 @@ redirect_from:
 
 I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ reading the news, 📟 keeping up with technology, and 🍿 watching movies 📽️ & 📺 TV shows in my free time. Hit me up if you want to 🎮 play video games <img src="https://cdn3.emoji.gg/emojis/3139_Xbox.png" width="15px" height="15px" alt="Xbox"> with me!  
 
+Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world 🌎: 
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <style>
-.containernew {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
-  background-color: #f4f4f9;
+.cursor {
+  display: inline-block;
+  animation: blink 0.7s infinite;
+  position: relative;
 }
-  .slider-container {
-    position: relative;
-    width: 80%;
-    max-width: 400px;
-    overflow: hidden;
-    text-align: center;
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
   }
-  .slider-header {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+  50% {
+    opacity: 0;
   }
-  .slider-frame {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  .slider-frame img {
+}
+</style>
+<span id="typed-text"></span><span class="cursor">_</span>
+<div class="social-links mt-3 text-center" style="font-size: xx-large"></div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var typed = new Typed('#typed-text', {
+    strings: ["(Psst... there's something special for those who scroll all the way to the end 😉)"],
+    typeSpeed: 40,
+    backSpeed: 40,
+    backDelay: 1000,
+    startDelay: 400,
+    loop: true
+  });
+});
+</script>
+
+<div class="container">
+  <img src="/images/WhatsApp Image 2024-12-04 at 18.35.41_553e988f.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_2896198e.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/WhatsApp Image 2024-05-26 at 19.32.02_180d4cf9.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/nick.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/WhatsApp Image 2024-12-04 at 18.30.32_9408a9bf.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/chiara.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/parasailing.png" class="image" style="cursor: crosshair;">
+  <img src="/images/WhatsApp Image 2024-12-04 at 17.29.41_cb1d7af8.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/skii.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/WhatsApp Image 2024-12-04 at 12.37.46_5df20689.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/WhatsApp Image 2024-12-04 at 18.28.22_0317bc6c.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/grouppic.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/sledge.JPG" class="image" style="cursor: crosshair;">
+  <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_cd38722a.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/jetty.JPG" class="image" style="cursor: crosshair;">
+  <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_5ea38d29.jpg" class="image" style="cursor: crosshair;">
+</div>
+<style>
+  .container {
     width: 100%;
-    border-radius: 10px;
+    max-width: 800px;
+    margin: 10px auto;
+    overflow: hidden;
   }
-  .arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 2em;
-    color: #333;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: none;
-    cursor: pointer;
-    border-radius: 50%;
-    padding: 0.2em;
+  .image {
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   }
-  .arrow:hover {
-    background-color: #ddd;
-  }
-  .arrow-left {
-    left: 10px;
-  }
-  .arrow-right {
-    right: 10px;
-  }
-  .dots-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  .dot {
-    width: 10px;
-    height: 10px;
-    margin: 0 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  .dot.active {
-    background-color: #333;
+  .image.show {
+    opacity: 1;
+    transform: translateX(0);
   }
 </style>
-
-<div class="containernew">
-<div class="slider-container">
-  <div class="slider-header">Browse my collection of video games</div>
-  <div class="slider-frame">
-    <img src="/images/battlefield.jpg" alt="Image 1">
-    <img src="/images/forza.jpg" alt="Image 2">
-    <img src="/images/halo.jpg" alt="Image 3">
-    <img src="/images/codmw.jpg" alt="Image 4">
-    <img src="/images/fifa.jpeg" alt="Image 5">
-    <img src="/images/witcher.jpg" alt="Image 6">
-    <img src="/images/farcry.jpg" alt="Image 7">
-  </div>
-  <button class="arrow arrow-left">&#8249;</button>
-  <button class="arrow arrow-right">&#8250;</button>
-  <div class="dots-container">
-    <div class="dot dot.active"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-  </div>
-</div>
-</div>
-
 <script>
-    const sliderFrame = document.querySelector('.slider-frame');
-    const images = document.querySelectorAll('.slider-frame img');
-    const dots = document.querySelectorAll('.dot');
-    const leftArrow = document.querySelector('.arrow-left');
-    const rightArrow = document.querySelector('.arrow-right');
-    let currentIndex = 0;
-    function updateSlider() {
-      sliderFrame.style.transform = translateX(-${currentIndex * 100}%);
-      dots.forEach((dot, index) => {
-        dot.classList.toggle('active', index === currentIndex);
+  document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll('.image');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        } else {
+          entry.target.classList.remove('show');
+        }
       });
-    }
-    function goToNext() {
-      currentIndex = (currentIndex + 1) % images.length;
-      updateSlider();
-    }
-    function goToPrevious() {
-      currentIndex = (currentIndex - 1 + images.length) % images.length;
-      updateSlider();
-    }
-    function goToSlide(index) {
-      currentIndex = index;
-      updateSlider();
-    }
-    rightArrow.addEventListener('click', goToNext);
-    leftArrow.addEventListener('click', goToPrevious);
-    dots.forEach((dot, index) => {
-      dot.addEventListener('click', () => goToSlide(index));
     });
+    images.forEach(image => {
+      observer.observe(image);
+    });
+  });
 </script>
 
 The secret behind my success. Forever grateful to my family 👨🏻‍👩🏻‍👧🏻‍👦🏻!!!! 
