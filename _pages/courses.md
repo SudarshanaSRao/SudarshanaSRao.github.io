@@ -266,19 +266,19 @@ Online Courses
     <img src="/images/gluck.png">
   </div>
   <div class="course">
-    <p class="text fade-in-text"><i>➤ Data Visualization</i></p>
+    <p class="text fade-in-text"><i>➤ <a href="https://www.coursera.org/account/accomplishments/verify/CLMTY5DJJA7K" target="_blank">Data Visualization</a></i></p>
     <img src="/images/uiuc_cou.png">
   </div>
   <div class="course">
-    <p class="text fade-in-text"><i>➤ Using Python to Access Web Data</i></p>
+    <p class="text fade-in-text"><i>➤ <a href="https://www.coursera.org/account/accomplishments/verify/QLKEY6H5LLAA" target="_blank">Using Python to Access Web Data</a></i></p>
     <img src="/images/umich_2.png">
   </div>
   <div class="course">
-    <p class="text fade-in-text"><i>➤ Python Data Structures</i></p>
+    <p class="text fade-in-text"><i>➤ <a href="https://www.coursera.org/account/accomplishments/verify/TSENVHDS4NZF" target="_blank">Python Data Structures</a></i></p>
     <img src="/images/umich_3.png">
   </div>
   <div class="course">
-    <p class="text fade-in-text"><i>➤ Getting Started with Python</i></p>
+    <p class="text fade-in-text"><i>➤ <a href="https://www.coursera.org/account/accomplishments/verify/GJEDU3PKFP5J" target="_blank">Getting Started with Python</a></i></p>
     <img src="/images/umich_1.png">
   </div>
     <div class="course">
