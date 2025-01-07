@@ -255,6 +255,15 @@ Online Courses
   .course .fade-in-text {
     margin-top: 10px; /* Space between text and image */
   }
+    .fade-in-text a {
+    color: orange; /* Ensure the link text is orange */
+    text-decoration: underline; /* Add underline for the link */
+    font-weight: normal; /* Maintain normal font weight */
+  }
+  .fade-in-text a:hover {
+    color: orange; /* Keep the color orange on hover */
+    text-decoration: underline; /* Keep underline on hover */
+  }
 </style>
 <div class="course-container">
   <div class="course">
