@@ -7,7 +7,7 @@ tags:
   - AWS GenAI Loft
   - Prompt-engineering
   - LLM
-  - Gradio
+  - Gradio GUI
   - CrewAI
 ---
 
