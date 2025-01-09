@@ -125,7 +125,7 @@ redirect_from:
           CSCI 585
         </button>
       </a>
-      <span class="text-right">Database systems [🚀I was the Course Producer during <i>Spring '24</i> term🚀]</span>
+      <span class="text-right">Database Systems [🚀I was the Course Producer during <i>Spring '24</i> term🚀]</span>
     </li>
   </ul>
 </div>
