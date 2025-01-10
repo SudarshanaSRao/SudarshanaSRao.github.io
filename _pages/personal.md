@@ -257,15 +257,15 @@ clip-path: polygon(
 ### Browse my video games collection:
 <div id="gallery" style="text-align: center; position: relative; display: inline-block;">
   <button id="prev" onclick="changeImage(-1)" style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%); background: rgba(0, 0, 0, 0.5); color: white; border: none; padding: 10px; cursor: pointer;">&#10094;</button>
-  <img id="galleryImage" src="battle.jpg" alt="Battlefield V" style="width: 100%; max-width: 500px; border-radius: 10px;">
+  <img id="galleryImage" src="/images/battle.jpg" alt="Battlefield V" style="width: 100%; max-width: 500px; border-radius: 10px;">
   <button id="next" onclick="changeImage(1)" style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); background: rgba(0, 0, 0, 0.5); color: white; border: none; padding: 10px; cursor: pointer;">&#10095;</button>
 </div>
 
 <script>
   // List of image sources (replace with your actual image file names/URLs)
   const images = [
-    "battle.jpg",
-    "forza.jpg",
+    "/images/battle.jpg",
+    "/images/forza.jpg",
     // "game3.jpg",
     // "game4.jpg",
     // "game5.jpg",
