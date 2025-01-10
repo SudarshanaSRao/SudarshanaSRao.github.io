@@ -253,3 +253,36 @@ clip-path: polygon(
     window.addEventListener('scroll', updateScrollProgress);
     updateScrollProgress();
 </script>
+
+### Browse my video games collection:
+<div id="gallery" style="text-align: center; position: relative; display: inline-block;">
+  <button id="prev" onclick="changeImage(-1)" style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%); background: rgba(0, 0, 0, 0.5); color: white; border: none; padding: 10px; cursor: pointer;">&#10094;</button>
+  <img id="galleryImage" src="battle.jpg" alt="Battlefield V" style="width: 100%; max-width: 500px; border-radius: 10px;">
+  <button id="next" onclick="changeImage(1)" style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); background: rgba(0, 0, 0, 0.5); color: white; border: none; padding: 10px; cursor: pointer;">&#10095;</button>
+</div>
+
+<script>
+  // List of image sources (replace with your actual image file names/URLs)
+  const images = [
+    "battle.jpg",
+    "forza.jpg",
+    // "game3.jpg",
+    // "game4.jpg",
+    // "game5.jpg",
+    // "game6.jpg",
+    // "game7.jpg"
+  ];
+  let currentIndex = 0;
+  function changeImage(direction) {
+    // Update the current image index based on the direction (1 for next, -1 for previous)
+    currentIndex += direction;
+    // Ensure the index stays within bounds (wrap around)
+    if (currentIndex < 0) {
+      currentIndex = images.length - 1;
+    } else if (currentIndex >= images.length) {
+      currentIndex = 0;
+    }
+    // Update the image source
+    document.getElementById("galleryImage").src = images[currentIndex];
+  }
+</script>
