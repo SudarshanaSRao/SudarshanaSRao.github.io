@@ -330,10 +330,8 @@ clip-path: polygon(
     } else if (currentIndex >= images.length) {
       currentIndex = 0;
     }
-    // Fade out the image before changing
     const img = document.getElementById("galleryImage");
     img.style.opacity = 0;
-    // Wait for the fade-out transition to finish, then change the image
     setTimeout(() => {
       img.src = images[currentIndex];
       img.style.opacity = 1;
