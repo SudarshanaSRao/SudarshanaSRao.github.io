@@ -293,7 +293,6 @@ clip-path: polygon(
     #prev {
       left: 10px;
     }
-
     #next {
       right: 10px;
     }
@@ -306,7 +305,7 @@ clip-path: polygon(
         padding: 8px;
       }
     }
-  </style>
+</style>
 
 <div class="container101">
   <h2>Browse my video games collection:</h2>
