@@ -254,6 +254,15 @@ clip-path: polygon(
     updateScrollProgress();
 </script>
 
+<div class="container101">
+  <h2>Browse my video games collection:</h2>
+  <div id="gallery">
+    <button id="prev">&#10094;</button>
+    <img id="galleryImage" src="/images/battle.jpg" alt="Battlefield V">
+    <button id="next">&#10095;</button>
+  </div>
+</div>
+
 <style>
     /* Center the content (heading and gallery) */
     .container101 {
@@ -306,15 +315,6 @@ clip-path: polygon(
       }
     }
 </style>
-
-<div class="container101">
-  <h2>Browse my video games collection:</h2>
-  <div id="gallery">
-    <button id="prev">&#10094;</button>
-    <img id="galleryImage" src="/images/battle.jpg" alt="Battlefield V">
-    <button id="next">&#10095;</button>
-  </div>
-</div>
 
 <script>
   const images = [
