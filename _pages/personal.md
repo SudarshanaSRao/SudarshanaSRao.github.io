@@ -269,14 +269,14 @@ clip-path: polygon(
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      min-height: 100vh;
+      min-height: 25px;
       margin: 0;
       text-align: center;
     }
     #gallery {
       position: relative;
-      max-width: 90%; 
-      width: 500px; 
+      max-width: 90%;
+      width: 500px;
     }
     #gallery img {
       width: 100%;
@@ -293,6 +293,7 @@ clip-path: polygon(
       padding: 10px;
       cursor: pointer;
       transform: translateY(-50%);
+      z-index: 2; 
     }
     #prev {
       left: 10px;
@@ -325,11 +326,9 @@ clip-path: polygon(
       currentIndex = 0;
     }
     const img = document.getElementById("galleryImage");
-    img.style.opacity = 0;
-    setTimeout(() => {
-      img.src = images[currentIndex];
-      img.style.opacity = 1;
-    }, 500); 
+    img.style.opacity = 0;  
+    img.src = images[currentIndex];  
+    img.style.opacity = 1;  
   }
   document.getElementById("prev").addEventListener("click", function() {
     changeImage(-1);
