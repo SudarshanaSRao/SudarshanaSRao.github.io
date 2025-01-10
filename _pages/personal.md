@@ -277,12 +277,15 @@ clip-path: polygon(
       position: relative;
       max-width: 90%;
       width: 500px;
+      overflow: hidden;
     }
     #gallery img {
       width: 100%;
       border-radius: 10px;
-      transition: opacity 0.5s ease-in-out;
-      opacity: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: transform 0.5s ease-in-out;
     }
     button {
       position: absolute;
@@ -293,7 +296,7 @@ clip-path: polygon(
       padding: 10px;
       cursor: pointer;
       transform: translateY(-50%);
-      z-index: 2; 
+      z-index: 2;
     }
     #prev {
       left: 10px;
@@ -319,16 +322,22 @@ clip-path: polygon(
   ];
   let currentIndex = 0;
   function changeImage(direction) {
-    currentIndex += direction;
-    if (currentIndex < 0) {
-      currentIndex = images.length - 1;
-    } else if (currentIndex >= images.length) {
-      currentIndex = 0;
-    }
     const img = document.getElementById("galleryImage");
-    img.style.opacity = 0;  
-    img.src = images[currentIndex];  
-    img.style.opacity = 1;  
+    img.style.transform = direction === 1 ? "translateX(-100%)" : "translateX(100%)";
+    setTimeout(() => {
+      currentIndex += direction;
+      if (currentIndex < 0) {
+        currentIndex = images.length - 1;
+      } else if (currentIndex >= images.length) {
+        currentIndex = 0;
+      }
+      img.src = images[currentIndex];
+      img.style.transform = direction === 1 ? "translateX(100%)" : "translateX(-100%)";
+      setTimeout(() => {
+        img.style.transition = "transform 0.5s ease-in-out";
+        img.style.transform = "translateX(0)";
+      }, 10);
+    }, 500);
   }
   document.getElementById("prev").addEventListener("click", function() {
     changeImage(-1);
