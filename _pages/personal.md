@@ -266,8 +266,7 @@ clip-path: polygon(
   const images = [
     "/images/battle.jpg",
     "/images/forza.jpg",
-    // Add more images here for navigation to work
-    // example additional game
+    "/images/halo.jpg"
   ];
   let currentIndex = 0;
   // Function to change the image based on the direction (1 for next, -1 for previous)
