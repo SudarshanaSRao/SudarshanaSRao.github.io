@@ -309,6 +309,9 @@ clip-path: polygon(
         padding: 8px;
       }
     }
+    html {
+    scroll-behavior: smooth;
+  }
 </style>
 
 <script>
