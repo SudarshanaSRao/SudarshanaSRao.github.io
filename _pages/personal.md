@@ -254,38 +254,62 @@ clip-path: polygon(
     updateScrollProgress();
 </script>
 
-### Browse my video games collection:
-<div id="gallery" style="text-align: center; position: relative; display: inline-block;">
-  <button id="prev" style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%); background: rgba(0, 0, 0, 0.5); color: white; border: none; padding: 10px; cursor: pointer;">&#10094;</button>
-  <img id="galleryImage" src="/images/battle.jpg" alt="Battlefield V" style="width: 100%; max-width: 500px; border-radius: 10px;">
-  <button id="next" style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); background: rgba(0, 0, 0, 0.5); color: white; border: none; padding: 10px; cursor: pointer;">&#10095;</button>
+<style>
+    #gallery {
+      text-align: center;
+      position: relative;
+      display: inline-block;
+    }
+    #gallery img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 10px;
+    }
+    button {
+      position: absolute;
+      top: 50%;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      transform: translateY(-50%);
+    }
+    #prev {
+      left: 10px;
+    }
+    #next {
+      right: 10px;
+    }
+</style>
+
+<h2>Browse my video games collection:</h2>
+<div id="gallery">
+  <button id="prev">&#10094;</button>
+  <img id="galleryImage" src="/images/battle.jpg" alt="Game 1">
+  <button id="next">&#10095;</button>
 </div>
 
 <script>
-  // List of image sources (replace with your actual image file names/URLs)
   const images = [
     "/images/battle.jpg",
     "/images/forza.jpg",
     "/images/halo.jpg"
   ];
   let currentIndex = 0;
-  // Function to change the image based on the direction (1 for next, -1 for previous)
   function changeImage(direction) {
     currentIndex += direction;
-    // Ensure the index stays within bounds (wrap around)
     if (currentIndex < 0) {
       currentIndex = images.length - 1;
     } else if (currentIndex >= images.length) {
       currentIndex = 0;
     }
-    // Update the image source
     document.getElementById("galleryImage").src = images[currentIndex];
   }
-  // Add event listeners for navigation buttons
   document.getElementById("prev").addEventListener("click", function() {
-    changeImage(-1);  // Go to previous image
+    changeImage(-1);
   });
   document.getElementById("next").addEventListener("click", function() {
-    changeImage(1);   // Go to next image
+    changeImage(1);
   });
 </script>
