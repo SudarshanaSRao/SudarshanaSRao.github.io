@@ -264,7 +264,6 @@ clip-path: polygon(
 </div>
 
 <style>
-    /* Center the content (heading and gallery) */
     .container101 {
       display: flex;
       justify-content: center;
@@ -274,20 +273,17 @@ clip-path: polygon(
       margin: 0;
       text-align: center;
     }
-    /* Style for the gallery container */
     #gallery {
       position: relative;
-      max-width: 90%; /* Make it responsive */
-      width: 500px; /* Default width */
+      max-width: 90%; 
+      width: 500px; 
     }
-    /* Smooth transition for the image */
     #gallery img {
       width: 100%;
       border-radius: 10px;
       transition: opacity 0.5s ease-in-out;
       opacity: 1;
     }
-    /* Buttons for navigation */
     button {
       position: absolute;
       top: 50%;
@@ -298,14 +294,12 @@ clip-path: polygon(
       cursor: pointer;
       transform: translateY(-50%);
     }
-    /* Position for left and right buttons */
     #prev {
       left: 10px;
     }
     #next {
       right: 10px;
     }
-    /* Responsive adjustments for smaller screens */
     @media (max-width: 600px) {
       #gallery {
         width: 90%;
@@ -335,7 +329,7 @@ clip-path: polygon(
     setTimeout(() => {
       img.src = images[currentIndex];
       img.style.opacity = 1;
-    }, 500); // Wait for 500ms for the fade-out effect to complete
+    }, 500); 
   }
   document.getElementById("prev").addEventListener("click", function() {
     changeImage(-1);
