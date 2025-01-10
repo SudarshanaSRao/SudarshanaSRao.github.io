@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ reading the news, 📟 keeping up with technology, and 🍿 watching movies 📽️ & 📺 TV shows in my free time. Hit me up if you want to 🎮 play video games <img src="https://cdn3.emoji.gg/emojis/3139_Xbox.png" width="15px" height="15px" alt="Xbox"> with me!  
+I enjoy ✈️ traveling, 🥾 hiking, 🏏 playing cricket (sports), 🗞️ reading the news, 📟 keeping up with technology, and 🍿 watching movies 📽️ & 📺 TV shows in my free time. Hit me up if you want to 🎮 play [video games](#videoGamesSection) <img src="https://cdn3.emoji.gg/emojis/3139_Xbox.png" width="15px" height="15px" alt="Xbox"> with me!  
 
 Scroll down 🖱️⬇️ to see cool pictures 😎 of me around the world 🌎: 
 
@@ -254,7 +254,7 @@ clip-path: polygon(
     updateScrollProgress();
 </script>
 
-<div class="container101">
+<div class="container101" id="videoGamesSection">
   <h2>Browse my video games collection:</h2>
   <div id="gallery">
     <button id="prev">&#10094;</button>
@@ -315,7 +315,11 @@ clip-path: polygon(
   const images = [
     "/images/battle.jpg",
     "/images/forza.jpg",
-    "/images/halo.jpg"
+    "/images/halo.jpg",
+    "/images/codmw.jpg",
+    "/images/farcry.jpg",
+    "/images/witcher.jpg",
+    "/images/fifa19.jpg"
   ];
   let currentIndex = 0;
   function changeImage(direction) {
