@@ -255,16 +255,30 @@ clip-path: polygon(
 </script>
 
 <style>
-    #gallery {
+    /* Center the content (heading and gallery) */
+    .container101 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
       text-align: center;
-      position: relative;
-      display: inline-block;
     }
+    /* Style for the gallery container */
+    #gallery {
+      position: relative;
+      max-width: 90%; /* Make it responsive */
+      width: 500px; /* Default width */
+    }
+    /* Smooth transition for the image */
     #gallery img {
       width: 100%;
-      max-width: 500px;
       border-radius: 10px;
+      transition: opacity 0.5s ease-in-out;
+      opacity: 1;
     }
+    /* Buttons for navigation */
     button {
       position: absolute;
       top: 50%;
@@ -275,19 +289,32 @@ clip-path: polygon(
       cursor: pointer;
       transform: translateY(-50%);
     }
+    /* Position for left and right buttons */
     #prev {
       left: 10px;
     }
+
     #next {
       right: 10px;
     }
-</style>
+    /* Responsive adjustments for smaller screens */
+    @media (max-width: 600px) {
+      #gallery {
+        width: 90%;
+      }
+      button {
+        padding: 8px;
+      }
+    }
+  </style>
 
-<h2>Browse my video games collection:</h2>
-<div id="gallery">
-  <button id="prev">&#10094;</button>
-  <img id="galleryImage" src="/images/battle.jpg" alt="Game 1">
-  <button id="next">&#10095;</button>
+<div class="container101">
+  <h2>Browse my video games collection:</h2>
+  <div id="gallery">
+    <button id="prev">&#10094;</button>
+    <img id="galleryImage" src="/images/battle.jpg" alt="Battlefield V">
+    <button id="next">&#10095;</button>
+  </div>
 </div>
 
 <script>
@@ -304,7 +331,14 @@ clip-path: polygon(
     } else if (currentIndex >= images.length) {
       currentIndex = 0;
     }
-    document.getElementById("galleryImage").src = images[currentIndex];
+    // Fade out the image before changing
+    const img = document.getElementById("galleryImage");
+    img.style.opacity = 0;
+    // Wait for the fade-out transition to finish, then change the image
+    setTimeout(() => {
+      img.src = images[currentIndex];
+      img.style.opacity = 1;
+    }, 500); // Wait for 500ms for the fade-out effect to complete
   }
   document.getElementById("prev").addEventListener("click", function() {
     changeImage(-1);
