@@ -316,7 +316,7 @@ clip-path: polygon(
       font-size: 2rem;
       font-weight: bold;
       color: transparent;
-      background-image: url('/images/camouflage-pattern.jpg'); 
+      background-image: url('/images/brand.jpg'); 
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
