@@ -255,7 +255,7 @@ clip-path: polygon(
 </script>
 
 <div class="container101" id="videoGamesSection">
-  <h2>Browse my video games collection:</h2>
+  <h2 class="glass-text">Browse my video games collection:</h2>
   <div id="gallery">
     <button id="prev">&#10094;</button>
     <img id="galleryImage" src="/images/battle.jpg" alt="Battlefield V">
@@ -310,8 +310,21 @@ clip-path: polygon(
       }
     }
     html {
-    scroll-behavior: smooth;
-  }
+      scroll-behavior: smooth;
+    }
+    .glass-text {
+      font-size: 2rem;
+      font-weight: bold;
+      color: transparent;
+      background-image: url('/images/camouflage-pattern.jpg'); 
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-stroke: 1px rgba(255, 255, 255, 0.5); 
+      text-shadow: 0 0 5px rgba(255, 255, 255, 0.3), 
+                   0 0 10px rgba(255, 255, 255, 0.3);
+      margin-bottom: 20px;
+    }
 </style>
 
 <script>
