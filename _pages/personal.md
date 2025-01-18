@@ -255,7 +255,7 @@ clip-path: polygon(
 </script>
 
 <div class="container101" id="videoGamesSection">
-  <h2 class="glass-text">Browse my video games collection:</h2>
+  <h2 class="camouflage-text">Browse my video games collection:</h2>
   <div id="gallery">
     <button id="prev">&#10094;</button>
     <img id="galleryImage" src="/images/battle.jpg" alt="Battlefield V">
@@ -264,98 +264,65 @@ clip-path: polygon(
 </div>
 
 <style>
-    .container101 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      min-height: 25px; 
-      margin: 0;
-      text-align: center;
-    }
+  .container101 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 25px; 
+    margin: 0;
+    text-align: center;
+  }
+  #gallery {
+    position: relative;
+    max-width: 90%;
+    width: 500px;
+  }
+  #gallery img {
+    width: 100%;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+  }
+  button {
+    position: absolute;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 2; 
+  }
+  #prev {
+    left: 10px;
+  }
+  #next {
+    right: 10px;
+  }
+  @media (max-width: 600px) {
     #gallery {
-      position: relative;
-      max-width: 90%;
-      width: 500px;
-    }
-    #gallery img {
-      width: 100%;
-      border-radius: 10px;
-      transition: opacity 0.5s ease-in-out;
-      opacity: 1;
+      width: 90%;
     }
     button {
-      position: absolute;
-      top: 50%;
-      background: rgba(0, 0, 0, 0.5);
-      color: white;
-      border: none;
-      padding: 10px;
-      cursor: pointer;
-      transform: translateY(-50%);
-      z-index: 2; 
+      padding: 8px;
     }
-    #prev {
-      left: 10px;
-    }
-    #next {
-      right: 10px;
-    }
-    @media (max-width: 600px) {
-      #gallery {
-        width: 90%;
-      }
-      button {
-        padding: 8px;
-      }
-    }
-    html {
-      scroll-behavior: smooth;
-    }
-    .glass-text {
-      font-size: 2rem;
-      font-weight: bold;
-      color: transparent;
-      background-image: url('/images/brand.jpg'); 
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-stroke: 1px rgba(255, 255, 255, 0.5); 
-      text-shadow: 0 0 5px rgba(255, 255, 255, 0.3), 
-                   0 0 10px rgba(255, 255, 255, 0.3);
-      margin-bottom: 20px;
-    }
-</style>
-
-<script>
-  const images = [
-    "/images/battle.jpg",
-    "/images/forza.jpg",
-    "/images/halo.jpg",
-    "/images/codmw.jpg",
-    "/images/farcry.jpg",
-    "/images/witcher.jpg",
-    "/images/fifa19.jpg"
-  ];
-  let currentIndex = 0;
-  function changeImage(direction) {
-    currentIndex += direction;
-    if (currentIndex < 0) {
-      currentIndex = images.length - 1;
-    } else if (currentIndex >= images.length) {
-      currentIndex = 0;
-    }
-    const img = document.getElementById("galleryImage");
-    img.style.opacity = 0;
-    setTimeout(() => {
-      img.src = images[currentIndex];
-      img.style.opacity = 1;  
-    }, 500);  
   }
-  document.getElementById("prev").addEventListener("click", function() {
-    changeImage(-1);
-  });
-  document.getElementById("next").addEventListener("click", function() {
-    changeImage(1);
-  });
-</script>
+  html {
+    scroll-behavior: smooth;
+  }
+  .camouflage-text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: transparent;
+    background: url('/images/battle.jpg') no-repeat center center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+  }
+</style>
