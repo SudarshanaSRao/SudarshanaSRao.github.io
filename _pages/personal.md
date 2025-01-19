@@ -278,7 +278,7 @@ clip-path: polygon(
   }
   #videoGamesSection h2 {
     font-size: 1.5rem;
-    background: linear-gradient(90deg, #E6E6FA, #000000);
+    background: linear-gradient(270deg, #E6E6FA, #000000);
     padding: 15px;
     border-radius: 10px;
     color: #39ff14;
