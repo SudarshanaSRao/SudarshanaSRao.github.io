@@ -281,7 +281,7 @@ clip-path: polygon(
     background: linear-gradient(90deg, #2b003b, #000000);
     padding: 15px;
     border-radius: 10px;
-    color: #39ff14; 
+    color: #39ff14;
     text-shadow: 0 0 8px #39ff14;
     margin-bottom: 20px;
   }
@@ -297,13 +297,7 @@ clip-path: polygon(
   #gallery img {
     width: 100%;
     border-radius: 10px;
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-    opacity: 1;
   }
-  #gallery img:hover {
-    transform: scale(1.05); 
-  }
-
   button {
     position: absolute;
     top: 50%;
@@ -318,10 +312,8 @@ clip-path: polygon(
     font-size: 1rem;
     font-family: 'Press Start 2P', cursive;
     box-shadow: 0 0 10px #00f9ff;
-    transition: transform 0.3s, box-shadow 0.3s;
   }
   button:hover {
-    transform: scale(1.2); 
     box-shadow: 0 0 20px #00f9ff;
   }
   #prev {
