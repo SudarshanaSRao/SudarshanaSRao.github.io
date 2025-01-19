@@ -257,9 +257,9 @@ clip-path: polygon(
 <div class="container101" id="videoGamesSection">
   <h2>Browse my video games collection:</h2>
   <div id="gallery">
-    <button id="prev">&#10094;</button>
+    <button10 id="prev">&#10094;</button10>
     <img id="galleryImage" src="/images/battle.jpg" alt="Battlefield V">
-    <button id="next">&#10095;</button>
+    <button10 id="next">&#10095;</button10>
   </div>
 </div>
 
@@ -278,12 +278,11 @@ clip-path: polygon(
   }
   #videoGamesSection h2 {
     font-size: 1.5rem;
-    background: linear-gradient(90deg, #2b003b, #000000);
+    background: linear-gradient(90deg, #E6E6FA, #000000);
     padding: 15px;
     border-radius: 10px;
     color: #39ff14;
     text-shadow: 0 0 8px #39ff14;
-    margin-bottom: 20px;
   }
   #gallery {
     position: relative;
@@ -298,7 +297,7 @@ clip-path: polygon(
     width: 100%;
     border-radius: 10px;
   }
-  button {
+  button10 {
     position: absolute;
     top: 50%;
     background: rgba(0, 0, 0, 0.8);
@@ -313,7 +312,7 @@ clip-path: polygon(
     font-family: 'Press Start 2P', cursive;
     box-shadow: 0 0 10px #00f9ff;
   }
-  button:hover {
+  button10:hover {
     box-shadow: 0 0 20px #00f9ff;
   }
   #prev {
@@ -326,7 +325,7 @@ clip-path: polygon(
     #gallery {
       width: 90%;
     }
-    button {
+    button10 {
       padding: 10px;
       font-size: 0.8rem;
     }
