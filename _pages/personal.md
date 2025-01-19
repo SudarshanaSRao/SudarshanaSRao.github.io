@@ -264,52 +264,82 @@ clip-path: polygon(
 </div>
 
 <style>
-    .container101 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      min-height: 25px; 
-      margin: 0;
-      text-align: center;
-    }
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  .container101 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 25px;
+    margin: 0;
+    text-align: center;
+    color: #00ff99; 
+    font-family: 'Press Start 2P', cursive;
+  }
+  #videoGamesSection h2 {
+    font-size: 1.5rem;
+    background: linear-gradient(90deg, #2b003b, #000000);
+    padding: 15px;
+    border-radius: 10px;
+    color: #39ff14; 
+    text-shadow: 0 0 8px #39ff14;
+    margin-bottom: 20px;
+  }
+  #gallery {
+    position: relative;
+    max-width: 90%;
+    width: 500px;
+    border: 4px solid #00f9ff; 
+    border-radius: 15px;
+    box-shadow: 0 0 20px #00f9ff;
+    overflow: hidden;
+  }
+  #gallery img {
+    width: 100%;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    opacity: 1;
+  }
+  #gallery img:hover {
+    transform: scale(1.05); 
+  }
+
+  button {
+    position: absolute;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.8);
+    color: #00f9ff;
+    border: 2px solid #00f9ff;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 2;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 0 0 10px #00f9ff;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  button:hover {
+    transform: scale(1.2); 
+    box-shadow: 0 0 20px #00f9ff;
+  }
+  #prev {
+    left: 10px;
+  }
+  #next {
+    right: 10px;
+  }
+  @media (max-width: 600px) {
     #gallery {
-      position: relative;
-      max-width: 90%;
-      width: 500px;
-    }
-    #gallery img {
-      width: 100%;
-      border-radius: 10px;
-      transition: opacity 0.5s ease-in-out;
-      opacity: 1;
+      width: 90%;
     }
     button {
-      position: absolute;
-      top: 50%;
-      background: rgba(0, 0, 0, 0.5);
-      color: white;
-      border: none;
       padding: 10px;
-      cursor: pointer;
-      transform: translateY(-50%);
-      z-index: 2; 
+      font-size: 0.8rem;
     }
-    #prev {
-      left: 10px;
-    }
-    #next {
-      right: 10px;
-    }
-    @media (max-width: 600px) {
-      #gallery {
-        width: 90%;
-      }
-      button {
-        padding: 8px;
-      }
-    }
-    html {
+  }
+  html {
     scroll-behavior: smooth;
   }
 </style>
@@ -336,13 +366,13 @@ clip-path: polygon(
     img.style.opacity = 0;
     setTimeout(() => {
       img.src = images[currentIndex];
-      img.style.opacity = 1;  
-    }, 500);  
+      img.style.opacity = 1;
+    }, 500);
   }
-  document.getElementById("prev").addEventListener("click", function() {
+  document.getElementById("prev").addEventListener("click", function () {
     changeImage(-1);
   });
-  document.getElementById("next").addEventListener("click", function() {
+  document.getElementById("next").addEventListener("click", function () {
     changeImage(1);
   });
 </script>
