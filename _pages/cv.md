@@ -272,6 +272,7 @@ Skills
   <img alt="LINUX" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img alt="brave" src="https://img.shields.io/badge/Brave-maroon?logo=brave&amp;amp;style=plastic" />
   <img alt="googlecolab" src="https://img.shields.io/badge/Google Colab-green?style=for-the-badge&logo=googlecolab" />
+  <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino">
   <img alt="chrome" src="https://img.shields.io/badge/Chrome-pink?logo=google-chrome&amp;amp;style=plastic" />
 </div>
 
