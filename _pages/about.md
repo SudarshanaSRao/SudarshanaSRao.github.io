@@ -76,13 +76,11 @@ redirect_from:
 <style>
   .container1001 {
     display: flex;
-    align-items: center;
     justify-content: flex-start;
     margin: 0;
     padding: 0;
   }
   .work-text {
-    font-size: 18px;
     margin: 0;
   }
   .work-badge {
@@ -96,7 +94,7 @@ redirect_from:
   }
   .work-badge::before {
     content: "";
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg");
+    background-image: url("/images/mslogo.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 20px;
