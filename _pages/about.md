@@ -77,12 +77,13 @@ redirect_from:
   .container1001 {
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-family: Arial, sans-serif;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
   }
   .work-text {
     font-size: 18px;
-    margin-right: 15px;
+    margin: 0;
   }
   .work-badge {
     display: inline-flex;
@@ -92,8 +93,6 @@ redirect_from:
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 15px;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
   .work-badge::before {
     content: "";
