@@ -48,6 +48,14 @@ Work Experience
 ==================
 <div class="flexcontainer">
   <div>
+    <a href="https://www.microsoft.com/en-us/" target="_blank" onclick="trackOutboundLink(this);">
+      <img class="pulse" src="/images/msani.gif">
+    </a>
+  </div>
+ </div>
+
+<div class="flexcontainer">
+  <div>
     <a href="https://eltropy.com/" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" src="/images/worklogo.png">
     </a>
