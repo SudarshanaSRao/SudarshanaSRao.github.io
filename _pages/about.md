@@ -49,8 +49,6 @@ redirect_from:
 
 <span class="usc">Welcome to my portfolio website's homepage</span> 😀 
 
-I currently work at **Eltropy** as an **AI Implementation Manager**. I am fascinated by the ability of machines to learn from data and uncover patterns that assist us in making data-driven decisions.<br>Through my work experience and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics.<br>I actively compete in technical hackathons and participate in webinars, tech talks (seminars), and workshops.
-
 <style>
   @keyframes usc-colors {
     0% {
@@ -74,6 +72,82 @@ I currently work at **Eltropy** as an **AI Implementation Manager**. I am fascin
     display: inline; /* Ensure inline display to avoid unwanted space */
   }
 </style>
+
+<style>
+  .container1001 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+  .work-text {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  .work-badge {
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(135deg, #ffffff, #f0f0f0);
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .work-badge::before {
+    content: "";
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    display: inline-block;
+  }
+</style>
+
+<div class="container1001">
+  <div class="work-text">
+    I currently work at <span class="work-badge">Microsoft</span> as a <strong>Data Analyst</strong>.
+  </div>
+</div>
+
+/*<style>
+  .container1001 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .work-text {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  .work-button {
+    width: 150px;  
+    height: 50px; 
+    border: none;
+    border-radius: 25px;
+  }
+  .work-button::before {
+  content: "";
+  background-image: url("/images/mslogo"); 
+  background-size: contain;  
+  background-repeat: no-repeat;  
+  width: 20px;  
+  height: 20px; 
+  margin-right: 8px;  
+  display: inline-block;  
+}
+</style>*/
+
+<!--<div class="container1001">
+  <div class="work-text"> I currently work at [button here] as an <strong></strong></div>
+    <button class="work-button"></button>
+  </a>
+</div>-->
+
+I currently work at **Eltropy** as an **AI Implementation Manager**. I am fascinated by the ability of machines to learn from data and uncover patterns that assist us in making data-driven decisions.<br>Through my work experience and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics.<br>I actively compete in technical hackathons and participate in webinars, tech talks (seminars), and workshops.
 
 My ideal role involves applying math to develop models or algorithms, analyze data patterns, understand model interpretability, build LLMs, and code data pipelines.<br>Additionally, I am passionate about deriving impactful business insights through data analysis and making AI models safe, reliable, and transparent.    
 
