@@ -74,7 +74,7 @@ redirect_from:
 </style>
 
 <style>
-  .container1001 {
+  .container100125 {
     display: flex;
     justify-content: flex-start;
     margin: 0;
@@ -85,6 +85,8 @@ redirect_from:
   }
   .work-badge {
     display: inline-flex;
+    align-items: center;
+    background: linear-gradient(135deg, #ffffff, #f0f0f0);
     color: black;
     font-weight: bold;
     padding: 5px 10px;
@@ -102,7 +104,7 @@ redirect_from:
   }
 </style>
 
-<div class="container1001">
+<div class="container100125">
   <div class="work-text">
     I currently work at <span class="work-badge">Microsoft</span> as a <strong>Data Analyst</strong>.
   </div>
