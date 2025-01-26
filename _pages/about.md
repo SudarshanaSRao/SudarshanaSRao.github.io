@@ -73,42 +73,6 @@ redirect_from:
   }
 </style>
 
-/*<style>
-  .container100125 {
-    display: flex;
-    justify-content: flex-start;
-    margin: 0;
-    padding: 0;
-  }
-  .work-text {
-    margin: 0;
-  }
-  .work-badge {
-    display: inline-flex;
-    align-items: center;
-    background: linear-gradient(135deg, #f2f2f2, #f0f0f0);
-    color: black;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 15px;
-  }
-  .work-badge::before {
-    content: "";
-    background-image: url("/images/mslogo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    display: inline-block;
-  }
-</style>*/
-
-<!--<div class="container100125">
-  <div class="work-text">
-    I currently work at <span class="work-badge">Microsoft</span> as a <strong>Data Analyst</strong>.
-  </div>
-</div>-->
 I currently work at **Eltropy** as an **AI Implementation Manager**. I am fascinated by the ability of machines to learn from data and uncover patterns that assist us in making data-driven decisions.<br>Through my work experience and projects, I have developed skills in Large Language Models, Generative AI, Data Engineering, and Data Analytics.<br>I actively compete in technical hackathons and participate in webinars, tech talks (seminars), and workshops.
 
 My ideal role involves applying math to develop models or algorithms, analyze data patterns, understand model interpretability, build LLMs, and code data pipelines.<br>Additionally, I am passionate about deriving impactful business insights through data analysis and making AI models safe, reliable, and transparent.    
