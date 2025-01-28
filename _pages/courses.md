@@ -290,6 +290,10 @@ Online Courses
     <p class="text fade-in-text"><i>➤ <a href="https://www.coursera.org/account/accomplishments/verify/GJEDU3PKFP5J" target="_blank">Getting Started with Python</a></i></p>
     <img src="/images/umich_1.png">
   </div>
+   <div class="course">
+    <p class="text fade-in-text"><i>➤ <a href="https://www.coursera.org/account/accomplishments/verify/IBJY4RK97GPA" target="_blank">API using Postman</a></i></p>
+    <img src="/images/Coursera IBJY4RK97GPA.jpg">
+  </div>
     <div class="course">
     <p class="text fade-in-text"><i>➤ ML/DL Workshop</i></p>
     <img src="/images/ML DL workshop.png">
