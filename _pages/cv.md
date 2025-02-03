@@ -65,15 +65,123 @@ Work Experience
 ### AI Implementation Manager at Eltropy, Santa Clara [December 2024-Present]
 * Managing **SaaS** customer implementation projects using **GUIDEcx**, **Jira**, and **Confluence**, integrating **Voiceflow**, **AWS** (**S3** & **QuickSight**), **Pinecone**, and **Azure** for secure data storage and **RAG**-based **AI** (**GPT**) **agentic workflows**, ensuring **95%** on-time delivery and seamless connections with core banking and marketing automation systems.
 * Collaborating with cross-functional teams and customers, leveraging **Gong**, **Salesforce CRM**, **Microsoft 365 (SharePoint)**, **Google Workspace**, **Atlassian Cloud**, and **Zoom Workplace** to resolve **90%** of technical challenges within **48 hours**.
-
-<div class="flexcontainer">
+ 
+<style>
+    /* Flexcontainer styling for your main content */
+    .flexcontainer88c {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    /* Thumbnail and popup styling */
+    .thumbnail-container4c {
+        position: relative;
+        display: inline-block;
+        cursor: pointer; /* Makes the entire container clickable */
+    }
+    .thumbnail4c {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .popup-icon4c {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        font-size: 18px;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        padding: 2px 5px;
+    }
+    /* Popup overlay */
+    #popup4c {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        align-items: center;
+        justify-content: center;
+    }
+    /* Popup content styling */
+    .popup-content4c {
+        position: relative;
+        width: 535px;
+        height: 535px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .close-button4c {
+        position: absolute;
+        top: 35px;
+        right: 5px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    /* Popup image styling */
+    #popupImage4c {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    /* Media query to ensure responsiveness */
+    @media (max-width: 768px) {
+        .flexcontainer88c {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .thumbnail-container4c {
+            align-self: flex-end;
+        }
+    }
+</style>
+  
+<div class="flexcontainer88c">
   <div>
     <a href="https://sail.usc.edu/" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" src="/images/4951549.png">
     </a>
   </div>
  </div>
- 
+
+<div class="thumbnail-container4c" onclick="openPopup4c()">
+    <img src="/images/Letter_OPT_proof.jpg" class="thumbnail4c">
+    <span class="popup-icon4c">&#x2197;</span>
+</div>
+</div>
+
+<div id="popup4c" onclick="closePopup4c()">
+    <div class="popup-content4c" onclick="event.stopPropagation()">
+        <span class="close-button4c" onclick="closePopup4c()">&times;</span>
+        <img id="popupImage4c" src="/images/Letter_OPT_proof.jpg">
+    </div>
+</div>
+
+<script>
+    function openPopup4c() {
+        document.getElementById('popup4c').style.display = 'flex';
+    }
+    function closePopup4c() {
+        document.getElementById('popup4c').style.display = 'none';
+    }
+</script>
+
 ### Student worker at the University of Southern California, Los Angeles [October 2022-December 2024]
 🧑‍🔬_{August 2024-December 2024}_
 * Researched and implemented **LLM** use cases in **Data Analytics** as a **Researcher**.
