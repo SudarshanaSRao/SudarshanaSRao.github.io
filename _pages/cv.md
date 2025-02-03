@@ -158,7 +158,6 @@ Work Experience
       <img class="pulse" src="/images/4951549.png">
     </a>
   </div>
- </div>
 
 <div class="thumbnail-container4c" onclick="openPopup4c()">
     <img src="/images/Letter_OPT_proof.jpg" class="thumbnail4c">
