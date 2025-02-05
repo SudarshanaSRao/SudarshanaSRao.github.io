@@ -9,6 +9,7 @@ tags:
   - GenAI
   - LangChain
   - LLM
+  - Google Gemini
   - Streamlit GUI
   - Vertex AI
 ---
