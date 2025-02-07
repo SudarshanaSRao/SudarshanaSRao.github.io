@@ -86,7 +86,7 @@ redirect_from:
   .work-badge {
     display: inline-flex;
     align-items: center;
-    background: linear-gradient(135deg, #f0f0f0, #ffffff);
+    background: linear-gradient(135deg, #ffffff, #f0f0f0);
     color: black;
     font-weight: bold;
     padding: 5px 10px;
