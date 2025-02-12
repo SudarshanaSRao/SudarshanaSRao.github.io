@@ -1,6 +1,6 @@
 ---
 title: "🗿Mythological Storyteller"
-excerpt: "<img src='/images/mahabharata_finetune_pipeline.png' height='400' width='400' style='cursor: crosshair;'>"
+excerpt: "<img src='/images/mahabharata_finetune_pipeline.png' height='300' width='300' style='cursor: crosshair;'>"
 collection: portfolio
 tags: 
   - Web app
