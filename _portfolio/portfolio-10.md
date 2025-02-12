@@ -26,7 +26,7 @@ tags:
   .app-button {
     background: url('https://github.com/user-attachments/assets/8cec4a21-5cd9-4349-84fe-2a29fabdfc70') no-repeat center center;
     background-size: cover;
-    width: 100px;  /* Adjusted size */
+    width: 200px;  /* Adjusted size */
     height: 50px;  /* Adjusted size */
     border: none;
     border-radius: 25px;
@@ -44,17 +44,17 @@ tags:
   }
 </style>
 
-<div class="container">
+<div class="container" style="margin-top: -25px;">
   <div class="app-text"> <h2> Access the web app ↪️</h2> </div>
   <a href="https://huggingface.co/spaces/Samurai719214/GPTNeo-storyteller" target="_blank">
     <button class="app-button"></button>
   </a>
 </div>
 
-<div class="flexcontainer45r">
+<div class="flexcontainer45r" style="margin-top: 20px;">
   <div>
         <span>Hosted this fine-tuned model on <strong>HuggingFace</strong>: - </span> <a href="https://huggingface.co/Samurai719214/gptneo-mythology-storyteller" target="_blank" onclick="trackOutboundLink(this);">
-      <img class="pulse" height="70px" src="https://github.com/user-attachments/assets/cbee90fe-66ed-42b7-9b8f-28fd0659a34e" width="70px">
+      <img class="pulse" height="100px" src="https://github.com/user-attachments/assets/cbee90fe-66ed-42b7-9b8f-28fd0659a34e" width="100px">
     </a>
   </div>
 </div>
