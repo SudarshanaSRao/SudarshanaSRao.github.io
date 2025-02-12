@@ -26,7 +26,7 @@ tags:
   .app-button {
     background: url('https://github.com/user-attachments/assets/8cec4a21-5cd9-4349-84fe-2a29fabdfc70') no-repeat center center;
     background-size: cover;
-    width: 150px;  /* Adjusted size */
+    width: 100px;  /* Adjusted size */
     height: 50px;  /* Adjusted size */
     border: none;
     border-radius: 25px;
@@ -44,7 +44,7 @@ tags:
   }
 </style>
 
-<div class="container" style="margin-top: -25px;">
+<div class="container">
   <div class="app-text"> <h2> Access the web app ↪️</h2> </div>
   <a href="https://huggingface.co/spaces/Samurai719214/GPTNeo-storyteller" target="_blank">
     <button class="app-button"></button>
@@ -72,6 +72,9 @@ tags:
 <img src="/images/HF_out.png" style="cursor: crosshair;">
 
 - Employed data augmentation techniques and a sliding-window approach to expand limited [_Kaggle datasets_](https://www.kaggle.com/datasets/shivanshuman/the-mahabharata-summary).
+
+<img src="/images/HF_ggraph.png" style="cursor: crosshair;">
+
 - Hosted this model on HuggingFace hub, utilizing PyTorch, Hugging Face Transformers, and mixed-precision (fp16) training to ensure efficient resource utilization and scalable deployment.
 - Deployed an interactive **Gradio** web app that accepts incomplete story excerpts, automatically prepends contextual instructions, and leverages sampling-based inference (with parameters like temperature, top-p, and no-repeat n-gram constraints) for creative text generation.
 
@@ -80,7 +83,6 @@ tags:
 - Evaluated model performance using quantitative metrics such as ROUGE score and fine-tuning hyperparameters (learning rate, batch size, warmup steps) to balance overfitting and generalization.
 
 <img src="/images/HF_train.png" style="cursor: crosshair;">
-<img src="/images/HF_ggraph.png" style="cursor: crosshair;">
 
 <div class="flexcontainer">
   <div>
