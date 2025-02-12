@@ -71,7 +71,7 @@ tags:
 
 <img src="/images/HF_out.png" style="cursor: crosshair;">
 
-- Employed data augmentation techniques and a sliding-window approach to expand limited [_Kaggle datasets_](https://www.kaggle.com/datasets/shivanshuman/the-mahabharata-summary).
+- Employed data augmentation techniques and a sliding-window approach to expand limited [_Kaggle datasets_](https://www.kaggle.com/datasets/shivanshuman/the-mahabharata-summary){:target="_blank"}.
 
 <img src="/images/HF_ggraph.png" style="cursor: crosshair;">
 
