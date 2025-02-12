@@ -75,12 +75,13 @@ tags:
 
 <img src="/images/HF_ggraph.png" style="cursor: crosshair;">
 
-- Hosted this model on HuggingFace hub, utilizing PyTorch, Hugging Face Transformers, and mixed-precision (fp16) training to ensure efficient resource utilization and scalable deployment.
+- Hosted this model on HuggingFace hub, utilizing **PyTorch**, **Transformers**, and mixed-precision (fp16) training to ensure efficient resource utilization and scalable deployment.
+
 - Deployed an interactive **Gradio** web app that accepts incomplete story excerpts, automatically prepends contextual instructions, and leverages sampling-based inference (with parameters like temperature, top-p, and no-repeat n-gram constraints) for creative text generation.
 
 <img src="/images/HF_gradio.png" style="cursor: crosshair;">
 
-- Evaluated model performance using quantitative metrics such as ROUGE score and fine-tuning hyperparameters (learning rate, batch size, warmup steps) to balance overfitting and generalization.
+- Evaluated model performance using quantitative metrics such as **ROUGE score** and fine-tuning hyperparameters (learning rate, batch size, warmup steps) to balance overfitting and generalization.
 
 <img src="/images/HF_train.png" style="cursor: crosshair;">
 
