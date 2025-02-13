@@ -79,7 +79,8 @@ tags:
 
 - Deployed an interactive **Gradio** web app that accepts incomplete story excerpts, automatically prepends contextual instructions, and leverages sampling-based inference (with parameters like temperature, top-p, and no-repeat n-gram constraints) for creative text generation.
 
-<img src="/images/HF_gradio.png" style="cursor: crosshair;">
+<img src="/images/HF_gradio1.png" style="cursor: crosshair;">
+<img src="/images/HF_gradio2.png" style="cursor: crosshair;">
 
 - Evaluated model performance using quantitative metrics such as **ROUGE score** and fine-tuning hyperparameters (learning rate, batch size, warmup steps) to balance overfitting and generalization.
 
