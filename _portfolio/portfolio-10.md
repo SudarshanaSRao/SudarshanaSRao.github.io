@@ -10,6 +10,7 @@ tags:
   - LLM
   - GPT Neo
   - Gradio GUI
+  - LLMOps
 ---
 
 <style>
