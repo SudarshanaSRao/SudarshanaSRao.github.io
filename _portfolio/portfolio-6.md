@@ -8,6 +8,7 @@ tags:
   - Open CV
   - Arduino Uno
   - Internet of Things
+  - MLOps
 ---
 
 <img src="/images/brug2.gif" style="cursor: crosshair;">
