@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="flexcontainer1">
   <div>
-    <span><i>Download my:</i></span> <a href="https://github.com/user-attachments/files/18888231/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
+    <span><i>Download my:</i></span> <a href="https://github.com/user-attachments/files/19092173/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
       <img class="bounce" height="100px" src="/images/resum.jpg" width="150px">
     </a>
   </div>
@@ -63,7 +63,8 @@ Work Experience
  </div>
  
 ### AI Implementation Manager at Eltropy, Santa Clara [December 2024-Present]
-* Managing **SaaS** customer implementation projects using **GUIDEcx**, **Jira**, and **Confluence**, integrating **Voiceflow**, **AWS** (**S3** & **QuickSight**), **Pinecone**, and **Azure** for secure data storage and **agentic RAG**-based **AI** (**GPT**) **agentic workflows**, ensuring **95%** on-time delivery and seamless connections with core banking and marketing automation systems.
+* Managing **SaaS** customer implementation projects using **GUIDEcx**, **Jira**, and **Confluence**, integrating **Voiceflow**, **AWS** (**S3** & **QuickSight**), **Pinecone**, and **Azure** for secure data storage and **agentic RAG**-based **AI** (**GPT**) **agentic workflows**, ensuring **95%** on-time delivery.
+* Developing and testing **API integrations** for core banking and marketing automation systems using **Postman**, ensuring seamless interoperability between financial services platforms and Eltropy’s Unified Conversations Platform.
 * Collaborating with cross-functional teams and customers, leveraging **Gong**, **Salesforce CRM**, **Microsoft 365 (SharePoint)**, **Google Workspace**, **Atlassian Cloud**, and **Zoom Workplace** to resolve **90%** of technical challenges within **48 hours**.
  
 <style>
