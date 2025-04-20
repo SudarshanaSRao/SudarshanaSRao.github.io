@@ -9,87 +9,14 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-
-    <style>
-      :root {
-        --bg-color: #ffffff;
-        --text-color: #000000;
-      }
-      [data-theme="dark"] {
-        --bg-color: #121212;
-        --text-color: #ffffff;
-      }
-      body {
-        background-color: var(--bg-color);
-        color: var(--text-color);
-        font-family: Arial, sans-serif;
-        transition: background-color 0.3s, color 0.3s;
-      }
-      .theme-switch {
-        position: fixed;
-        top: 1rem;
-        right: 1rem;
-        display: flex;
-        align-items: center;
-        z-index: 9999;
-      }
-      .theme-switch input {
-        display: none;
-      }
-      .slider {
-        position: relative;
-        width: 50px;
-        height: 24px;
-        background-color: #ccc;
-        border-radius: 24px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-      }
-      .slider::before {
-        content: "";
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        left: 2px;
-        top: 2px;
-        background-color: white;
-        border-radius: 50%;
-        transition: transform 0.3s;
-      }
-      input:checked + .slider {
-        background-color: #2196F3;
-      }
-      input:checked + .slider::before {
-        transform: translateX(26px);
-      }
-    </style>
   </head>
 
   <body>
+
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <!-- Toggle Switch -->
-    <label class="theme-switch">
-      <input type="checkbox" id="theme-toggle" />
-      <span class="slider"></span>
-    </label>
-
     {{ content }}
-
-    <script>
-      const toggleSwitch = document.getElementById('theme-toggle');
-      const savedTheme = localStorage.getItem('theme');
-      if (savedTheme) {
-        document.documentElement.setAttribute('data-theme', savedTheme);
-        toggleSwitch.checked = savedTheme === 'dark';
-      }
-      toggleSwitch.addEventListener('change', () => {
-        const newTheme = toggleSwitch.checked ? 'dark' : 'light';
-        document.documentElement.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-      });
-    </script>
 
     <div class="page__footer">
       <footer>
@@ -99,5 +26,6 @@ layout: compress
     </div>
 
     {% include scripts.html %}
+
   </body>
 </html>
