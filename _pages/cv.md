@@ -170,6 +170,7 @@ Work Experience
 </script>
  
 ### AI Implementation Manager at Eltropy, Santa Clara [December 2024-Present]
+* **Personally selected** by the **CEO** for the Center of Excellence, recognizing flawless AI implementations and advanced expertise in delivering consultative onboarding and complex AI integrations for customers.
 * Managing **SaaS** customer implementation projects using **GUIDEcx**, **Jira**, and **Confluence**, integrating **Voiceflow**, **AWS** (**S3** & **QuickSight**), **Pinecone**, and **Azure** for secure data storage and **RAG**-based **AI** (**GPT**) **agentic workflows**, ensuring **95%** on-time delivery.
 * Developing and testing **API integrations** for core banking and marketing automation systems using **Postman**, ensuring seamless interoperability between financial services platforms and Eltropy’s Unified Conversations Platform.
 * Collaborating with cross-functional teams and customers, leveraging **Gong**, **Salesforce CRM**, **Microsoft 365 (SharePoint)**, **Google Workspace**, **Atlassian Cloud**, and **Zoom Workplace** to resolve **90%** of technical challenges within **48 hours**.
