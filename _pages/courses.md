@@ -275,6 +275,10 @@ Online Courses
     <img src="/images/gluck.png">
   </div>
   <div class="course">
+    <p class="text fade-in-text"><i>➤ <a href="https://www.coursera.org/account/accomplishments/professional-cert/HB5JIE5XIWXY" target="_blank">Project Management</a></i></p>
+    <img src="/images/GProject.jpg">
+  </div>  
+  <div class="course">
     <p class="text fade-in-text"><i>➤ <a href="https://www.coursera.org/account/accomplishments/verify/CLMTY5DJJA7K" target="_blank">Data Visualization</a></i></p>
     <img src="/images/uiuc_cou.png">
   </div>
