@@ -28,7 +28,10 @@ redirect_from:
 <center><img src="/images/EL-7.jpg" style="cursor: crosshair;"></center>
 
 ### Praised by the ABNB Federal Credit Union team and leadership for being highly engaging, motivated, and committed to integrating AI Voice solutions, contributing to measurable client success-
-<center><img src="/images/EL-2.jpg" height="500px" width="500px" style="cursor: crosshair;"><img src="/images/EL-4.jpg" height="500px" width="500px" style="cursor: crosshair;"></center>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); justify-items: center;">
+  <img src="/images/EL-4.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
+  <img src="/images/EL-2.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
+</div>
 
 ### VP of Professional Services appreciates my commitment to my team-
 <center><img src="/images/EL-8.jpg" style="cursor: crosshair;"></center>
