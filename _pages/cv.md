@@ -170,7 +170,7 @@ Work Experience
 </script>
  
 <div class="header-container">
-  <h3>AI Implementation Manager at Eltropy, Santa Clara [December 2024-Present]</h3>
+  <h4>AI Implementation Manager at Eltropy, Santa Clara [December 2024-Present]</h4>
   <a href="https://sudarshanasrao.github.io/achievements/">
     <button class="download-button">Recognition</button>
   </a>
@@ -185,17 +185,17 @@ Work Experience
   gap: 10px;                 /* Space between header and button if wrapped */
   width: 100%;
 }
-.header-container h3 {
+.header-container h4 {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 /* Button Styles */
 .download-button {
   border: 2px solid #000;
-  padding: 10px 20px;
+  padding: 6px 14px;      /* smaller padding */
   display: inline-flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 14px;         /* smaller text */
   cursor: pointer;
   border-radius: 4px;
   background-color: transparent;
