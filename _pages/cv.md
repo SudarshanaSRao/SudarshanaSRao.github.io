@@ -172,7 +172,7 @@ Work Experience
 <div class="header-container">
   <h4>AI Implementation Manager at Eltropy, Santa Clara [December 2024-Present]</h4>
   <a href="https://sudarshanasrao.github.io/achievements/">
-    <button class="download-button">Recognition</button>
+    <button class="download-button">Recognition 🪄</button>
   </a>
 </div>
 
