@@ -181,6 +181,7 @@ Work Experience
   display: flex;
   align-items: center;       /* Vertical alignment */
   justify-content: space-between;  /* Header left, button right */
+  margin-top: 10px;
   flex-wrap: wrap;           /* Allows button to move below on small screens */
   gap: 10px;                 /* Space between header and button if wrapped */
   width: 100%;
