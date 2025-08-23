@@ -10,11 +10,11 @@ redirect_from:
 
 ## Eltropy
 
-### AI Leadership
+### AI Leadership:
 #### Handpicked by the CEO to drive AI implementation initiatives as part of the company’s Center of Excellence-
 <center><img src="/images/EL-1.png" style="cursor: crosshair;"></center>
 
-### Project Delivery Success
+### Project Delivery Success:
 #### Recognized for leading a flawless go-live for Zing Credit Union, coordinating cross-functional teams to ensure zero downtime-
 <center><img src="/images/EL-3.jpg" height="500px" width="500px" style="cursor: crosshair;"></center>
 
@@ -26,7 +26,7 @@ redirect_from:
   <img src="/images/EL-10.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
 </div>
 
-### Client & Stakeholder Recognition
+### Client & Stakeholder Recognition:
 #### Lauded by the ABNB Federal Credit Union team and leadership for being highly engaging, motivated, and committed to integrating AI Voice solutions, contributing to measurable client success-
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); justify-items: center;">
   <img src="/images/EL-4.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
@@ -36,6 +36,6 @@ redirect_from:
 #### Applauded by the VP of Sales for exceptional project management skills and successful delivery of key initiatives-
 <center><img src="/images/EL-7.jpg" style="cursor: crosshair;"></center>
 
-### Team Development & Collaboration
+### Team Development & Collaboration:
 #### Appreciated by the VP of Professional Services for commitment to team development and driving collaborative success-
 <center><img src="/images/EL-8.jpg" style="cursor: crosshair;"></center>
