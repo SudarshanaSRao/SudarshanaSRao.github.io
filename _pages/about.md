@@ -303,6 +303,8 @@ My ideal role involves applying math to develop models or algorithms, analyze da
 }
 </style>
 
+<center><img src="/images/fleuron.png" width="150px"></center>
+
 <style>
     /* Container and initial styles */
     .container {
