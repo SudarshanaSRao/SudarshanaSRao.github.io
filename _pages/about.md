@@ -309,6 +309,9 @@ My ideal role involves applying math to develop models or algorithms, analyze da
     justify-content: center; /* centers the row */
     margin-top: 50px; /* white space above images */
   }
+      .image-row img {
+      width: 150px;
+    }
 </style>
 
 <div class="image-row">
