@@ -169,24 +169,33 @@ Work Experience
     }
 </script>
  
-### AI Implementation Manager at Eltropy, Santa Clara 
-<div style="display: flex; align-items: center; justify-content: space-between;">
-  <span>[December 2024-Present]</span>
+<div class="header-container">
+  <h3>AI Implementation Manager at Eltropy, Santa Clara [December 2024-Present]</h3>
   <a href="https://sudarshanasrao.github.io/achievements/">
     <button class="download-button">Recognition</button>
   </a>
 </div>
 
 <style>
+.header-container {
+  display: flex;
+  align-items: center;       /* Vertical alignment */
+  justify-content: space-between;  /* Header left, button right */
+  flex-wrap: wrap;           /* Allows button to move below on small screens */
+  gap: 10px;                 /* Space between header and button if wrapped */
+  width: 100%;
+}
+.header-container h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
 /* Button Styles */
 .download-button {
   border: 2px solid #000;
   padding: 10px 20px;
-  text-align: center;
   display: inline-flex;
   align-items: center;
   font-size: 16px;
-  margin: 0;
   cursor: pointer;
   border-radius: 4px;
   background-color: transparent;
@@ -194,14 +203,12 @@ Work Experience
   font-weight: bold;
   transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, transform 0.2s;
 }
-/* Hover Effect */
 .download-button:hover {
   background-color: #A9A9A9;
   color: white;
   border-color: #696969;
   transform: translateY(-3px);
 }
-/* Active Effect */
 .download-button:active {
   background-color: #696969;
   border-color: #696969;
@@ -210,6 +217,10 @@ Work Experience
 }
 /* Responsive Styles */
 @media (max-width: 600px) {
+  .header-container {
+    flex-direction: column;   /* Stack text and button vertically */
+    align-items: flex-start;  /* Left-align everything */
+  }
   .download-button {
     font-size: 14px;
     padding: 8px 16px;
