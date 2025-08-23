@@ -1,8 +1,11 @@
 ---
-title: "Professional Achievements"
+layout: archive
+title: "Professional Achievements 🏵️"
+excerpt: "Career Highlights"
 permalink: /achievements/
-layout: single
 author_profile: true
+redirect_from:
+  - /achievements
 ---
 
 # Eltropy
