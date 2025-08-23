@@ -169,24 +169,30 @@ Work Experience
     }
 </script>
  
-### AI Implementation Manager at Eltropy, Santa Clara [December 2024-Present]
+### AI Implementation Manager at Eltropy, Santa Clara 
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <span>[December 2024-Present]</span>
+  <a href="https://sudarshanasrao.github.io/achievements/">
+    <button class="download-button">Recognition</button>
+  </a>
+</div>
+
 <style>
 /* Button Styles */
 .download-button {
   border: 2px solid #000;
   padding: 10px 20px;
   text-align: center;
-  text-decoration: none;
   display: inline-flex;
   align-items: center;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 0;
   cursor: pointer;
   border-radius: 4px;
   background-color: transparent;
   color: black;
   font-weight: bold;
-  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, transform 0.2s;
 }
 /* Hover Effect */
 .download-button:hover {
@@ -204,21 +210,12 @@ Work Experience
 }
 /* Responsive Styles */
 @media (max-width: 600px) {
-  /* Adjust button text size and margins for smaller screens */
   .download-button {
     font-size: 14px;
     padding: 8px 16px;
   }
 }
 </style>
-
-<div class="download-button-container">
-      <a href="https://sudarshanasrao.github.io/achievements/">
-        <button class="download-button">
-          Recognition
-        </button>
-      </a>
-</div>
 * **Personally selected** by the **CEO** for the Center of Excellence, recognizing flawless AI implementations and advanced expertise in delivering consultative onboarding and complex AI integrations for customers, maintaining a **4.7/5** customer satisfaction score.
 * Managing **SaaS** customer implementation projects using **GUIDEcx**, **Jira**, and **Confluence**, integrating **Voiceflow**, **AWS** (**S3** & **QuickSight**), **Pinecone**, and **Azure** for secure data storage and **RAG**-based **AI** (**GPT**) **agentic workflows**, ensuring **95%** on-time delivery.
 * Developing and testing **API integrations** for core banking and marketing automation systems using **Postman**, ensuring seamless interoperability between financial services platforms and Eltropy’s Unified Conversations Platform.
