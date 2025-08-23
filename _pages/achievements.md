@@ -14,7 +14,7 @@ redirect_from:
 <center><img src="/images/EL-1.png" style="cursor: crosshair;"></center>
 
 ### Recognized for delivering a flawless go-live for Zing Credit Union-
-<center><img src="/images/EL-3.jpg" height="600px" width="600px" style="cursor: crosshair;"></center>
+<center><img src="/images/EL-3.jpg" height="500px" width="500px" style="cursor: crosshair;"></center>
 
 ### Praised by the CEO & Labor Credit Union leadership for successfully deploying their AI voice project-
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); justify-items: center;">
