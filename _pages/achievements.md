@@ -15,7 +15,7 @@ redirect_from:
 <center><img src="/images/EL-12.png" style="cursor: crosshair;"></center>
 
 ### Project Delivery Success:
-#### Recognized for leading a flawless go-live for Zing Credit Union, coordinating cross-functional teams to ensure zero downtime-
+#### Recognized by the Director of Professional Services (my manager) for leading a flawless go-live for Zing Credit Union, coordinating cross-functional teams to ensure zero downtime-
 <center><img src="/images/EL-3.jpg" height="500px" width="500px" style="cursor: crosshair;"></center>
 
 #### Praised by the CEO and Labor Credit Union leadership for successfully deploying their AI voice project, driving improved customer engagement-
