@@ -12,7 +12,7 @@ redirect_from:
 
 ### AI Leadership:
 #### Handpicked by the CEO to drive AI implementation initiatives as part of the company’s Center of Excellence-
-<center><img src="/images/EL-11.jpg" style="cursor: crosshair;"></center>
+<center><img src="/images/EL-12.png" style="cursor: crosshair;"></center>
 
 ### Project Delivery Success:
 #### Recognized for leading a flawless go-live for Zing Credit Union, coordinating cross-functional teams to ensure zero downtime-
@@ -34,7 +34,7 @@ redirect_from:
 </div>
 
 #### Applauded by the VP of Sales for exceptional project management skills and successful delivery of key initiatives-
-<center><img src="/images/EL-12.jpg" style="cursor: crosshair;"></center>
+<center><img src="/images/EL-11.jpg" style="cursor: crosshair;"></center>
 
 ### Team Development & Collaboration:
 #### Appreciated by the VP of Professional Services for commitment to team development and driving collaborative success-
