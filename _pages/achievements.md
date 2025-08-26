@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Professional Achievements 🏵️"
+title: "Professional Achievements 🏆"
 excerpt: "Career Highlights"
 permalink: /achievements/
 author_profile: true
