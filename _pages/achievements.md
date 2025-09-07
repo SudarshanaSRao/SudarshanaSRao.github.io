@@ -14,8 +14,16 @@ redirect_from:
 #### Handpicked by the CEO to drive AI implementation initiatives as part of the company’s Center of Excellence-
 <center><img src="/images/EL-12.png" style="cursor: crosshair;"></center>
 
-<!-- ### Client Testimonials:
-#### Led executive discussions with Pearl Hawaii FCU, resolving key questions and earning client commendation for expertise-
+### Client & Stakeholder Testimonials:
+#### Praised by the CEO and Labor Credit Union leadership for successfully deploying their AI voice project, driving improved customer engagement-
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); justify-items: center;">
+  <img src="/images/EL-5.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
+  <img src="/images/EL-6.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
+  <img src="/images/EL-9.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
+  <img src="/images/EL-10.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
+</div>
+
+<!-- #### Led executive discussions with Pearl Hawaii FCU, resolving key questions and earning client trust for expertise-
 <div style="display: grid; grid-template-columns: repeat(, 1fr); justify-items: center;">
   <img src="/images/EL-13.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
   <img src="/images/EL-.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
@@ -25,16 +33,8 @@ redirect_from:
 #### Recognized by the Director of Professional Services (my manager) for leading a flawless go-live for Zing Credit Union, coordinating cross-functional teams to ensure zero downtime-
 <center><img src="/images/EL-3.jpg" height="500px" width="500px" style="cursor: crosshair;"></center>
 
-#### Praised by the CEO and Labor Credit Union leadership for successfully deploying their AI voice project, driving improved customer engagement-
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); justify-items: center;">
-  <img src="/images/EL-5.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
-  <img src="/images/EL-6.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
-  <img src="/images/EL-9.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
-  <img src="/images/EL-10.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
-</div>
-
-### Client & Stakeholder Recognition:
-#### Lauded by the ABNB Federal Credit Union team and leadership for being highly engaging, motivated, and committed to integrating AI Voice solutions, contributing to measurable client success-
+### Leadership Commendation:
+#### Lauded for being highly engaging, motivated, and committed to integrating AI Voice solutions, contributing to measurable client success-
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); justify-items: center;">
   <img src="/images/EL-4.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
   <img src="/images/EL-2.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
