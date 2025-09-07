@@ -14,7 +14,7 @@ redirect_from:
 #### Handpicked by the CEO to drive AI implementation initiatives as part of the company’s Center of Excellence-
 <center><img src="/images/EL-12.png" style="cursor: crosshair;"></center>
 
-### Client Testimonials:
+<!-- ### Client Testimonials:
 #### Led executive discussions with Pearl Hawaii FCU, resolving key questions and earning client commendation for expertise-
 <div style="display: grid; grid-template-columns: repeat(, 1fr); justify-items: center;">
   <img src="/images/EL-13.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
