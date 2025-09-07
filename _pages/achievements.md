@@ -31,10 +31,13 @@ redirect_from:
 
 ### Project Delivery Success:
 #### Recognized by the Director of Professional Services (my manager) for leading a flawless go-live for Zing Credit Union, coordinating cross-functional teams to ensure zero downtime-
-<center><img src="/images/EL-3.jpg" height="500px" width="500px" style="cursor: crosshair;"></center>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); justify-items: center;">
+  <img src="/images/EL-3.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
+  <img src="/images/EL-14.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
+</div>
 
-### Leadership Commendation:
-#### Lauded for being highly engaging, motivated, and committed to integrating AI Voice solutions, contributing to measurable client success-
+### Executives' Commendation:
+#### Lauded for leading and executing the successful launch of key projects, earning accolades for a dedicated and motivated approach to integrating AI solutions-
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); justify-items: center;">
   <img src="/images/EL-4.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
   <img src="/images/EL-2.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
