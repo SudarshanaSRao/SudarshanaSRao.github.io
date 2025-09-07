@@ -72,8 +72,7 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # URL
-  huggingface      : https://huggingface.co/Samurai719214
-
+ 
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
