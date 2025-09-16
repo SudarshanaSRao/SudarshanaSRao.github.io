@@ -23,11 +23,11 @@ redirect_from:
   <img src="/images/EL-10.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
 </div>
 
-<!-- #### Led executive discussions with Pearl Hawaii FCU, resolving key questions and earning client trust for expertise-
+#### Led executive discussions with Pearl Hawaii FCU, resolving key questions and earning client trust for expertise-
 <div style="display: grid; grid-template-columns: repeat(, 1fr); justify-items: center;">
   <img src="/images/EL-13.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
-  <img src="/images/EL-.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
-</div> -->
+  <img src="/images/EL-pearl.png" style="cursor: crosshair; width: 100%; max-width: 200px;">
+</div>
 
 ### Project Delivery Success:
 #### Recognized by the Director of Professional Services (my manager) for leading a flawless go-live for Zing Credit Union, coordinating cross-functional teams to ensure zero downtime-
