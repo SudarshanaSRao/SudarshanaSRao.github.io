@@ -49,7 +49,6 @@ document.addEventListener("DOMContentLoaded", function() {
   <img src="/images/WhatsApp Image 2024-12-04 at 18.35.41_553e988f.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_2896198e.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/bubbles.png" class="image" style="cursor: crosshair;">
-  <img src="/images/WhatsApp Image 2024-05-26 at 19.32.02_180d4cf9.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/nick.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/WhatsApp Image 2024-12-04 at 18.30.32_9408a9bf.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/chiara.jpg" class="image" style="cursor: crosshair;">
@@ -62,7 +61,6 @@ document.addEventListener("DOMContentLoaded", function() {
   <img src="/images/sledge.JPG" class="image" style="cursor: crosshair;">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_cd38722a.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/jetty.JPG" class="image" style="cursor: crosshair;">
-  <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_5ea38d29.jpg" class="image" style="cursor: crosshair;">
 </div>
 <style>
   .container {
