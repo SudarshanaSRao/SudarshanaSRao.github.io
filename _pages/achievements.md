@@ -49,3 +49,6 @@ redirect_from:
 ### Team Development & Collaboration:
 #### Appreciated by the VP of Professional Services for commitment to team development and driving collaborative success-
 <center><img src="/images/EL-8.jpg" style="cursor: crosshair;"></center>
+
+#### Acknowledged by the Senior Director of Engineering for driving team collaboration and ensuring successful enterprise implementation-
+<center><img src="/images/EL-Shiva.jpg" style="cursor: crosshair;"></center>
