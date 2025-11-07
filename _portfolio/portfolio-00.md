@@ -25,7 +25,7 @@ tags:
     margin-right: 15px;
   }
   .app-button {
-    background: url('/images/button.png') no-repeat center center;
+    background: url('/images/kano.png') no-repeat center center;
     background-size: cover;
     width: 150px;  /* Adjusted size */
     height: 50px;  /* Adjusted size */
