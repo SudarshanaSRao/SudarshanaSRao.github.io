@@ -1,6 +1,6 @@
 ---
 title: "🥏SquadUp"
-excerpt: "<img src='/images/.png' style='cursor: crosshair;'>"
+excerpt: "<img src='/images/visual selection.png' style='cursor: crosshair;'>"
 collection: portfolio
 tags: 
   - Web app
@@ -52,21 +52,19 @@ tags:
   </a>
 </div>
 
-* Architected and deployed a full-stack cloud-native web app (“Sports On The Go”) using React, TypeScript, Supabase (PostgreSQL, Auth, Edge Functions), and Tailwind CSS, demonstrating scalable solution design on Azure-compatible infrastructure.
+* Architected and deployed a **full-stack cloud-native web app** using **React**, **TypeScript**, **Supabase (PostgreSQL, Auth, Edge Functions)**, and **Tailwind CSS**.
 
 <img src="/images/web_landing.png" style="cursor: crosshair;">
 
-* Engineered secure backend workflows with Row Level Security (RLS), serverless Deno edge functions, and API integrations for geocoding and content moderation—implementing best practices for data privacy, authentication, and multi-tenant access control, aligning with Azure DevOps principles.
+* Engineered secure backend workflows with Row Level Security (RLS), serverless Deno edge functions, and API integrations for geocoding and content moderation—implementing best practices for data privacy, authentication, and multi-tenant access control, aligning with **Azure DevOps principles**.
 
 * Built an interactive map experience using Leaflet and OpenStreetMap APIs to visualize nearby pickup games in real time, leveraging geo-queries and real-time subscriptions for dynamic, user-centric experiences.
 
 <img src="/images/web_map.png" style="cursor: crosshair;">
 
-* Optimized frontend performance and UX with TanStack Query, React Hook Form, and Zod validation, improving data consistency and client-side responsiveness by 40%.
+* Optimized frontend performance and UX with TanStack Query, React Hook Form, and Zod validation, improving data consistency and client-side responsiveness by **40%**.
 
 * Proposed AI-powered enhancements using Azure OpenAI Service for personalized game recommendations and natural language match search, showcasing AI integration within cloud solution design.
-
-
 
 <div class="flexcontainer">
   <div>
