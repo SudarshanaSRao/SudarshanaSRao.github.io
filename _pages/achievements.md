@@ -31,7 +31,7 @@ redirect_from:
   <img src="/images/EL-13.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
   <img src="/images/Licie_h.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
   <img src="/images/aloha.jpg" style="cursor: crosshair; width: 100%; max-width: 200px">
-  <img src="/images/lastjo.jpg" style="cursor: crosshair; width: 100%;">
+  <img src="/images/lastjo.jpg" style="cursor: crosshair; width: 100%; max-height: 200px">
 </div>
 
 ### Project Delivery Success:
