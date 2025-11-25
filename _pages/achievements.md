@@ -27,11 +27,11 @@ redirect_from:
 </div>
 
 #### Led executive discussions with Pearl Hawaii FCU, resolving key questions and earning client trust for expertise-
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); justify-items: center;">
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); justify-items: center;">
   <img src="/images/EL-13.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
   <img src="/images/Licie_h.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
-  <img src="/images/aloha.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
-  <img src="/images/lastjo.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
+  <img src="/images/aloha.jpg" style="cursor: crosshair; width: 100%; max-width: 200px">
+  <img src="/images/lastjo.jpg" style="cursor: crosshair; width: 100%;">
 </div>
 
 ### Project Delivery Success:
