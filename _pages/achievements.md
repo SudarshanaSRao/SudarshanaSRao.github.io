@@ -14,6 +14,9 @@ redirect_from:
 #### Handpicked by the CEO to drive AI implementation initiatives as part of the company’s Center of Excellence-
 <center><img src="/images/EL-12.png" style="cursor: crosshair;"></center>
 
+#### Trusted and proudly represented by the Director of Customer Success for delivering a smooth, zero-issue AI Voice+ go-live-
+<center><img src="/images/Katlin.jpg" style="cursor: crosshair;"></center>
+
 ### Client & Stakeholder Testimonials:
 #### Praised by the CEO and Labor Credit Union leadership for successfully deploying their AI voice project, driving improved customer engagement-
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); justify-items: center;">
