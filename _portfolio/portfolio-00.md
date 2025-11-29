@@ -11,6 +11,7 @@ tags:
   - PostgreSQL DB
   - Tailwind CSS
   - Full-stack
+  - Gemini
 ---
 
 <style>
@@ -56,7 +57,9 @@ tags:
 
 <img src="/images/web_landing.png" style="cursor: crosshair;">
 
-* Engineered secure backend workflows with Row Level Security (RLS), serverless Deno edge functions, and API integrations for geocoding and content moderation—implementing best practices for data privacy, authentication, and multi-tenant access control, aligning with **Azure DevOps principles**.
+* Deployed a **Gemini AI chatbot** for personalized game recommendations and natural-language match search.
+
+<img src="/images/Gemini chat.png" style="cursor: crosshair;">
 
 * Built an interactive map experience using Leaflet and OpenStreetMap APIs to visualize nearby pickup games in real time, leveraging geo-queries and real-time subscriptions for dynamic, user-centric experiences.
 
@@ -64,7 +67,7 @@ tags:
 
 * Optimized frontend performance and UX with TanStack Query, React Hook Form, and Zod validation, improving data consistency and client-side responsiveness by **40%**.
 
-* Proposed AI-powered enhancements using Azure OpenAI Service for personalized game recommendations and natural language match search, showcasing AI integration within cloud solution design.
+* Engineered secure backend workflows with Row Level Security (RLS), serverless Deno edge functions, and API integrations for geocoding and content moderation—implementing best practices for data privacy, authentication, and multi-tenant access control, aligning with **Azure DevOps principles**.
 
 <div class="flexcontainer">
   <div>
