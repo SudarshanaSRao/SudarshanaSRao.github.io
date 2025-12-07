@@ -228,11 +228,11 @@ Work Experience
   }
 }
 </style>
-* **Personally selected** by the **CEO** for the Center of Excellence, recognizing flawless AI implementations and advanced expertise in delivering consultative onboarding and complex AI integrations for customers, maintaining a **4.7/5** customer satisfaction score.
-* Managing **SaaS** customer implementation projects using **GUIDEcx**, **Jira**, and **Confluence**, integrating **Voiceflow**, **AWS** (**S3** & **QuickSight**), **Pinecone**, and **Azure** for secure data storage and **RAG**-based **AI** (**GPT**) **agentic workflows**, ensuring **95%** on-time delivery.
+* **Personally selected** by the **CEO** for the Center of Excellence, recognizing flawless AI implementations and advanced expertise in delivering consultative onboarding and complex AI integrations across **35+** customer deployments, maintaining a **4.7/5** customer satisfaction score.
+* Delivered tailored Videate-powered customer training that increased adoption by **20%**, and spearheaded internal AI enablement by training the organization and building Ask Eltropy, the internal AI chatbot.
+* Managing **SaaS** customer implementation projects using **Jira**, **Confluence**, integrating **Voiceflow**, **AWS** (**S3** & **QuickSight**), **Pinecone**, and **Azure** for secure data storage and **RAG**-based **AI** (**GPT**) **agentic workflows**, ensuring **95%** on-time delivery.
 * Developing and testing **API integrations** for core banking and marketing automation systems using **Postman**, ensuring seamless interoperability between financial services platforms and Eltropy’s Unified Conversations Platform.
 * Collaborating with cross-functional teams and customers, leveraging **Gong**, **Salesforce CRM**, **Microsoft 365 (SharePoint)**, **Google Workspace**, **Atlassian Cloud**, and **Zoom Workplace** to resolve **90%** of technical challenges within **48 hours**.
-* Designed and delivered tailored training programs (e-webinars and in-app tutorials) for end-users, using videate, increasing customer adoption rates by **20%**.
  
 <style>
     /* Flexcontainer styling for your main content */
