@@ -34,14 +34,15 @@ redirect_from:
   <img src="/images/lastjo.jpg" style="cursor: crosshair;">
 </div>
 
-### Project Delivery Success:
+#### Commended by PrimeWay FCU’s Director of Contact Center for exceptional partnership and execution, enabling strong adoption of AI solutions across Member Services, Loans, and Contact Center teams-
+<center><img src="/images/Direct.jpg" style="cursor: crosshair;"></center>
+
 #### Recognized by the Director of Professional Services (my manager) for leading a flawless go-live for Zing Credit Union, coordinating cross-functional teams to ensure zero downtime-
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); justify-items: center;">
   <img src="/images/EL-3.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
   <img src="/images/EL-14.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
 </div>
 
-### Executives' Commendation:
 #### Lauded for leading and executing the successful launch of key projects, earning accolades for a dedicated and motivated approach to integrating AI solutions-
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); justify-items: center;">
   <img src="/images/EL-4.jpg" style="cursor: crosshair; width: 100%; max-width: 200px;">
