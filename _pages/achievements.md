@@ -34,6 +34,9 @@ redirect_from:
   <img src="/images/lastjo.jpg" style="cursor: crosshair;">
 </div>
 
+#### Endorsed by Mid Oregon Federal Credit Union leadership for exceptional project leadership, training excellence, and long-term client satisfaction-
+<center><img src="/images/MidOregon.jpeg" style="cursor: crosshair;"></center>
+
 #### Commended by PrimeWay FCU’s Director of Contact Center for exceptional partnership and execution, enabling strong adoption of AI solutions across Member Services, Loans, and Contact Center teams-
 <center><img src="/images/Direct.jpg" style="cursor: crosshair;"></center>
 
