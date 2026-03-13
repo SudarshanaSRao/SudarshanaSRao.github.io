@@ -49,7 +49,7 @@ Work Experience
 <div class="flexcontainer">
   <div>
     <a href="https://www.liberateinc.com/" target="_blank" onclick="trackOutboundLink(this);">
-      <img class="pulse" src="/images/Liberate.jpg">
+      <img class="pulse" src="/images/Liberate.jpg" width="10px" height="10px">
     </a>
   </div>
  </div>
@@ -69,8 +69,8 @@ Work Experience
         cursor: pointer; /* Makes the entire container clickable */
     }
     .thumbnail4cd {
-        width: 10px;
-        height: 10px;
+        width: 100px;
+        height: 100px;
         object-fit: cover;
         border-radius: 10px;
     }
