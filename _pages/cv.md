@@ -54,8 +54,6 @@ Work Experience
   </div>
  </div>
 
- ### AI Agent Engineer at Liberate, Berkeley [March 2026-Present]
-
  <style>
     /* Flexcontainer styling for your main content */
     .flexcontainer88cd {
@@ -71,8 +69,8 @@ Work Experience
         cursor: pointer; /* Makes the entire container clickable */
     }
     .thumbnail4cd {
-        width: 100px;
-        height: 100px;
+        width: 10px;
+        height: 10px;
         object-fit: cover;
         border-radius: 10px;
     }
@@ -141,6 +139,7 @@ Work Experience
         }
     }
 </style>
+### AI Agent Engineer at Liberate, Berkeley [March 2026-Present]
   
 <div class="flexcontainer88cd">
   <div>
