@@ -49,7 +49,7 @@ Work Experience
 <div class="flexcontainer">
   <div>
     <a href="https://www.liberateinc.com/" target="_blank" onclick="trackOutboundLink(this);">
-      <img class="pulse" src="/images/Liberate.jpg" width="100px" height="100px">
+      <img class="pulse" src="/images/Liberate.jpg" width="150px" height="150px">
     </a>
   </div>
  </div>
