@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="flexcontainer1">
   <div>
-    <span><i>Download my:</i></span> <a href="https://github.com/user-attachments/files/24022195/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
+    <span><i>Download my:</i></span> <a href="https://github.com/user-attachments/files/25960536/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
       <img class="bounce" height="100px" src="/images/resum.jpg" width="150px">
     </a>
   </div>
@@ -46,13 +46,15 @@ redirect_from:
 
 Work Experience
 ==================
-<!--<div class="flexcontainer">
+<div class="flexcontainer">
   <div>
-    <a href="https://www.microsoft.com/en-us/" target="_blank" onclick="trackOutboundLink(this);">
-      <img class="pulse" src="/images/newMS.gif">
+    <a href="https://www.liberateinc.com/" target="_blank" onclick="trackOutboundLink(this);">
+      <img class="pulse" src="/images/Liberate.jpg">
     </a>
   </div>
- </div>-->
+ </div>
+
+ ### AI Agent Engineer at Liberate, Berkeley [March 2026-Present]
 
  <style>
     /* Flexcontainer styling for your main content */
@@ -170,7 +172,7 @@ Work Experience
 </script>
  
 <div class="header-container">
-  <h4>AI Implementation Manager at Eltropy, Santa Clara [December 2024-Present]</h4>
+  <h4>AI Implementations Specialist, Forward Deployed Engineer at Eltropy, Santa Clara [December 2024-March 2026]</h4>
   <a href="https://sudarshanasrao.github.io/achievements/">
     <button class="download-button">🏵️ Recognition 🏵️</button>
   </a>
