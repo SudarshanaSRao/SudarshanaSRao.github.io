@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Sudarshana S Rao🤵"
 title_separator          : "~"
 name                     : &name "Sudarshana S Rao"
-description              : &description "AI Implementation Manager @ Eltropy"
+description              : &description "AI Agent Engineer @ Liberate"
 url                      : https://sudarshanasrao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "SudarshanaSRao/SudarshanaSRao.github.io"
@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "DL | ML | NLP | AI | DS | CV"
   location         : "United States of America"
-  employer         : "Liberate Inc."
+  employer         : "Liberate Innovations Inc."
   uri              : # URL
   email            : "sudarshanasrao@gmail.com" 
 
