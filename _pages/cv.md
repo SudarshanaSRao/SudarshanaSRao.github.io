@@ -54,6 +54,28 @@ Work Experience
   </div>
  </div>
 
+ <div class="thumbnail-container4cd" onclick="openPopup4cd()">
+    <img src="/images/Libjob.jpeg" class="thumbnail4cd">
+    <span class="popup-icon4cd">&#x2197;</span>
+</div>
+</div>
+
+<div id="popup4cd" onclick="closePopup4cd()">
+    <div class="popup-content4cd" onclick="event.stopPropagation()">
+        <span class="close-button4cd" onclick="closePopup4cd()">&times;</span>
+        <img id="popupImage4cd" src="/images/ID.png">
+    </div>
+</div>
+
+<script>
+    function openPopup4cd() {
+        document.getElementById('popup4cd').style.display = 'flex';
+    }
+    function closePopup4cd() {
+        document.getElementById('popup4cd').style.display = 'none';
+    }
+</script>
+
  <style>
     /* Flexcontainer styling for your main content */
     .flexcontainer88cd {
