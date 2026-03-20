@@ -62,7 +62,7 @@ Work Experience
 <div id="popup210" onclick="closePopup210()">
     <div class="popup-content210" onclick="event.stopPropagation()">
         <span class="close-button210" onclick="closePopup210()">&times;</span>
-        <img id="popupImage210" src="/images/Loibjob.jpeg">
+        <img id="popupImage210" src="/images/Libjob.jpeg">
     </div>
 </div>
 
@@ -181,6 +181,92 @@ Work Experience
         <img id="popupImage4cd" src="/images/ID.png">
     </div>
 </div>
+
+<style>
+    /* Flexcontainer styling for your main content */
+    .flexcontainer88cd {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    /* Thumbnail and popup styling */
+    .thumbnail-container4cd {
+        position: relative;
+        display: inline-block;
+        cursor: pointer; /* Makes the entire container clickable */
+    }
+    .thumbnail4cd {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .popup-icon4cd {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        font-size: 18px;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        padding: 2px 5px;
+    }
+    /* Popup overlay */
+    #popup4cd {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        align-items: center;
+        justify-content: center;
+    }
+    /* Popup content styling */
+    .popup-content4cd {
+        position: relative;
+        width: 535px;
+        height: 535px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .close-button4cd {
+        position: absolute;
+        top: 35px;
+        right: 5px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    /* Popup image styling */
+    #popupImage4cd {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    /* Media query to ensure responsiveness */
+    @media (max-width: 768px) {
+        .flexcontainer88cd {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .thumbnail-container4cd {
+            align-self: flex-end;
+        }
+    }
+</style>
 
 <script>
     function openPopup4cd() {
