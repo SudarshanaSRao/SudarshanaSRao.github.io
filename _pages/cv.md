@@ -46,57 +46,56 @@ redirect_from:
 
 Work Experience
 ==================
-<div class="flexcontainer">
+<div class="flexcontainer210">
   <div>
     <a href="https://www.liberateinc.com/" target="_blank" onclick="trackOutboundLink(this);">
       <img class="pulse" src="/images/Liberate.jpg" width="150px" height="150px">
     </a>
   </div>
- </div>
 
- <div class="thumbnail-container4cd" onclick="openPopup4cd()">
-    <img src="/images/Libjob.jpeg" class="thumbnail4cd">
-    <span class="popup-icon4cd">&#x2197;</span>
+ <div class="thumbnail-container210" onclick="openPopup210()">
+    <img src="/images/Libjob.jpeg" class="thumbnail210">
+    <span class="popup-icon210">&#x2197;</span>
 </div>
 </div>
 
-<div id="popup4cd" onclick="closePopup4cd()">
-    <div class="popup-content4cd" onclick="event.stopPropagation()">
-        <span class="close-button4cd" onclick="closePopup4cd()">&times;</span>
-        <img id="popupImage4cd" src="/images/ID.png">
+<div id="popup210" onclick="closePopup210()">
+    <div class="popup-content210" onclick="event.stopPropagation()">
+        <span class="close-button210" onclick="closePopup210()">&times;</span>
+        <img id="popupImage210" src="/images/Loibjob.jpeg">
     </div>
 </div>
 
 <script>
-    function openPopup4cd() {
-        document.getElementById('popup4cd').style.display = 'flex';
+    function openPopup210() {
+        document.getElementById('popup210').style.display = 'flex';
     }
-    function closePopup4cd() {
-        document.getElementById('popup4cd').style.display = 'none';
+    function closePopup210() {
+        document.getElementById('popup210').style.display = 'none';
     }
 </script>
 
  <style>
     /* Flexcontainer styling for your main content */
-    .flexcontainer88cd {
+    .flexcontainer210 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: flex-start;
     }
     /* Thumbnail and popup styling */
-    .thumbnail-container4cd {
+    .thumbnail-container210 {
         position: relative;
         display: inline-block;
         cursor: pointer; /* Makes the entire container clickable */
     }
-    .thumbnail4cd {
+    .thumbnail210 {
         width: 100px;
         height: 100px;
         object-fit: cover;
         border-radius: 10px;
     }
-    .popup-icon4cd {
+    .popup-icon210 {
         position: absolute;
         top: 10px;
         right: 5px;
@@ -107,7 +106,7 @@ Work Experience
         padding: 2px 5px;
     }
     /* Popup overlay */
-    #popup4cd {
+    #popup210 {
         display: none;
         position: fixed;
         z-index: 1000;
@@ -120,14 +119,14 @@ Work Experience
         justify-content: center;
     }
     /* Popup content styling */
-    .popup-content4cd {
+    .popup-content210 {
         position: relative;
         width: 535px;
         height: 535px;
         border-radius: 10px;
         overflow: hidden;
     }
-    .close-button4cd {
+    .close-button210 {
         position: absolute;
         top: 35px;
         right: 5px;
@@ -145,18 +144,18 @@ Work Experience
         z-index: 1;
     }
     /* Popup image styling */
-    #popupImage4cd {
+    #popupImage210 {
         width: 100%;
         height: 100%;
         object-fit: contain;
     }
     /* Media query to ensure responsiveness */
     @media (max-width: 768px) {
-        .flexcontainer88cd {
+        .flexcontainer210 {
             flex-direction: column;
             align-items: flex-start;
         }
-        .thumbnail-container4cd {
+        .thumbnail-container210 {
             align-self: flex-end;
         }
     }
