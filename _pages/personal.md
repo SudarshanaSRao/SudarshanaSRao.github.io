@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <img src="/images/skii.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/WhatsApp Image 2024-12-04 at 12.37.46_5df20689.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/WhatsApp Image 2024-12-04 at 18.28.22_0317bc6c.jpg" class="image" style="cursor: crosshair;">
-  <img src="/images/grouppic.jpg" class="image" style="cursor: crosshair;">
+  <img src="/images/Half Dome.png" class="image" style="cursor: crosshair;">
   <img src="/images/sledge.JPG" class="image" style="cursor: crosshair;">
   <img src="/images/WhatsApp Image 2024-05-26 at 19.32.03_cd38722a.jpg" class="image" style="cursor: crosshair;">
   <img src="/images/jetty.JPG" class="image" style="cursor: crosshair;">
