@@ -11,10 +11,11 @@ redirect_from:
 ## Liberate
 
 #### Proposed and championed an engineering visibility initiative that aligned product and engineering stakeholders, resulting in organization-wide adoption and executive recognition from the VP of Engineering and CTO.
-
+<center><img src="/images/Saury.jpeg" style="cursor: crosshair;"></center>
 
 #### Earned recognition from VP of Engineering for exemplary ownership of enterprise AI deployments, proactive engineering leadership, and driving cross-functional initiatives that improved engineering visibility and delivery.
-
+<center><img src="/images/Sixt.jpeg" style="cursor: crosshair;"></center>
+<center><img src="/images/VP_sixt.jpeg" style="cursor: crosshair;"></center>
 
 ## Eltropy
 
