@@ -8,6 +8,14 @@ redirect_from:
   - /achievements
 ---
 
+## Liberate
+
+#### Proposed and championed an engineering visibility initiative that aligned product and engineering stakeholders, resulting in organization-wide adoption and executive recognition from the VP of Engineering and CTO.
+
+
+#### Earned recognition from VP of Engineering for exemplary ownership of enterprise AI deployments, proactive engineering leadership, and driving cross-functional initiatives that improved engineering visibility and delivery.
+
+
 ## Eltropy
 
 ### AI Leadership:
