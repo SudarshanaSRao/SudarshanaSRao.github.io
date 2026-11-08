@@ -81,7 +81,7 @@ redirect_from:
   background: linear-gradient(135deg, #ff7078 0%, #f8a1b0 25%, #f58ad4 50%, #8b70c1 75%, #f8a1b0 100%);
 }
 </style>
-<hr class="project-separator">
+<hr class="separator">
 
 ## Liberate
 
