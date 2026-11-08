@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="flexcontainer1">
   <div>
-    <span><i>Download my:</i></span> <a href="https://github.com/user-attachments/files/25960536/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
+    <span><i>Download my:</i></span> <a href="https://github.com/user-attachments/files/34557841/Sudarshana_Sudheendra_Rao_Resume.pdf" onclick="trackOutboundLink(this);">
       <img class="bounce" height="100px" src="/images/resum.jpg" width="150px">
     </a>
   </div>
@@ -46,6 +46,65 @@ redirect_from:
 
 Work Experience
 ==================
+<div class="header-container">
+  <a href="https://sudarshanasrao.github.io/achievements/">
+    <button class="download-button">🏵️ Recognition 🏵️</button>
+  </a>
+</div>
+
+<style>
+.header-container {
+  display: flex;
+  align-items: center;       /* Vertical alignment */
+  justify-content: space-between;  /* Header left, button right */
+  margin-top: 10px;
+  flex-wrap: wrap;           /* Allows button to move below on small screens */
+  gap: 10px;                 /* Space between header and button if wrapped */
+  width: 100%;
+}
+.header-container h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+/* Button Styles */
+.download-button {
+  border: 2px solid #000;
+  padding: 6px 14px;      /* smaller padding */
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;         /* smaller text */
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, transform 0.2s;
+}
+.download-button:hover {
+  background-color: #A9A9A9;
+  color: white;
+  border-color: #696969;
+  transform: translateY(-3px);
+}
+.download-button:active {
+  background-color: #696969;
+  border-color: #696969;
+  transform: translateY(2px);
+  box-shadow: 0 2px #D3D3D3;
+}
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .header-container {
+    flex-direction: column;   /* Stack text and button vertically */
+    align-items: flex-start;  /* Left-align everything */
+  }
+  .download-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+</style>
+
 <div class="flexcontainer210">
   <div>
     <a href="https://www.liberateinc.com/" target="_blank" onclick="trackOutboundLink(this);">
@@ -282,65 +341,7 @@ Work Experience
     }
 </script>
  
-<div class="header-container">
-  <h4>AI Implementations Specialist, Forward Deployed Engineer at Eltropy, Santa Clara [December 2024-March 2026]</h4>
-  <a href="https://sudarshanasrao.github.io/achievements/">
-    <button class="download-button">🏵️ Recognition 🏵️</button>
-  </a>
-</div>
-
-<style>
-.header-container {
-  display: flex;
-  align-items: center;       /* Vertical alignment */
-  justify-content: space-between;  /* Header left, button right */
-  margin-top: 10px;
-  flex-wrap: wrap;           /* Allows button to move below on small screens */
-  gap: 10px;                 /* Space between header and button if wrapped */
-  width: 100%;
-}
-.header-container h4 {
-  margin: 0;
-  font-size: 1rem;
-}
-/* Button Styles */
-.download-button {
-  border: 2px solid #000;
-  padding: 6px 14px;      /* smaller padding */
-  display: inline-flex;
-  align-items: center;
-  font-size: 14px;         /* smaller text */
-  cursor: pointer;
-  border-radius: 4px;
-  background-color: transparent;
-  color: black;
-  font-weight: bold;
-  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, transform 0.2s;
-}
-.download-button:hover {
-  background-color: #A9A9A9;
-  color: white;
-  border-color: #696969;
-  transform: translateY(-3px);
-}
-.download-button:active {
-  background-color: #696969;
-  border-color: #696969;
-  transform: translateY(2px);
-  box-shadow: 0 2px #D3D3D3;
-}
-/* Responsive Styles */
-@media (max-width: 600px) {
-  .header-container {
-    flex-direction: column;   /* Stack text and button vertically */
-    align-items: flex-start;  /* Left-align everything */
-  }
-  .download-button {
-    font-size: 14px;
-    padding: 8px 16px;
-  }
-}
-</style>
+### AI Implementations Specialist, Forward Deployed Engineer at Eltropy, Santa Clara [December 2024-March 2026]
 * **Personally selected** by the **CEO** for the Center of Excellence, recognizing flawless AI implementations and advanced expertise in delivering consultative onboarding and complex AI integrations across **35+** customer deployments, maintaining a **4.7/5** customer satisfaction score.
 * Delivered tailored Videate-powered customer training that increased adoption by **20%**, and spearheaded internal AI enablement by training the organization and building Ask Eltropy, the internal AI chatbot.
 * Managing **SaaS** customer implementation projects using **Jira**, **Confluence**, integrating **Voiceflow**, **AWS** (**S3** & **QuickSight**), **Pinecone**, and **Azure** for secure data storage and **RAG**-based **AI** (**GPT**) **agentic workflows**, ensuring **95%** on-time delivery.
