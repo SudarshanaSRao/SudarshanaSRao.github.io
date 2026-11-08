@@ -8,21 +8,6 @@ redirect_from:
   - /achievements
 ---
 
-## Liberate
-
-#### Proposed and championed an engineering visibility initiative that aligned product and engineering stakeholders, resulting in organization-wide adoption and executive recognition from the VP of Engineering and CTO.
-<center><img src="/images/Saury.jpeg" style="cursor: crosshair;"></center>
-
-#### Recognized by the VP of Engineering and VP of AI Deployment for achieving a 100% post-eligibility claim automation rate.
-<center><img src="/images/Nationwide.jpeg" style="cursor: crosshair;"></center>
-
-#### Earned recognition from VP of Engineering for exemplary ownership of enterprise AI deployments, proactive engineering leadership, and driving cross-functional initiatives that improved engineering visibility and delivery.
-<center><img src="/images/Sixt.jpeg" style="cursor: crosshair;"></center>
-<center><img src="/images/VP_sixt.jpeg" style="cursor: crosshair;"></center>
-
-#### Commended by the Engineering Manager for delivering the outbound dialing transition to SixT Twilio infrastructure and completing the long-pending migration.
-<center><img src="/images/Tommy.jpeg" style="cursor: crosshair;"></center>
-
 ## Eltropy
 
 ### AI Leadership:
@@ -76,3 +61,40 @@ redirect_from:
 
 #### Acknowledged by the Senior Director of Engineering for driving team collaboration and ensuring successful enterprise implementation-
 <center><img src="/images/EL-Shiva.jpg" style="cursor: crosshair;"></center>
+
+<style>
+.separator {
+  width: 90%;
+  margin: 20px auto;
+  position: relative;  /* Allows positioning of the pseudo-element */
+  height: 3px;  /* Height of the separator */
+  background: #ddd;  /* Fallback color */
+}
+.separator::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;  
+  /* Multicolor gradient applied to the separator */
+  background: linear-gradient(135deg, #ff7078 0%, #f8a1b0 25%, #f58ad4 50%, #8b70c1 75%, #f8a1b0 100%);
+}
+</style>
+
+## Liberate
+
+### Executive Recognitions:
+#### Proposed and championed an engineering visibility initiative that aligned product and engineering stakeholders, resulting in organization-wide adoption and executive recognition from the VP of Engineering and CTO-
+<center><img src="/images/Saury.jpeg" style="cursor: crosshair;"></center>
+
+#### Recognized by the VP of Engineering and VP of AI Deployment for achieving a 100% post-eligibility claim automation rate-
+<center><img src="/images/Nationwide.jpeg" style="cursor: crosshair;"></center>
+
+#### Earned recognition from VP of Engineering for exemplary ownership of enterprise AI deployments, proactive engineering leadership, and driving cross-functional initiatives that improved engineering visibility and delivery-
+<center><img src="/images/Sixt.jpeg" style="cursor: crosshair;"></center>
+<center><img src="/images/VP_sixt.jpeg" style="cursor: crosshair;"></center>
+
+### Deployment Achievements:
+#### Commended by the Engineering Manager (my manager) for delivering the outbound dialing transition to SixT Twilio infrastructure and completing the long-pending migration-
+<center><img src="/images/Tommy.jpeg" style="cursor: crosshair;"></center>
