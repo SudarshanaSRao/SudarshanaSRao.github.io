@@ -81,10 +81,11 @@ redirect_from:
   background: linear-gradient(135deg, #ff7078 0%, #f8a1b0 25%, #f58ad4 50%, #8b70c1 75%, #f8a1b0 100%);
 }
 </style>
+<hr class="project-separator">
 
 ## Liberate
 
-### Executive Recognitions:
+### Executives Recognition:
 #### Proposed and championed an engineering visibility initiative that aligned product and engineering stakeholders, resulting in organization-wide adoption and executive recognition from the VP of Engineering and CTO-
 <center><img src="/images/Saury.jpeg" style="cursor: crosshair;"></center>
 
@@ -95,6 +96,6 @@ redirect_from:
 <center><img src="/images/Sixt.jpeg" style="cursor: crosshair;"></center>
 <center><img src="/images/VP_sixt.jpeg" style="cursor: crosshair;"></center>
 
-### Deployment Achievements:
+### Deployment Milestones:
 #### Commended by the Engineering Manager (my manager) for delivering the outbound dialing transition to SixT Twilio infrastructure and completing the long-pending migration-
 <center><img src="/images/Tommy.jpeg" style="cursor: crosshair;"></center>
