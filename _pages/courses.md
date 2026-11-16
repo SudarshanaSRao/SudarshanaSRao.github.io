@@ -169,6 +169,27 @@ redirect_from:
   </ul>
 </div>   
 
+<style>
+.separator_c {
+  width: 90%;
+  margin: 20px auto;
+  position: relative;  /* Allows positioning of the pseudo-element */
+  height: 3px;  /* Height of the separator */
+  background: #ddd;  /* Fallback color */
+}
+.separator_c::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;  
+  /* Multicolor gradient applied to the separator */
+  background: linear-gradient(135deg, #ff7078 0%, #f8a1b0 25%, #f58ad4 50%, #8b70c1 75%, #f8a1b0 100%);
+}
+</style>
+<hr class="separator_c">
+
 Fundamental Courses
 ==================
 <div class="download-button-container">
@@ -207,6 +228,8 @@ Fundamental Courses
     </li>
   </ul>
 </div>
+
+<hr class="separator_c">
 
 Online Courses
 ==================
