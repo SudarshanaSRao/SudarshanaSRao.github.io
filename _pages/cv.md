@@ -607,6 +607,27 @@ I worked on **Robotics Process Automation** using **UiPath studio** for automati
   *  Implemented a bot to extract identified data from websites into Excel workbooks, saving **15%** of the buyer's time.
   *  Coded a bot to automatically generate complaint tickets and assign tickets to responsible personnel, enhancing customer service.
 
+<style>
+.separator_cv {
+  width: 90%;
+  margin: 20px auto;
+  position: relative;  /* Allows positioning of the pseudo-element */
+  height: 3px;  /* Height of the separator */
+  background: #ddd;  /* Fallback color */
+}
+.separator_cv::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;  
+  /* Multicolor gradient applied to the separator */
+  background: linear-gradient(135deg, #ff7078 0%, #f8a1b0 25%, #f58ad4 50%, #8b70c1 75%, #f8a1b0 100%);
+}
+</style>
+<hr class="separator_cv">
+
 Skills
 ==================
 <style>
@@ -673,6 +694,8 @@ Skills
   <img class="tech-icon" src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino">
   <img alt="chrome" src="https://img.shields.io/badge/Chrome-pink?logo=google-chrome&amp;amp;style=plastic" />
 </div>
+
+<hr class="separator_cv">
 
 Education
 ==================
@@ -946,6 +969,8 @@ Education
 }
 </style>
 
+<hr class="separator_cv">
+
 Awards
 ==================
 <style>
@@ -1135,6 +1160,8 @@ Awards
         document.getElementById('popup1').style.display = 'none';
     }
 </script>
+
+<hr class="separator_cv">
 
 Leadership & Involvement
 ==================
