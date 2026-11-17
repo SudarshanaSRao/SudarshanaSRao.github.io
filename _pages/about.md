@@ -254,7 +254,6 @@ My ideal role involves applying math to develop models or algorithms, analyze da
   justify-content: center;
   gap: 20px;
   position: relative;
-  transform: rotate(180deg);
 }
 .shape_S {
   font-size: 36px;
@@ -262,7 +261,7 @@ My ideal role involves applying math to develop models or algorithms, analyze da
   position: relative;
   z-index: 1;
   /* Darker multi-color gradient for a richer look */
-  background: linear-gradient(#ff7078 0%, #f8a1b0 25%, #f58ad4 50%, #8b70c1 75%, #f8a1b0 100%);
+  background: linear-gradient(135deg, #ff7078 0%, #f8a1b0 25%, #f58ad4 50%, #8b70c1 75%, #f8a1b0 100%);
   color: transparent;
   /* Clipping the background to the text */
   -webkit-background-clip: text;
