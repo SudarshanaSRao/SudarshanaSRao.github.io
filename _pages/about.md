@@ -229,6 +229,56 @@ My ideal role involves applying math to develop models or algorithms, analyze da
   </div>
 </div>
 
+<div class="separator_S">
+  <div class="shape-separator_S">
+    <div class="shape_S">🛆</div>
+    <div class="shape_S">🛆</div>
+    <div class="shape_S">🛆</div>
+    <div class="shape_S">🛆</div>
+    <div class="shape_S">🛆</div>
+    <div class="shape_S">🛆</div>
+    <div class="shape_S">🛆</div>
+    <div class="shape_S">🛆</div>
+  </div>
+</div>
+
+<style>
+.separator_S {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+/*   padding-bottom: 20px; */
+}
+.shape-separator_S {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  transform: rotate(180deg);
+}
+.shape_S {
+  font-size: 36px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  /* Darker multi-color gradient for a richer look */
+  background: linear-gradient(#ff7078 0%, #f8a1b0 25%, #f58ad4 50%, #8b70c1 75%, #f8a1b0 100%);
+  color: transparent;
+  /* Clipping the background to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Enhanced 3D shadow with multiple layers */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25),
+               6px 6px 12px rgba(0, 0, 0, 0.15),
+               9px 9px 18px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 600px) {
+  .shape-separator_S {
+    gap: 10px;
+  }
+}
+</style>
+
 # Blogs📝
 <div class="flexcontainer">
   <div>
