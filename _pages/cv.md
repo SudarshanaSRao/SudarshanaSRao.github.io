@@ -226,7 +226,7 @@ Work Experience
 * Served as the primary engineer for a strategic enterprise AI rollout, designing data ingestion pipelines, agentic SMS workflows, and platform migrations while identifying and remediating a critical PII compliance risk through a secure Python-based ingestion service delivered within 24 hours.
 * Designed and built a multi-tenant observability platform in **NewRelic**, monitoring **150+** external API integrations across **30** enterprise tenants to proactively detect degraded services. The platform became part of the engineering observability toolkit and enabled leadership to accurately estimate third-party API usage and pricing for enterprise customer contracts.
 * Prevented customer-facing production incidents by identifying platform workflow defects before release, coordinating cross-functional engineering teams, and leading rapid remediation during critical enterprise deployments and hypercare, ensuring uninterrupted production launches.
-* Engineered and deployed production multi-agent voice worflows using **AWS Lambda**, **LangGraph**, and **Livekit** developing reusable tool adapters, prompts, and backend integrations.
+* Engineered and deployed production multi-agent voice workflows using **AWS Lambda**, **LangGraph**, and **Livekit** developing reusable tool adapters, SDKs, and prompts.
   
 <div class="flexcontainer88cd">
   <div>
